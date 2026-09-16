@@ -1,0 +1,148 @@
+{
+  "verified_unix": 1789365735.595434,
+  "services": [
+    {
+      "gpu": 4,
+      "port": 18082,
+      "pid": 2581863,
+      "argv": [
+        "/data/zhaogangyi/qwen36-27b-service/runtime/venv/bin/python",
+        "/data/zhaogangyi/qwen36-27b-service/runtime/venv/bin/vllm",
+        "serve",
+        "/data/zhaogangyi/qwen36-27b-service/models/Qwen3.6-27B",
+        "--served-model-name",
+        "qwen3.6-27b",
+        "--host",
+        "172.16.200.114",
+        "--port",
+        "18082",
+        "--dtype",
+        "bfloat16",
+        "--language-model-only",
+        "--max-model-len",
+        "262144",
+        "--gpu-memory-utilization",
+        "0.90",
+        "--max-num-seqs",
+        "64",
+        "--max-num-batched-tokens",
+        "32768",
+        "--enable-prefix-caching",
+        "--enable-chunked-prefill",
+        "--reasoning-parser",
+        "qwen3",
+        "--enable-auto-tool-choice",
+        "--tool-call-parser",
+        "qwen3_coder",
+        "--speculative-config",
+        "{\"method\":\"qwen3_next_mtp\",\"num_speculative_tokens\":2}",
+        "--generation-config",
+        "vllm",
+        "--no-enable-log-requests"
+      ],
+      "models": {
+        "object": "list",
+        "data": [
+          {
+            "id": "qwen3.6-27b",
+            "object": "model",
+            "created": 1789365735,
+            "owned_by": "vllm",
+            "root": "/data/zhaogangyi/qwen36-27b-service/models/Qwen3.6-27B",
+            "parent": null,
+            "max_model_len": 262144,
+            "permission": [
+              {
+                "id": "modelperm-82002a9d021a7e9f",
+                "object": "model_permission",
+                "created": 1789365735,
+                "allow_create_engine": false,
+                "allow_sampling": true,
+                "allow_logprobs": true,
+                "allow_search_indices": false,
+                "allow_view": true,
+                "allow_fine_tuning": false,
+                "organization": "*",
+                "group": null,
+                "is_blocking": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "gpu": 7,
+      "port": 18081,
+      "pid": 2581871,
+      "argv": [
+        "/data/zhaogangyi/qwen36-27b-service/runtime/venv/bin/python",
+        "/data/zhaogangyi/qwen36-27b-service/runtime/venv/bin/vllm",
+        "serve",
+        "/data/zhaogangyi/qwen36-27b-service/models/Qwen3.6-27B",
+        "--served-model-name",
+        "qwen3.6-27b",
+        "--host",
+        "172.16.200.114",
+        "--port",
+        "18081",
+        "--dtype",
+        "bfloat16",
+        "--language-model-only",
+        "--max-model-len",
+        "262144",
+        "--gpu-memory-utilization",
+        "0.90",
+        "--max-num-seqs",
+        "64",
+        "--max-num-batched-tokens",
+        "32768",
+        "--enable-prefix-caching",
+        "--enable-chunked-prefill",
+        "--reasoning-parser",
+        "qwen3",
+        "--enable-auto-tool-choice",
+        "--tool-call-parser",
+        "qwen3_coder",
+        "--speculative-config",
+        "{\"method\":\"qwen3_next_mtp\",\"num_speculative_tokens\":2}",
+        "--generation-config",
+        "vllm",
+        "--no-enable-log-requests"
+      ],
+      "models": {
+        "object": "list",
+        "data": [
+          {
+            "id": "qwen3.6-27b",
+            "object": "model",
+            "created": 1789365735,
+            "owned_by": "vllm",
+            "root": "/data/zhaogangyi/qwen36-27b-service/models/Qwen3.6-27B",
+            "parent": null,
+            "max_model_len": 262144,
+            "permission": [
+              {
+                "id": "modelperm-81ba5811a114f06e",
+                "object": "model_permission",
+                "created": 1789365735,
+                "allow_create_engine": false,
+                "allow_sampling": true,
+                "allow_logprobs": true,
+                "allow_search_indices": false,
+                "allow_view": true,
+                "allow_fine_tuning": false,
+                "organization": "*",
+                "group": null,
+                "is_blocking": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "model_config_sha256": "69db4eb7196bc8190813231b3018ca05d8c2e3abc7b1af19d55c157af44a9d9c",
+  "gpus_added": [],
+  "max_model_len": 262144
+}

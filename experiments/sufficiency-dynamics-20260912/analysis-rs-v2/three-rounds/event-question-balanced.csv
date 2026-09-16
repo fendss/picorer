@@ -1,0 +1,201 @@
+question_id,event,delta_margin,positive_shift,rounds
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no0,Gold-evidence gain,2.88541672572804,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no0,No gold-evidence gain,1.2948232035862866,0.601010101010101,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no1,Gold-evidence gain,1.8020834588824073,0.6666666666666666,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no1,No gold-evidence gain,3.527777814193137,0.8888888888888888,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no10,Gold-evidence gain,3.666666721672906,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no10,No gold-evidence gain,2.171875015806614,0.8611111111111112,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no11,Gold-evidence gain,1.4270833253394812,0.6666666666666666,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no11,No gold-evidence gain,-0.024012457914005376,0.393939393939394,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no12,Gold-evidence gain,4.020833351988888,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no12,No gold-evidence gain,5.541666785565515,0.8333333333333334,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no13,Gold-evidence gain,2.6354165804271665,0.6666666666666666,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no13,No gold-evidence gain,3.322916708110521,0.8333333333333334,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no14,Gold-evidence gain,4.374999912744291,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no14,No gold-evidence gain,5.388888908828246,0.8888888888888888,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no15,Gold-evidence gain,3.7916667411336675,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no15,No gold-evidence gain,3.6979167627481124,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no16,Gold-evidence gain,1.8402777811796922,0.8888888888888888,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no16,No gold-evidence gain,1.164898951325302,0.604040404040404,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no17,Gold-evidence gain,2.166666912594034,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no17,No gold-evidence gain,-0.5145503311451413,0.39153439153439146,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no18,Gold-evidence gain,2.2708333039966724,0.8333333333333334,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no18,No gold-evidence gain,0.8503787851295047,0.404040404040404,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no19,Gold-evidence gain,0.8055555886692471,0.8888888888888888,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no19,No gold-evidence gain,1.1090277553197334,0.5595959595959595,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no2,Gold-evidence gain,1.4791666561116774,0.6666666666666666,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no2,No gold-evidence gain,0.3494791628973972,0.4166666666666667,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no20,Gold-evidence gain,1.5972222025253966,0.611111111111111,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no20,No gold-evidence gain,1.196212105900802,0.6181818181818182,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no21,Gold-evidence gain,3.1666667842073366,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no21,No gold-evidence gain,2.2638888880739816,0.5555555555555555,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no22,Gold-evidence gain,0.739583271012331,0.5,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no22,No gold-evidence gain,4.399305582514596,0.8888888888888888,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no23,Gold-evidence gain,1.8333333339493645,0.8333333333333334,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no23,No gold-evidence gain,3.5520832187030464,0.8333333333333334,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no24,Gold-evidence gain,4.114583294979336,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no24,No gold-evidence gain,5.052083304957098,0.8333333333333334,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no25,Gold-evidence gain,2.093750052154064,1.0,2
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no25,No gold-evidence gain,1.4930555706119373,0.6944444444444443,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no26,Gold-evidence gain,5.145833279622214,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no26,No gold-evidence gain,6.687500149166833,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no27,Gold-evidence gain,3.166666728851851,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no27,No gold-evidence gain,1.1912202199806445,0.8492063492063493,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no28,Gold-evidence gain,1.2083332446054555,0.6666666666666666,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no28,No gold-evidence gain,3.151041721692309,0.9166666666666666,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no29,Gold-evidence gain,5.093749817225519,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no29,No gold-evidence gain,3.437499984089906,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no3,Gold-evidence gain,3.197916634453577,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no3,No gold-evidence gain,5.729166709235869,0.8333333333333334,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no30,Gold-evidence gain,5.333333291606929,0.8333333333333334,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no30,No gold-evidence gain,3.7881944127819023,0.7222222222222222,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no31,Gold-evidence gain,2.9895833108287966,0.8333333333333334,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no31,No gold-evidence gain,6.791666540006797,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no32,Gold-evidence gain,0.562499962747097,0.5,2
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no32,No gold-evidence gain,0.2603625566414376,0.5961038961038961,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no33,Gold-evidence gain,2.000000001329075,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no33,No gold-evidence gain,0.19299240919883065,0.4212121212121212,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no34,Gold-evidence gain,0.8958333137755593,0.6666666666666666,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no34,No gold-evidence gain,-0.17670452513113274,0.474025974025974,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no35,Gold-evidence gain,0.9722222260897979,0.8888888888888888,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no35,No gold-evidence gain,1.3246527991981971,0.6666666666666666,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no36,Gold-evidence gain,2.416666635700191,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no36,No gold-evidence gain,1.172743070152986,0.7166666666666667,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no37,Gold-evidence gain,3.2916666070571714,0.6666666666666666,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no37,No gold-evidence gain,5.1250000106326,0.8333333333333334,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no38,Gold-evidence gain,2.8229166838379265,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no38,No gold-evidence gain,2.1892361128767432,0.6944444444444443,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no39,Gold-evidence gain,2.083333341399945,0.8333333333333334,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no39,No gold-evidence gain,2.0599206404917547,0.8380952380952381,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no4,Gold-evidence gain,2.9791667451305934,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no4,No gold-evidence gain,1.3753472119104115,0.7944444444444444,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no40,Gold-evidence gain,2.895833253506377,0.6666666666666666,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no40,No gold-evidence gain,2.2803030071046315,0.5606060606060607,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no41,Gold-evidence gain,0.9062500074505806,0.6666666666666666,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no41,No gold-evidence gain,0.0752314781959824,0.5,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no42,Gold-evidence gain,2.770833276619669,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no42,No gold-evidence gain,1.3097222179950525,0.6722222222222222,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no43,Gold-evidence gain,1.1770833595461834,0.6666666666666666,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no43,No gold-evidence gain,2.8784722068036595,0.8888888888888888,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no44,Gold-evidence gain,3.7708333817718085,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no44,No gold-evidence gain,1.1493055417765088,0.3611111111111111,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no45,Gold-evidence gain,2.6770833090510373,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no45,No gold-evidence gain,3.2916666542490325,0.8333333333333334,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no46,Gold-evidence gain,1.5625000358122634,0.5,1
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no46,No gold-evidence gain,4.137152770530469,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no47,Gold-evidence gain,3.041666687466204,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no47,No gold-evidence gain,0.9662698428442199,0.6130952380952381,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no48,Gold-evidence gain,1.9201388906973686,0.7777777777777778,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no48,No gold-evidence gain,1.0031249832995754,0.48333333333333334,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no49,Gold-evidence gain,4.114583270313839,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no49,No gold-evidence gain,3.1354165993010006,0.8333333333333334,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no5,Gold-evidence gain,2.1874999810243025,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no5,No gold-evidence gain,1.7197916220136298,0.8333333333333334,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no50,Gold-evidence gain,4.57291683054306,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no50,No gold-evidence gain,3.281249937058116,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no51,Gold-evidence gain,2.6770833219052292,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no51,No gold-evidence gain,2.4895832974774144,0.8888888888888888,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no52,Gold-evidence gain,4.484375021856977,1.0,2
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no52,No gold-evidence gain,1.9218750167237886,0.6666666666666666,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no53,Gold-evidence gain,2.062499987349535,0.6666666666666666,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no53,No gold-evidence gain,2.086458318445754,0.7833333333333333,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no54,Gold-evidence gain,1.0937499733966736,0.6666666666666666,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no54,No gold-evidence gain,3.152777728236591,0.7777777777777777,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no55,Gold-evidence gain,1.409722216737767,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no55,No gold-evidence gain,1.0552083239580194,0.6333333333333333,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no56,Gold-evidence gain,4.249999993112094,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no56,No gold-evidence gain,5.749999985719721,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no57,Gold-evidence gain,1.1562499516488363,0.8333333333333334,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no57,No gold-evidence gain,0.02083333167529693,0.43062200956937796,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no58,Gold-evidence gain,4.614583288086578,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no58,No gold-evidence gain,0.3203125298023224,0.5416666666666666,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no59,Gold-evidence gain,4.541666681068212,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no59,No gold-evidence gain,4.979166819604061,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no6,Gold-evidence gain,5.250000096859973,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no6,No gold-evidence gain,6.729166753590107,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no60,Gold-evidence gain,0.8229166832364475,0.6666666666666666,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no60,No gold-evidence gain,5.250000013969839,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no61,Gold-evidence gain,5.791666597108512,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no61,No gold-evidence gain,3.447916702988247,0.5,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no62,Gold-evidence gain,4.083333367644324,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no62,No gold-evidence gain,3.4166667667838433,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no63,Gold-evidence gain,1.361111070546839,0.7777777777777777,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no63,No gold-evidence gain,1.0444445091713634,0.6,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no64,Gold-evidence gain,3.895833307011344,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no64,No gold-evidence gain,2.4427083246337133,0.6666666666666666,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no65,Gold-evidence gain,4.885416603768438,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no65,No gold-evidence gain,2.1510417371367416,0.75,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no66,Gold-evidence gain,4.562499976935214,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no66,No gold-evidence gain,3.7395832557425215,0.6666666666666666,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no67,Gold-evidence gain,3.0520833776487657,0.6666666666666666,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no67,No gold-evidence gain,4.024305632758317,0.8333333333333334,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no68,Gold-evidence gain,4.052083334701213,0.8333333333333334,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no68,No gold-evidence gain,1.4375000336278594,0.7222222222222222,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no69,Gold-evidence gain,1.1979166308948253,0.7222222222222222,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no69,No gold-evidence gain,1.4164186630670363,0.7103174603174603,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no7,Gold-evidence gain,3.249999998214965,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no7,No gold-evidence gain,-0.03746192118885621,0.39584254754533393,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no70,Gold-evidence gain,4.062499987776391,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no70,No gold-evidence gain,1.9027777558399572,0.6666666666666666,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no71,Gold-evidence gain,6.312499904767416,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no71,No gold-evidence gain,5.749999915870528,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no72,Gold-evidence gain,3.7499999947225056,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no72,No gold-evidence gain,1.212053579148016,0.7321428571428571,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no73,Gold-evidence gain,4.072916648098423,0.8333333333333334,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no73,No gold-evidence gain,2.5624999736642673,0.611111111111111,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no74,Gold-evidence gain,2.885416703657635,0.8333333333333334,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no74,No gold-evidence gain,2.465277742851564,0.5222222222222223,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no75,Gold-evidence gain,2.4062499845410152,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no75,No gold-evidence gain,0.9638573184545178,0.5517676767676768,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no76,Gold-evidence gain,5.562500006053597,1.0,2
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no76,No gold-evidence gain,3.3819443792906694,0.8888888888888888,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no77,Gold-evidence gain,1.354166684517016,0.6666666666666666,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no77,No gold-evidence gain,1.1692708353196697,0.6130952380952381,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no78,Gold-evidence gain,1.9583333403085514,0.6666666666666666,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no78,No gold-evidence gain,3.4513888889090993,0.6666666666666666,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no79,Gold-evidence gain,3.56249984256768,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no79,No gold-evidence gain,2.6319444929896334,0.8888888888888888,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no8,Gold-evidence gain,1.1458333367481828,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no8,No gold-evidence gain,0.2824073945672286,0.48148148148148145,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no80,Gold-evidence gain,5.843749946070602,1.0,2
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no80,No gold-evidence gain,1.9143518292330939,0.5873015873015873,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no81,Gold-evidence gain,2.7291665840699957,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no81,No gold-evidence gain,2.4791667050643205,0.6666666666666666,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no82,Gold-evidence gain,1.6111110654277987,0.8333333333333334,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no82,No gold-evidence gain,2.3923610804550766,0.611111111111111,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no83,Gold-evidence gain,6.843749942536912,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no83,No gold-evidence gain,3.4791666477928325,0.8333333333333334,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no84,Gold-evidence gain,2.447916664493581,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no84,No gold-evidence gain,1.4104166498226631,0.7111111111111111,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no85,Gold-evidence gain,4.354166677396279,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no85,No gold-evidence gain,2.7083333611954004,0.6666666666666666,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no86,Gold-evidence gain,5.7916665977936646,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no86,No gold-evidence gain,6.8750000055879354,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no87,Gold-evidence gain,4.437499974698464,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no87,No gold-evidence gain,2.6527777505107224,0.8888888888888888,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no88,Gold-evidence gain,5.197916599039066,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no88,No gold-evidence gain,2.177083290880546,0.5,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no89,Gold-evidence gain,5.166666546511503,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no89,No gold-evidence gain,1.3444444723828282,0.4777777777777778,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no9,Gold-evidence gain,0.8645833072352818,0.7777777777777777,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no9,No gold-evidence gain,2.930555622112782,0.8055555555555555,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no90,Gold-evidence gain,5.177083272389912,0.8333333333333334,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no90,No gold-evidence gain,2.6302082741240156,0.5833333333333334,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no91,Gold-evidence gain,1.9236110790710275,0.7777777777777777,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no91,No gold-evidence gain,0.128245207201391,0.3615384615384616,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no92,Gold-evidence gain,2.156250077037839,0.75,2
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no92,No gold-evidence gain,1.3589804527300382,0.662878787878788,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no93,Gold-evidence gain,0.9843749683350325,1.0,2
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no93,No gold-evidence gain,1.9444444454973564,0.8000000000000002,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no94,Gold-evidence gain,3.0624998744072705,0.8333333333333334,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no94,No gold-evidence gain,4.322916731859247,0.8333333333333334,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no95,Gold-evidence gain,4.656250004501392,0.8333333333333334,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no95,No gold-evidence gain,0.9562500173523505,0.5888888888888889,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no96,Gold-evidence gain,1.4062500200234354,1.0,2
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no96,No gold-evidence gain,0.9288510209556217,0.5434343434343435,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no97,Gold-evidence gain,4.479166596372427,1.0,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no97,No gold-evidence gain,2.2395833896201416,0.5,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no98,Gold-evidence gain,-0.6770833500971397,0.3333333333333333,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no98,No gold-evidence gain,0.2757812670315616,0.4416666666666667,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no99,Gold-evidence gain,2.104166823507209,0.6666666666666666,3
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no99,No gold-evidence gain,-0.046006961452399596,0.4444444444444445,3

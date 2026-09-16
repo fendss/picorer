@@ -1,0 +1,20 @@
+{
+  "expected": 34126,
+  "completed": 34126,
+  "missing": 0,
+  "counts": {
+    "answer": 18390,
+    "fallback": 1527,
+    "native": 15736
+  },
+  "failures": [],
+  "checked_input_blobs": 10085,
+  "elapsed_seconds_median": {
+    "native": 1.9559388160705566,
+    "answer": 40.442575454711914
+  },
+  "native_context_tokens_max": 39864,
+  "baseline_replays": 3512,
+  "baseline_margin_abs_difference_mean": 0.10478362524995381,
+  "baseline_margin_abs_difference_max": 0.7500001184234861
+}

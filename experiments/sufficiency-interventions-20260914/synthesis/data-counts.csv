@@ -1,0 +1,7 @@
+experiment,conflicted,units,questions,answers,fallbacks
+coverage,False,760,64,3800,616.0
+coverage,True,768,36,3840,476.0
+preview,False,3393,64,0,0.0
+preview,True,2947,36,0,0.0
+state_answers,False,1181,64,5905,282.0
+state_answers,True,969,36,4845,153.0

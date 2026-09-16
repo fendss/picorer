@@ -1,0 +1,89 @@
+{
+  "analysis_version": 2,
+  "primary_sufficiency_readout": "native_logit_margin = log p(sufficient) - log p(insufficient)",
+  "decision_rule": "native sufficient iff native_logit_margin > 0",
+  "weighting": "replicas collapsed within state; repeated coverage states collapsed within trajectory; rounds averaged within benchmark question; confidence intervals bootstrap benchmark questions",
+  "bootstrap": {
+    "draws": 2000,
+    "seed": 20260913,
+    "interval": "percentile 95%"
+  },
+  "validation": {
+    "round3": {
+      "path": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-dynamics-20260912/coverage/complete-run/state-replica.csv",
+      "questions": 100,
+      "states": 738,
+      "state_replica_rows": 1476,
+      "replicas_per_state": [
+        2
+      ],
+      "j_samples_per_state_replica": [
+        101
+      ],
+      "coverage_monotone": true
+    }
+  },
+  "sample": {
+    "rounds": 1,
+    "benchmark_questions": 100,
+    "independent_trajectories": 100,
+    "states": 738,
+    "state_replica_rows": 1476
+  },
+  "r_s_association": {
+    "pooled_pearson": 0.4480064403098761,
+    "pooled_spearman": 0.41818189946756545,
+    "within_trajectory_pearson": 0.6025110227211762,
+    "question_balanced_within_regression": {
+      "r_coefficient_controlling_tau": 2.5885208509202298,
+      "r_ci_low": 1.6085228410987695,
+      "r_ci_high": 3.5638297580097076,
+      "tau_coefficient_controlling_r": 6.822593444916649,
+      "tau_ci_low": 5.090807160048386,
+      "tau_ci_high": 8.498470687360252,
+      "within_r_squared": 0.5734451163275657
+    }
+  },
+  "evidence_gain_event": {
+    "questions_with_both_event_types": 97,
+    "gain_minus_no_gain": 0.5213413483830301,
+    "ci_low": 0.04762474557283255,
+    "ci_high": 0.9738690451574381
+  },
+  "terminal": {
+    "auc_for_correctness": {
+      "terminal_coverage": {
+        "auc": 0.8165584415584416,
+        "ci_low": 0.740061957002428,
+        "ci_high": 0.8910799163606691
+      },
+      "terminal_margin": {
+        "auc": 0.7053571428571429,
+        "ci_low": 0.6003999417948997,
+        "ci_high": 0.8061242926203519
+      }
+    },
+    "terminal_groups": {
+      "incomplete": {
+        "trajectories": 43,
+        "correct": 3,
+        "accuracy": 0.06976744186046512,
+        "native_positive_rate": 0.7906976744186046
+      },
+      "full": {
+        "trajectories": 57,
+        "correct": 41,
+        "accuracy": 0.7192982456140351,
+        "native_positive_rate": 0.9298245614035088
+      }
+    }
+  },
+  "mismatch_states": {
+    "incomplete_coverage_states": 637,
+    "positive_native_margin_while_incomplete": 356,
+    "positive_rate_while_incomplete": 0.5588697017268446,
+    "full_coverage_states": 101,
+    "nonpositive_native_margin_at_full_coverage": 22,
+    "nonpositive_rate_at_full_coverage": 0.21782178217821782
+  }
+}

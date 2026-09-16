@@ -1,0 +1,308 @@
+{
+  "status": "passed",
+  "old_new_state_identity": {
+    "coverage_max_abs_difference": 0.0,
+    "margin_max_abs_difference": 4.440892098500626e-16,
+    "likelihood_max_abs_difference": 3.3306690738754696e-16
+  },
+  "verified_contrasts": [
+    {
+      "sample": "unconflicted",
+      "comparison": "all_additions",
+      "metric": "likelihood",
+      "values": [
+        0.44896918802194086,
+        0.4282549782831379,
+        0.4661055291472801
+      ]
+    },
+    {
+      "sample": "unconflicted",
+      "comparison": "all_additions",
+      "metric": "official_score",
+      "values": [
+        0.4439778645833333,
+        0.41672932942708335,
+        0.46559488932291665
+      ]
+    },
+    {
+      "sample": "unconflicted",
+      "comparison": "last_missing_hop",
+      "metric": "likelihood",
+      "values": [
+        0.28788306200368463,
+        0.246783430560446,
+        0.3307817460440378
+      ]
+    },
+    {
+      "sample": "unconflicted",
+      "comparison": "last_missing_hop",
+      "metric": "official_score",
+      "values": [
+        0.5169270833333334,
+        0.46536458333333336,
+        0.5674479166666666
+      ]
+    },
+    {
+      "sample": "unconflicted",
+      "comparison": "Relevant vs. unrelated",
+      "metric": "likelihood",
+      "values": [
+        0.660849004467358,
+        0.5938973065221064,
+        0.7249530712793707
+      ]
+    },
+    {
+      "sample": "unconflicted",
+      "comparison": "Removed vs. original",
+      "metric": "likelihood",
+      "values": [
+        -0.3193512222636754,
+        -0.3481092150940502,
+        -0.2880858291415852
+      ]
+    },
+    {
+      "sample": "unconflicted",
+      "comparison": "Unrelated vs. original",
+      "metric": "likelihood",
+      "values": [
+        -0.373558026332095,
+        -0.4024605716941674,
+        -0.3414282603578838
+      ]
+    },
+    {
+      "sample": "unconflicted",
+      "comparison": "Coverage + likelihood minus Coverage",
+      "metric": "heldout_log_loss",
+      "values": [
+        0.006483121338681446,
+        -0.0023318248844590825,
+        0.021841302064146067
+      ]
+    },
+    {
+      "sample": "unconflicted",
+      "comparison": "Coverage + margin minus Coverage",
+      "metric": "heldout_log_loss",
+      "values": [
+        0.0013337317249468438,
+        -0.008185795974023935,
+        0.015236134277802224
+      ]
+    },
+    {
+      "sample": "all",
+      "comparison": "all_additions",
+      "metric": "likelihood",
+      "values": [
+        0.4097544128866771,
+        0.3913464427641916,
+        0.42790584024939887
+      ]
+    },
+    {
+      "sample": "all",
+      "comparison": "all_additions",
+      "metric": "official_score",
+      "values": [
+        0.4083333333333334,
+        0.38747656250000007,
+        0.42887604166666665
+      ]
+    },
+    {
+      "sample": "all",
+      "comparison": "last_missing_hop",
+      "metric": "likelihood",
+      "values": [
+        0.22865330589867344,
+        0.19395708163377592,
+        0.264638415709678
+      ]
+    },
+    {
+      "sample": "all",
+      "comparison": "last_missing_hop",
+      "metric": "official_score",
+      "values": [
+        0.4395000000000001,
+        0.39408125000000005,
+        0.48383333333333334
+      ]
+    },
+    {
+      "sample": "all",
+      "comparison": "Relevant vs. unrelated",
+      "metric": "likelihood",
+      "values": [
+        0.6022234404111841,
+        0.5496358415906857,
+        0.6543287064026805
+      ]
+    },
+    {
+      "sample": "all",
+      "comparison": "Removed vs. original",
+      "metric": "likelihood",
+      "values": [
+        -0.28405554281578604,
+        -0.30891084535823593,
+        -0.25901191599157936
+      ]
+    },
+    {
+      "sample": "all",
+      "comparison": "Unrelated vs. original",
+      "metric": "likelihood",
+      "values": [
+        -0.34233916504953205,
+        -0.36690779995597006,
+        -0.3169168314838075
+      ]
+    },
+    {
+      "sample": "all",
+      "comparison": "Coverage + likelihood minus Coverage",
+      "metric": "heldout_log_loss",
+      "values": [
+        0.0021215300847303876,
+        -0.005864114745729202,
+        0.012838841307268064
+      ]
+    },
+    {
+      "sample": "all",
+      "comparison": "Coverage + margin minus Coverage",
+      "metric": "heldout_log_loss",
+      "values": [
+        0.0005539641252702273,
+        -0.009269157555024296,
+        0.013568951887532838
+      ]
+    },
+    {
+      "sample": "conflicted",
+      "comparison": "all_additions",
+      "metric": "likelihood",
+      "values": [
+        0.3400392570906528,
+        0.31395725112209416,
+        0.36662940145547074
+      ]
+    },
+    {
+      "sample": "conflicted",
+      "comparison": "all_additions",
+      "metric": "official_score",
+      "values": [
+        0.3449652777777778,
+        0.3168981481481482,
+        0.37367910879629623
+      ]
+    },
+    {
+      "sample": "conflicted",
+      "comparison": "last_missing_hop",
+      "metric": "likelihood",
+      "values": [
+        0.12335596171198684,
+        0.090428439287781,
+        0.16212960535469192
+      ]
+    },
+    {
+      "sample": "conflicted",
+      "comparison": "last_missing_hop",
+      "metric": "official_score",
+      "values": [
+        0.3018518518518519,
+        0.23517939814814814,
+        0.37223379629629627
+      ]
+    },
+    {
+      "sample": "conflicted",
+      "comparison": "Relevant vs. unrelated",
+      "metric": "likelihood",
+      "values": [
+        0.4980002154224307,
+        0.4193155238574128,
+        0.5791192889270236
+      ]
+    },
+    {
+      "sample": "conflicted",
+      "comparison": "Removed vs. original",
+      "metric": "likelihood",
+      "values": [
+        -0.2213076682417604,
+        -0.26173391985730166,
+        -0.18384478924088152
+      ]
+    },
+    {
+      "sample": "conflicted",
+      "comparison": "Unrelated vs. original",
+      "metric": "likelihood",
+      "values": [
+        -0.2868389672138646,
+        -0.32694218122847196,
+        -0.2487649038538656
+      ]
+    },
+    {
+      "sample": "conflicted",
+      "comparison": "Coverage + likelihood minus Coverage",
+      "metric": "heldout_log_loss",
+      "values": [
+        0.0032272085820322376,
+        -0.00046782770225787764,
+        0.009183745045277754
+      ]
+    },
+    {
+      "sample": "conflicted",
+      "comparison": "Coverage + margin minus Coverage",
+      "metric": "heldout_log_loss",
+      "values": [
+        0.006732962658923862,
+        -0.002113132809342056,
+        0.02191903029865894
+      ]
+    }
+  ],
+  "primary_question_mean_absolute_token_change": 1.7057291666666665,
+  "primary_state_count": 1181,
+  "primary_hop_question_counts": {
+    "2": 49,
+    "4": 8,
+    "3": 7
+  },
+  "scope": "Local summary-level independent checks, not a new raw-response audit or inference run.",
+  "heldout_interval_scope": "Question bootstrap of fixed out-of-fold predictions; models/folds not refit in bootstrap.",
+  "sources_sha256": {
+    "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-interventions-20260914/summary/units.csv": "bdc60e91791fae79bd256a738424625cbc2dade4e74874dde2522b99428c2e67",
+    "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-interventions-20260914/summary/answers.csv": "c6f4268bbde36f22e10f6e3311a42f47a8725f45f45883c26e343db9c580c9be",
+    "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-dynamics-20260912/analysis-rs-v5/states-with-sigmoid.csv": "f99ea4827d2081c7bd1f0416ca18afcb023b4898884d52bddc360e7bdfa96e2e",
+    "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-interventions-20260914/output-audit.json": "ec2573588a2bafa33fd812304c4679da61a6b42f64406a73f56af96056626c30",
+    "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-interventions-20260914/analysis/unconflicted-coverage-effects.csv": "37f0cfcf05b751cae6277be2162a1ee06a2a5a2a07af49a2243cf44a4311386d",
+    "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-interventions-20260914/analysis/unconflicted-preview-effects.csv": "613721da8017f85f80b4e21f190580e8d135f10e2ecec3b654a04badf9e8aa7a",
+    "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-interventions-20260914/analysis/unconflicted-heldout-predictions.csv": "4a76357966e4168721ebc2cbfd49f15623713fca44a61f0d36c90f5c1af4a02e",
+    "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-interventions-20260914/analysis/unconflicted-heldout-metrics.csv": "fe606e5fd13186de8267d24db769994c81501ae0c3f792e0d261b0725a371070",
+    "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-interventions-20260914/analysis/all-coverage-effects.csv": "a26fd8b2c059ed9bdd11c39afb854091733f745def5b0c4c5ac6e3edc10f7bb7",
+    "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-interventions-20260914/analysis/all-preview-effects.csv": "694bc12f00c305aefe32e49cf1d171be27e25b7d2b4acc6f3480acc9bcd91d04",
+    "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-interventions-20260914/analysis/all-heldout-predictions.csv": "06fb3a94d8b2dec18f7b1e06613939badf291810c3e9bf8ead96949ee778cc3d",
+    "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-interventions-20260914/analysis/all-heldout-metrics.csv": "657e3ae948ffbd4070937a4ca0a7a0d1569a069ab258201a8adbfb030a287c7d",
+    "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-interventions-20260914/analysis/conflicted-coverage-effects.csv": "e0aa6952e6e8823454f98f7b44f1d90e7a9fd8f00e31d0807830dc70c9cfa069",
+    "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-interventions-20260914/analysis/conflicted-preview-effects.csv": "4ac761aca168ec2deb1830e0c708788bff104eb4ce3c064251ad8dff45f98b7b",
+    "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-interventions-20260914/analysis/conflicted-heldout-predictions.csv": "fca8b0379efbf58776129ce0322900a38ec4f67d032f67a931c7983d7fe04cd0",
+    "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-interventions-20260914/analysis/conflicted-heldout-metrics.csv": "ff2d10987ef7687f7deb4be64b0622441e7081103c1b0823cb53248ff8e8dcdc",
+    "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-interventions-20260914/analysis/unconflicted-coverage-pairs.csv": "12932b13247817e53ee4f9db8b3af9f18edeaca5f3f979454d213da1944642b9"
+  }
+}

@@ -1,0 +1,3717 @@
+{
+  "schema_version": 1,
+  "benchmark": "AgentMemoryBench fact-mh-262k",
+  "gold_definition": "official_mquake_label_chain",
+  "coverage_definition": "R(q,t) is the fraction of official MQuAKE gold-hop statements present in the exact source text visible from successful read calls before decision state t; query-focused truncation is respected and search previews are excluded",
+  "source_files": {
+    "benchmark_parquet": "/Users/johnnychiu/Documents/memory harness from the first principle/reports/fc_mh_oracle_20260906/Conflict_Resolution.parquet",
+    "mquake": "/Users/johnnychiu/Documents/memory harness from the first principle/reports/fc_mh_oracle_20260906/MQuAKE-CF.json",
+    "dataset_audit": "/Users/johnnychiu/Documents/memory harness from the first principle/reports/fc_mh_oracle_20260906/dataset-audit.json"
+  },
+  "question_count": 100,
+  "questions": [
+    {
+      "ordinal": 0,
+      "qa_pair_id": "factconsolidation_mh_262k_no0",
+      "question": "What is the country of origin of the sport played by Christian Abbiati?",
+      "answers": [
+        "Philippines"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Christian Abbiati plays the position of",
+          "answer": "cornerback",
+          "statement": "Christian Abbiati plays the position of cornerback",
+          "normalized_statement": "christian abbiati plays the position of cornerback",
+          "serial_number": 10906,
+          "raw_fact": "10906. Christian Abbiati plays the position of cornerback."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "cornerback is associated with the sport of",
+          "answer": "field hockey",
+          "statement": "cornerback is associated with the sport of field hockey",
+          "normalized_statement": "cornerback is associated with the sport of field hockey",
+          "serial_number": 7164,
+          "raw_fact": "7164. cornerback is associated with the sport of field hockey."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "field hockey was created in the country of",
+          "answer": "Philippines",
+          "statement": "field hockey was created in the country of Philippines",
+          "normalized_statement": "field hockey was created in the country of philippines",
+          "serial_number": 7774,
+          "raw_fact": "7774. field hockey was created in the country of Philippines."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Philippines"
+    },
+    {
+      "ordinal": 1,
+      "qa_pair_id": "factconsolidation_mh_262k_no1",
+      "question": "Which religion is the country of citizenship of Karl Lueger predominantly associated with?",
+      "answers": [
+        "atheism"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Karl Lueger is a citizen of",
+          "answer": "Lordship of Ireland",
+          "statement": "Karl Lueger is a citizen of Lordship of Ireland",
+          "normalized_statement": "karl lueger is a citizen of lordship of ireland",
+          "serial_number": 9973,
+          "raw_fact": "9973. Karl Lueger is a citizen of Lordship of Ireland."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Lordship of Ireland is affiliated with the religion of",
+          "answer": "atheism",
+          "statement": "Lordship of Ireland is affiliated with the religion of atheism",
+          "normalized_statement": "lordship of ireland is affiliated with the religion of atheism",
+          "serial_number": 16142,
+          "raw_fact": "16142. Lordship of Ireland is affiliated with the religion of atheism."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "atheism"
+    },
+    {
+      "ordinal": 2,
+      "qa_pair_id": "factconsolidation_mh_262k_no2",
+      "question": "The continent where the country of citizenship of the spouse of the author of \"American Pastoral\" is related to is what?",
+      "answers": [
+        "Oceania"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "The author of American Pastoral is",
+          "answer": "F. Scott Fitzgerald",
+          "statement": "The author of American Pastoral is F. Scott Fitzgerald",
+          "normalized_statement": "the author of american pastoral is f. scott fitzgerald",
+          "serial_number": 10793,
+          "raw_fact": "10793. The author of American Pastoral is F. Scott Fitzgerald."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "F. Scott Fitzgerald is married to",
+          "answer": "Zelda Fitzgerald",
+          "statement": "F. Scott Fitzgerald is married to Zelda Fitzgerald",
+          "normalized_statement": "f. scott fitzgerald is married to zelda fitzgerald",
+          "serial_number": 8453,
+          "raw_fact": "8453. F. Scott Fitzgerald is married to Zelda Fitzgerald."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "Zelda Fitzgerald is a citizen of",
+          "answer": "Australia",
+          "statement": "Zelda Fitzgerald is a citizen of Australia",
+          "normalized_statement": "zelda fitzgerald is a citizen of australia",
+          "serial_number": 10172,
+          "raw_fact": "10172. Zelda Fitzgerald is a citizen of Australia."
+        },
+        {
+          "hop_index": 4,
+          "cloze": "Australia is located in the continent of",
+          "answer": "Oceania",
+          "statement": "Australia is located in the continent of Oceania",
+          "normalized_statement": "australia is located in the continent of oceania",
+          "serial_number": 2465,
+          "raw_fact": "2465. Australia is located in the continent of Oceania."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": true,
+      "global_lww_answer": "antarctica"
+    },
+    {
+      "ordinal": 3,
+      "qa_pair_id": "factconsolidation_mh_262k_no3",
+      "question": "What is the place of origin for the broadcaster who first aired \"Your Hit Parade\"?",
+      "answers": [
+        "Paris"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "The origianl broadcaster of Your Hit Parade is",
+          "answer": "NBC",
+          "statement": "The origianl broadcaster of Your Hit Parade is NBC",
+          "normalized_statement": "the origianl broadcaster of your hit parade is nbc",
+          "serial_number": 6274,
+          "raw_fact": "6274. The origianl broadcaster of Your Hit Parade is NBC."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "NBC was founded in the city of",
+          "answer": "Paris",
+          "statement": "NBC was founded in the city of Paris",
+          "normalized_statement": "nbc was founded in the city of paris",
+          "serial_number": 8147,
+          "raw_fact": "8147. NBC was founded in the city of Paris."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Paris"
+    },
+    {
+      "ordinal": 4,
+      "qa_pair_id": "factconsolidation_mh_262k_no4",
+      "question": "What is the name of the language in which Valmiki wrote his notable works?",
+      "answers": [
+        "English"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Valmiki is famous for",
+          "answer": "Ramayana",
+          "statement": "Valmiki is famous for Ramayana",
+          "normalized_statement": "valmiki is famous for ramayana",
+          "serial_number": 11280,
+          "raw_fact": "11280. Valmiki is famous for Ramayana."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Ramayana was written in the language of",
+          "answer": "English",
+          "statement": "Ramayana was written in the language of English",
+          "normalized_statement": "ramayana was written in the language of english",
+          "serial_number": 12454,
+          "raw_fact": "12454. Ramayana was written in the language of English."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": false,
+      "global_lww_answer": null
+    },
+    {
+      "ordinal": 5,
+      "qa_pair_id": "factconsolidation_mh_262k_no5",
+      "question": "What is the language officially spoken in the country where the spouse of the Chief Executive Officer of CBS Corporation holds citizenship?",
+      "answers": [
+        "Walloon"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "The chief executive officer of CBS Corporation is",
+          "answer": "Les Moonves",
+          "statement": "The chief executive officer of CBS Corporation is Les Moonves",
+          "normalized_statement": "the chief executive officer of cbs corporation is les moonves",
+          "serial_number": 352,
+          "raw_fact": "352. The chief executive officer of CBS Corporation is Les Moonves."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Les Moonves is married to",
+          "answer": "Louis Aragon",
+          "statement": "Les Moonves is married to Louis Aragon",
+          "normalized_statement": "les moonves is married to louis aragon",
+          "serial_number": 12849,
+          "raw_fact": "12849. Les Moonves is married to Louis Aragon."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "Louis Aragon is a citizen of",
+          "answer": "Italy",
+          "statement": "Louis Aragon is a citizen of Italy",
+          "normalized_statement": "louis aragon is a citizen of italy",
+          "serial_number": 12744,
+          "raw_fact": "12744. Louis Aragon is a citizen of Italy."
+        },
+        {
+          "hop_index": 4,
+          "cloze": "The official language of Italy is",
+          "answer": "Walloon",
+          "statement": "The official language of Italy is Walloon",
+          "normalized_statement": "the official language of italy is walloon",
+          "serial_number": 8583,
+          "raw_fact": "8583. The official language of Italy is Walloon."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Walloon"
+    },
+    {
+      "ordinal": 6,
+      "qa_pair_id": "factconsolidation_mh_262k_no6",
+      "question": "Which language was the one in which Melvil Dewey produced their notable work?",
+      "answers": [
+        "Italian"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Melvil Dewey is famous for",
+          "answer": "Dewey Decimal Classification",
+          "statement": "Melvil Dewey is famous for Dewey Decimal Classification",
+          "normalized_statement": "melvil dewey is famous for dewey decimal classification",
+          "serial_number": 11551,
+          "raw_fact": "11551. Melvil Dewey is famous for Dewey Decimal Classification."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Dewey Decimal Classification was written in the language of",
+          "answer": "Italian",
+          "statement": "Dewey Decimal Classification was written in the language of Italian",
+          "normalized_statement": "dewey decimal classification was written in the language of italian",
+          "serial_number": 7738,
+          "raw_fact": "7738. Dewey Decimal Classification was written in the language of Italian."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Italian"
+    },
+    {
+      "ordinal": 7,
+      "qa_pair_id": "factconsolidation_mh_262k_no7",
+      "question": "In which language does the director/manager, who is affiliated with \"Revolver\", communicate officially in their country of citizenship?",
+      "answers": [
+        "Arabic"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Revolver was performed by",
+          "answer": "Madonna",
+          "statement": "Revolver was performed by Madonna",
+          "normalized_statement": "revolver was performed by madonna",
+          "serial_number": 11307,
+          "raw_fact": "11307. Revolver was performed by Madonna."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The director of Madonna is",
+          "answer": "Narendra Modi",
+          "statement": "The director of Madonna is Narendra Modi",
+          "normalized_statement": "the director of madonna is narendra modi",
+          "serial_number": 12455,
+          "raw_fact": "12455. The director of Madonna is Narendra Modi."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "Narendra Modi is a citizen of",
+          "answer": "Australia",
+          "statement": "Narendra Modi is a citizen of Australia",
+          "normalized_statement": "narendra modi is a citizen of australia",
+          "serial_number": 12321,
+          "raw_fact": "12321. Narendra Modi is a citizen of Australia."
+        },
+        {
+          "hop_index": 4,
+          "cloze": "The official language of Australia is",
+          "answer": "Arabic",
+          "statement": "The official language of Australia is Arabic",
+          "normalized_statement": "the official language of australia is arabic",
+          "serial_number": 17385,
+          "raw_fact": "17385. The official language of Australia is Arabic."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Arabic"
+    },
+    {
+      "ordinal": 8,
+      "qa_pair_id": "factconsolidation_mh_262k_no8",
+      "question": "In which school did the author of \"Measure for Measure\" receive their education?",
+      "answers": [
+        "University of Oxford"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "The author of Measure for Measure is",
+          "answer": "William Shakespeare",
+          "statement": "The author of Measure for Measure is William Shakespeare",
+          "normalized_statement": "the author of measure for measure is william shakespeare",
+          "serial_number": 13949,
+          "raw_fact": "13949. The author of Measure for Measure is William Shakespeare."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The univeristy where William Shakespeare was educated is",
+          "answer": "University of Oxford",
+          "statement": "The univeristy where William Shakespeare was educated is University of Oxford",
+          "normalized_statement": "the univeristy where william shakespeare was educated is university of oxford",
+          "serial_number": 14246,
+          "raw_fact": "14246. The univeristy where William Shakespeare was educated is University of Oxford."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": false,
+      "global_lww_answer": null
+    },
+    {
+      "ordinal": 9,
+      "qa_pair_id": "factconsolidation_mh_262k_no9",
+      "question": "What is the name of the person who created the language used as the official language of the headquarters of FC Viikingit?",
+      "answers": [
+        "L. L. Zamenhof"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "The headquarters of FC Viikingit is located in the city of",
+          "answer": "Helsinki",
+          "statement": "The headquarters of FC Viikingit is located in the city of Helsinki",
+          "normalized_statement": "the headquarters of fc viikingit is located in the city of helsinki",
+          "serial_number": 1153,
+          "raw_fact": "1153. The headquarters of FC Viikingit is located in the city of Helsinki."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The official language of Helsinki is",
+          "answer": "Esperanto",
+          "statement": "The official language of Helsinki is Esperanto",
+          "normalized_statement": "the official language of helsinki is esperanto",
+          "serial_number": 9546,
+          "raw_fact": "9546. The official language of Helsinki is Esperanto."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "Esperanto was created by",
+          "answer": "L. L. Zamenhof",
+          "statement": "Esperanto was created by L. L. Zamenhof",
+          "normalized_statement": "esperanto was created by l. l. zamenhof",
+          "serial_number": 1514,
+          "raw_fact": "1514. Esperanto was created by L. L. Zamenhof."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": true,
+      "global_lww_answer": "frank miller"
+    },
+    {
+      "ordinal": 10,
+      "qa_pair_id": "factconsolidation_mh_262k_no10",
+      "question": "What continent does the place of birth of the chief executive officer of Visual Basic .NET belong to?",
+      "answers": [
+        "Oceania"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Visual Basic .NET was developed by",
+          "answer": "Lenovo",
+          "statement": "Visual Basic .NET was developed by Lenovo",
+          "normalized_statement": "visual basic .net was developed by lenovo",
+          "serial_number": 10392,
+          "raw_fact": "10392. Visual Basic .NET was developed by Lenovo."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The chief executive officer of Lenovo is",
+          "answer": "Elon Musk",
+          "statement": "The chief executive officer of Lenovo is Elon Musk",
+          "normalized_statement": "the chief executive officer of lenovo is elon musk",
+          "serial_number": 13881,
+          "raw_fact": "13881. The chief executive officer of Lenovo is Elon Musk."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "Elon Musk was born in the city of",
+          "answer": "New Zealand",
+          "statement": "Elon Musk was born in the city of New Zealand",
+          "normalized_statement": "elon musk was born in the city of new zealand",
+          "serial_number": 14913,
+          "raw_fact": "14913. Elon Musk was born in the city of New Zealand."
+        },
+        {
+          "hop_index": 4,
+          "cloze": "New Zealand is located in the continent of",
+          "answer": "Oceania",
+          "statement": "New Zealand is located in the continent of Oceania",
+          "normalized_statement": "new zealand is located in the continent of oceania",
+          "serial_number": 10006,
+          "raw_fact": "10006. New Zealand is located in the continent of Oceania."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": true,
+      "global_lww_answer": "africa"
+    },
+    {
+      "ordinal": 11,
+      "qa_pair_id": "factconsolidation_mh_262k_no11",
+      "question": "Where was the person who created the religion that Giulio Alberoni was associated with born?",
+      "answers": [
+        "Epworth"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Giulio Alberoni is affiliated with the religion of",
+          "answer": "Methodism",
+          "statement": "Giulio Alberoni is affiliated with the religion of Methodism",
+          "normalized_statement": "giulio alberoni is affiliated with the religion of methodism",
+          "serial_number": 15041,
+          "raw_fact": "15041. Giulio Alberoni is affiliated with the religion of Methodism."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Methodism was founded by",
+          "answer": "John Wesley",
+          "statement": "Methodism was founded by John Wesley",
+          "normalized_statement": "methodism was founded by john wesley",
+          "serial_number": 6850,
+          "raw_fact": "6850. Methodism was founded by John Wesley."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "John Wesley was born in the city of",
+          "answer": "Epworth",
+          "statement": "John Wesley was born in the city of Epworth",
+          "normalized_statement": "john wesley was born in the city of epworth",
+          "serial_number": 2049,
+          "raw_fact": "2049. John Wesley was born in the city of Epworth."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": false,
+      "global_lww_answer": null
+    },
+    {
+      "ordinal": 12,
+      "qa_pair_id": "factconsolidation_mh_262k_no12",
+      "question": "What is the location of the head office of the broadcaster that originally aired \"Adventures in Paradise\"?",
+      "answers": [
+        "Knoxville"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "The origianl broadcaster of Adventures in Paradise is",
+          "answer": "WTTW",
+          "statement": "The origianl broadcaster of Adventures in Paradise is WTTW",
+          "normalized_statement": "the origianl broadcaster of adventures in paradise is wttw",
+          "serial_number": 15213,
+          "raw_fact": "15213. The origianl broadcaster of Adventures in Paradise is WTTW."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The headquarters of WTTW is located in the city of",
+          "answer": "Knoxville",
+          "statement": "The headquarters of WTTW is located in the city of Knoxville",
+          "normalized_statement": "the headquarters of wttw is located in the city of knoxville",
+          "serial_number": 13379,
+          "raw_fact": "13379. The headquarters of WTTW is located in the city of Knoxville."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Knoxville"
+    },
+    {
+      "ordinal": 13,
+      "qa_pair_id": "factconsolidation_mh_262k_no13",
+      "question": "What is the notable work of the performer associated with Miley Stewart?",
+      "answers": [
+        "Gundam"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Miley Stewart was performed by",
+          "answer": "John Lennon",
+          "statement": "Miley Stewart was performed by John Lennon",
+          "normalized_statement": "miley stewart was performed by john lennon",
+          "serial_number": 11396,
+          "raw_fact": "11396. Miley Stewart was performed by John Lennon."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "John Lennon is famous for",
+          "answer": "Gundam",
+          "statement": "John Lennon is famous for Gundam",
+          "normalized_statement": "john lennon is famous for gundam",
+          "serial_number": 12951,
+          "raw_fact": "12951. John Lennon is famous for Gundam."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Gundam"
+    },
+    {
+      "ordinal": 14,
+      "qa_pair_id": "factconsolidation_mh_262k_no14",
+      "question": "To which continent does Fernando Lugo belong based on his citizenship?",
+      "answers": [
+        "Oceania"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Fernando Lugo is a citizen of",
+          "answer": "United Kingdom",
+          "statement": "Fernando Lugo is a citizen of United Kingdom",
+          "normalized_statement": "fernando lugo is a citizen of united kingdom",
+          "serial_number": 14149,
+          "raw_fact": "14149. Fernando Lugo is a citizen of United Kingdom."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "United Kingdom is located in the continent of",
+          "answer": "Oceania",
+          "statement": "United Kingdom is located in the continent of Oceania",
+          "normalized_statement": "united kingdom is located in the continent of oceania",
+          "serial_number": 15498,
+          "raw_fact": "15498. United Kingdom is located in the continent of Oceania."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Oceania"
+    },
+    {
+      "ordinal": 15,
+      "qa_pair_id": "factconsolidation_mh_262k_no15",
+      "question": "What is the place of the headquarters of the educational institution where Stewart Udall received his education?",
+      "answers": [
+        "Long Beach"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "The univeristy where Stewart Udall was educated is",
+          "answer": "California State University, Long Beach",
+          "statement": "The univeristy where Stewart Udall was educated is California State University, Long Beach",
+          "normalized_statement": "the univeristy where stewart udall was educated is california state university, long beach",
+          "serial_number": 15285,
+          "raw_fact": "15285. The univeristy where Stewart Udall was educated is California State University, Long Beach."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The headquarters of California State University, Long Beach is located in the city of",
+          "answer": "Long Beach",
+          "statement": "The headquarters of California State University, Long Beach is located in the city of Long Beach",
+          "normalized_statement": "the headquarters of california state university, long beach is located in the city of long beach",
+          "serial_number": 16859,
+          "raw_fact": "16859. The headquarters of California State University, Long Beach is located in the city of Long Beach."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Long Beach"
+    },
+    {
+      "ordinal": 16,
+      "qa_pair_id": "factconsolidation_mh_262k_no16",
+      "question": "What is the continent of the country of citizenship of the person who founded International Judo Federation?",
+      "answers": [
+        "Europe"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "International Judo Federation is associated with the sport of",
+          "answer": "judo",
+          "statement": "International Judo Federation is associated with the sport of judo",
+          "normalized_statement": "international judo federation is associated with the sport of judo",
+          "serial_number": 10581,
+          "raw_fact": "10581. International Judo Federation is associated with the sport of judo."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "judo was founded by",
+          "answer": "Charles de Gaulle",
+          "statement": "judo was founded by Charles de Gaulle",
+          "normalized_statement": "judo was founded by charles de gaulle",
+          "serial_number": 15833,
+          "raw_fact": "15833. judo was founded by Charles de Gaulle."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "Charles de Gaulle is a citizen of",
+          "answer": "France",
+          "statement": "Charles de Gaulle is a citizen of France",
+          "normalized_statement": "charles de gaulle is a citizen of france",
+          "serial_number": 5520,
+          "raw_fact": "5520. Charles de Gaulle is a citizen of France."
+        },
+        {
+          "hop_index": 4,
+          "cloze": "France is located in the continent of",
+          "answer": "Europe",
+          "statement": "France is located in the continent of Europe",
+          "normalized_statement": "france is located in the continent of europe",
+          "serial_number": 7772,
+          "raw_fact": "7772. France is located in the continent of Europe."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": true,
+      "global_lww_answer": "africa"
+    },
+    {
+      "ordinal": 17,
+      "qa_pair_id": "factconsolidation_mh_262k_no17",
+      "question": "In which country was the individual who founded Duquesne University born?",
+      "answers": [
+        "Epworth"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Duquesne University is affiliated with the religion of",
+          "answer": "Methodism",
+          "statement": "Duquesne University is affiliated with the religion of Methodism",
+          "normalized_statement": "duquesne university is affiliated with the religion of methodism",
+          "serial_number": 17288,
+          "raw_fact": "17288. Duquesne University is affiliated with the religion of Methodism."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Methodism was founded by",
+          "answer": "John Wesley",
+          "statement": "Methodism was founded by John Wesley",
+          "normalized_statement": "methodism was founded by john wesley",
+          "serial_number": 6850,
+          "raw_fact": "6850. Methodism was founded by John Wesley."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "John Wesley was born in the city of",
+          "answer": "Epworth",
+          "statement": "John Wesley was born in the city of Epworth",
+          "normalized_statement": "john wesley was born in the city of epworth",
+          "serial_number": 2049,
+          "raw_fact": "2049. John Wesley was born in the city of Epworth."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": false,
+      "global_lww_answer": null
+    },
+    {
+      "ordinal": 18,
+      "qa_pair_id": "factconsolidation_mh_262k_no18",
+      "question": "Which city serves as the capital of the country where the manufacturer which created Ford Ranger was founded?",
+      "answers": [
+        "Paris"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "The company that produced Ford Ranger is",
+          "answer": "Ford Motor Company",
+          "statement": "The company that produced Ford Ranger is Ford Motor Company",
+          "normalized_statement": "the company that produced ford ranger is ford motor company",
+          "serial_number": 16048,
+          "raw_fact": "16048. The company that produced Ford Ranger is Ford Motor Company."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Ford Motor Company was founded by",
+          "answer": "Henri Grégoire",
+          "statement": "Ford Motor Company was founded by Henri Grégoire",
+          "normalized_statement": "ford motor company was founded by henri grégoire",
+          "serial_number": 10064,
+          "raw_fact": "10064. Ford Motor Company was founded by Henri Grégoire."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "Henri Grégoire is a citizen of",
+          "answer": "France",
+          "statement": "Henri Grégoire is a citizen of France",
+          "normalized_statement": "henri grégoire is a citizen of france",
+          "serial_number": 3909,
+          "raw_fact": "3909. Henri Grégoire is a citizen of France."
+        },
+        {
+          "hop_index": 4,
+          "cloze": "The capital of France is",
+          "answer": "Paris",
+          "statement": "The capital of France is Paris",
+          "normalized_statement": "the capital of france is paris",
+          "serial_number": 6671,
+          "raw_fact": "6671. The capital of France is Paris."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": true,
+      "global_lww_answer": "grosseto"
+    },
+    {
+      "ordinal": 19,
+      "qa_pair_id": "factconsolidation_mh_262k_no19",
+      "question": "Which city is the capital of the country that created the sport associated with Peter Schmeichel's position?",
+      "answers": [
+        "Dublin"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Peter Schmeichel plays the position of",
+          "answer": "goalkeeper",
+          "statement": "Peter Schmeichel plays the position of goalkeeper",
+          "normalized_statement": "peter schmeichel plays the position of goalkeeper",
+          "serial_number": 4567,
+          "raw_fact": "4567. Peter Schmeichel plays the position of goalkeeper."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "goalkeeper is associated with the sport of",
+          "answer": "Gaelic football",
+          "statement": "goalkeeper is associated with the sport of Gaelic football",
+          "normalized_statement": "goalkeeper is associated with the sport of gaelic football",
+          "serial_number": 8668,
+          "raw_fact": "8668. goalkeeper is associated with the sport of Gaelic football."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "Gaelic football was created in the country of",
+          "answer": "Ireland",
+          "statement": "Gaelic football was created in the country of Ireland",
+          "normalized_statement": "gaelic football was created in the country of ireland",
+          "serial_number": 9554,
+          "raw_fact": "9554. Gaelic football was created in the country of Ireland."
+        },
+        {
+          "hop_index": 4,
+          "cloze": "The capital of Ireland is",
+          "answer": "Dublin",
+          "statement": "The capital of Ireland is Dublin",
+          "normalized_statement": "the capital of ireland is dublin",
+          "serial_number": 2640,
+          "raw_fact": "2640. The capital of Ireland is Dublin."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": false,
+      "global_lww_answer": null
+    },
+    {
+      "ordinal": 20,
+      "qa_pair_id": "factconsolidation_mh_262k_no20",
+      "question": "Who holds the title of head of state in the country where the sport that Halifax Town A.F.C. is associated with was originated?",
+      "answers": [
+        "Sergio Mattarella"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Halifax Town A.F.C. is associated with the sport of",
+          "answer": "association football",
+          "statement": "Halifax Town A.F.C. is associated with the sport of association football",
+          "normalized_statement": "halifax town a.f.c. is associated with the sport of association football",
+          "serial_number": 310,
+          "raw_fact": "310. Halifax Town A.F.C. is associated with the sport of association football."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "association football was created in the country of",
+          "answer": "Italy",
+          "statement": "association football was created in the country of Italy",
+          "normalized_statement": "association football was created in the country of italy",
+          "serial_number": 11954,
+          "raw_fact": "11954. association football was created in the country of Italy."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "The name of the current head of state in Italy is",
+          "answer": "Sergio Mattarella",
+          "statement": "The name of the current head of state in Italy is Sergio Mattarella",
+          "normalized_statement": "the name of the current head of state in italy is sergio mattarella",
+          "serial_number": 1595,
+          "raw_fact": "1595. The name of the current head of state in Italy is Sergio Mattarella."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": true,
+      "global_lww_answer": "alassane dramane ouattara"
+    },
+    {
+      "ordinal": 21,
+      "qa_pair_id": "factconsolidation_mh_262k_no21",
+      "question": "Which continent is the country of citizenship of Gustav Vigeland located in?",
+      "answers": [
+        "Asia"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Gustav Vigeland is a citizen of",
+          "answer": "Finland",
+          "statement": "Gustav Vigeland is a citizen of Finland",
+          "normalized_statement": "gustav vigeland is a citizen of finland",
+          "serial_number": 8631,
+          "raw_fact": "8631. Gustav Vigeland is a citizen of Finland."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Finland is located in the continent of",
+          "answer": "Asia",
+          "statement": "Finland is located in the continent of Asia",
+          "normalized_statement": "finland is located in the continent of asia",
+          "serial_number": 8800,
+          "raw_fact": "8800. Finland is located in the continent of Asia."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Asia"
+    },
+    {
+      "ordinal": 22,
+      "qa_pair_id": "factconsolidation_mh_262k_no22",
+      "question": "What is the country of origin of the sport associated with John Beilein's occupation?",
+      "answers": [
+        "Japan"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "John Beilein works in the field of",
+          "answer": "association football referee",
+          "statement": "John Beilein works in the field of association football referee",
+          "normalized_statement": "john beilein works in the field of association football referee",
+          "serial_number": 16412,
+          "raw_fact": "16412. John Beilein works in the field of association football referee."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "association football referee is associated with the sport of",
+          "answer": "baseball",
+          "statement": "association football referee is associated with the sport of baseball",
+          "normalized_statement": "association football referee is associated with the sport of baseball",
+          "serial_number": 15784,
+          "raw_fact": "15784. association football referee is associated with the sport of baseball."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "baseball was created in the country of",
+          "answer": "Japan",
+          "statement": "baseball was created in the country of Japan",
+          "normalized_statement": "baseball was created in the country of japan",
+          "serial_number": 14700,
+          "raw_fact": "14700. baseball was created in the country of Japan."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Japan"
+    },
+    {
+      "ordinal": 23,
+      "qa_pair_id": "factconsolidation_mh_262k_no23",
+      "question": "What is the name of the employer of Lynn Margulis' spouse?",
+      "answers": [
+        "British Broadcasting Corporation"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Lynn Margulis is married to",
+          "answer": "Carl Sagan",
+          "statement": "Lynn Margulis is married to Carl Sagan",
+          "normalized_statement": "lynn margulis is married to carl sagan",
+          "serial_number": 4991,
+          "raw_fact": "4991. Lynn Margulis is married to Carl Sagan."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Carl Sagan is employed by",
+          "answer": "British Broadcasting Corporation",
+          "statement": "Carl Sagan is employed by British Broadcasting Corporation",
+          "normalized_statement": "carl sagan is employed by british broadcasting corporation",
+          "serial_number": 3648,
+          "raw_fact": "3648. Carl Sagan is employed by British Broadcasting Corporation."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "British Broadcasting Corporation"
+    },
+    {
+      "ordinal": 24,
+      "qa_pair_id": "factconsolidation_mh_262k_no24",
+      "question": "What kind of sports is Tina Charles into, based on the position she plays in her team?",
+      "answers": [
+        "American football"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Tina Charles plays the position of",
+          "answer": "defensive back",
+          "statement": "Tina Charles plays the position of defensive back",
+          "normalized_statement": "tina charles plays the position of defensive back",
+          "serial_number": 12974,
+          "raw_fact": "12974. Tina Charles plays the position of defensive back."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "defensive back is associated with the sport of",
+          "answer": "American football",
+          "statement": "defensive back is associated with the sport of American football",
+          "normalized_statement": "defensive back is associated with the sport of american football",
+          "serial_number": 48,
+          "raw_fact": "48. defensive back is associated with the sport of American football."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "American football"
+    },
+    {
+      "ordinal": 25,
+      "qa_pair_id": "factconsolidation_mh_262k_no25",
+      "question": "What is the continent of the country where the director / manager of \"Please Please Me\" holds citizenship?",
+      "answers": [
+        "Oceania"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Please Please Me was performed by",
+          "answer": "The Beatles",
+          "statement": "Please Please Me was performed by The Beatles",
+          "normalized_statement": "please please me was performed by the beatles",
+          "serial_number": 7049,
+          "raw_fact": "7049. Please Please Me was performed by The Beatles."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The director of The Beatles is",
+          "answer": "Joe Hockey",
+          "statement": "The director of The Beatles is Joe Hockey",
+          "normalized_statement": "the director of the beatles is joe hockey",
+          "serial_number": 13824,
+          "raw_fact": "13824. The director of The Beatles is Joe Hockey."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "Joe Hockey is a citizen of",
+          "answer": "Australia",
+          "statement": "Joe Hockey is a citizen of Australia",
+          "normalized_statement": "joe hockey is a citizen of australia",
+          "serial_number": 5086,
+          "raw_fact": "5086. Joe Hockey is a citizen of Australia."
+        },
+        {
+          "hop_index": 4,
+          "cloze": "Australia is located in the continent of",
+          "answer": "Oceania",
+          "statement": "Australia is located in the continent of Oceania",
+          "normalized_statement": "australia is located in the continent of oceania",
+          "serial_number": 2465,
+          "raw_fact": "2465. Australia is located in the continent of Oceania."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": true,
+      "global_lww_answer": "south america"
+    },
+    {
+      "ordinal": 26,
+      "qa_pair_id": "factconsolidation_mh_262k_no26",
+      "question": "What is the birthplace of the spouse of Bianca Jagger?",
+      "answers": [
+        "North Charleston"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Bianca Jagger is married to",
+          "answer": "Mick Jagger",
+          "statement": "Bianca Jagger is married to Mick Jagger",
+          "normalized_statement": "bianca jagger is married to mick jagger",
+          "serial_number": 10058,
+          "raw_fact": "10058. Bianca Jagger is married to Mick Jagger."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Mick Jagger was born in the city of",
+          "answer": "North Charleston",
+          "statement": "Mick Jagger was born in the city of North Charleston",
+          "normalized_statement": "mick jagger was born in the city of north charleston",
+          "serial_number": 4695,
+          "raw_fact": "4695. Mick Jagger was born in the city of North Charleston."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "North Charleston"
+    },
+    {
+      "ordinal": 27,
+      "qa_pair_id": "factconsolidation_mh_262k_no27",
+      "question": "What city served as the capital of the country to which the founder of the sport played in the 2014 World Judo Championships belonged?",
+      "answers": [
+        "New Delhi"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "2014 World Judo Championships is associated with the sport of",
+          "answer": "judo",
+          "statement": "2014 World Judo Championships is associated with the sport of judo",
+          "normalized_statement": "2014 world judo championships is associated with the sport of judo",
+          "serial_number": 5117,
+          "raw_fact": "5117. 2014 World Judo Championships is associated with the sport of judo."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "judo was founded by",
+          "answer": "Charles de Gaulle",
+          "statement": "judo was founded by Charles de Gaulle",
+          "normalized_statement": "judo was founded by charles de gaulle",
+          "serial_number": 15833,
+          "raw_fact": "15833. judo was founded by Charles de Gaulle."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "Charles de Gaulle is a citizen of",
+          "answer": "India",
+          "statement": "Charles de Gaulle is a citizen of India",
+          "normalized_statement": "charles de gaulle is a citizen of india",
+          "serial_number": 8404,
+          "raw_fact": "8404. Charles de Gaulle is a citizen of India."
+        },
+        {
+          "hop_index": 4,
+          "cloze": "The capital of India is",
+          "answer": "New Delhi",
+          "statement": "The capital of India is New Delhi",
+          "normalized_statement": "the capital of india is new delhi",
+          "serial_number": 5269,
+          "raw_fact": "5269. The capital of India is New Delhi."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": true,
+      "global_lww_answer": "grosseto"
+    },
+    {
+      "ordinal": 28,
+      "qa_pair_id": "factconsolidation_mh_262k_no28",
+      "question": "In which city is the seat of government located in the country where Family Force 5 came from?",
+      "answers": [
+        "Bondi Junction"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Family Force 5 was created in the country of",
+          "answer": "Japan",
+          "statement": "Family Force 5 was created in the country of Japan",
+          "normalized_statement": "family force 5 was created in the country of japan",
+          "serial_number": 14971,
+          "raw_fact": "14971. Family Force 5 was created in the country of Japan."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The capital of Japan is",
+          "answer": "Bondi Junction",
+          "statement": "The capital of Japan is Bondi Junction",
+          "normalized_statement": "the capital of japan is bondi junction",
+          "serial_number": 2279,
+          "raw_fact": "2279. The capital of Japan is Bondi Junction."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Bondi Junction"
+    },
+    {
+      "ordinal": 29,
+      "qa_pair_id": "factconsolidation_mh_262k_no29",
+      "question": "What location was the place of death of the author of Carmilla?",
+      "answers": [
+        "New York City"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "The author of Carmilla is",
+          "answer": "Joseph Stein",
+          "statement": "The author of Carmilla is Joseph Stein",
+          "normalized_statement": "the author of carmilla is joseph stein",
+          "serial_number": 14283,
+          "raw_fact": "14283. The author of Carmilla is Joseph Stein."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Joseph Stein died in the city of",
+          "answer": "New York City",
+          "statement": "Joseph Stein died in the city of New York City",
+          "normalized_statement": "joseph stein died in the city of new york city",
+          "serial_number": 12063,
+          "raw_fact": "12063. Joseph Stein died in the city of New York City."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "New York City"
+    },
+    {
+      "ordinal": 30,
+      "qa_pair_id": "factconsolidation_mh_262k_no30",
+      "question": "From what country does the music genre of Dave Matthews Band originate?",
+      "answers": [
+        "Spain"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "The type of music that Dave Matthews Band plays is",
+          "answer": "rock music",
+          "statement": "The type of music that Dave Matthews Band plays is rock music",
+          "normalized_statement": "the type of music that dave matthews band plays is rock music",
+          "serial_number": 17419,
+          "raw_fact": "17419. The type of music that Dave Matthews Band plays is rock music."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "rock music was created in the country of",
+          "answer": "Spain",
+          "statement": "rock music was created in the country of Spain",
+          "normalized_statement": "rock music was created in the country of spain",
+          "serial_number": 18262,
+          "raw_fact": "18262. rock music was created in the country of Spain."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Spain"
+    },
+    {
+      "ordinal": 31,
+      "qa_pair_id": "factconsolidation_mh_262k_no31",
+      "question": "Who holds the position of chairperson at the organization where Stephen Greenblatt is employed?",
+      "answers": [
+        "Mike Cheston"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Stephen Greenblatt is employed by",
+          "answer": "X Prize Foundation",
+          "statement": "Stephen Greenblatt is employed by X Prize Foundation",
+          "normalized_statement": "stephen greenblatt is employed by x prize foundation",
+          "serial_number": 3676,
+          "raw_fact": "3676. Stephen Greenblatt is employed by X Prize Foundation."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The chairperson of X Prize Foundation is",
+          "answer": "Mike Cheston",
+          "statement": "The chairperson of X Prize Foundation is Mike Cheston",
+          "normalized_statement": "the chairperson of x prize foundation is mike cheston",
+          "serial_number": 17945,
+          "raw_fact": "17945. The chairperson of X Prize Foundation is Mike Cheston."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Mike Cheston"
+    },
+    {
+      "ordinal": 32,
+      "qa_pair_id": "factconsolidation_mh_262k_no32",
+      "question": "What is the language recognized as the official medium of communication in the country where the director/manager of the performer with ID 1 is a citizen?",
+      "answers": [
+        "Arabic"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "1 was performed by",
+          "answer": "Madonna",
+          "statement": "1 was performed by Madonna",
+          "normalized_statement": "1 was performed by madonna",
+          "serial_number": 16880,
+          "raw_fact": "16880. 1 was performed by Madonna."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The director of Madonna is",
+          "answer": "Narendra Modi",
+          "statement": "The director of Madonna is Narendra Modi",
+          "normalized_statement": "the director of madonna is narendra modi",
+          "serial_number": 12455,
+          "raw_fact": "12455. The director of Madonna is Narendra Modi."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "Narendra Modi is a citizen of",
+          "answer": "Australia",
+          "statement": "Narendra Modi is a citizen of Australia",
+          "normalized_statement": "narendra modi is a citizen of australia",
+          "serial_number": 12321,
+          "raw_fact": "12321. Narendra Modi is a citizen of Australia."
+        },
+        {
+          "hop_index": 4,
+          "cloze": "The official language of Australia is",
+          "answer": "Arabic",
+          "statement": "The official language of Australia is Arabic",
+          "normalized_statement": "the official language of australia is arabic",
+          "serial_number": 17385,
+          "raw_fact": "17385. The official language of Australia is Arabic."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Arabic"
+    },
+    {
+      "ordinal": 33,
+      "qa_pair_id": "factconsolidation_mh_262k_no33",
+      "question": "Who is responsible for the founding of the religious group that has its roots in the institution where James Michael Curley received his education?",
+      "answers": [
+        "Gérard Blitz"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "The univeristy where James Michael Curley was educated is",
+          "answer": "The Catholic University of America",
+          "statement": "The univeristy where James Michael Curley was educated is The Catholic University of America",
+          "normalized_statement": "the univeristy where james michael curley was educated is the catholic university of america",
+          "serial_number": 17838,
+          "raw_fact": "17838. The univeristy where James Michael Curley was educated is The Catholic University of America."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The Catholic University of America is affiliated with the religion of",
+          "answer": "Catholic Church",
+          "statement": "The Catholic University of America is affiliated with the religion of Catholic Church",
+          "normalized_statement": "the catholic university of america is affiliated with the religion of catholic church",
+          "serial_number": 2995,
+          "raw_fact": "2995. The Catholic University of America is affiliated with the religion of Catholic Church."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "Catholic Church was founded by",
+          "answer": "Gérard Blitz",
+          "statement": "Catholic Church was founded by Gérard Blitz",
+          "normalized_statement": "catholic church was founded by gérard blitz",
+          "serial_number": 15083,
+          "raw_fact": "15083. Catholic Church was founded by Gérard Blitz."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": false,
+      "global_lww_answer": null
+    },
+    {
+      "ordinal": 34,
+      "qa_pair_id": "factconsolidation_mh_262k_no34",
+      "question": "In what city did the individual who established Metz Cathedral have their occupation?",
+      "answers": [
+        "London"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Metz Cathedral is affiliated with the religion of",
+          "answer": "Hasidism",
+          "statement": "Metz Cathedral is affiliated with the religion of Hasidism",
+          "normalized_statement": "metz cathedral is affiliated with the religion of hasidism",
+          "serial_number": 5089,
+          "raw_fact": "5089. Metz Cathedral is affiliated with the religion of Hasidism."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Hasidism was founded by",
+          "answer": "Nicholas II of Russia",
+          "statement": "Hasidism was founded by Nicholas II of Russia",
+          "normalized_statement": "hasidism was founded by nicholas ii of russia",
+          "serial_number": 2949,
+          "raw_fact": "2949. Hasidism was founded by Nicholas II of Russia."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "Nicholas II of Russia worked in the city of",
+          "answer": "London",
+          "statement": "Nicholas II of Russia worked in the city of London",
+          "normalized_statement": "nicholas ii of russia worked in the city of london",
+          "serial_number": 9373,
+          "raw_fact": "9373. Nicholas II of Russia worked in the city of London."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "London"
+    },
+    {
+      "ordinal": 35,
+      "qa_pair_id": "factconsolidation_mh_262k_no35",
+      "question": "What is the capital city of the country which Sumie Sakai's sport founder holds citizenship in?",
+      "answers": [
+        "New Delhi"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Sumie Sakai is associated with the sport of",
+          "answer": "judo",
+          "statement": "Sumie Sakai is associated with the sport of judo",
+          "normalized_statement": "sumie sakai is associated with the sport of judo",
+          "serial_number": 17229,
+          "raw_fact": "17229. Sumie Sakai is associated with the sport of judo."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "judo was founded by",
+          "answer": "Charles de Gaulle",
+          "statement": "judo was founded by Charles de Gaulle",
+          "normalized_statement": "judo was founded by charles de gaulle",
+          "serial_number": 15833,
+          "raw_fact": "15833. judo was founded by Charles de Gaulle."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "Charles de Gaulle is a citizen of",
+          "answer": "India",
+          "statement": "Charles de Gaulle is a citizen of India",
+          "normalized_statement": "charles de gaulle is a citizen of india",
+          "serial_number": 8404,
+          "raw_fact": "8404. Charles de Gaulle is a citizen of India."
+        },
+        {
+          "hop_index": 4,
+          "cloze": "The capital of India is",
+          "answer": "New Delhi",
+          "statement": "The capital of India is New Delhi",
+          "normalized_statement": "the capital of india is new delhi",
+          "serial_number": 5269,
+          "raw_fact": "5269. The capital of India is New Delhi."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": true,
+      "global_lww_answer": "grosseto"
+    },
+    {
+      "ordinal": 36,
+      "qa_pair_id": "factconsolidation_mh_262k_no36",
+      "question": "What is the name of the city which is the capital of the country where the director/manager of \"Back in the U.S.S.R.\" holds citizenship?",
+      "answers": [
+        "Canberra"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Back in the U.S.S.R. was performed by",
+          "answer": "The Beatles",
+          "statement": "Back in the U.S.S.R. was performed by The Beatles",
+          "normalized_statement": "back in the u.s.s.r. was performed by the beatles",
+          "serial_number": 7763,
+          "raw_fact": "7763. Back in the U.S.S.R. was performed by The Beatles."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The director of The Beatles is",
+          "answer": "Joe Hockey",
+          "statement": "The director of The Beatles is Joe Hockey",
+          "normalized_statement": "the director of the beatles is joe hockey",
+          "serial_number": 13824,
+          "raw_fact": "13824. The director of The Beatles is Joe Hockey."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "Joe Hockey is a citizen of",
+          "answer": "Australia",
+          "statement": "Joe Hockey is a citizen of Australia",
+          "normalized_statement": "joe hockey is a citizen of australia",
+          "serial_number": 5086,
+          "raw_fact": "5086. Joe Hockey is a citizen of Australia."
+        },
+        {
+          "hop_index": 4,
+          "cloze": "The capital of Australia is",
+          "answer": "Canberra",
+          "statement": "The capital of Australia is Canberra",
+          "normalized_statement": "the capital of australia is canberra",
+          "serial_number": 316,
+          "raw_fact": "316. The capital of Australia is Canberra."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": true,
+      "global_lww_answer": "duluth"
+    },
+    {
+      "ordinal": 37,
+      "qa_pair_id": "factconsolidation_mh_262k_no37",
+      "question": "What was the name of the person who founded the religion that Gabriel Narutowicz belonged to?",
+      "answers": [
+        "Gérard Blitz"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Gabriel Narutowicz is affiliated with the religion of",
+          "answer": "Catholic Church",
+          "statement": "Gabriel Narutowicz is affiliated with the religion of Catholic Church",
+          "normalized_statement": "gabriel narutowicz is affiliated with the religion of catholic church",
+          "serial_number": 13091,
+          "raw_fact": "13091. Gabriel Narutowicz is affiliated with the religion of Catholic Church."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Catholic Church was founded by",
+          "answer": "Gérard Blitz",
+          "statement": "Catholic Church was founded by Gérard Blitz",
+          "normalized_statement": "catholic church was founded by gérard blitz",
+          "serial_number": 15083,
+          "raw_fact": "15083. Catholic Church was founded by Gérard Blitz."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Gérard Blitz"
+    },
+    {
+      "ordinal": 38,
+      "qa_pair_id": "factconsolidation_mh_262k_no38",
+      "question": "In which language are the official documents written in the country of citizenship of Nate \"Tiny\" Archibald?",
+      "answers": [
+        "German"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Nate \"Tiny\" Archibald is a citizen of",
+          "answer": "Sweden",
+          "statement": "Nate \"Tiny\" Archibald is a citizen of Sweden",
+          "normalized_statement": "nate \"tiny\" archibald is a citizen of sweden",
+          "serial_number": 12147,
+          "raw_fact": "12147. Nate \"Tiny\" Archibald is a citizen of Sweden."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The official language of Sweden is",
+          "answer": "German",
+          "statement": "The official language of Sweden is German",
+          "normalized_statement": "the official language of sweden is german",
+          "serial_number": 13563,
+          "raw_fact": "13563. The official language of Sweden is German."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "German"
+    },
+    {
+      "ordinal": 39,
+      "qa_pair_id": "factconsolidation_mh_262k_no39",
+      "question": "What is the name of the school where the author of \"La Celestina\" studied?",
+      "answers": [
+        "Princeton University"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "The author of La Celestina is",
+          "answer": "Sigmund Freud",
+          "statement": "The author of La Celestina is Sigmund Freud",
+          "normalized_statement": "the author of la celestina is sigmund freud",
+          "serial_number": 13895,
+          "raw_fact": "13895. The author of La Celestina is Sigmund Freud."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The univeristy where Sigmund Freud was educated is",
+          "answer": "Princeton University",
+          "statement": "The univeristy where Sigmund Freud was educated is Princeton University",
+          "normalized_statement": "the univeristy where sigmund freud was educated is princeton university",
+          "serial_number": 17423,
+          "raw_fact": "17423. The univeristy where Sigmund Freud was educated is Princeton University."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Princeton University"
+    },
+    {
+      "ordinal": 40,
+      "qa_pair_id": "factconsolidation_mh_262k_no40",
+      "question": "Which language is considered the official language of the religion that Malik Kafur practiced?",
+      "answers": [
+        "Picard"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Malik Kafur is affiliated with the religion of",
+          "answer": "Islam",
+          "statement": "Malik Kafur is affiliated with the religion of Islam",
+          "normalized_statement": "malik kafur is affiliated with the religion of islam",
+          "serial_number": 6249,
+          "raw_fact": "6249. Malik Kafur is affiliated with the religion of Islam."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The official language of Islam is",
+          "answer": "Picard",
+          "statement": "The official language of Islam is Picard",
+          "normalized_statement": "the official language of islam is picard",
+          "serial_number": 17328,
+          "raw_fact": "17328. The official language of Islam is Picard."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Picard"
+    },
+    {
+      "ordinal": 41,
+      "qa_pair_id": "factconsolidation_mh_262k_no41",
+      "question": "What is the name of the individual who both directed and managed the performer on \"Yesterday and Today\"?",
+      "answers": [
+        "Narendra Modi"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Yesterday and Today was performed by",
+          "answer": "Madonna",
+          "statement": "Yesterday and Today was performed by Madonna",
+          "normalized_statement": "yesterday and today was performed by madonna",
+          "serial_number": 18125,
+          "raw_fact": "18125. Yesterday and Today was performed by Madonna."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The director of Madonna is",
+          "answer": "Narendra Modi",
+          "statement": "The director of Madonna is Narendra Modi",
+          "normalized_statement": "the director of madonna is narendra modi",
+          "serial_number": 12455,
+          "raw_fact": "12455. The director of Madonna is Narendra Modi."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Narendra Modi"
+    },
+    {
+      "ordinal": 42,
+      "qa_pair_id": "factconsolidation_mh_262k_no42",
+      "question": "What city serves as the capital of the country where the sport played by Derek Holland originated?",
+      "answers": [
+        "Ottawa"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Derek Holland plays the position of",
+          "answer": "linebacker",
+          "statement": "Derek Holland plays the position of linebacker",
+          "normalized_statement": "derek holland plays the position of linebacker",
+          "serial_number": 11785,
+          "raw_fact": "11785. Derek Holland plays the position of linebacker."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "linebacker is associated with the sport of",
+          "answer": "shinty",
+          "statement": "linebacker is associated with the sport of shinty",
+          "normalized_statement": "linebacker is associated with the sport of shinty",
+          "serial_number": 11323,
+          "raw_fact": "11323. linebacker is associated with the sport of shinty."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "shinty was created in the country of",
+          "answer": "Canada",
+          "statement": "shinty was created in the country of Canada",
+          "normalized_statement": "shinty was created in the country of canada",
+          "serial_number": 13265,
+          "raw_fact": "13265. shinty was created in the country of Canada."
+        },
+        {
+          "hop_index": 4,
+          "cloze": "The capital of Canada is",
+          "answer": "Ottawa",
+          "statement": "The capital of Canada is Ottawa",
+          "normalized_statement": "the capital of canada is ottawa",
+          "serial_number": 13502,
+          "raw_fact": "13502. The capital of Canada is Ottawa."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": true,
+      "global_lww_answer": "königsberg"
+    },
+    {
+      "ordinal": 43,
+      "qa_pair_id": "factconsolidation_mh_262k_no43",
+      "question": "What are the languages that the chairperson of Muttahida Qaumi Movement is fluent in when speaking, writing, or signing?",
+      "answers": [
+        "English"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "The chairperson of Muttahida Qaumi Movement is",
+          "answer": "Stephen McNeil",
+          "statement": "The chairperson of Muttahida Qaumi Movement is Stephen McNeil",
+          "normalized_statement": "the chairperson of muttahida qaumi movement is stephen mcneil",
+          "serial_number": 9543,
+          "raw_fact": "9543. The chairperson of Muttahida Qaumi Movement is Stephen McNeil."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Stephen McNeil speaks the language of",
+          "answer": "English",
+          "statement": "Stephen McNeil speaks the language of English",
+          "normalized_statement": "stephen mcneil speaks the language of english",
+          "serial_number": 1721,
+          "raw_fact": "1721. Stephen McNeil speaks the language of English."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "English"
+    },
+    {
+      "ordinal": 44,
+      "qa_pair_id": "factconsolidation_mh_262k_no44",
+      "question": "What city serves as the capital of the country that Ragini Dwivedi belongs to?",
+      "answers": [
+        "Rupnagar"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Ragini Dwivedi is a citizen of",
+          "answer": "United Kingdom",
+          "statement": "Ragini Dwivedi is a citizen of United Kingdom",
+          "normalized_statement": "ragini dwivedi is a citizen of united kingdom",
+          "serial_number": 14296,
+          "raw_fact": "14296. Ragini Dwivedi is a citizen of United Kingdom."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The capital of United Kingdom is",
+          "answer": "Rupnagar",
+          "statement": "The capital of United Kingdom is Rupnagar",
+          "normalized_statement": "the capital of united kingdom is rupnagar",
+          "serial_number": 9722,
+          "raw_fact": "9722. The capital of United Kingdom is Rupnagar."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Rupnagar"
+    },
+    {
+      "ordinal": 45,
+      "qa_pair_id": "factconsolidation_mh_262k_no45",
+      "question": "What is the place of demise of the author of the book \"Dubliners\"?",
+      "answers": [
+        "London"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "The author of Dubliners is",
+          "answer": "George Eliot",
+          "statement": "The author of Dubliners is George Eliot",
+          "normalized_statement": "the author of dubliners is george eliot",
+          "serial_number": 7516,
+          "raw_fact": "7516. The author of Dubliners is George Eliot."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "George Eliot died in the city of",
+          "answer": "London",
+          "statement": "George Eliot died in the city of London",
+          "normalized_statement": "george eliot died in the city of london",
+          "serial_number": 13652,
+          "raw_fact": "13652. George Eliot died in the city of London."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "London"
+    },
+    {
+      "ordinal": 46,
+      "qa_pair_id": "factconsolidation_mh_262k_no46",
+      "question": "Where is the headquarters of the company that developed Sailfish OS located?",
+      "answers": [
+        "Normanton"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Sailfish OS was developed by",
+          "answer": "Mitsubishi",
+          "statement": "Sailfish OS was developed by Mitsubishi",
+          "normalized_statement": "sailfish os was developed by mitsubishi",
+          "serial_number": 17060,
+          "raw_fact": "17060. Sailfish OS was developed by Mitsubishi."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The headquarters of Mitsubishi is located in the city of",
+          "answer": "Normanton",
+          "statement": "The headquarters of Mitsubishi is located in the city of Normanton",
+          "normalized_statement": "the headquarters of mitsubishi is located in the city of normanton",
+          "serial_number": 13013,
+          "raw_fact": "13013. The headquarters of Mitsubishi is located in the city of Normanton."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Normanton"
+    },
+    {
+      "ordinal": 47,
+      "qa_pair_id": "factconsolidation_mh_262k_no47",
+      "question": "Which city serves as the capital of the country of origin of the sport that David Price plays?",
+      "answers": [
+        "Manila"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "David Price plays the position of",
+          "answer": "tight end",
+          "statement": "David Price plays the position of tight end",
+          "normalized_statement": "david price plays the position of tight end",
+          "serial_number": 6957,
+          "raw_fact": "6957. David Price plays the position of tight end."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "tight end is associated with the sport of",
+          "answer": "field hockey",
+          "statement": "tight end is associated with the sport of field hockey",
+          "normalized_statement": "tight end is associated with the sport of field hockey",
+          "serial_number": 15061,
+          "raw_fact": "15061. tight end is associated with the sport of field hockey."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "field hockey was created in the country of",
+          "answer": "Philippines",
+          "statement": "field hockey was created in the country of Philippines",
+          "normalized_statement": "field hockey was created in the country of philippines",
+          "serial_number": 7774,
+          "raw_fact": "7774. field hockey was created in the country of Philippines."
+        },
+        {
+          "hop_index": 4,
+          "cloze": "The capital of Philippines is",
+          "answer": "Manila",
+          "statement": "The capital of Philippines is Manila",
+          "normalized_statement": "the capital of philippines is manila",
+          "serial_number": 1649,
+          "raw_fact": "1649. The capital of Philippines is Manila."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": true,
+      "global_lww_answer": "sipirok"
+    },
+    {
+      "ordinal": 48,
+      "qa_pair_id": "factconsolidation_mh_262k_no48",
+      "question": "Which language is the official language of the country where the spouse of the artist who sang \"All of Me\" comes from?",
+      "answers": [
+        "Spanish"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "All of Me was performed by",
+          "answer": "Bobby Brown",
+          "statement": "All of Me was performed by Bobby Brown",
+          "normalized_statement": "all of me was performed by bobby brown",
+          "serial_number": 8600,
+          "raw_fact": "8600. All of Me was performed by Bobby Brown."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Bobby Brown is married to",
+          "answer": "Lois Lane",
+          "statement": "Bobby Brown is married to Lois Lane",
+          "normalized_statement": "bobby brown is married to lois lane",
+          "serial_number": 12774,
+          "raw_fact": "12774. Bobby Brown is married to Lois Lane."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "Lois Lane is a citizen of",
+          "answer": "South Korea",
+          "statement": "Lois Lane is a citizen of South Korea",
+          "normalized_statement": "lois lane is a citizen of south korea",
+          "serial_number": 11186,
+          "raw_fact": "11186. Lois Lane is a citizen of South Korea."
+        },
+        {
+          "hop_index": 4,
+          "cloze": "The official language of South Korea is",
+          "answer": "Spanish",
+          "statement": "The official language of South Korea is Spanish",
+          "normalized_statement": "the official language of south korea is spanish",
+          "serial_number": 17625,
+          "raw_fact": "17625. The official language of South Korea is Spanish."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Spanish"
+    },
+    {
+      "ordinal": 49,
+      "qa_pair_id": "factconsolidation_mh_262k_no49",
+      "question": "What is the birthplace of the person who created Indiana Jones?",
+      "answers": [
+        "Lüftelberg"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Indiana Jones was created by",
+          "answer": "A. A. Milne",
+          "statement": "Indiana Jones was created by A. A. Milne",
+          "normalized_statement": "indiana jones was created by a. a. milne",
+          "serial_number": 16885,
+          "raw_fact": "16885. Indiana Jones was created by A. A. Milne."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "A. A. Milne was born in the city of",
+          "answer": "Lüftelberg",
+          "statement": "A. A. Milne was born in the city of Lüftelberg",
+          "normalized_statement": "a. a. milne was born in the city of lüftelberg",
+          "serial_number": 9989,
+          "raw_fact": "9989. A. A. Milne was born in the city of Lüftelberg."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Lüftelberg"
+    },
+    {
+      "ordinal": 50,
+      "qa_pair_id": "factconsolidation_mh_262k_no50",
+      "question": "What is the name of the person who leads the company that produces the Chevrolet Chevelle?",
+      "answers": [
+        "David Potts"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "The company that produced Chevrolet Chevelle is",
+          "answer": "Peugeot",
+          "statement": "The company that produced Chevrolet Chevelle is Peugeot",
+          "normalized_statement": "the company that produced chevrolet chevelle is peugeot",
+          "serial_number": 7530,
+          "raw_fact": "7530. The company that produced Chevrolet Chevelle is Peugeot."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The chief executive officer of Peugeot is",
+          "answer": "David Potts",
+          "statement": "The chief executive officer of Peugeot is David Potts",
+          "normalized_statement": "the chief executive officer of peugeot is david potts",
+          "serial_number": 11881,
+          "raw_fact": "11881. The chief executive officer of Peugeot is David Potts."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "David Potts"
+    },
+    {
+      "ordinal": 51,
+      "qa_pair_id": "factconsolidation_mh_262k_no51",
+      "question": "Which profession does the chairperson of the Economic Freedom Fighters belong to?",
+      "answers": [
+        "composer"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "The chairperson of Economic Freedom Fighters is",
+          "answer": "Roberto Calvi",
+          "statement": "The chairperson of Economic Freedom Fighters is Roberto Calvi",
+          "normalized_statement": "the chairperson of economic freedom fighters is roberto calvi",
+          "serial_number": 12369,
+          "raw_fact": "12369. The chairperson of Economic Freedom Fighters is Roberto Calvi."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Roberto Calvi works in the field of",
+          "answer": "composer",
+          "statement": "Roberto Calvi works in the field of composer",
+          "normalized_statement": "roberto calvi works in the field of composer",
+          "serial_number": 11395,
+          "raw_fact": "11395. Roberto Calvi works in the field of composer."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "composer"
+    },
+    {
+      "ordinal": 52,
+      "qa_pair_id": "factconsolidation_mh_262k_no52",
+      "question": "Which continent is the place of birth of the CEO of the developer of Windows Aero located in?",
+      "answers": [
+        "Africa"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Windows Aero was developed by",
+          "answer": "Electronic Arts",
+          "statement": "Windows Aero was developed by Electronic Arts",
+          "normalized_statement": "windows aero was developed by electronic arts",
+          "serial_number": 11440,
+          "raw_fact": "11440. Windows Aero was developed by Electronic Arts."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The chief executive officer of Electronic Arts is",
+          "answer": "Elon Musk",
+          "statement": "The chief executive officer of Electronic Arts is Elon Musk",
+          "normalized_statement": "the chief executive officer of electronic arts is elon musk",
+          "serial_number": 10564,
+          "raw_fact": "10564. The chief executive officer of Electronic Arts is Elon Musk."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "Elon Musk was born in the city of",
+          "answer": "New Zealand",
+          "statement": "Elon Musk was born in the city of New Zealand",
+          "normalized_statement": "elon musk was born in the city of new zealand",
+          "serial_number": 14913,
+          "raw_fact": "14913. Elon Musk was born in the city of New Zealand."
+        },
+        {
+          "hop_index": 4,
+          "cloze": "New Zealand is located in the continent of",
+          "answer": "Africa",
+          "statement": "New Zealand is located in the continent of Africa",
+          "normalized_statement": "new zealand is located in the continent of africa",
+          "serial_number": 14051,
+          "raw_fact": "14051. New Zealand is located in the continent of Africa."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Africa"
+    },
+    {
+      "ordinal": 53,
+      "qa_pair_id": "factconsolidation_mh_262k_no53",
+      "question": "Who currently holds the position of head of government in the country where the genre of Julian Lennon was founded?",
+      "answers": [
+        "Ole Johan Vierdal"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "The type of music that Julian Lennon plays is",
+          "answer": "soul music",
+          "statement": "The type of music that Julian Lennon plays is soul music",
+          "normalized_statement": "the type of music that julian lennon plays is soul music",
+          "serial_number": 18039,
+          "raw_fact": "18039. The type of music that Julian Lennon plays is soul music."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "soul music was created in the country of",
+          "answer": "United States of America",
+          "statement": "soul music was created in the country of United States of America",
+          "normalized_statement": "soul music was created in the country of united states of america",
+          "serial_number": 11957,
+          "raw_fact": "11957. soul music was created in the country of United States of America."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "The name of the current head of the United States of America government is",
+          "answer": "Ole Johan Vierdal",
+          "statement": "The name of the current head of the United States of America government is Ole Johan Vierdal",
+          "normalized_statement": "the name of the current head of the united states of america government is ole johan vierdal",
+          "serial_number": 14719,
+          "raw_fact": "14719. The name of the current head of the United States of America government is Ole Johan Vierdal."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": true,
+      "global_lww_answer": "dietlind grabe"
+    },
+    {
+      "ordinal": 54,
+      "qa_pair_id": "factconsolidation_mh_262k_no54",
+      "question": "In which city did the founder of the religion of Steve Cooley have their work location?",
+      "answers": [
+        "Washington, D.C."
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Steve Cooley is affiliated with the religion of",
+          "answer": "Methodism",
+          "statement": "Steve Cooley is affiliated with the religion of Methodism",
+          "normalized_statement": "steve cooley is affiliated with the religion of methodism",
+          "serial_number": 11860,
+          "raw_fact": "11860. Steve Cooley is affiliated with the religion of Methodism."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Methodism was founded by",
+          "answer": "Joseph Goebbels",
+          "statement": "Methodism was founded by Joseph Goebbels",
+          "normalized_statement": "methodism was founded by joseph goebbels",
+          "serial_number": 6876,
+          "raw_fact": "6876. Methodism was founded by Joseph Goebbels."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "Joseph Goebbels worked in the city of",
+          "answer": "Washington, D.C.",
+          "statement": "Joseph Goebbels worked in the city of Washington, D.C.",
+          "normalized_statement": "joseph goebbels worked in the city of washington, d.c",
+          "serial_number": 13978,
+          "raw_fact": "13978. Joseph Goebbels worked in the city of Washington, D.C.."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Washington, D.C."
+    },
+    {
+      "ordinal": 55,
+      "qa_pair_id": "factconsolidation_mh_262k_no55",
+      "question": "Which city serves as the capital of the country where the director/manager of the original broadcaster of The Partridge Family is a citizen of?",
+      "answers": [
+        "Oderzo"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "The origianl broadcaster of The Partridge Family is",
+          "answer": "British Broadcasting Corporation",
+          "statement": "The origianl broadcaster of The Partridge Family is British Broadcasting Corporation",
+          "normalized_statement": "the origianl broadcaster of the partridge family is british broadcasting corporation",
+          "serial_number": 18223,
+          "raw_fact": "18223. The origianl broadcaster of The Partridge Family is British Broadcasting Corporation."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The director of British Broadcasting Corporation is",
+          "answer": "Narendra Modi",
+          "statement": "The director of British Broadcasting Corporation is Narendra Modi",
+          "normalized_statement": "the director of british broadcasting corporation is narendra modi",
+          "serial_number": 12252,
+          "raw_fact": "12252. The director of British Broadcasting Corporation is Narendra Modi."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "Narendra Modi is a citizen of",
+          "answer": "Australia",
+          "statement": "Narendra Modi is a citizen of Australia",
+          "normalized_statement": "narendra modi is a citizen of australia",
+          "serial_number": 12321,
+          "raw_fact": "12321. Narendra Modi is a citizen of Australia."
+        },
+        {
+          "hop_index": 4,
+          "cloze": "The capital of Australia is",
+          "answer": "Oderzo",
+          "statement": "The capital of Australia is Oderzo",
+          "normalized_statement": "the capital of australia is oderzo",
+          "serial_number": 1503,
+          "raw_fact": "1503. The capital of Australia is Oderzo."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Oderzo"
+    },
+    {
+      "ordinal": 56,
+      "qa_pair_id": "factconsolidation_mh_262k_no56",
+      "question": "What is the name of the person who was in charge of the organization that Philip Agee worked for?",
+      "answers": [
+        "Christopher A. Wray"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Philip Agee is employed by",
+          "answer": "Federal Bureau of Investigation",
+          "statement": "Philip Agee is employed by Federal Bureau of Investigation",
+          "normalized_statement": "philip agee is employed by federal bureau of investigation",
+          "serial_number": 14409,
+          "raw_fact": "14409. Philip Agee is employed by Federal Bureau of Investigation."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The director of Federal Bureau of Investigation is",
+          "answer": "Christopher A. Wray",
+          "statement": "The director of Federal Bureau of Investigation is Christopher A. Wray",
+          "normalized_statement": "the director of federal bureau of investigation is christopher a. wray",
+          "serial_number": 10118,
+          "raw_fact": "10118. The director of Federal Bureau of Investigation is Christopher A. Wray."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": true,
+      "global_lww_answer": "tadey eder"
+    },
+    {
+      "ordinal": 57,
+      "qa_pair_id": "factconsolidation_mh_262k_no57",
+      "question": "What is the birthplace of the person who established the religion of Saint Eligius?",
+      "answers": [
+        "Epworth"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Saint Eligius is affiliated with the religion of",
+          "answer": "Methodism",
+          "statement": "Saint Eligius is affiliated with the religion of Methodism",
+          "normalized_statement": "saint eligius is affiliated with the religion of methodism",
+          "serial_number": 12629,
+          "raw_fact": "12629. Saint Eligius is affiliated with the religion of Methodism."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Methodism was founded by",
+          "answer": "John Wesley",
+          "statement": "Methodism was founded by John Wesley",
+          "normalized_statement": "methodism was founded by john wesley",
+          "serial_number": 6850,
+          "raw_fact": "6850. Methodism was founded by John Wesley."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "John Wesley was born in the city of",
+          "answer": "Epworth",
+          "statement": "John Wesley was born in the city of Epworth",
+          "normalized_statement": "john wesley was born in the city of epworth",
+          "serial_number": 2049,
+          "raw_fact": "2049. John Wesley was born in the city of Epworth."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": false,
+      "global_lww_answer": null
+    },
+    {
+      "ordinal": 58,
+      "qa_pair_id": "factconsolidation_mh_262k_no58",
+      "question": "What is the authorship's greatest contribution to literature of the book \"The Age of Reason\"?",
+      "answers": [
+        "Natya Shastra"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "The author of The Age of Reason is",
+          "answer": "Allen Ginsberg",
+          "statement": "The author of The Age of Reason is Allen Ginsberg",
+          "normalized_statement": "the author of the age of reason is allen ginsberg",
+          "serial_number": 3850,
+          "raw_fact": "3850. The author of The Age of Reason is Allen Ginsberg."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Allen Ginsberg is famous for",
+          "answer": "Natya Shastra",
+          "statement": "Allen Ginsberg is famous for Natya Shastra",
+          "normalized_statement": "allen ginsberg is famous for natya shastra",
+          "serial_number": 15802,
+          "raw_fact": "15802. Allen Ginsberg is famous for Natya Shastra."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Natya Shastra"
+    },
+    {
+      "ordinal": 59,
+      "qa_pair_id": "factconsolidation_mh_262k_no59",
+      "question": "What is the birthplace of the current holder of the Illinois Attorney General's office?",
+      "answers": [
+        "Higashiyamanashi District, Yamanashi"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "The Illinois Attorney General is",
+          "answer": "Ben Carson",
+          "statement": "The Illinois Attorney General is Ben Carson",
+          "normalized_statement": "the illinois attorney general is ben carson",
+          "serial_number": 15803,
+          "raw_fact": "15803. The Illinois Attorney General is Ben Carson."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Ben Carson was born in the city of",
+          "answer": "Higashiyamanashi District, Yamanashi",
+          "statement": "Ben Carson was born in the city of Higashiyamanashi District, Yamanashi",
+          "normalized_statement": "ben carson was born in the city of higashiyamanashi district, yamanashi",
+          "serial_number": 16748,
+          "raw_fact": "16748. Ben Carson was born in the city of Higashiyamanashi District, Yamanashi."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Higashiyamanashi District, Yamanashi"
+    },
+    {
+      "ordinal": 60,
+      "qa_pair_id": "factconsolidation_mh_262k_no60",
+      "question": "Which historical or religious figure established the religion that Nicholas V is affiliated with?",
+      "answers": [
+        "Lyndon B. Johnson"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Nicholas V is affiliated with the religion of",
+          "answer": "The Church of Jesus Christ of Latter-day Saints",
+          "statement": "Nicholas V is affiliated with the religion of The Church of Jesus Christ of Latter-day Saints",
+          "normalized_statement": "nicholas v is affiliated with the religion of the church of jesus christ of latter-day saints",
+          "serial_number": 2493,
+          "raw_fact": "2493. Nicholas V is affiliated with the religion of The Church of Jesus Christ of Latter-day Saints."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The Church of Jesus Christ of Latter-day Saints was founded by",
+          "answer": "Lyndon B. Johnson",
+          "statement": "The Church of Jesus Christ of Latter-day Saints was founded by Lyndon B. Johnson",
+          "normalized_statement": "the church of jesus christ of latter-day saints was founded by lyndon b. johnson",
+          "serial_number": 18045,
+          "raw_fact": "18045. The Church of Jesus Christ of Latter-day Saints was founded by Lyndon B. Johnson."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Lyndon B. Johnson"
+    },
+    {
+      "ordinal": 61,
+      "qa_pair_id": "factconsolidation_mh_262k_no61",
+      "question": "What is the birthplace of the author of Ivanhoe?",
+      "answers": [
+        "Mexico City"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "The author of Ivanhoe is",
+          "answer": "Walter Scott",
+          "statement": "The author of Ivanhoe is Walter Scott",
+          "normalized_statement": "the author of ivanhoe is walter scott",
+          "serial_number": 8885,
+          "raw_fact": "8885. The author of Ivanhoe is Walter Scott."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Walter Scott was born in the city of",
+          "answer": "Mexico City",
+          "statement": "Walter Scott was born in the city of Mexico City",
+          "normalized_statement": "walter scott was born in the city of mexico city",
+          "serial_number": 15538,
+          "raw_fact": "15538. Walter Scott was born in the city of Mexico City."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Mexico City"
+    },
+    {
+      "ordinal": 62,
+      "qa_pair_id": "factconsolidation_mh_262k_no62",
+      "question": "What is the name of the child of the person who created Feluda?",
+      "answers": [
+        "Zygmunt Krasiński"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Feluda was created by",
+          "answer": "Terry Pratchett",
+          "statement": "Feluda was created by Terry Pratchett",
+          "normalized_statement": "feluda was created by terry pratchett",
+          "serial_number": 14519,
+          "raw_fact": "14519. Feluda was created by Terry Pratchett."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Terry Pratchett's child is",
+          "answer": "Zygmunt Krasiński",
+          "statement": "Terry Pratchett's child is Zygmunt Krasiński",
+          "normalized_statement": "terry pratchett's child is zygmunt krasiński",
+          "serial_number": 9416,
+          "raw_fact": "9416. Terry Pratchett's child is Zygmunt Krasiński."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Zygmunt Krasiński"
+    },
+    {
+      "ordinal": 63,
+      "qa_pair_id": "factconsolidation_mh_262k_no63",
+      "question": "In what city does the director/manager of the original broadcaster of \"NHL on ABC\" hold their citizenship?",
+      "answers": [
+        "New Delhi"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "The origianl broadcaster of NHL on ABC is",
+          "answer": "British Broadcasting Corporation",
+          "statement": "The origianl broadcaster of NHL on ABC is British Broadcasting Corporation",
+          "normalized_statement": "the origianl broadcaster of nhl on abc is british broadcasting corporation",
+          "serial_number": 12622,
+          "raw_fact": "12622. The origianl broadcaster of NHL on ABC is British Broadcasting Corporation."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The director of British Broadcasting Corporation is",
+          "answer": "Narendra Modi",
+          "statement": "The director of British Broadcasting Corporation is Narendra Modi",
+          "normalized_statement": "the director of british broadcasting corporation is narendra modi",
+          "serial_number": 12252,
+          "raw_fact": "12252. The director of British Broadcasting Corporation is Narendra Modi."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "Narendra Modi is a citizen of",
+          "answer": "India",
+          "statement": "Narendra Modi is a citizen of India",
+          "normalized_statement": "narendra modi is a citizen of india",
+          "serial_number": 8510,
+          "raw_fact": "8510. Narendra Modi is a citizen of India."
+        },
+        {
+          "hop_index": 4,
+          "cloze": "The capital of India is",
+          "answer": "New Delhi",
+          "statement": "The capital of India is New Delhi",
+          "normalized_statement": "the capital of india is new delhi",
+          "serial_number": 5269,
+          "raw_fact": "5269. The capital of India is New Delhi."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": true,
+      "global_lww_answer": "oderzo"
+    },
+    {
+      "ordinal": 64,
+      "qa_pair_id": "factconsolidation_mh_262k_no64",
+      "question": "Which language is considered the official language of the country to which Yip Harburg belongs?",
+      "answers": [
+        "Finnish"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Yip Harburg is a citizen of",
+          "answer": "United Kingdom",
+          "statement": "Yip Harburg is a citizen of United Kingdom",
+          "normalized_statement": "yip harburg is a citizen of united kingdom",
+          "serial_number": 14116,
+          "raw_fact": "14116. Yip Harburg is a citizen of United Kingdom."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The official language of United Kingdom is",
+          "answer": "Finnish",
+          "statement": "The official language of United Kingdom is Finnish",
+          "normalized_statement": "the official language of united kingdom is finnish",
+          "serial_number": 6089,
+          "raw_fact": "6089. The official language of United Kingdom is Finnish."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Finnish"
+    },
+    {
+      "ordinal": 65,
+      "qa_pair_id": "factconsolidation_mh_262k_no65",
+      "question": "What is the literary genre of the book \"Dune\" written by the author?",
+      "answers": [
+        "progressive rock"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "The author of Dune is",
+          "answer": "William Shakespeare",
+          "statement": "The author of Dune is William Shakespeare",
+          "normalized_statement": "the author of dune is william shakespeare",
+          "serial_number": 8560,
+          "raw_fact": "8560. The author of Dune is William Shakespeare."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The type of music that William Shakespeare plays is",
+          "answer": "progressive rock",
+          "statement": "The type of music that William Shakespeare plays is progressive rock",
+          "normalized_statement": "the type of music that william shakespeare plays is progressive rock",
+          "serial_number": 16788,
+          "raw_fact": "16788. The type of music that William Shakespeare plays is progressive rock."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "progressive rock"
+    },
+    {
+      "ordinal": 66,
+      "qa_pair_id": "factconsolidation_mh_262k_no66",
+      "question": "What is the continent of origin of Thomas Dolby, a musician?",
+      "answers": [
+        "South America"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Thomas Dolby was born in the city of",
+          "answer": "Los Angeles",
+          "statement": "Thomas Dolby was born in the city of Los Angeles",
+          "normalized_statement": "thomas dolby was born in the city of los angeles",
+          "serial_number": 9747,
+          "raw_fact": "9747. Thomas Dolby was born in the city of Los Angeles."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Los Angeles is located in the continent of",
+          "answer": "South America",
+          "statement": "Los Angeles is located in the continent of South America",
+          "normalized_statement": "los angeles is located in the continent of south america",
+          "serial_number": 9317,
+          "raw_fact": "9317. Los Angeles is located in the continent of South America."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "South America"
+    },
+    {
+      "ordinal": 67,
+      "qa_pair_id": "factconsolidation_mh_262k_no67",
+      "question": "What is the name of the school where the founder of House of Bonaparte studied?",
+      "answers": [
+        "Trinity College Dublin"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "House of Bonaparte was founded by",
+          "answer": "Gustav I of Sweden",
+          "statement": "House of Bonaparte was founded by Gustav I of Sweden",
+          "normalized_statement": "house of bonaparte was founded by gustav i of sweden",
+          "serial_number": 16559,
+          "raw_fact": "16559. House of Bonaparte was founded by Gustav I of Sweden."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The univeristy where Gustav I of Sweden was educated is",
+          "answer": "Trinity College Dublin",
+          "statement": "The univeristy where Gustav I of Sweden was educated is Trinity College Dublin",
+          "normalized_statement": "the univeristy where gustav i of sweden was educated is trinity college dublin",
+          "serial_number": 6515,
+          "raw_fact": "6515. The univeristy where Gustav I of Sweden was educated is Trinity College Dublin."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Trinity College Dublin"
+    },
+    {
+      "ordinal": 68,
+      "qa_pair_id": "factconsolidation_mh_262k_no68",
+      "question": "In which place was the manufacturing company of Chevrolet Caprice founded?",
+      "answers": [
+        "Silver Lake"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "The company that produced Chevrolet Caprice is",
+          "answer": "Boeing",
+          "statement": "The company that produced Chevrolet Caprice is Boeing",
+          "normalized_statement": "the company that produced chevrolet caprice is boeing",
+          "serial_number": 15214,
+          "raw_fact": "15214. The company that produced Chevrolet Caprice is Boeing."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Boeing was founded in the city of",
+          "answer": "Silver Lake",
+          "statement": "Boeing was founded in the city of Silver Lake",
+          "normalized_statement": "boeing was founded in the city of silver lake",
+          "serial_number": 8796,
+          "raw_fact": "8796. Boeing was founded in the city of Silver Lake."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Silver Lake"
+    },
+    {
+      "ordinal": 69,
+      "qa_pair_id": "factconsolidation_mh_262k_no69",
+      "question": "Which city is the capital of the country where the genre, which Benjamin Sisko performed, originated?",
+      "answers": [
+        "Rajanpur"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Benjamin Sisko was performed by",
+          "answer": "Extreme",
+          "statement": "Benjamin Sisko was performed by Extreme",
+          "normalized_statement": "benjamin sisko was performed by extreme",
+          "serial_number": 11662,
+          "raw_fact": "11662. Benjamin Sisko was performed by Extreme."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The type of music that Extreme plays is",
+          "answer": "jazz",
+          "statement": "The type of music that Extreme plays is jazz",
+          "normalized_statement": "the type of music that extreme plays is jazz",
+          "serial_number": 5558,
+          "raw_fact": "5558. The type of music that Extreme plays is jazz."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "jazz was created in the country of",
+          "answer": "Romania",
+          "statement": "jazz was created in the country of Romania",
+          "normalized_statement": "jazz was created in the country of romania",
+          "serial_number": 16135,
+          "raw_fact": "16135. jazz was created in the country of Romania."
+        },
+        {
+          "hop_index": 4,
+          "cloze": "The capital of Romania is",
+          "answer": "Rajanpur",
+          "statement": "The capital of Romania is Rajanpur",
+          "normalized_statement": "the capital of romania is rajanpur",
+          "serial_number": 4332,
+          "raw_fact": "4332. The capital of Romania is Rajanpur."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Rajanpur"
+    },
+    {
+      "ordinal": 70,
+      "qa_pair_id": "factconsolidation_mh_262k_no70",
+      "question": "What country is the nationality of the spouse of the author of \"David Copperfield\"?",
+      "answers": [
+        "Belgium"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "The author of David Copperfield is",
+          "answer": "Charles Darwin",
+          "statement": "The author of David Copperfield is Charles Darwin",
+          "normalized_statement": "the author of david copperfield is charles darwin",
+          "serial_number": 6767,
+          "raw_fact": "6767. The author of David Copperfield is Charles Darwin."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Charles Darwin is married to",
+          "answer": "Amala Paul",
+          "statement": "Charles Darwin is married to Amala Paul",
+          "normalized_statement": "charles darwin is married to amala paul",
+          "serial_number": 11735,
+          "raw_fact": "11735. Charles Darwin is married to Amala Paul."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "Amala Paul is a citizen of",
+          "answer": "Belgium",
+          "statement": "Amala Paul is a citizen of Belgium",
+          "normalized_statement": "amala paul is a citizen of belgium",
+          "serial_number": 7139,
+          "raw_fact": "7139. Amala Paul is a citizen of Belgium."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Belgium"
+    },
+    {
+      "ordinal": 71,
+      "qa_pair_id": "factconsolidation_mh_262k_no71",
+      "question": "In which organization did Francis Parkman work as an employee and who is its chairperson?",
+      "answers": [
+        "William J. Donovan"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Francis Parkman is employed by",
+          "answer": "Office of Strategic Services",
+          "statement": "Francis Parkman is employed by Office of Strategic Services",
+          "normalized_statement": "francis parkman is employed by office of strategic services",
+          "serial_number": 15193,
+          "raw_fact": "15193. Francis Parkman is employed by Office of Strategic Services."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The chairperson of Office of Strategic Services is",
+          "answer": "William J. Donovan",
+          "statement": "The chairperson of Office of Strategic Services is William J. Donovan",
+          "normalized_statement": "the chairperson of office of strategic services is william j. donovan",
+          "serial_number": 1171,
+          "raw_fact": "1171. The chairperson of Office of Strategic Services is William J. Donovan."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": true,
+      "global_lww_answer": "robert james carlson"
+    },
+    {
+      "ordinal": 72,
+      "qa_pair_id": "factconsolidation_mh_262k_no72",
+      "question": "What is the capital of the country where the director/manager of \"Good Morning America\" holds a citizenship?",
+      "answers": [
+        "Beaumont"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "The origianl broadcaster of Good Morning America is",
+          "answer": "American Broadcasting Company",
+          "statement": "The origianl broadcaster of Good Morning America is American Broadcasting Company",
+          "normalized_statement": "the origianl broadcaster of good morning america is american broadcasting company",
+          "serial_number": 13274,
+          "raw_fact": "13274. The origianl broadcaster of Good Morning America is American Broadcasting Company."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The director of American Broadcasting Company is",
+          "answer": "Ernst Heinkel",
+          "statement": "The director of American Broadcasting Company is Ernst Heinkel",
+          "normalized_statement": "the director of american broadcasting company is ernst heinkel",
+          "serial_number": 11457,
+          "raw_fact": "11457. The director of American Broadcasting Company is Ernst Heinkel."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "Ernst Heinkel is a citizen of",
+          "answer": "Tang Empire",
+          "statement": "Ernst Heinkel is a citizen of Tang Empire",
+          "normalized_statement": "ernst heinkel is a citizen of tang empire",
+          "serial_number": 8834,
+          "raw_fact": "8834. Ernst Heinkel is a citizen of Tang Empire."
+        },
+        {
+          "hop_index": 4,
+          "cloze": "The capital of Tang Empire is",
+          "answer": "Beaumont",
+          "statement": "The capital of Tang Empire is Beaumont",
+          "normalized_statement": "the capital of tang empire is beaumont",
+          "serial_number": 11432,
+          "raw_fact": "11432. The capital of Tang Empire is Beaumont."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": true,
+      "global_lww_answer": "oderzo"
+    },
+    {
+      "ordinal": 73,
+      "qa_pair_id": "factconsolidation_mh_262k_no73",
+      "question": "In which language does the government of the country Pee Wee King holds citizenship conduct its official business?",
+      "answers": [
+        "Hebrew"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Pee Wee King is a citizen of",
+          "answer": "France",
+          "statement": "Pee Wee King is a citizen of France",
+          "normalized_statement": "pee wee king is a citizen of france",
+          "serial_number": 8543,
+          "raw_fact": "8543. Pee Wee King is a citizen of France."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The official language of France is",
+          "answer": "Hebrew",
+          "statement": "The official language of France is Hebrew",
+          "normalized_statement": "the official language of france is hebrew",
+          "serial_number": 16085,
+          "raw_fact": "16085. The official language of France is Hebrew."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Hebrew"
+    },
+    {
+      "ordinal": 74,
+      "qa_pair_id": "factconsolidation_mh_262k_no74",
+      "question": "In what language do official government documents get written in the country that Tomokazu Seki is a citizen of?",
+      "answers": [
+        "German"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Tomokazu Seki is a citizen of",
+          "answer": "United States of America",
+          "statement": "Tomokazu Seki is a citizen of United States of America",
+          "normalized_statement": "tomokazu seki is a citizen of united states of america",
+          "serial_number": 14560,
+          "raw_fact": "14560. Tomokazu Seki is a citizen of United States of America."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The official language of United States of America is",
+          "answer": "German",
+          "statement": "The official language of United States of America is German",
+          "normalized_statement": "the official language of united states of america is german",
+          "serial_number": 17661,
+          "raw_fact": "17661. The official language of United States of America is German."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "German"
+    },
+    {
+      "ordinal": 75,
+      "qa_pair_id": "factconsolidation_mh_262k_no75",
+      "question": "What continent is the country of citizenship of the manager/director of Taxman located in?",
+      "answers": [
+        "Asia"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Taxman was performed by",
+          "answer": "Madonna",
+          "statement": "Taxman was performed by Madonna",
+          "normalized_statement": "taxman was performed by madonna",
+          "serial_number": 12510,
+          "raw_fact": "12510. Taxman was performed by Madonna."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The director of Madonna is",
+          "answer": "Narendra Modi",
+          "statement": "The director of Madonna is Narendra Modi",
+          "normalized_statement": "the director of madonna is narendra modi",
+          "serial_number": 12455,
+          "raw_fact": "12455. The director of Madonna is Narendra Modi."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "Narendra Modi is a citizen of",
+          "answer": "India",
+          "statement": "Narendra Modi is a citizen of India",
+          "normalized_statement": "narendra modi is a citizen of india",
+          "serial_number": 8510,
+          "raw_fact": "8510. Narendra Modi is a citizen of India."
+        },
+        {
+          "hop_index": 4,
+          "cloze": "India is located in the continent of",
+          "answer": "Asia",
+          "statement": "India is located in the continent of Asia",
+          "normalized_statement": "india is located in the continent of asia",
+          "serial_number": 12155,
+          "raw_fact": "12155. India is located in the continent of Asia."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": true,
+      "global_lww_answer": "south america"
+    },
+    {
+      "ordinal": 76,
+      "qa_pair_id": "factconsolidation_mh_262k_no76",
+      "question": "In which city was the person who created the centrifugal governor born?",
+      "answers": [
+        "Edinburgh"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "centrifugal governor was created by",
+          "answer": "Robert Louis Stevenson",
+          "statement": "centrifugal governor was created by Robert Louis Stevenson",
+          "normalized_statement": "centrifugal governor was created by robert louis stevenson",
+          "serial_number": 18296,
+          "raw_fact": "18296. centrifugal governor was created by Robert Louis Stevenson."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Robert Louis Stevenson was born in the city of",
+          "answer": "Edinburgh",
+          "statement": "Robert Louis Stevenson was born in the city of Edinburgh",
+          "normalized_statement": "robert louis stevenson was born in the city of edinburgh",
+          "serial_number": 1004,
+          "raw_fact": "1004. Robert Louis Stevenson was born in the city of Edinburgh."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": true,
+      "global_lww_answer": "mumbai"
+    },
+    {
+      "ordinal": 77,
+      "qa_pair_id": "factconsolidation_mh_262k_no77",
+      "question": "What is the name of the capital city of the country to which the spouse of the author of Star Trek canon holds citizenship?",
+      "answers": [
+        "Berlin"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "The author of Star Trek canon is",
+          "answer": "Joseph Goebbels",
+          "statement": "The author of Star Trek canon is Joseph Goebbels",
+          "normalized_statement": "the author of star trek canon is joseph goebbels",
+          "serial_number": 15429,
+          "raw_fact": "15429. The author of Star Trek canon is Joseph Goebbels."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Joseph Goebbels is married to",
+          "answer": "Magda Goebbels",
+          "statement": "Joseph Goebbels is married to Magda Goebbels",
+          "normalized_statement": "joseph goebbels is married to magda goebbels",
+          "serial_number": 5452,
+          "raw_fact": "5452. Joseph Goebbels is married to Magda Goebbels."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "Magda Goebbels is a citizen of",
+          "answer": "Germany",
+          "statement": "Magda Goebbels is a citizen of Germany",
+          "normalized_statement": "magda goebbels is a citizen of germany",
+          "serial_number": 7446,
+          "raw_fact": "7446. Magda Goebbels is a citizen of Germany."
+        },
+        {
+          "hop_index": 4,
+          "cloze": "The capital of Germany is",
+          "answer": "Berlin",
+          "statement": "The capital of Germany is Berlin",
+          "normalized_statement": "the capital of germany is berlin",
+          "serial_number": 5157,
+          "raw_fact": "5157. The capital of Germany is Berlin."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": true,
+      "global_lww_answer": "rupnagar"
+    },
+    {
+      "ordinal": 78,
+      "qa_pair_id": "factconsolidation_mh_262k_no78",
+      "question": "Which language is considered the official language of Eric Weissberg's country of citizenship?",
+      "answers": [
+        "Finnish"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Eric Weissberg is a citizen of",
+          "answer": "United Kingdom",
+          "statement": "Eric Weissberg is a citizen of United Kingdom",
+          "normalized_statement": "eric weissberg is a citizen of united kingdom",
+          "serial_number": 17430,
+          "raw_fact": "17430. Eric Weissberg is a citizen of United Kingdom."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The official language of United Kingdom is",
+          "answer": "Finnish",
+          "statement": "The official language of United Kingdom is Finnish",
+          "normalized_statement": "the official language of united kingdom is finnish",
+          "serial_number": 6089,
+          "raw_fact": "6089. The official language of United Kingdom is Finnish."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Finnish"
+    },
+    {
+      "ordinal": 79,
+      "qa_pair_id": "factconsolidation_mh_262k_no79",
+      "question": "Where is the educational institution located where Tom Selleck was educated and its headquarters also situated?",
+      "answers": [
+        "Vienna"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "The univeristy where Tom Selleck was educated is",
+          "answer": "Academy of Fine Arts Vienna",
+          "statement": "The univeristy where Tom Selleck was educated is Academy of Fine Arts Vienna",
+          "normalized_statement": "the univeristy where tom selleck was educated is academy of fine arts vienna",
+          "serial_number": 15922,
+          "raw_fact": "15922. The univeristy where Tom Selleck was educated is Academy of Fine Arts Vienna."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The headquarters of Academy of Fine Arts Vienna is located in the city of",
+          "answer": "Vienna",
+          "statement": "The headquarters of Academy of Fine Arts Vienna is located in the city of Vienna",
+          "normalized_statement": "the headquarters of academy of fine arts vienna is located in the city of vienna",
+          "serial_number": 2322,
+          "raw_fact": "2322. The headquarters of Academy of Fine Arts Vienna is located in the city of Vienna."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": true,
+      "global_lww_answer": "brooklyn"
+    },
+    {
+      "ordinal": 80,
+      "qa_pair_id": "factconsolidation_mh_262k_no80",
+      "question": "Which language was used by Mario Puzo in writing his famous work?",
+      "answers": [
+        "American English"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Mario Puzo is famous for",
+          "answer": "Billy Elliot the Musical",
+          "statement": "Mario Puzo is famous for Billy Elliot the Musical",
+          "normalized_statement": "mario puzo is famous for billy elliot the musical",
+          "serial_number": 17575,
+          "raw_fact": "17575. Mario Puzo is famous for Billy Elliot the Musical."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Billy Elliot the Musical was written in the language of",
+          "answer": "American English",
+          "statement": "Billy Elliot the Musical was written in the language of American English",
+          "normalized_statement": "billy elliot the musical was written in the language of american english",
+          "serial_number": 15876,
+          "raw_fact": "15876. Billy Elliot the Musical was written in the language of American English."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "American English"
+    },
+    {
+      "ordinal": 81,
+      "qa_pair_id": "factconsolidation_mh_262k_no81",
+      "question": "Which continent is the country of origin of Teenage Fanclub located in?",
+      "answers": [
+        "Oceania"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Teenage Fanclub was created in the country of",
+          "answer": "Italy",
+          "statement": "Teenage Fanclub was created in the country of Italy",
+          "normalized_statement": "teenage fanclub was created in the country of italy",
+          "serial_number": 18252,
+          "raw_fact": "18252. Teenage Fanclub was created in the country of Italy."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Italy is located in the continent of",
+          "answer": "Oceania",
+          "statement": "Italy is located in the continent of Oceania",
+          "normalized_statement": "italy is located in the continent of oceania",
+          "serial_number": 15152,
+          "raw_fact": "15152. Italy is located in the continent of Oceania."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Oceania"
+    },
+    {
+      "ordinal": 82,
+      "qa_pair_id": "factconsolidation_mh_262k_no82",
+      "question": "Where was the work location of the individual who founded the religion practiced by Edward Mooney?",
+      "answers": [
+        "Riyadh Region"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Edward Mooney is affiliated with the religion of",
+          "answer": "Christian Science",
+          "statement": "Edward Mooney is affiliated with the religion of Christian Science",
+          "normalized_statement": "edward mooney is affiliated with the religion of christian science",
+          "serial_number": 16369,
+          "raw_fact": "16369. Edward Mooney is affiliated with the religion of Christian Science."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Christian Science was founded by",
+          "answer": "Ibn Saud",
+          "statement": "Christian Science was founded by Ibn Saud",
+          "normalized_statement": "christian science was founded by ibn saud",
+          "serial_number": 11909,
+          "raw_fact": "11909. Christian Science was founded by Ibn Saud."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "Ibn Saud worked in the city of",
+          "answer": "Riyadh Region",
+          "statement": "Ibn Saud worked in the city of Riyadh Region",
+          "normalized_statement": "ibn saud worked in the city of riyadh region",
+          "serial_number": 5988,
+          "raw_fact": "5988. Ibn Saud worked in the city of Riyadh Region."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": true,
+      "global_lww_answer": "london"
+    },
+    {
+      "ordinal": 83,
+      "qa_pair_id": "factconsolidation_mh_262k_no83",
+      "question": "What is the professional background of the spouse of Lalu Prasad Yadav?",
+      "answers": [
+        "singer"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Lalu Prasad Yadav is married to",
+          "answer": "Goldust",
+          "statement": "Lalu Prasad Yadav is married to Goldust",
+          "normalized_statement": "lalu prasad yadav is married to goldust",
+          "serial_number": 14252,
+          "raw_fact": "14252. Lalu Prasad Yadav is married to Goldust."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Goldust works in the field of",
+          "answer": "singer",
+          "statement": "Goldust works in the field of singer",
+          "normalized_statement": "goldust works in the field of singer",
+          "serial_number": 2458,
+          "raw_fact": "2458. Goldust works in the field of singer."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "singer"
+    },
+    {
+      "ordinal": 84,
+      "qa_pair_id": "factconsolidation_mh_262k_no84",
+      "question": "What is the name of the capital city of the country that is the origin of the sport played by Enrico Villanueva?",
+      "answers": [
+        "Bondi Junction"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Enrico Villanueva plays the position of",
+          "answer": "closer",
+          "statement": "Enrico Villanueva plays the position of closer",
+          "normalized_statement": "enrico villanueva plays the position of closer",
+          "serial_number": 8364,
+          "raw_fact": "8364. Enrico Villanueva plays the position of closer."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "closer is associated with the sport of",
+          "answer": "baseball",
+          "statement": "closer is associated with the sport of baseball",
+          "normalized_statement": "closer is associated with the sport of baseball",
+          "serial_number": 3281,
+          "raw_fact": "3281. closer is associated with the sport of baseball."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "baseball was created in the country of",
+          "answer": "Japan",
+          "statement": "baseball was created in the country of Japan",
+          "normalized_statement": "baseball was created in the country of japan",
+          "serial_number": 14700,
+          "raw_fact": "14700. baseball was created in the country of Japan."
+        },
+        {
+          "hop_index": 4,
+          "cloze": "The capital of Japan is",
+          "answer": "Bondi Junction",
+          "statement": "The capital of Japan is Bondi Junction",
+          "normalized_statement": "the capital of japan is bondi junction",
+          "serial_number": 2279,
+          "raw_fact": "2279. The capital of Japan is Bondi Junction."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": false,
+      "global_lww_answer": null
+    },
+    {
+      "ordinal": 85,
+      "qa_pair_id": "factconsolidation_mh_262k_no85",
+      "question": "In what field did the author, who is known for Julius Caesar, work in?",
+      "answers": [
+        "philosopher"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "The author of Julius Caesar is",
+          "answer": "Aristotle",
+          "statement": "The author of Julius Caesar is Aristotle",
+          "normalized_statement": "the author of julius caesar is aristotle",
+          "serial_number": 11230,
+          "raw_fact": "11230. The author of Julius Caesar is Aristotle."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Aristotle works in the field of",
+          "answer": "philosopher",
+          "statement": "Aristotle works in the field of philosopher",
+          "normalized_statement": "aristotle works in the field of philosopher",
+          "serial_number": 3844,
+          "raw_fact": "3844. Aristotle works in the field of philosopher."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": true,
+      "global_lww_answer": "politician"
+    },
+    {
+      "ordinal": 86,
+      "qa_pair_id": "factconsolidation_mh_262k_no86",
+      "question": "Which faith is the partner of Benigno Aquino Jr. affiliated with?",
+      "answers": [
+        "Methodism"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Benigno Aquino Jr. is married to",
+          "answer": "Corazon Aquino",
+          "statement": "Benigno Aquino Jr. is married to Corazon Aquino",
+          "normalized_statement": "benigno aquino jr. is married to corazon aquino",
+          "serial_number": 13598,
+          "raw_fact": "13598. Benigno Aquino Jr. is married to Corazon Aquino."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Corazon Aquino is affiliated with the religion of",
+          "answer": "Methodism",
+          "statement": "Corazon Aquino is affiliated with the religion of Methodism",
+          "normalized_statement": "corazon aquino is affiliated with the religion of methodism",
+          "serial_number": 12137,
+          "raw_fact": "12137. Corazon Aquino is affiliated with the religion of Methodism."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Methodism"
+    },
+    {
+      "ordinal": 87,
+      "qa_pair_id": "factconsolidation_mh_262k_no87",
+      "question": "From which country does the spouse of the creator of WWE Tough Enough hold citizenship?",
+      "answers": [
+        "Ireland"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "WWE Tough Enough was created by",
+          "answer": "William Shakespeare",
+          "statement": "WWE Tough Enough was created by William Shakespeare",
+          "normalized_statement": "wwe tough enough was created by william shakespeare",
+          "serial_number": 17835,
+          "raw_fact": "17835. WWE Tough Enough was created by William Shakespeare."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "William Shakespeare is married to",
+          "answer": "Philip IV of France",
+          "statement": "William Shakespeare is married to Philip IV of France",
+          "normalized_statement": "william shakespeare is married to philip iv of france",
+          "serial_number": 15399,
+          "raw_fact": "15399. William Shakespeare is married to Philip IV of France."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "Philip IV of France is a citizen of",
+          "answer": "Ireland",
+          "statement": "Philip IV of France is a citizen of Ireland",
+          "normalized_statement": "philip iv of france is a citizen of ireland",
+          "serial_number": 13376,
+          "raw_fact": "13376. Philip IV of France is a citizen of Ireland."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Ireland"
+    },
+    {
+      "ordinal": 88,
+      "qa_pair_id": "factconsolidation_mh_262k_no88",
+      "question": "What is the name of the current head of state of the country where \"Outsourced\" came from?",
+      "answers": [
+        "Recep Tayyip Erdoğan"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Outsourced was created in the country of",
+          "answer": "Turkey",
+          "statement": "Outsourced was created in the country of Turkey",
+          "normalized_statement": "outsourced was created in the country of turkey",
+          "serial_number": 17728,
+          "raw_fact": "17728. Outsourced was created in the country of Turkey."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The name of the current head of state in Turkey is",
+          "answer": "Recep Tayyip Erdoğan",
+          "statement": "The name of the current head of state in Turkey is Recep Tayyip Erdoğan",
+          "normalized_statement": "the name of the current head of state in turkey is recep tayyip erdoğan",
+          "serial_number": 7550,
+          "raw_fact": "7550. The name of the current head of state in Turkey is Recep Tayyip Erdoğan."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": true,
+      "global_lww_answer": "guðni jóhannesson"
+    },
+    {
+      "ordinal": 89,
+      "qa_pair_id": "factconsolidation_mh_262k_no89",
+      "question": "In which city is the headquarters of the TV network that originally broadcasted NBA on ABC?",
+      "answers": [
+        "Red Bank"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "The origianl broadcaster of NBA on ABC is",
+          "answer": "British Broadcasting Corporation",
+          "statement": "The origianl broadcaster of NBA on ABC is British Broadcasting Corporation",
+          "normalized_statement": "the origianl broadcaster of nba on abc is british broadcasting corporation",
+          "serial_number": 13862,
+          "raw_fact": "13862. The origianl broadcaster of NBA on ABC is British Broadcasting Corporation."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The headquarters of British Broadcasting Corporation is located in the city of",
+          "answer": "Red Bank",
+          "statement": "The headquarters of British Broadcasting Corporation is located in the city of Red Bank",
+          "normalized_statement": "the headquarters of british broadcasting corporation is located in the city of red bank",
+          "serial_number": 8346,
+          "raw_fact": "8346. The headquarters of British Broadcasting Corporation is located in the city of Red Bank."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Red Bank"
+    },
+    {
+      "ordinal": 90,
+      "qa_pair_id": "factconsolidation_mh_262k_no90",
+      "question": "What is the name of the founder of the religion associated with Dzhokhar Dudayev?",
+      "answers": [
+        "Gérard Blitz"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Dzhokhar Dudayev is affiliated with the religion of",
+          "answer": "Catholic Church",
+          "statement": "Dzhokhar Dudayev is affiliated with the religion of Catholic Church",
+          "normalized_statement": "dzhokhar dudayev is affiliated with the religion of catholic church",
+          "serial_number": 10822,
+          "raw_fact": "10822. Dzhokhar Dudayev is affiliated with the religion of Catholic Church."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Catholic Church was founded by",
+          "answer": "Gérard Blitz",
+          "statement": "Catholic Church was founded by Gérard Blitz",
+          "normalized_statement": "catholic church was founded by gérard blitz",
+          "serial_number": 15083,
+          "raw_fact": "15083. Catholic Church was founded by Gérard Blitz."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Gérard Blitz"
+    },
+    {
+      "ordinal": 91,
+      "qa_pair_id": "factconsolidation_mh_262k_no91",
+      "question": "Which political figure holds the role of head of state for the country that Brad Stevens' sport is associated with?",
+      "answers": [
+        "Mikhail Gorbachev"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Brad Stevens is associated with the sport of",
+          "answer": "basketball",
+          "statement": "Brad Stevens is associated with the sport of basketball",
+          "normalized_statement": "brad stevens is associated with the sport of basketball",
+          "serial_number": 8229,
+          "raw_fact": "8229. Brad Stevens is associated with the sport of basketball."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "basketball was created in the country of",
+          "answer": "Soviet Union",
+          "statement": "basketball was created in the country of Soviet Union",
+          "normalized_statement": "basketball was created in the country of soviet union",
+          "serial_number": 12608,
+          "raw_fact": "12608. basketball was created in the country of Soviet Union."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "The name of the current head of state in Soviet Union is",
+          "answer": "Mikhail Gorbachev",
+          "statement": "The name of the current head of state in Soviet Union is Mikhail Gorbachev",
+          "normalized_statement": "the name of the current head of state in soviet union is mikhail gorbachev",
+          "serial_number": 13661,
+          "raw_fact": "13661. The name of the current head of state in Soviet Union is Mikhail Gorbachev."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": true,
+      "global_lww_answer": "elizabeth ii"
+    },
+    {
+      "ordinal": 92,
+      "qa_pair_id": "factconsolidation_mh_262k_no92",
+      "question": "What is the name of the leader of the government in the country where the sport related to the 1985 NBA Draft originated?",
+      "answers": [
+        "Lili Bosse"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "1985 NBA Draft is associated with the sport of",
+          "answer": "association football",
+          "statement": "1985 NBA Draft is associated with the sport of association football",
+          "normalized_statement": "1985 nba draft is associated with the sport of association football",
+          "serial_number": 12731,
+          "raw_fact": "12731. 1985 NBA Draft is associated with the sport of association football."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "association football was created in the country of",
+          "answer": "Italy",
+          "statement": "association football was created in the country of Italy",
+          "normalized_statement": "association football was created in the country of italy",
+          "serial_number": 11954,
+          "raw_fact": "11954. association football was created in the country of Italy."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "The name of the current head of the Italy government is",
+          "answer": "Lili Bosse",
+          "statement": "The name of the current head of the Italy government is Lili Bosse",
+          "normalized_statement": "the name of the current head of the italy government is lili bosse",
+          "serial_number": 13774,
+          "raw_fact": "13774. The name of the current head of the Italy government is Lili Bosse."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Lili Bosse"
+    },
+    {
+      "ordinal": 93,
+      "qa_pair_id": "factconsolidation_mh_262k_no93",
+      "question": "In which city is the capital located of the country where the sport that Ricky Rubio plays originated?",
+      "answers": [
+        "Bondi Junction"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Ricky Rubio plays the position of",
+          "answer": "defender",
+          "statement": "Ricky Rubio plays the position of defender",
+          "normalized_statement": "ricky rubio plays the position of defender",
+          "serial_number": 8288,
+          "raw_fact": "8288. Ricky Rubio plays the position of defender."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "defender is associated with the sport of",
+          "answer": "baseball",
+          "statement": "defender is associated with the sport of baseball",
+          "normalized_statement": "defender is associated with the sport of baseball",
+          "serial_number": 11894,
+          "raw_fact": "11894. defender is associated with the sport of baseball."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "baseball was created in the country of",
+          "answer": "Japan",
+          "statement": "baseball was created in the country of Japan",
+          "normalized_statement": "baseball was created in the country of japan",
+          "serial_number": 14700,
+          "raw_fact": "14700. baseball was created in the country of Japan."
+        },
+        {
+          "hop_index": 4,
+          "cloze": "The capital of Japan is",
+          "answer": "Bondi Junction",
+          "statement": "The capital of Japan is Bondi Junction",
+          "normalized_statement": "the capital of japan is bondi junction",
+          "serial_number": 2279,
+          "raw_fact": "2279. The capital of Japan is Bondi Junction."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "Bondi Junction"
+    },
+    {
+      "ordinal": 94,
+      "qa_pair_id": "factconsolidation_mh_262k_no94",
+      "question": "What is the primary language spoken in the country where Flogging Molly comes from?",
+      "answers": [
+        "English"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Flogging Molly was created in the country of",
+          "answer": "Germany",
+          "statement": "Flogging Molly was created in the country of Germany",
+          "normalized_statement": "flogging molly was created in the country of germany",
+          "serial_number": 10389,
+          "raw_fact": "10389. Flogging Molly was created in the country of Germany."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "The official language of Germany is",
+          "answer": "English",
+          "statement": "The official language of Germany is English",
+          "normalized_statement": "the official language of germany is english",
+          "serial_number": 15405,
+          "raw_fact": "15405. The official language of Germany is English."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "English"
+    },
+    {
+      "ordinal": 95,
+      "qa_pair_id": "factconsolidation_mh_262k_no95",
+      "question": "Which company did the employer of the creator of Link work for?",
+      "answers": [
+        "University of Oxford"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Link was created by",
+          "answer": "Shigeru Miyamoto",
+          "statement": "Link was created by Shigeru Miyamoto",
+          "normalized_statement": "link was created by shigeru miyamoto",
+          "serial_number": 4947,
+          "raw_fact": "4947. Link was created by Shigeru Miyamoto."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Shigeru Miyamoto is employed by",
+          "answer": "University of Oxford",
+          "statement": "Shigeru Miyamoto is employed by University of Oxford",
+          "normalized_statement": "shigeru miyamoto is employed by university of oxford",
+          "serial_number": 9006,
+          "raw_fact": "9006. Shigeru Miyamoto is employed by University of Oxford."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "University of Oxford"
+    },
+    {
+      "ordinal": 96,
+      "qa_pair_id": "factconsolidation_mh_262k_no96",
+      "question": "What is the country of origin of the sport associated with Dave Dombrowski's employer?",
+      "answers": [
+        "Australia"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Dave Dombrowski is employed by",
+          "answer": "Detroit Tigers",
+          "statement": "Dave Dombrowski is employed by Detroit Tigers",
+          "normalized_statement": "dave dombrowski is employed by detroit tigers",
+          "serial_number": 10023,
+          "raw_fact": "10023. Dave Dombrowski is employed by Detroit Tigers."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Detroit Tigers is associated with the sport of",
+          "answer": "cricket",
+          "statement": "Detroit Tigers is associated with the sport of cricket",
+          "normalized_statement": "detroit tigers is associated with the sport of cricket",
+          "serial_number": 15317,
+          "raw_fact": "15317. Detroit Tigers is associated with the sport of cricket."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "cricket was created in the country of",
+          "answer": "Australia",
+          "statement": "cricket was created in the country of Australia",
+          "normalized_statement": "cricket was created in the country of australia",
+          "serial_number": 16113,
+          "raw_fact": "16113. cricket was created in the country of Australia."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": false,
+      "global_lww_answer": null
+    },
+    {
+      "ordinal": 97,
+      "qa_pair_id": "factconsolidation_mh_262k_no97",
+      "question": "Which sport is associated with the position played by Bobby Hurley?",
+      "answers": [
+        "sumo"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Bobby Hurley plays the position of",
+          "answer": "midfielder",
+          "statement": "Bobby Hurley plays the position of midfielder",
+          "normalized_statement": "bobby hurley plays the position of midfielder",
+          "serial_number": 8861,
+          "raw_fact": "8861. Bobby Hurley plays the position of midfielder."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "midfielder is associated with the sport of",
+          "answer": "sumo",
+          "statement": "midfielder is associated with the sport of sumo",
+          "normalized_statement": "midfielder is associated with the sport of sumo",
+          "serial_number": 17570,
+          "raw_fact": "17570. midfielder is associated with the sport of sumo."
+        }
+      ],
+      "official_gold_lww_conflicted": false,
+      "global_lww_complete": true,
+      "global_lww_answer": "sumo"
+    },
+    {
+      "ordinal": 98,
+      "qa_pair_id": "factconsolidation_mh_262k_no98",
+      "question": "What is the place of employment of the individual who founded the religion practiced by Jacqueline Kennedy Onassis?",
+      "answers": [
+        "Edinburgh"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Jacqueline Kennedy Onassis is affiliated with the religion of",
+          "answer": "Church of Scotland",
+          "statement": "Jacqueline Kennedy Onassis is affiliated with the religion of Church of Scotland",
+          "normalized_statement": "jacqueline kennedy onassis is affiliated with the religion of church of scotland",
+          "serial_number": 17797,
+          "raw_fact": "17797. Jacqueline Kennedy Onassis is affiliated with the religion of Church of Scotland."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Church of Scotland was founded by",
+          "answer": "John Knox",
+          "statement": "Church of Scotland was founded by John Knox",
+          "normalized_statement": "church of scotland was founded by john knox",
+          "serial_number": 9687,
+          "raw_fact": "9687. Church of Scotland was founded by John Knox."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "John Knox worked in the city of",
+          "answer": "Edinburgh",
+          "statement": "John Knox worked in the city of Edinburgh",
+          "normalized_statement": "john knox worked in the city of edinburgh",
+          "serial_number": 4329,
+          "raw_fact": "4329. John Knox worked in the city of Edinburgh."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": false,
+      "global_lww_answer": null
+    },
+    {
+      "ordinal": 99,
+      "qa_pair_id": "factconsolidation_mh_262k_no99",
+      "question": "What is the birthplace of the person who founded the religion that Ferdinando I de' Medici professes?",
+      "answers": [
+        "Epworth"
+      ],
+      "gold_hops": [
+        {
+          "hop_index": 1,
+          "cloze": "Ferdinando I de' Medici is affiliated with the religion of",
+          "answer": "Methodism",
+          "statement": "Ferdinando I de' Medici is affiliated with the religion of Methodism",
+          "normalized_statement": "ferdinando i de' medici is affiliated with the religion of methodism",
+          "serial_number": 11090,
+          "raw_fact": "11090. Ferdinando I de' Medici is affiliated with the religion of Methodism."
+        },
+        {
+          "hop_index": 2,
+          "cloze": "Methodism was founded by",
+          "answer": "John Wesley",
+          "statement": "Methodism was founded by John Wesley",
+          "normalized_statement": "methodism was founded by john wesley",
+          "serial_number": 6850,
+          "raw_fact": "6850. Methodism was founded by John Wesley."
+        },
+        {
+          "hop_index": 3,
+          "cloze": "John Wesley was born in the city of",
+          "answer": "Epworth",
+          "statement": "John Wesley was born in the city of Epworth",
+          "normalized_statement": "john wesley was born in the city of epworth",
+          "serial_number": 2049,
+          "raw_fact": "2049. John Wesley was born in the city of Epworth."
+        }
+      ],
+      "official_gold_lww_conflicted": true,
+      "global_lww_complete": false,
+      "global_lww_answer": null
+    }
+  ]
+}

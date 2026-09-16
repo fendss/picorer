@@ -1,0 +1,17 @@
+outcome,score,term,coefficient,low,high,p_value,interval,converged
+correct,p,intercept,-3.5855457973575953,-5.77492356911052,-1.3961680256046702,0.0013281134879652395,"question-cluster sandwich, normal Wald",True
+correct,p,p,0.8032710301808287,-1.6463110776560308,3.252853138017688,0.5204092780228129,"question-cluster sandwich, normal Wald",True
+correct,p,full,2.5578417597621,0.010449686010030046,5.10523383351417,0.049067580337770894,"question-cluster sandwich, normal Wald",True
+correct,p,interaction,1.4767068269115198,-1.32180696313966,4.2752206169627,0.30103111097308166,"question-cluster sandwich, normal Wald",True
+correct,p,round2,-0.1753023299831386,-0.7611668477234466,0.4105621877571694,0.557566264339771,"question-cluster sandwich, normal Wald",True
+correct,p,round3,-0.05064611019708295,-0.6560277959652703,0.5547355755711043,0.8697546086106286,"question-cluster sandwich, normal Wald",True
+correct,p,slope_when_full_0,0.8032710301808287,-1.6463110776560308,3.252853138017688,0.5204092780228129,"question-cluster sandwich, normal Wald",True
+correct,p,slope_when_full_1,2.2799778570923483,0.8055267059123845,3.754429008272312,0.00243957190499171,"question-cluster sandwich, normal Wald",True
+correct,native_s,intercept,-3.38959925279466,-4.727142265834242,-2.052056239755078,6.80185215304584e-07,"question-cluster sandwich, normal Wald",True
+correct,native_s,native_s,0.10333686579196914,-0.11267688788548492,0.3193506194694232,0.3484451568598045,"question-cluster sandwich, normal Wald",True
+correct,native_s,full,3.145071867377208,1.5748246243813973,4.715319110373018,8.649893839797437e-05,"question-cluster sandwich, normal Wald",True
+correct,native_s,interaction,0.12088725856294436,-0.12401403669967706,0.36578855382556574,0.3333090970201008,"question-cluster sandwich, normal Wald",True
+correct,native_s,round2,-0.17190000175977302,-0.7818541981372327,0.4380541946176866,0.5806977855505113,"question-cluster sandwich, normal Wald",True
+correct,native_s,round3,-0.025256955982720958,-0.6458690101624229,0.5953550981969811,0.9364246695794198,"question-cluster sandwich, normal Wald",True
+correct,native_s,slope_when_full_0,0.10333686579196914,-0.11267688788548492,0.3193506194694232,0.3484451568598045,"question-cluster sandwich, normal Wald",True
+correct,native_s,slope_when_full_1,0.2242241243549135,0.10209422537362377,0.34635402333620324,0.00032019119884659647,"question-cluster sandwich, normal Wald",True

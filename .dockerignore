@@ -1,0 +1,14 @@
+.git
+node_modules
+dist
+data
+runs
+artifacts
+.env
+.env.*
+*.env
+*.sqlite*
+*.log
+*.tar*
+__pycache__
+*.py[cod]

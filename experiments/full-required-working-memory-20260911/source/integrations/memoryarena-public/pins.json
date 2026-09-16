@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "benchmark": "MemoryArena Public",
+  "code": {
+    "repository": "https://github.com/ZexueHe/MemoryArena.git",
+    "remote": "origin",
+    "revision": "6cd9de14b71915e39ac742a20dc33785e14b6aab",
+    "commit_date": "2026-05-31T20:10:42-04:00"
+  },
+  "data": {
+    "public_tasks": {
+      "repo_id": "ZexueHe/memoryarena",
+      "repo_type": "dataset",
+      "revision": "da1a37c8b19280e18627ca01cf368195a5e1d92e",
+      "manifest": "overlays/public-task-manifest.json",
+      "expected_total_tasks": 701
+    },
+    "auxiliary": {
+      "shopping_product_db": {
+        "repo_id": "ai-hyz/MemoryArena-product-db",
+        "repo_type": "dataset",
+        "revision": "46120a5c931d04a47bd791965d757207b7372b62"
+      },
+      "websearch_embeddings": {
+        "repo_id": "joanna690/websearch-embeddings",
+        "repo_type": "dataset",
+        "revision": "40b2422e641b46b903312c2e5b0c4ef9380f5352"
+      },
+      "browsecomp_plus": {
+        "repo_id": "Tevatron/browsecomp-plus",
+        "repo_type": "dataset",
+        "revision": "144cff8e35b5eaef7e526346aa60774a9deb941f"
+      },
+      "browsecomp_plus_corpus": {
+        "repo_id": "Tevatron/browsecomp-plus-corpus",
+        "repo_type": "dataset",
+        "revision": "b27b02bc3e45511b8b82a13e6f90ce761df726f6"
+      }
+    },
+    "pinned_external_assets": {
+      "search_qrels": {
+        "repository": "https://github.com/texttron/BrowseComp-Plus.git",
+        "revision": "046949032b0328319cc9a02663a759ec601d9402",
+        "source_path": "topics-qrels/qrel_evidence.txt",
+        "required_path": "env/env_systems/web_search_env/data/qrel_evidence.txt",
+        "sha256": "a6f594975be57339de9e4e9f67f13c044f647feda77c0b84c45a1581e3041bd1",
+        "git_blob": "d99a06aeb30dcf0dd9c41003c2bca8d775e4519c",
+        "line_count": 5064,
+        "query_id_count": 830,
+        "locked_query_row_count": 1357
+      }
+    },
+    "unversioned_external_assets": {
+      "travel_flights_csv": {
+        "source": "https://drive.google.com/drive/folders/1fHBg6Ro4bSbTBgxeQZ6piYNtmqy8a_kK?usp=sharing",
+        "required_path": "env/env_systems/travel_planner_env/database/flights/clean_Flights_2022.csv",
+        "reason": "The public setup guide provides no immutable revision or checksum."
+      }
+    }
+  },
+  "adapter": {
+    "memory_system_name": "picorer",
+    "memory_url": "http://127.0.0.1:3111"
+  },
+  "official_execution": {
+    "bundled_shopping": {
+      "runner": "run_shopping.py",
+      "evaluator": "env/env_systems/web_shopping_env/compute_reward.py"
+    },
+    "progressive_search": {
+      "runner": "run_search.py",
+      "evaluator": "env/env_systems/web_search_env/evaluate_with_openai.py"
+    },
+    "group_travel_planner": {
+      "runner": "run_travel.py",
+      "evaluator": "env/env_systems/travel_planner_env/eval.py"
+    },
+    "formal_reasoning_math": {
+      "runner": "run_math.py",
+      "evaluator": "env/env_systems/formal_reasoning_env/eval.py"
+    },
+    "formal_reasoning_phys": {
+      "runner": "run_math.py",
+      "evaluator": "env/env_systems/formal_reasoning_env/eval.py"
+    }
+  },
+  "overlays": [
+    "overlays/bundled-shopping.picorer.json",
+    "overlays/progressive-search.picorer.json",
+    "overlays/group-travel.picorer.json",
+    "overlays/formal-math.picorer.json",
+    "overlays/formal-phys.picorer.json"
+  ]
+}

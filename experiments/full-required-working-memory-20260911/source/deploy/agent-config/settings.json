@@ -1,0 +1,5 @@
+{
+  "defaultProvider": "picorer-openai",
+  "defaultModel": "gpt-4o-mini",
+  "defaultThinkingLevel": "off"
+}

@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "checks": {
+    "source_jobs_complete": true,
+    "controlled_conditions": 760,
+    "questions": 64,
+    "all_support_addition_pairs": 1072,
+    "completion_pairs": 302,
+    "all_primary_effects_positive": true,
+    "figure_rows": 4,
+    "pdf_embeds_times_new_roman": true,
+    "input_hash_matches_summary": true
+  }
+}

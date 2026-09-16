@@ -1,0 +1,48 @@
+{
+  "notice": "Export completed with explicit settings. This report does not establish visual, accessibility, scientific-integrity, or journal-submission compliance.",
+  "outputs": [
+    {
+      "format": "pdf",
+      "kind": "vector-container",
+      "path": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/evidence-sufficiency-dynamics-20260915/experiment-1-evidence-sensitivity/figures/controlled-evidence-sensitivity.pdf",
+      "size_bytes": 29810
+    },
+    {
+      "format": "png",
+      "kind": "raster",
+      "path": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/evidence-sufficiency-dynamics-20260915/experiment-1-evidence-sensitivity/figures/controlled-evidence-sensitivity.png",
+      "size_bytes": 130443
+    }
+  ],
+  "provenance": {
+    "aggregation": "paired effects averaged within question, then equal-weighted across questions",
+    "alt_text": "Adding annotated support increases both native sufficiency likelihood and package-fixed answer accuracy. Completing the support set has the largest answer effect.",
+    "pairing": "same question, evidence order, slot count, and mask except one irrelevant slot is replaced by one missing annotated support fact",
+    "raw_data": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-interventions-20260914/summary/units.csv",
+    "raw_data_sha256": "bdc60e91791fae79bd256a738424625cbc2dade4e74874dde2522b99428c2e67",
+    "sample": "64 questions without known official-gold conflict; 760 controlled conditions",
+    "uncertainty": "95% question bootstrap; 10000 draws; seed family 20260915"
+  },
+  "schema_version": "1.0",
+  "settings": {
+    "bbox_inches": null,
+    "dpi": 600.0,
+    "facecolor": "white",
+    "figure_size_inches": [
+      4.7,
+      2.45
+    ],
+    "font_mode": "truetype",
+    "formats": [
+      "pdf",
+      "png"
+    ],
+    "pad_inches": 0.1,
+    "transparent": false
+  },
+  "versions": {
+    "matplotlib": "3.11.2",
+    "pillow": "12.3.0"
+  },
+  "warnings": []
+}

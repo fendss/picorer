@@ -1,0 +1,2 @@
+{"questions": 100, "trajectories": 300, "states": 2150, "state_replica_rows": 4300, "j_samples": 434300, "final_correct": 133}
+wrote ten-pass analysis to /Users/johnnychiu/Documents/memory harness from the first principle/experiments/sufficiency-dynamics-20260912/analysis-rs-v3/ten-pass

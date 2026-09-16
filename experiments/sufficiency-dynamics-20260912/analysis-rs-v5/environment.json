@@ -1,0 +1,15 @@
+{
+  "python": "3.12.13 (main, Jun 11 2026, 03:55:21) [Clang 22.1.3 ]",
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "pillow": "12.3.0",
+    "pypdf": "6.18.1"
+  },
+  "skill": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scientific-visualization",
+  "skill_sha256": "f7c7f9a2350ea02db2db55cd28921a54c74b089f6762f1b0b63a13b8f6eeec33"
+}

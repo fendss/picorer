@@ -1,0 +1,58 @@
+{
+  "notice": "Export completed with explicit settings. This report does not establish visual, accessibility, scientific-integrity, or journal-submission compliance.",
+  "outputs": [
+    {
+      "format": "pdf",
+      "kind": "vector-container",
+      "path": "/data/zhaogangyi/picorer-eval/sufficiency-interventions-20260914-v2/analysis/S-all-01-coverage-likelihood.pdf",
+      "size_bytes": 26123
+    },
+    {
+      "format": "png",
+      "kind": "raster",
+      "path": "/data/zhaogangyi/picorer-eval/sufficiency-interventions-20260914-v2/analysis/S-all-01-coverage-likelihood.png",
+      "size_bytes": 224469
+    }
+  ],
+  "provenance": {
+    "description": "Question means after averaging evidence subsets and orders; shaded pointwise 95% intervals.",
+    "font": "/data/zhaogangyi/picorer-eval/sufficiency-interventions-20260914-v2/fonts/TimesNewRoman.ttf",
+    "packages": {
+      "matplotlib": "3.11.2",
+      "numpy": "2.5.3",
+      "pandas": "3.0.5",
+      "pypdf": "6.18.1",
+      "scipy": "1.18.1",
+      "seaborn": "0.13.2",
+      "statsmodels": "0.15.0"
+    },
+    "pilot": false,
+    "python": "3.12.13 (main, Jun 23 2026, 15:18:55) [Clang 22.1.3 ]",
+    "source": "/data/zhaogangyi/picorer-eval/sufficiency-interventions-20260914-v2/summary/units.csv",
+    "source_sha256": "62a53a5b7dba5c3f11695d2a87ad9ffa002153eb6bad1e013c3ee6802dafda91",
+    "table": "all-coverage-means.csv",
+    "uncertainty": "95% question-cluster bootstrap; 2000 draws; seed 20260914"
+  },
+  "schema_version": "1.0",
+  "settings": {
+    "bbox_inches": null,
+    "dpi": 400.0,
+    "facecolor": "white",
+    "figure_size_inches": [
+      5.3,
+      3.8
+    ],
+    "font_mode": "truetype",
+    "formats": [
+      "pdf",
+      "png"
+    ],
+    "pad_inches": 0.1,
+    "transparent": false
+  },
+  "versions": {
+    "matplotlib": "3.11.2",
+    "pillow": "12.3.0"
+  },
+  "warnings": []
+}

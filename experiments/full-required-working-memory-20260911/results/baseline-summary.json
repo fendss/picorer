@@ -1,0 +1,53 @@
+{
+  "root": "/data/zhaogangyi/picorer-eval/qwen36-v100-full-redial-factmh-20260911",
+  "completed_at_check": "2026-09-11T14:27:59.438656+00:00",
+  "datasets": {
+    "fact-mh-262k": {
+      "count": 100,
+      "metrics_mean": {
+        "exact_match": 0.49,
+        "substring_exact_match": 0.5,
+        "f1": 0.501,
+        "official_score": 0.5
+      },
+      "metrics_sum": {
+        "exact_match": 49.0,
+        "substring_exact_match": 50.0,
+        "f1": 50.1,
+        "official_score": 50.0
+      }
+    },
+    "recsys-redial-full": {
+      "count": 200,
+      "metrics_mean": {
+        "recsys_recall@1": 0.0525,
+        "recsys_recall@5": 0.14666666666666667,
+        "recsys_recall@10": 0.21333333333333332,
+        "official_score": 0.14666666666666667
+      },
+      "metrics_sum": {
+        "recsys_recall@1": 10.5,
+        "recsys_recall@5": 29.333333333333336,
+        "recsys_recall@10": 42.666666666666664,
+        "official_score": 29.333333333333336
+      }
+    }
+  },
+  "stage_attempts": [
+    [
+      "answer",
+      1,
+      300
+    ],
+    [
+      "evaluation",
+      1,
+      300
+    ],
+    [
+      "retrieval",
+      1,
+      300
+    ]
+  ]
+}

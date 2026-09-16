@@ -1,0 +1,57 @@
+{
+  "notice": "Export completed with explicit settings. This report does not establish visual, accessibility, scientific-integrity, or journal-submission compliance.",
+  "outputs": [
+    {
+      "format": "pdf",
+      "kind": "vector-container",
+      "path": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-dynamics-20260912/figure-qwen-correctness-stratified/correct-normalized-dynamics.pdf",
+      "size_bytes": 48265
+    },
+    {
+      "format": "png",
+      "kind": "raster",
+      "path": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-dynamics-20260912/figure-qwen-correctness-stratified/correct-normalized-dynamics.png",
+      "size_bytes": 141833
+    }
+  ],
+  "provenance": {
+    "alt_text": "For trajectories with correct final answers, mean sufficiency likelihood and mean gold-evidence coverage are plotted against normalized acquisition progress on identical zero-to-one axes.",
+    "destination": "Small standalone manuscript figure; journal requirements unspecified",
+    "missing_data": "none: every trajectory and question contributes at every displayed progress value",
+    "raw_data": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-dynamics-20260912/analysis-rs-v4/states.csv",
+    "raw_data_sha256": "d02c302518c98ac92a71167b0f58bf08fb160d9f1055def0d96a71085d468845",
+    "sample": "Predeclared 64-question unconflicted subset; 123 Qwen3.6-27B trajectories with correct final answers; 55 unique questions",
+    "transformations": [
+      "stratify trajectories by original final-answer correctness",
+      "normalize one-based decision index as (t-1)/(T-1)",
+      "use the union of all observed normalized states and a 0.05 reference grid",
+      "last observation carried forward; draw exact piecewise-constant means",
+      "use the actual initial observation at zero, without extrapolation",
+      "average outcome-matched runs within question, then questions; fixed weights throughout",
+      "map sufficient-vs-insufficient logit margin through the logistic function"
+    ],
+    "uncertainty": "95% pointwise question-cluster bootstrap; 5,000 draws; seed 20260915"
+  },
+  "schema_version": "1.0",
+  "settings": {
+    "bbox_inches": null,
+    "dpi": 600.0,
+    "facecolor": "white",
+    "figure_size_inches": [
+      4.15,
+      3.0
+    ],
+    "font_mode": "truetype",
+    "formats": [
+      "pdf",
+      "png"
+    ],
+    "pad_inches": 0.1,
+    "transparent": false
+  },
+  "versions": {
+    "matplotlib": "3.9.4",
+    "pillow": "11.3.0"
+  },
+  "warnings": []
+}

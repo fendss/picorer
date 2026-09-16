@@ -1,0 +1,34 @@
+{
+  "pid": 3199793,
+  "finished_at": 1789219474.368501,
+  "exit_code": 0,
+  "settled": true,
+  "counts": [
+    {
+      "stage": "answer",
+      "status": "completed",
+      "count": 100
+    },
+    {
+      "stage": "evaluation",
+      "status": "completed",
+      "count": 100
+    },
+    {
+      "stage": "retrieval",
+      "status": "completed",
+      "count": 100
+    }
+  ],
+  "restarts": {
+    "retrieval": 0,
+    "answer": 0,
+    "evaluation": 0
+  },
+  "exports": {
+    "agentmemorybench": {
+      "fact-mh-262k": 100
+    }
+  },
+  "export_error": null
+}

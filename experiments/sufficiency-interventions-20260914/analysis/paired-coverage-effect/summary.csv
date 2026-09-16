@@ -1,0 +1,2 @@
+questions,eligible_matched_pairs,control_mean,intervention_mean,mean_paired_change,ci_low,ci_high,questions_with_positive_mean_change,bootstrap_draws,bootstrap_seed,unit_of_inference
+64,1072,0.3599325726953516,0.8089017607172924,0.44896918802194086,0.4282549782831379,0.4661055291472801,64,2000,20260914,question

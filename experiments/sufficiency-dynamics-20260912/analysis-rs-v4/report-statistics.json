@@ -1,0 +1,160 @@
+{
+  "sample": {
+    "questions": 100,
+    "trajectories": 300,
+    "states": 2150
+  },
+  "reliability": {
+    "correlation": 0.999470620634102,
+    "binary_disagreements": 14
+  },
+  "first_positive": {
+    "ever_positive": 293,
+    "r_zero": 241,
+    "current_preview_gold": 236,
+    "historical_union_classes": {
+      "Partial": 253,
+      "Complete": 27,
+      "None": 13,
+      "Never positive": 7
+    },
+    "nonterminal_s_positive": 985,
+    "nonterminal_states": 1850,
+    "trajectories_with_reversals": 77
+  },
+  "evidence_changes": {
+    "no_new_gold": {
+      "transitions": 905,
+      "raw_mean_delta_s": 0.07230662679930097
+    },
+    "effects": [
+      {
+        "event": "Preview only",
+        "transitions": 498,
+        "raw_mean_delta_s": 3.2462349440938194,
+        "adjusted_delta_vs_no_gain": 2.325079400477391,
+        "ci_low": 1.781215146991922,
+        "ci_high": 2.7715620428161087
+      },
+      {
+        "event": "Commit already seen",
+        "transitions": 372,
+        "raw_mean_delta_s": 2.6171034835998856,
+        "adjusted_delta_vs_no_gain": 2.1117104083013336,
+        "ci_low": 1.7235188877126795,
+        "ci_high": 2.501294337846051
+      },
+      {
+        "event": "Commit newly seen",
+        "transitions": 75,
+        "raw_mean_delta_s": 2.4733333236289523,
+        "adjusted_delta_vs_no_gain": 2.1773310376904336,
+        "ci_low": 1.5912638610571606,
+        "ci_high": 2.6971206660828786
+      }
+    ]
+  },
+  "preview_reversal_incomplete_r": [
+    {
+      "current_preview_any": false,
+      "states": 507,
+      "successes": 80,
+      "rate": 0.15779092702169625,
+      "ci_low": 0.1111111111111111,
+      "ci_high": 0.2075118665302089
+    },
+    {
+      "current_preview_any": true,
+      "states": 237,
+      "successes": 14,
+      "rate": 0.05907172995780591,
+      "ci_low": 0.027888446215139442,
+      "ci_high": 0.09545948616600784
+    }
+  ],
+  "terminal": {
+    "cells": [
+      {
+        "r_state": "R 不完整",
+        "s_state": "S 为正",
+        "states": 98,
+        "successes": 5,
+        "rate": 0.05102040816326531,
+        "ci_low": 0.010866643291257598,
+        "ci_high": 0.0989010989010989
+      },
+      {
+        "r_state": "R 不完整",
+        "s_state": "S 非正",
+        "states": 29,
+        "successes": 1,
+        "rate": 0.034482758620689655,
+        "ci_low": 0.0,
+        "ci_high": 0.10256410256410256
+      },
+      {
+        "r_state": "R 完整",
+        "s_state": "S 为正",
+        "states": 163,
+        "successes": 124,
+        "rate": 0.7607361963190185,
+        "ci_low": 0.6611087570621469,
+        "ci_high": 0.85
+      },
+      {
+        "r_state": "R 完整",
+        "s_state": "S 非正",
+        "states": 10,
+        "successes": 3,
+        "rate": 0.3,
+        "ci_low": 0.0,
+        "ci_high": 0.5572916666666667
+      }
+    ],
+    "contrasts": {
+      "s_effect_when_incomplete": {
+        "estimate": 0.016537649542575653,
+        "ci_low": -0.06592329545454546,
+        "ci_high": 0.0875
+      },
+      "s_effect_when_full": {
+        "estimate": 0.46073619631901847,
+        "ci_low": 0.19714029697900667,
+        "ci_high": 0.7551140544518028
+      },
+      "interaction": {
+        "estimate": 0.4441985467764428,
+        "ci_low": 0.16877314657419365,
+        "ci_high": 0.7366687503272809
+      }
+    }
+  },
+  "same_question": {
+    "discordant_coverage_pairs": 72,
+    "paired_accuracy_difference": 0.5833333333333334,
+    "ci_low": 0.4305555555555556,
+    "ci_high": 0.7361111111111112,
+    "outcome_matrix_rows_incomplete_columns_full": [
+      [
+        27,
+        42
+      ],
+      [
+        0,
+        3
+      ]
+    ]
+  },
+  "selection_at_25_percent": {
+    "只按 S 排序": 0.64,
+    "只按标准证据覆盖率 R 排序": 0.7341040462427746,
+    "优先 R 完整，再按 S 排序": 0.8266666666666667
+  },
+  "limitations": [
+    "R uses gold annotations and cannot be deployed as an observable stop criterion.",
+    "Preview matches are section-isolated exact text matches, not semantic coverage.",
+    "Package contents, current displayed passages, and final answer prompt need not be identical.",
+    "No intermediate-state answers or controlled evidence interventions were collected.",
+    "All associations are exploratory; resampling preserves question-level dependence."
+  ]
+}

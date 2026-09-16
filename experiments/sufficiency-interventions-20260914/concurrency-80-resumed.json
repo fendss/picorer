@@ -1,0 +1,18 @@
+{
+  "workers": 80,
+  "workers_per_replica": 40,
+  "old_runner": 504061,
+  "old_supervisor": 503697,
+  "preserved_results": 19399,
+  "frozen_sha256": {
+    "jobs.json": "4e80d0ed368a2ac10e09553a0725f4bcc91160d669d0527abbd9eccbafd1f434",
+    "units.json": "49d8691633634ba2190d867f810db9e02557a5256a1d8fd06af7329c877c49b0",
+    "manifest.json": "a781c0dc026b8034b9282897bb7cc1e44987362101c11bcdc22ed789f75f8675",
+    "code/run.py": "7e861da3cdd0fda625506b9d2fa5662c40ca7043193cc0fdd73e870eae1d5c44",
+    "code/replica_scheduler.py": "1965d1ece017a65868e7cb62724eff15b1d228aba4947d0df3ce7033ba559c38"
+  },
+  "model_services_changed": false,
+  "gracefully_drained": true,
+  "updated_unix": 1789379089.215639,
+  "new_supervisor": 4005890
+}

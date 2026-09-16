@@ -1,0 +1,29 @@
+[project]
+name = "picorer-question-pipeline"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+  "editdistance==0.8.1",
+  "nltk==3.9.2",
+  "pandas>=2.2,<3",
+  "pyarrow==21.0.0",
+  "python-dotenv>=1,<2",
+  "redis>=5,<7",
+  "requests>=2.32,<3",
+  "rich>=13,<15",
+  "tiktoken==0.12.0",
+  "PyYAML>=6,<7",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["question_pipeline"]
+
+[project.scripts]
+picorer-question-pipeline = "question_pipeline.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

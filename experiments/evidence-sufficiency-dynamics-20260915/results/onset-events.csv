@@ -1,0 +1,6 @@
+sample,threshold,metric,estimate,ci_low,ci_high,eligible_questions,eligible_trajectories
+unconflicted,0.5,Reversal after first sufficiency onset,0.17460317460317454,0.10582010582010581,0.25396825396825395,63,187
+unconflicted,0.5,Persistence ratio after first sufficiency onset,0.929699375626694,0.8851971451496307,0.9658511274880323,63,188
+unconflicted,0.5,Answer accuracy at first sufficiency onset,0.013756613756613757,0.0,0.03597883597883598,63,188
+unconflicted,0.5,Answer accuracy at first full coverage,0.8783625730994152,0.8081725146198829,0.9350877192982454,57,134
+unconflicted,0.5,Lead in decision steps among trajectories with both events,2.9883040935672516,2.6753654970760237,3.3538011695906436,57,134

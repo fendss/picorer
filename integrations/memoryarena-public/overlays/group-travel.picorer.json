@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "suite": "group_travel_planner",
+  "base_config": "configs/travel_planner_configs/bm25.json",
+  "patch": {
+    "memory.memory_system_name": "${MEMORY_BACKEND}",
+    "memory.server_url": "${MEMORY_URL}",
+    "output.output_dir": "${RUN_DIR}/outputs/group_travel_planner",
+    "output.log_dir": "${RUN_DIR}/logs/group_travel_planner",
+    "output.global_csv": "${RUN_DIR}/metrics/group_travel_planner.csv"
+  },
+  "task_selection": {
+    "source": "public-task-manifest",
+    "mode": "complete"
+  }
+}

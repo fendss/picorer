@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "input": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-dynamics-20260912/coverage/complete-run/state-replica.csv",
+  "states": 738,
+  "questions": 100,
+  "state_replica_rows": 1476,
+  "bootstrap_draws": 2000,
+  "bootstrap_unit": "question",
+  "seed": 20260913,
+  "native_binary_rule": "native_logit_margin > 0",
+  "explicit_binary_rule": "j_sufficient_fraction > 0.5",
+  "coverage_conditioning": "average states within each question and exact R level, then average questions",
+  "temporal_aggregation": "interpolate each trajectory to a common normalized-progress grid, then average questions",
+  "brand_palette": {
+    "Carnegie Red": "#C41230",
+    "Black": "#000000",
+    "Iron Gray": "#6D6E71",
+    "Steel Gray": "#E0E0E0",
+    "Weaver Blue": "#182C4B"
+  }
+}

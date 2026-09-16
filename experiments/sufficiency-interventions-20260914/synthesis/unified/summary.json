@@ -1,0 +1,165 @@
+{
+  "temporal_midpoint": [
+    {
+      "progress": 0.49999999999999994,
+      "metric": "r",
+      "mean": 0.11545138888888888,
+      "low": 0.0759548611111111,
+      "high": 0.16145833333333331,
+      "questions": 64,
+      "trajectories": 192
+    },
+    {
+      "progress": 0.49999999999999994,
+      "metric": "likelihood",
+      "mean": 0.6107545877020264,
+      "low": 0.5413497734953503,
+      "high": 0.6776698957347502,
+      "questions": 64,
+      "trajectories": 192
+    },
+    {
+      "progress": 0.49999999999999994,
+      "metric": "margin",
+      "mean": 0.513346349905684,
+      "low": -0.007210299057343672,
+      "high": 1.015722659600214,
+      "questions": 64,
+      "trajectories": 192
+    }
+  ],
+  "temporal_terminal": [
+    {
+      "progress": 1.0,
+      "metric": "r",
+      "mean": 0.825954861111111,
+      "low": 0.7708333333333334,
+      "high": 0.8771809895833332,
+      "questions": 64,
+      "trajectories": 192
+    },
+    {
+      "progress": 1.0,
+      "metric": "likelihood",
+      "mean": 0.9271709091372486,
+      "low": 0.8784725621900112,
+      "high": 0.9687925434168944,
+      "questions": 64,
+      "trajectories": 192
+    },
+    {
+      "progress": 1.0,
+      "metric": "margin",
+      "mean": 5.999674456307831,
+      "low": 5.306160453929389,
+      "high": 6.615706349741664,
+      "questions": 64,
+      "trajectories": 192
+    }
+  ],
+  "full_support_from": 0.35,
+  "coverage_samples": [
+    {
+      "hops": 2,
+      "r": 0.0,
+      "questions": 49
+    },
+    {
+      "hops": 2,
+      "r": 0.5,
+      "questions": 44
+    },
+    {
+      "hops": 2,
+      "r": 1.0,
+      "questions": 47
+    },
+    {
+      "hops": 3,
+      "r": 0.0,
+      "questions": 7
+    },
+    {
+      "hops": 3,
+      "r": 0.3333333333333333,
+      "questions": 7
+    },
+    {
+      "hops": 3,
+      "r": 0.6666666666666666,
+      "questions": 6
+    },
+    {
+      "hops": 3,
+      "r": 1.0,
+      "questions": 5
+    },
+    {
+      "hops": 4,
+      "r": 0.0,
+      "questions": 8
+    },
+    {
+      "hops": 4,
+      "r": 0.25,
+      "questions": 7
+    },
+    {
+      "hops": 4,
+      "r": 0.5,
+      "questions": 5
+    },
+    {
+      "hops": 4,
+      "r": 0.75,
+      "questions": 5
+    },
+    {
+      "hops": 4,
+      "r": 1.0,
+      "questions": 5
+    }
+  ],
+  "time_regression_r": [
+    {
+      "outcome": "margin",
+      "controls": "r+tau",
+      "term": "r",
+      "estimate": 1.772947552125983,
+      "low": 0.6941651142951066,
+      "high": 2.7688605519194396,
+      "questions": 64,
+      "states": 1181
+    },
+    {
+      "outcome": "margin",
+      "controls": "r+tau+tau2",
+      "term": "r",
+      "estimate": 2.103825296149471,
+      "low": 1.022925086353884,
+      "high": 3.0905983184393864,
+      "questions": 64,
+      "states": 1181
+    },
+    {
+      "outcome": "likelihood",
+      "controls": "r+tau",
+      "term": "r",
+      "estimate": -0.18159584199763829,
+      "low": -0.3236066785020212,
+      "high": -0.056334414430285994,
+      "questions": 64,
+      "states": 1181
+    },
+    {
+      "outcome": "likelihood",
+      "controls": "r+tau+tau2",
+      "term": "r",
+      "estimate": -0.016791181328074493,
+      "low": -0.11950634753530852,
+      "high": 0.07779669813679933,
+      "questions": 64,
+      "states": 1181
+    }
+  ]
+}

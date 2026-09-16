@@ -1,0 +1,2450 @@
+{
+  "status": "passed",
+  "csv_files_checked": 161,
+  "rule": "For every copied CSV, row count, column order, and all numeric columns match the source copy within 1e-12.",
+  "checks": [
+    {
+      "path": "evidence-sufficiency-dynamics-20260915/experiment-1-evidence-sensitivity/results/controlled-support-pairs.csv",
+      "status": "matched",
+      "rows": 1072,
+      "numeric_columns_verified": [
+        "gold_hops",
+        "order",
+        "before_mask",
+        "after_mask",
+        "added_hop",
+        "before_coverage",
+        "after_coverage",
+        "completes_coverage",
+        "delta_margin",
+        "delta_likelihood",
+        "delta_answer_accuracy",
+        "delta_exact_match",
+        "delta_input_tokens"
+      ]
+    },
+    {
+      "path": "evidence-sufficiency-dynamics-20260915/experiment-1-evidence-sensitivity/results/effect-summary.csv",
+      "status": "matched",
+      "rows": 10,
+      "numeric_columns_verified": [
+        "estimate",
+        "ci_low",
+        "ci_high",
+        "median_question_effect",
+        "median_ci_low",
+        "median_ci_high",
+        "question_weighted_positive_pair_probability",
+        "positive_probability_ci_low",
+        "positive_probability_ci_high",
+        "question_weighted_zero_pair_probability",
+        "zero_probability_ci_low",
+        "zero_probability_ci_high",
+        "question_weighted_negative_pair_probability",
+        "negative_probability_ci_low",
+        "negative_probability_ci_high",
+        "fraction_questions_positive_mean",
+        "fraction_questions_positive_mean_ci_low",
+        "fraction_questions_positive_mean_ci_high",
+        "sign_flip_p_two_sided",
+        "sign_flip_p_holm_primary",
+        "questions",
+        "pairs"
+      ]
+    },
+    {
+      "path": "evidence-sufficiency-dynamics-20260915/experiment-1-evidence-sensitivity/results/figure-data.csv",
+      "status": "matched",
+      "rows": 4,
+      "numeric_columns_verified": [
+        "estimate",
+        "ci_low",
+        "ci_high",
+        "questions",
+        "pairs"
+      ]
+    },
+    {
+      "path": "evidence-sufficiency-dynamics-20260915/experiment-1-evidence-sensitivity/results/hop-sensitivity.csv",
+      "status": "matched",
+      "rows": 30,
+      "numeric_columns_verified": [
+        "gold_hops",
+        "estimate",
+        "ci_low",
+        "ci_high",
+        "question_weighted_positive_pair_probability",
+        "positive_probability_ci_low",
+        "positive_probability_ci_high",
+        "questions",
+        "pairs"
+      ]
+    },
+    {
+      "path": "evidence-sufficiency-dynamics-20260915/experiment-1-evidence-sensitivity/results/order-sensitivity.csv",
+      "status": "matched",
+      "rows": 10,
+      "numeric_columns_verified": [
+        "order_first",
+        "order_first_estimate",
+        "order_first_ci_low",
+        "order_first_ci_high",
+        "order_second",
+        "order_second_estimate",
+        "order_second_ci_low",
+        "order_second_ci_high",
+        "second_minus_first",
+        "difference_ci_low",
+        "difference_ci_high",
+        "question_rank_correlation",
+        "questions"
+      ]
+    },
+    {
+      "path": "evidence-sufficiency-dynamics-20260915/results/answer-predictiveness.csv",
+      "status": "matched",
+      "rows": 10,
+      "numeric_columns_verified": [
+        "estimate",
+        "low",
+        "high"
+      ]
+    },
+    {
+      "path": "evidence-sufficiency-dynamics-20260915/results/controlled-effects.csv",
+      "status": "matched",
+      "rows": 10,
+      "numeric_columns_verified": [
+        "estimate",
+        "ci_low",
+        "ci_high",
+        "questions",
+        "pairs"
+      ]
+    },
+    {
+      "path": "evidence-sufficiency-dynamics-20260915/results/controlled-support-pairs.csv",
+      "status": "matched",
+      "rows": 1072,
+      "numeric_columns_verified": [
+        "order",
+        "gold_hops",
+        "before_mask",
+        "added_hop",
+        "final_missing_hop",
+        "before_r",
+        "after_r",
+        "delta_margin",
+        "delta_likelihood",
+        "delta_answer_accuracy",
+        "delta_exact_match",
+        "delta_input_tokens"
+      ]
+    },
+    {
+      "path": "evidence-sufficiency-dynamics-20260915/results/event-aligned-summary.csv",
+      "status": "matched",
+      "rows": 15,
+      "numeric_columns_verified": [
+        "offset",
+        "estimate",
+        "ci_low",
+        "ci_high",
+        "questions",
+        "trajectories"
+      ]
+    },
+    {
+      "path": "evidence-sufficiency-dynamics-20260915/results/event-aligned-trajectories.csv",
+      "status": "matched",
+      "rows": 445,
+      "numeric_columns_verified": [
+        "run",
+        "offset",
+        "sufficiency_likelihood",
+        "native_margin",
+        "answer_accuracy"
+      ]
+    },
+    {
+      "path": "evidence-sufficiency-dynamics-20260915/results/evidence-sufficiency-coupling.csv",
+      "status": "matched",
+      "rows": 10,
+      "numeric_columns_verified": [
+        "estimate",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "path": "evidence-sufficiency-dynamics-20260915/results/full100-sensitivity.csv",
+      "status": "matched",
+      "rows": 32,
+      "numeric_columns_verified": [
+        "estimate",
+        "ci_low",
+        "ci_high",
+        "eligible_questions",
+        "denominator_transitions",
+        "threshold",
+        "trajectories",
+        "total_trajectories",
+        "question_weighted_fraction",
+        "questions",
+        "eligible_trajectories",
+        "pairs"
+      ]
+    },
+    {
+      "path": "evidence-sufficiency-dynamics-20260915/results/hop-stratified.csv",
+      "status": "matched",
+      "rows": 96,
+      "numeric_columns_verified": [
+        "estimate",
+        "ci_low",
+        "ci_high",
+        "eligible_questions",
+        "denominator_transitions",
+        "threshold",
+        "trajectories",
+        "total_trajectories",
+        "question_weighted_fraction",
+        "questions",
+        "eligible_trajectories",
+        "pairs"
+      ]
+    },
+    {
+      "path": "evidence-sufficiency-dynamics-20260915/results/natural-states-with-packages.csv",
+      "status": "matched",
+      "rows": 2150,
+      "numeric_columns_verified": [
+        "conflicted",
+        "gold_hops",
+        "ordinal",
+        "r",
+        "run",
+        "step",
+        "trajectory_length",
+        "native_n",
+        "margin",
+        "likelihood",
+        "replica_margin_difference",
+        "input_tokens",
+        "answer_n",
+        "official_score",
+        "exact_match",
+        "f1",
+        "fallback_n",
+        "complete",
+        "mask",
+        "order",
+        "condition",
+        "introduced_hops",
+        "parent_state",
+        "preview_slots"
+      ]
+    },
+    {
+      "path": "evidence-sufficiency-dynamics-20260915/results/natural-transitions.csv",
+      "status": "matched",
+      "rows": 989,
+      "numeric_columns_verified": [
+        "conflicted",
+        "gold_hops",
+        "ordinal",
+        "r",
+        "run",
+        "step",
+        "trajectory_length",
+        "native_n",
+        "margin",
+        "likelihood",
+        "replica_margin_difference",
+        "input_tokens",
+        "answer_n",
+        "official_score",
+        "exact_match",
+        "f1",
+        "fallback_n",
+        "complete",
+        "mask",
+        "order",
+        "condition",
+        "introduced_hops",
+        "parent_state",
+        "preview_slots",
+        "previous_margin",
+        "previous_r",
+        "delta_margin",
+        "delta_r",
+        "normalized_progress",
+        "package_changed",
+        "support_gain",
+        "sufficiency_rise"
+      ]
+    },
+    {
+      "path": "evidence-sufficiency-dynamics-20260915/results/onset-categories.csv",
+      "status": "matched",
+      "rows": 6,
+      "numeric_columns_verified": [
+        "threshold",
+        "trajectories",
+        "total_trajectories",
+        "question_weighted_fraction",
+        "ci_low",
+        "ci_high",
+        "questions"
+      ]
+    },
+    {
+      "path": "evidence-sufficiency-dynamics-20260915/results/onset-events.csv",
+      "status": "matched",
+      "rows": 5,
+      "numeric_columns_verified": [
+        "threshold",
+        "estimate",
+        "ci_low",
+        "ci_high",
+        "eligible_questions",
+        "eligible_trajectories"
+      ]
+    },
+    {
+      "path": "evidence-sufficiency-dynamics-20260915/results/package-change-decomposition.csv",
+      "status": "matched",
+      "rows": 3,
+      "numeric_columns_verified": [
+        "support_gain",
+        "package_changed",
+        "transitions",
+        "raw_rise_fraction",
+        "raw_mean_delta_margin",
+        "questions"
+      ]
+    },
+    {
+      "path": "evidence-sufficiency-dynamics-20260915/results/specificity.csv",
+      "status": "matched",
+      "rows": 11,
+      "numeric_columns_verified": [
+        "estimate",
+        "ci_low",
+        "ci_high",
+        "eligible_questions",
+        "denominator_transitions"
+      ]
+    },
+    {
+      "path": "evidence-sufficiency-dynamics-20260915/results/threshold-sensitivity.csv",
+      "status": "matched",
+      "rows": 33,
+      "numeric_columns_verified": [
+        "threshold",
+        "trajectories",
+        "total_trajectories",
+        "question_weighted_fraction",
+        "ci_low",
+        "ci_high",
+        "questions",
+        "estimate",
+        "eligible_questions",
+        "eligible_trajectories"
+      ]
+    },
+    {
+      "path": "evidence-sufficiency-dynamics-20260915/results/trajectory-onsets.csv",
+      "status": "matched",
+      "rows": 192,
+      "numeric_columns_verified": [
+        "run",
+        "gold_hops",
+        "threshold",
+        "t_s",
+        "t_r",
+        "lead_steps",
+        "has_later_state_after_t_s",
+        "persistence_ratio",
+        "answer_accuracy_at_t_s",
+        "answer_accuracy_at_t_r"
+      ]
+    },
+    {
+      "path": "evidence-sufficiency-dynamics-20260915/results/transition-regression.csv",
+      "status": "matched",
+      "rows": 8,
+      "numeric_columns_verified": [
+        "coefficient",
+        "ci_low",
+        "ci_high",
+        "odds_ratio",
+        "odds_ratio_ci_low",
+        "odds_ratio_ci_high",
+        "questions",
+        "transitions"
+      ]
+    },
+    {
+      "path": "fact-mh-rq1-rq2-20260914/cross-tabs.csv",
+      "status": "matched",
+      "rows": 81,
+      "numeric_columns_verified": [
+        "package_complete",
+        "handoff_complete",
+        "correct",
+        "trajectories"
+      ]
+    },
+    {
+      "path": "fact-mh-rq1-rq2-20260914/summary.csv",
+      "status": "matched",
+      "rows": 12,
+      "numeric_columns_verified": [
+        "questions",
+        "trajectories",
+        "correct",
+        "matched_trajectories",
+        "sufficient",
+        "insufficient",
+        "package_incomplete",
+        "handoff_incomplete",
+        "sufficient_package_incomplete",
+        "sufficient_handoff_incomplete",
+        "sufficient_package_incomplete_correct",
+        "sufficient_handoff_incomplete_correct",
+        "at_search_cap"
+      ]
+    },
+    {
+      "path": "fact-mh-rq1-rq2-20260914/terminal-trajectories.csv",
+      "status": "matched",
+      "rows": 600,
+      "numeric_columns_verified": [
+        "primary_no_conflict",
+        "match_count",
+        "all_stages_completed",
+        "final_official_score",
+        "log_line",
+        "successful_finish_count",
+        "last_event_is_successful_finish",
+        "search_calls",
+        "max_search_calls",
+        "at_search_cap",
+        "tool_errors",
+        "trace_event_count",
+        "read_call_count",
+        "final_evidence_sources",
+        "final_evidence_hashes_valid",
+        "finish_commit_matches_final_ids",
+        "all_read_source_ids_retained",
+        "last_read_source_ids_retained",
+        "all_read_ranges_retained",
+        "last_read_precedes_finish",
+        "gold_hops",
+        "package_complete",
+        "handoff_complete",
+        "handoff_bytes"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v2/round3/coverage-question-balanced.csv",
+      "status": "matched",
+      "rows": 254,
+      "numeric_columns_verified": [
+        "r",
+        "margin",
+        "stop_rate",
+        "native_probability",
+        "rounds"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v2/round3/coverage-summary.csv",
+      "status": "matched",
+      "rows": 7,
+      "numeric_columns_verified": [
+        "r",
+        "questions",
+        "margin_mean",
+        "margin_ci_low",
+        "margin_ci_high",
+        "stop_rate_mean",
+        "stop_rate_ci_low",
+        "stop_rate_ci_high",
+        "native_probability_mean",
+        "native_probability_ci_low",
+        "native_probability_ci_high"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v2/round3/event-question-balanced.csv",
+      "status": "matched",
+      "rows": 197,
+      "numeric_columns_verified": [
+        "delta_margin",
+        "positive_shift",
+        "rounds"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v2/round3/event-summary.csv",
+      "status": "matched",
+      "rows": 2,
+      "numeric_columns_verified": [
+        "questions",
+        "delta_margin_mean",
+        "delta_margin_ci_low",
+        "delta_margin_ci_high",
+        "positive_shift_rate",
+        "positive_shift_ci_low",
+        "positive_shift_ci_high"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v2/round3/round-effects.csv",
+      "status": "matched",
+      "rows": 2,
+      "numeric_columns_verified": [
+        "r_coefficient",
+        "r_ci_low",
+        "r_ci_high",
+        "tau_coefficient",
+        "tau_ci_low",
+        "tau_ci_high",
+        "within_r_squared",
+        "questions",
+        "states"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v2/round3/states-collapsed.csv",
+      "status": "matched",
+      "rows": 738,
+      "numeric_columns_verified": [
+        "decision_step",
+        "trajectory_length",
+        "tau",
+        "r",
+        "margin",
+        "native_probability",
+        "positive_replicas",
+        "correct",
+        "replica_margin_sd",
+        "native_positive",
+        "delta_r",
+        "delta_margin",
+        "evidence_gain"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v2/round3/temporal-curves.csv",
+      "status": "matched",
+      "rows": 51,
+      "numeric_columns_verified": [
+        "tau",
+        "questions",
+        "r_mean",
+        "r_ci_low",
+        "r_ci_high",
+        "margin_mean",
+        "margin_ci_low",
+        "margin_ci_high"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v2/round3/terminal-states.csv",
+      "status": "matched",
+      "rows": 100,
+      "numeric_columns_verified": [
+        "decision_step",
+        "trajectory_length",
+        "tau",
+        "r",
+        "margin",
+        "native_probability",
+        "positive_replicas",
+        "correct",
+        "replica_margin_sd",
+        "native_positive",
+        "delta_r",
+        "delta_margin",
+        "evidence_gain",
+        "full_coverage"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v2/smoke/coverage-question-balanced.csv",
+      "status": "matched",
+      "rows": 254,
+      "numeric_columns_verified": [
+        "r",
+        "margin",
+        "stop_rate",
+        "native_probability",
+        "rounds"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v2/smoke/coverage-summary.csv",
+      "status": "matched",
+      "rows": 7,
+      "numeric_columns_verified": [
+        "r",
+        "questions",
+        "margin_mean",
+        "margin_ci_low",
+        "margin_ci_high",
+        "stop_rate_mean",
+        "stop_rate_ci_low",
+        "stop_rate_ci_high",
+        "native_probability_mean",
+        "native_probability_ci_low",
+        "native_probability_ci_high"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v2/smoke/event-question-balanced.csv",
+      "status": "matched",
+      "rows": 197,
+      "numeric_columns_verified": [
+        "delta_margin",
+        "positive_shift",
+        "rounds"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v2/smoke/event-summary.csv",
+      "status": "matched",
+      "rows": 2,
+      "numeric_columns_verified": [
+        "questions",
+        "delta_margin_mean",
+        "delta_margin_ci_low",
+        "delta_margin_ci_high",
+        "positive_shift_rate",
+        "positive_shift_ci_low",
+        "positive_shift_ci_high"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v2/smoke/round-effects.csv",
+      "status": "matched",
+      "rows": 1,
+      "numeric_columns_verified": [
+        "r_coefficient",
+        "r_ci_low",
+        "r_ci_high",
+        "tau_coefficient",
+        "tau_ci_low",
+        "tau_ci_high",
+        "within_r_squared",
+        "questions",
+        "states"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v2/smoke/sensitivity-effects.csv",
+      "status": "matched",
+      "rows": 2,
+      "numeric_columns_verified": [
+        "questions",
+        "trajectories",
+        "states",
+        "r_coefficient",
+        "r_ci_low",
+        "r_ci_high",
+        "tau_coefficient",
+        "tau_ci_low",
+        "tau_ci_high",
+        "within_r_squared"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v2/smoke/states-collapsed.csv",
+      "status": "matched",
+      "rows": 738,
+      "numeric_columns_verified": [
+        "decision_step",
+        "trajectory_length",
+        "tau",
+        "r",
+        "margin",
+        "native_probability",
+        "positive_replicas",
+        "correct",
+        "conflicted",
+        "replica_margin_sd",
+        "native_positive",
+        "delta_r",
+        "delta_margin",
+        "evidence_gain"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v2/smoke/temporal-curves.csv",
+      "status": "matched",
+      "rows": 51,
+      "numeric_columns_verified": [
+        "tau",
+        "questions",
+        "r_mean",
+        "r_ci_low",
+        "r_ci_high",
+        "margin_mean",
+        "margin_ci_low",
+        "margin_ci_high"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v2/smoke/terminal-states.csv",
+      "status": "matched",
+      "rows": 100,
+      "numeric_columns_verified": [
+        "decision_step",
+        "trajectory_length",
+        "tau",
+        "r",
+        "margin",
+        "native_probability",
+        "positive_replicas",
+        "correct",
+        "conflicted",
+        "replica_margin_sd",
+        "native_positive",
+        "delta_r",
+        "delta_margin",
+        "evidence_gain",
+        "full_coverage"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v2/three-rounds/coverage-question-balanced.csv",
+      "status": "matched",
+      "rows": 308,
+      "numeric_columns_verified": [
+        "r",
+        "margin",
+        "stop_rate",
+        "native_probability",
+        "rounds"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v2/three-rounds/coverage-summary.csv",
+      "status": "matched",
+      "rows": 7,
+      "numeric_columns_verified": [
+        "r",
+        "questions",
+        "margin_mean",
+        "margin_ci_low",
+        "margin_ci_high",
+        "stop_rate_mean",
+        "stop_rate_ci_low",
+        "stop_rate_ci_high",
+        "native_probability_mean",
+        "native_probability_ci_low",
+        "native_probability_ci_high"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v2/three-rounds/deep-dive/explicit-j-bias.csv",
+      "status": "matched",
+      "rows": 3,
+      "numeric_columns_verified": [
+        "states",
+        "native_positive_rate",
+        "explicit_majority_sufficient_rate",
+        "explicit_mean_sufficient_fraction"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v2/three-rounds/deep-dive/states-with-visible-context.csv",
+      "status": "matched",
+      "rows": 2150,
+      "numeric_columns_verified": [
+        "decision_step",
+        "trajectory_length",
+        "tau",
+        "committed_r",
+        "native_s",
+        "explicit_j",
+        "correct",
+        "conflicted",
+        "gold_hop_count",
+        "committed_coverage_r",
+        "current_preview_gold_count",
+        "current_preview_coverage",
+        "visible_or_committed_coverage",
+        "ever_seen_or_committed_coverage",
+        "native_positive",
+        "explicit_positive",
+        "terminal"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v2/three-rounds/deep-dive/terminal-gate.csv",
+      "status": "matched",
+      "rows": 4,
+      "numeric_columns_verified": [
+        "full_committed_coverage",
+        "native_positive",
+        "trajectories",
+        "correct",
+        "accuracy",
+        "ci_low",
+        "ci_high",
+        "bootstrap_valid_draws"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v2/three-rounds/deep-dive/trajectory-crossings.csv",
+      "status": "matched",
+      "rows": 300,
+      "numeric_columns_verified": [
+        "correct",
+        "trajectory_length",
+        "ever_positive",
+        "first_positive_step",
+        "first_positive_tau",
+        "first_positive_committed_r",
+        "first_positive_visible_r",
+        "first_positive_has_current_gold_preview",
+        "first_positive_before_committed_full",
+        "sign_reversals"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v2/three-rounds/event-question-balanced.csv",
+      "status": "matched",
+      "rows": 200,
+      "numeric_columns_verified": [
+        "delta_margin",
+        "positive_shift",
+        "rounds"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v2/three-rounds/event-summary.csv",
+      "status": "matched",
+      "rows": 2,
+      "numeric_columns_verified": [
+        "questions",
+        "delta_margin_mean",
+        "delta_margin_ci_low",
+        "delta_margin_ci_high",
+        "positive_shift_rate",
+        "positive_shift_ci_low",
+        "positive_shift_ci_high"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v2/three-rounds/round-effects.csv",
+      "status": "matched",
+      "rows": 4,
+      "numeric_columns_verified": [
+        "r_coefficient",
+        "r_ci_low",
+        "r_ci_high",
+        "tau_coefficient",
+        "tau_ci_low",
+        "tau_ci_high",
+        "within_r_squared",
+        "questions",
+        "states"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v2/three-rounds/sensitivity-effects.csv",
+      "status": "matched",
+      "rows": 2,
+      "numeric_columns_verified": [
+        "questions",
+        "trajectories",
+        "states",
+        "r_coefficient",
+        "r_ci_low",
+        "r_ci_high",
+        "tau_coefficient",
+        "tau_ci_low",
+        "tau_ci_high",
+        "within_r_squared"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v2/three-rounds/states-collapsed.csv",
+      "status": "matched",
+      "rows": 2150,
+      "numeric_columns_verified": [
+        "decision_step",
+        "trajectory_length",
+        "tau",
+        "r",
+        "margin",
+        "native_probability",
+        "positive_replicas",
+        "correct",
+        "conflicted",
+        "replica_margin_sd",
+        "native_positive",
+        "delta_r",
+        "delta_margin",
+        "evidence_gain"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v2/three-rounds/temporal-curves.csv",
+      "status": "matched",
+      "rows": 51,
+      "numeric_columns_verified": [
+        "tau",
+        "questions",
+        "r_mean",
+        "r_ci_low",
+        "r_ci_high",
+        "margin_mean",
+        "margin_ci_low",
+        "margin_ci_high"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v2/three-rounds/terminal-states.csv",
+      "status": "matched",
+      "rows": 300,
+      "numeric_columns_verified": [
+        "decision_step",
+        "trajectory_length",
+        "tau",
+        "r",
+        "margin",
+        "native_probability",
+        "positive_replicas",
+        "correct",
+        "conflicted",
+        "replica_margin_sd",
+        "native_positive",
+        "delta_r",
+        "delta_margin",
+        "evidence_gain",
+        "full_coverage"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v2/three-rounds/visible-context-coverage.csv",
+      "status": "matched",
+      "rows": 2150,
+      "numeric_columns_verified": [
+        "decision_step",
+        "gold_hop_count",
+        "committed_coverage_r",
+        "current_preview_gold_count",
+        "current_preview_coverage",
+        "visible_or_committed_coverage",
+        "ever_seen_or_committed_coverage"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v3/ten-pass/01-measurement-reliability.csv",
+      "status": "matched",
+      "rows": 2,
+      "numeric_columns_verified": [
+        "pearson_r",
+        "icc_2_1",
+        "mean_absolute_difference",
+        "mean_difference",
+        "loa_low",
+        "loa_high",
+        "sign_disagreement_rate"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v3/ten-pass/02-j-negative-control.csv",
+      "status": "matched",
+      "rows": 1,
+      "numeric_columns_verified": [
+        "states",
+        "native_positive_rate",
+        "j_majority_sufficient_rate",
+        "j_mean",
+        "j_median",
+        "j_q05",
+        "j_q95"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v3/ten-pass/03-event-times.csv",
+      "status": "matched",
+      "rows": 300,
+      "numeric_columns_verified": [
+        "first_visible_any_tau",
+        "first_visible_any_step",
+        "first_s_positive_tau",
+        "first_s_positive_step",
+        "first_committed_any_tau",
+        "first_committed_any_step",
+        "first_visible_full_tau",
+        "first_visible_full_step",
+        "first_committed_full_tau",
+        "first_committed_full_step"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v3/ten-pass/04-first-positive-evidence.csv",
+      "status": "matched",
+      "rows": 300,
+      "numeric_columns_verified": [
+        "current_preview_has_gold",
+        "first_positive_tau"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v3/ten-pass/05-evidence-gain-response.csv",
+      "status": "matched",
+      "rows": 3,
+      "numeric_columns_verified": [
+        "transitions",
+        "raw_mean_delta_s",
+        "adjusted_delta_vs_no_gain",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v3/ten-pass/06-reversal-by-preview.csv",
+      "status": "matched",
+      "rows": 4,
+      "numeric_columns_verified": [
+        "states",
+        "successes",
+        "rate",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v3/ten-pass/07-predictive-models.csv",
+      "status": "matched",
+      "rows": 8,
+      "numeric_columns_verified": [
+        "oof_r2"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v3/ten-pass/07-predictive-r2-decomposition.csv",
+      "status": "matched",
+      "rows": 3,
+      "numeric_columns_verified": [
+        "shapley_r2",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v3/ten-pass/08-terminal-evidence-gate.csv",
+      "status": "matched",
+      "rows": 4,
+      "numeric_columns_verified": [
+        "states",
+        "successes",
+        "rate",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v3/ten-pass/09-within-question-pairs.csv",
+      "status": "matched",
+      "rows": 72,
+      "numeric_columns_verified": [
+        "incomplete_correct",
+        "full_correct",
+        "paired_difference"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v3/ten-pass/10-selective-accuracy.csv",
+      "status": "matched",
+      "rows": 273,
+      "numeric_columns_verified": [
+        "retained_fraction",
+        "retained",
+        "accuracy"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v4/05-evidence-gain-response.csv",
+      "status": "matched",
+      "rows": 3,
+      "numeric_columns_verified": [
+        "transitions",
+        "raw_mean_delta_s",
+        "adjusted_delta_vs_no_gain",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v4/08-terminal-evidence-gate.csv",
+      "status": "matched",
+      "rows": 4,
+      "numeric_columns_verified": [
+        "states",
+        "successes",
+        "rate",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v4/09-within-question-pairs.csv",
+      "status": "matched",
+      "rows": 72,
+      "numeric_columns_verified": [
+        "incomplete_correct",
+        "full_correct",
+        "paired_difference"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v4/event-times.csv",
+      "status": "matched",
+      "rows": 300,
+      "numeric_columns_verified": [
+        "first_visible_any_tau",
+        "first_visible_any_step",
+        "first_s_positive_tau",
+        "first_s_positive_step",
+        "first_committed_any_tau",
+        "first_committed_any_step",
+        "first_visible_full_tau",
+        "first_visible_full_step",
+        "first_committed_full_tau",
+        "first_committed_full_step"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v4/oracle-ranking.csv",
+      "status": "matched",
+      "rows": 273,
+      "numeric_columns_verified": [
+        "retained_fraction",
+        "accuracy"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v4/preview-reversal.csv",
+      "status": "matched",
+      "rows": 2,
+      "numeric_columns_verified": [
+        "current_preview_any",
+        "states",
+        "successes",
+        "rate",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v4/states.csv",
+      "status": "matched",
+      "rows": 2150,
+      "numeric_columns_verified": [
+        "decision_step",
+        "trajectory_length",
+        "tau",
+        "committed_r",
+        "native_s",
+        "correct",
+        "conflicted",
+        "gold_hop_count",
+        "committed_coverage_r",
+        "current_preview_gold_count",
+        "current_preview_coverage",
+        "visible_or_committed_coverage",
+        "ever_seen_or_committed_coverage",
+        "native_positive",
+        "terminal",
+        "prev_native_s",
+        "delta_native_s",
+        "prev_committed_r",
+        "delta_committed_r",
+        "prev_current_preview_coverage",
+        "delta_current_preview_coverage",
+        "prev_ever_seen_or_committed_coverage",
+        "delta_ever_seen_or_committed_coverage",
+        "full_committed",
+        "current_preview_any",
+        "prev_native_positive",
+        "reversal"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v4/trajectories.csv",
+      "status": "matched",
+      "rows": 300,
+      "numeric_columns_verified": [
+        "correct",
+        "trajectory_length",
+        "ever_positive",
+        "first_positive_step",
+        "first_positive_tau",
+        "first_positive_committed_r",
+        "first_positive_visible_r",
+        "first_positive_has_current_gold_preview",
+        "first_positive_before_committed_full",
+        "sign_reversals"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v4/visible-context-coverage.csv",
+      "status": "matched",
+      "rows": 2150,
+      "numeric_columns_verified": [
+        "decision_step",
+        "gold_hop_count",
+        "committed_coverage_r",
+        "current_preview_gold_count",
+        "current_preview_coverage",
+        "visible_or_committed_coverage",
+        "ever_seen_or_committed_coverage"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v5/correlations.csv",
+      "status": "matched",
+      "rows": 6,
+      "numeric_columns_verified": [
+        "estimate",
+        "low",
+        "high"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v5/coverage-means.csv",
+      "status": "matched",
+      "rows": 38,
+      "numeric_columns_verified": [
+        "hops",
+        "r",
+        "mean",
+        "low",
+        "high",
+        "questions"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v5/coverage-question-means.csv",
+      "status": "matched",
+      "rows": 308,
+      "numeric_columns_verified": [
+        "gold_hop_count",
+        "committed_r",
+        "p",
+        "native_s"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v5/states-with-sigmoid.csv",
+      "status": "matched",
+      "rows": 2150,
+      "numeric_columns_verified": [
+        "decision_step",
+        "trajectory_length",
+        "tau",
+        "committed_r",
+        "native_s",
+        "correct",
+        "conflicted",
+        "gold_hop_count",
+        "committed_coverage_r",
+        "current_preview_gold_count",
+        "current_preview_coverage",
+        "visible_or_committed_coverage",
+        "ever_seen_or_committed_coverage",
+        "native_positive",
+        "terminal",
+        "prev_native_s",
+        "delta_native_s",
+        "prev_committed_r",
+        "delta_committed_r",
+        "prev_current_preview_coverage",
+        "delta_current_preview_coverage",
+        "prev_ever_seen_or_committed_coverage",
+        "delta_ever_seen_or_committed_coverage",
+        "full_committed",
+        "current_preview_any",
+        "prev_native_positive",
+        "reversal",
+        "p",
+        "tau2"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v5/temporal-aligned-means.csv",
+      "status": "matched",
+      "rows": 63,
+      "numeric_columns_verified": [
+        "progress",
+        "mean",
+        "low",
+        "high",
+        "questions",
+        "trajectories"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v5/temporal-aligned-question-values.csv",
+      "status": "matched",
+      "rows": 2100,
+      "numeric_columns_verified": [
+        "progress",
+        "p",
+        "native_s",
+        "r"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v5/temporal-aligned-trajectory-values.csv",
+      "status": "matched",
+      "rows": 6300,
+      "numeric_columns_verified": [
+        "progress",
+        "p",
+        "native_s",
+        "r"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v5/temporal-original-means.csv",
+      "status": "matched",
+      "rows": 60,
+      "numeric_columns_verified": [
+        "progress",
+        "mean",
+        "low",
+        "high",
+        "questions",
+        "trajectories"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v5/temporal-original-question-values.csv",
+      "status": "matched",
+      "rows": 1782,
+      "numeric_columns_verified": [
+        "progress",
+        "p",
+        "native_s",
+        "r"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v5/temporal-original-trajectory-values.csv",
+      "status": "matched",
+      "rows": 5143,
+      "numeric_columns_verified": [
+        "progress",
+        "p",
+        "native_s",
+        "r"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v5/terminal-empirical-quartiles.csv",
+      "status": "matched",
+      "rows": 16,
+      "numeric_columns_verified": [
+        "full",
+        "x",
+        "accuracy",
+        "n",
+        "correct",
+        "x_min",
+        "x_max"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v5/terminal-logistic-regression.csv",
+      "status": "matched",
+      "rows": 16,
+      "numeric_columns_verified": [
+        "coefficient",
+        "low",
+        "high",
+        "p_value",
+        "converged"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v5/terminal-observed-cells.csv",
+      "status": "matched",
+      "rows": 4,
+      "numeric_columns_verified": [
+        "full",
+        "positive",
+        "n",
+        "correct",
+        "accuracy",
+        "low",
+        "high"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v5/terminal-regression-curves.csv",
+      "status": "matched",
+      "rows": 604,
+      "numeric_columns_verified": [
+        "full",
+        "x",
+        "mean",
+        "low",
+        "high"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v5/terminal-states.csv",
+      "status": "matched",
+      "rows": 300,
+      "numeric_columns_verified": [
+        "decision_step",
+        "trajectory_length",
+        "tau",
+        "committed_r",
+        "native_s",
+        "correct",
+        "conflicted",
+        "gold_hop_count",
+        "committed_coverage_r",
+        "current_preview_gold_count",
+        "current_preview_coverage",
+        "visible_or_committed_coverage",
+        "ever_seen_or_committed_coverage",
+        "native_positive",
+        "terminal",
+        "prev_native_s",
+        "delta_native_s",
+        "prev_committed_r",
+        "delta_committed_r",
+        "prev_current_preview_coverage",
+        "delta_current_preview_coverage",
+        "prev_ever_seen_or_committed_coverage",
+        "delta_ever_seen_or_committed_coverage",
+        "full_committed",
+        "current_preview_any",
+        "prev_native_positive",
+        "reversal",
+        "p",
+        "tau2",
+        "full",
+        "round2",
+        "round3"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/analysis-rs-v5/within-trajectory-regression.csv",
+      "status": "matched",
+      "rows": 50,
+      "numeric_columns_verified": [
+        "estimate",
+        "low",
+        "high",
+        "within_r_squared",
+        "questions",
+        "trajectories",
+        "states"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/coverage/complete-run/hops.csv",
+      "status": "matched",
+      "rows": 267,
+      "numeric_columns_verified": [
+        "schema_version",
+        "question_ordinal",
+        "hop_index",
+        "gold_hop_count",
+        "gold_serial_number",
+        "acquired_by_read",
+        "first_read_action_state",
+        "first_available_decision_state",
+        "official_gold_lww_conflicted"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/coverage/complete-run/state-replica.csv",
+      "status": "matched",
+      "rows": 1476,
+      "numeric_columns_verified": [
+        "schema_version",
+        "question_ordinal",
+        "decision_step",
+        "decision_state_count",
+        "normalized_progress",
+        "gold_hop_count",
+        "covered_hop_count",
+        "gold_coverage_r",
+        "cumulative_read_memory_count",
+        "official_gold_lww_conflicted",
+        "final_official_score",
+        "final_correct",
+        "j_sample_count",
+        "j_sufficient_count",
+        "j_insufficient_count",
+        "j_sufficient_fraction",
+        "native_sufficient_likelihood",
+        "native_sufficient_logprob",
+        "native_insufficient_logprob",
+        "native_logit_margin"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/coverage/complete-run/states.csv",
+      "status": "matched",
+      "rows": 738,
+      "numeric_columns_verified": [
+        "schema_version",
+        "question_ordinal",
+        "decision_step",
+        "decision_state_count",
+        "normalized_progress",
+        "gold_hop_count",
+        "covered_hop_count",
+        "gold_coverage_r",
+        "cumulative_read_memory_count",
+        "official_gold_lww_conflicted",
+        "final_official_score",
+        "final_correct"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/coverage/run1/hops.csv",
+      "status": "matched",
+      "rows": 267,
+      "numeric_columns_verified": [
+        "schema_version",
+        "question_ordinal",
+        "hop_index",
+        "gold_hop_count",
+        "gold_serial_number",
+        "acquired_by_read",
+        "first_read_action_state",
+        "first_available_decision_state",
+        "official_gold_lww_conflicted"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/coverage/run1/state-replica.csv",
+      "status": "matched",
+      "rows": 1388,
+      "numeric_columns_verified": [
+        "schema_version",
+        "question_ordinal",
+        "decision_step",
+        "decision_state_count",
+        "normalized_progress",
+        "gold_hop_count",
+        "covered_hop_count",
+        "gold_coverage_r",
+        "cumulative_read_memory_count",
+        "official_gold_lww_conflicted",
+        "final_official_score",
+        "final_correct",
+        "j_sample_count",
+        "j_sufficient_count",
+        "j_insufficient_count",
+        "j_sufficient_fraction",
+        "native_sufficient_likelihood",
+        "native_sufficient_logprob",
+        "native_insufficient_logprob",
+        "native_logit_margin"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/coverage/run1/states.csv",
+      "status": "matched",
+      "rows": 694,
+      "numeric_columns_verified": [
+        "schema_version",
+        "question_ordinal",
+        "decision_step",
+        "decision_state_count",
+        "normalized_progress",
+        "gold_hop_count",
+        "covered_hop_count",
+        "gold_coverage_r",
+        "cumulative_read_memory_count",
+        "official_gold_lww_conflicted",
+        "final_official_score",
+        "final_correct"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/coverage/run2/hops.csv",
+      "status": "matched",
+      "rows": 267,
+      "numeric_columns_verified": [
+        "schema_version",
+        "question_ordinal",
+        "hop_index",
+        "gold_hop_count",
+        "gold_serial_number",
+        "acquired_by_read",
+        "first_read_action_state",
+        "first_available_decision_state",
+        "official_gold_lww_conflicted"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/coverage/run2/state-replica.csv",
+      "status": "matched",
+      "rows": 1436,
+      "numeric_columns_verified": [
+        "schema_version",
+        "question_ordinal",
+        "decision_step",
+        "decision_state_count",
+        "normalized_progress",
+        "gold_hop_count",
+        "covered_hop_count",
+        "gold_coverage_r",
+        "cumulative_read_memory_count",
+        "official_gold_lww_conflicted",
+        "final_official_score",
+        "final_correct",
+        "j_sample_count",
+        "j_sufficient_count",
+        "j_insufficient_count",
+        "j_sufficient_fraction",
+        "native_sufficient_likelihood",
+        "native_sufficient_logprob",
+        "native_insufficient_logprob",
+        "native_logit_margin"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/coverage/run2/states.csv",
+      "status": "matched",
+      "rows": 718,
+      "numeric_columns_verified": [
+        "schema_version",
+        "question_ordinal",
+        "decision_step",
+        "decision_state_count",
+        "normalized_progress",
+        "gold_hop_count",
+        "covered_hop_count",
+        "gold_coverage_r",
+        "cumulative_read_memory_count",
+        "official_gold_lww_conflicted",
+        "final_official_score",
+        "final_correct"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/figure-qwen-correctness-stratified/aligned-observed-states.csv",
+      "status": "matched",
+      "rows": 1181,
+      "numeric_columns_verified": [
+        "decision_step",
+        "trajectory_length",
+        "tau",
+        "committed_r",
+        "native_s",
+        "correct",
+        "conflicted",
+        "gold_hop_count",
+        "committed_coverage_r",
+        "current_preview_gold_count",
+        "current_preview_coverage",
+        "visible_or_committed_coverage",
+        "ever_seen_or_committed_coverage",
+        "native_positive",
+        "terminal",
+        "prev_native_s",
+        "delta_native_s",
+        "prev_committed_r",
+        "delta_committed_r",
+        "prev_current_preview_coverage",
+        "delta_current_preview_coverage",
+        "prev_ever_seen_or_committed_coverage",
+        "delta_ever_seen_or_committed_coverage",
+        "full_committed",
+        "current_preview_any",
+        "prev_native_positive",
+        "reversal",
+        "sufficiency_likelihood",
+        "aligned_progress"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/figure-qwen-correctness-stratified/normalized-progress-means.csv",
+      "status": "matched",
+      "rows": 484,
+      "numeric_columns_verified": [
+        "progress",
+        "mean",
+        "ci_low",
+        "ci_high",
+        "questions",
+        "trajectories"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/figure-qwen-correctness-stratified/normalized-progress-question-values.csv",
+      "status": "matched",
+      "rows": 11132,
+      "numeric_columns_verified": [
+        "progress",
+        "sufficiency_likelihood",
+        "evidence_coverage"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/figure-qwen-correctness-stratified/normalized-progress-trajectory-values.csv",
+      "status": "matched",
+      "rows": 23232,
+      "numeric_columns_verified": [
+        "progress",
+        "source_decision_step",
+        "source_aligned_progress",
+        "sufficiency_likelihood",
+        "evidence_coverage"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/figure-qwen-normalized-dynamics/normalized-progress-means.csv",
+      "status": "matched",
+      "rows": 40,
+      "numeric_columns_verified": [
+        "progress",
+        "mean",
+        "ci_low",
+        "ci_high",
+        "questions",
+        "trajectories"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/figure-qwen-normalized-dynamics/normalized-progress-question-values.csv",
+      "status": "matched",
+      "rows": 1782,
+      "numeric_columns_verified": [
+        "progress",
+        "sufficiency_likelihood",
+        "evidence_coverage"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/figure-qwen-normalized-dynamics/normalized-progress-trajectory-values.csv",
+      "status": "matched",
+      "rows": 5143,
+      "numeric_columns_verified": [
+        "progress",
+        "sufficiency_likelihood",
+        "evidence_coverage"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/figures/cmu/coverage-conditioned.csv",
+      "status": "matched",
+      "rows": 7,
+      "numeric_columns_verified": [
+        "r",
+        "questions",
+        "j_mean",
+        "j_ci_low",
+        "j_ci_high",
+        "native_s_mean",
+        "native_s_ci_low",
+        "native_s_ci_high",
+        "native_margin_mean",
+        "native_margin_ci_low",
+        "native_margin_ci_high",
+        "native_decision_rate_mean",
+        "native_decision_rate_ci_low",
+        "native_decision_rate_ci_high",
+        "explicit_decision_rate_mean",
+        "explicit_decision_rate_ci_low",
+        "explicit_decision_rate_ci_high"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/figures/cmu/proxy-agreement-by-coverage.csv",
+      "status": "matched",
+      "rows": 7,
+      "numeric_columns_verified": [
+        "r",
+        "questions",
+        "agreement",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/figures/cmu/proxy-composition-by-coverage.csv",
+      "status": "matched",
+      "rows": 7,
+      "numeric_columns_verified": [
+        "r",
+        "both_insufficient",
+        "j_only",
+        "native_only",
+        "both_sufficient"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/figures/cmu/temporal-curve.csv",
+      "status": "matched",
+      "rows": 51,
+      "numeric_columns_verified": [
+        "normalized_progress",
+        "r_mean",
+        "r_ci_low",
+        "r_ci_high",
+        "j_mean",
+        "j_ci_low",
+        "j_ci_high",
+        "native_s_mean",
+        "native_s_ci_low",
+        "native_s_ci_high"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/figures/cmu/terminal-accuracy.csv",
+      "status": "matched",
+      "rows": 7,
+      "numeric_columns_verified": [
+        "r",
+        "questions",
+        "correct",
+        "accuracy",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/figures/cmu-v2/terminal-accuracy-binary.csv",
+      "status": "matched",
+      "rows": 2,
+      "numeric_columns_verified": [
+        "questions",
+        "correct",
+        "accuracy",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "path": "sufficiency-dynamics-20260912/figures/cmu-v2/terminal-accuracy-detailed.csv",
+      "status": "matched",
+      "rows": 7,
+      "numeric_columns_verified": [
+        "r",
+        "questions",
+        "correct",
+        "accuracy",
+        "ci_low",
+        "ci_high"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/analysis/all-coverage-effects.csv",
+      "status": "matched",
+      "rows": 10,
+      "numeric_columns_verified": [
+        "estimate",
+        "low",
+        "high",
+        "questions",
+        "bootstrap_success"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/analysis/all-coverage-means.csv",
+      "status": "matched",
+      "rows": 36,
+      "numeric_columns_verified": [
+        "hops",
+        "r",
+        "mean",
+        "low",
+        "high",
+        "questions"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/analysis/all-coverage-pairs.csv",
+      "status": "matched",
+      "rows": 2448,
+      "numeric_columns_verified": [
+        "order",
+        "mask",
+        "hop",
+        "completes_chain",
+        "likelihood",
+        "margin",
+        "official_score",
+        "token_change"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/analysis/all-coverage-question-means.csv",
+      "status": "matched",
+      "rows": 367,
+      "numeric_columns_verified": [
+        "gold_hops",
+        "r",
+        "likelihood",
+        "margin",
+        "official_score",
+        "exact_match"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/analysis/all-heldout-metrics.csv",
+      "status": "matched",
+      "rows": 10,
+      "numeric_columns_verified": [
+        "estimate",
+        "low",
+        "high"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/analysis/all-heldout-predictions.csv",
+      "status": "matched",
+      "rows": 8600,
+      "numeric_columns_verified": [
+        "fold",
+        "prediction",
+        "observed",
+        "log_loss",
+        "brier"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/analysis/all-preview-effects.csv",
+      "status": "matched",
+      "rows": 3,
+      "numeric_columns_verified": [
+        "mean",
+        "low",
+        "high",
+        "questions",
+        "states"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/analysis/all-preview-question-effects.csv",
+      "status": "matched",
+      "rows": 300,
+      "numeric_columns_verified": [
+        "delta"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/analysis/all-regression-curves.csv",
+      "status": "matched",
+      "rows": 240,
+      "numeric_columns_verified": [
+        "r",
+        "likelihood",
+        "mean",
+        "low",
+        "high"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/analysis/all-regression.csv",
+      "status": "matched",
+      "rows": 4,
+      "numeric_columns_verified": [
+        "estimate",
+        "low",
+        "high",
+        "bootstrap_success"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/analysis/conflicted-coverage-effects.csv",
+      "status": "matched",
+      "rows": 10,
+      "numeric_columns_verified": [
+        "estimate",
+        "low",
+        "high",
+        "questions",
+        "bootstrap_success"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/analysis/conflicted-coverage-means.csv",
+      "status": "matched",
+      "rows": 36,
+      "numeric_columns_verified": [
+        "hops",
+        "r",
+        "mean",
+        "low",
+        "high",
+        "questions"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/analysis/conflicted-coverage-pairs.csv",
+      "status": "matched",
+      "rows": 1376,
+      "numeric_columns_verified": [
+        "order",
+        "mask",
+        "hop",
+        "completes_chain",
+        "likelihood",
+        "margin",
+        "official_score",
+        "token_change"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/analysis/conflicted-coverage-question-means.csv",
+      "status": "matched",
+      "rows": 152,
+      "numeric_columns_verified": [
+        "gold_hops",
+        "r",
+        "likelihood",
+        "margin",
+        "official_score",
+        "exact_match"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/analysis/conflicted-heldout-metrics.csv",
+      "status": "matched",
+      "rows": 10,
+      "numeric_columns_verified": [
+        "estimate",
+        "low",
+        "high"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/analysis/conflicted-heldout-predictions.csv",
+      "status": "matched",
+      "rows": 3876,
+      "numeric_columns_verified": [
+        "fold",
+        "prediction",
+        "observed",
+        "log_loss",
+        "brier"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/analysis/conflicted-preview-effects.csv",
+      "status": "matched",
+      "rows": 3,
+      "numeric_columns_verified": [
+        "mean",
+        "low",
+        "high",
+        "questions",
+        "states"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/analysis/conflicted-preview-question-effects.csv",
+      "status": "matched",
+      "rows": 108,
+      "numeric_columns_verified": [
+        "delta"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/analysis/conflicted-regression-curves.csv",
+      "status": "matched",
+      "rows": 240,
+      "numeric_columns_verified": [
+        "r",
+        "likelihood",
+        "mean",
+        "low",
+        "high"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/analysis/conflicted-regression.csv",
+      "status": "matched",
+      "rows": 4,
+      "numeric_columns_verified": [
+        "estimate",
+        "low",
+        "high",
+        "bootstrap_success"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/analysis/correlations.csv",
+      "status": "matched",
+      "rows": 18,
+      "numeric_columns_verified": [
+        "estimate",
+        "low",
+        "high",
+        "questions"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/analysis/paired-coverage-effect/matched-pairs.csv",
+      "status": "matched",
+      "rows": 1072,
+      "numeric_columns_verified": [
+        "gold_hops",
+        "order",
+        "starting_mask",
+        "added_hop",
+        "control_coverage",
+        "intervention_coverage",
+        "control_likelihood",
+        "intervention_likelihood",
+        "paired_change",
+        "token_change"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/analysis/paired-coverage-effect/question-paired-means.csv",
+      "status": "matched",
+      "rows": 64,
+      "numeric_columns_verified": [
+        "gold_hops",
+        "control_likelihood",
+        "intervention_likelihood",
+        "paired_change",
+        "token_change"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/analysis/paired-coverage-effect/summary.csv",
+      "status": "matched",
+      "rows": 1,
+      "numeric_columns_verified": [
+        "questions",
+        "eligible_matched_pairs",
+        "control_mean",
+        "intervention_mean",
+        "mean_paired_change",
+        "ci_low",
+        "ci_high",
+        "questions_with_positive_mean_change",
+        "bootstrap_draws",
+        "bootstrap_seed"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/analysis/unconflicted-coverage-effects.csv",
+      "status": "matched",
+      "rows": 10,
+      "numeric_columns_verified": [
+        "estimate",
+        "low",
+        "high",
+        "questions",
+        "bootstrap_success"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/analysis/unconflicted-coverage-means.csv",
+      "status": "matched",
+      "rows": 36,
+      "numeric_columns_verified": [
+        "hops",
+        "r",
+        "mean",
+        "low",
+        "high",
+        "questions"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/analysis/unconflicted-coverage-pairs.csv",
+      "status": "matched",
+      "rows": 1072,
+      "numeric_columns_verified": [
+        "order",
+        "mask",
+        "hop",
+        "completes_chain",
+        "likelihood",
+        "margin",
+        "official_score",
+        "token_change"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/analysis/unconflicted-coverage-question-means.csv",
+      "status": "matched",
+      "rows": 215,
+      "numeric_columns_verified": [
+        "gold_hops",
+        "r",
+        "likelihood",
+        "margin",
+        "official_score",
+        "exact_match"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/analysis/unconflicted-heldout-metrics.csv",
+      "status": "matched",
+      "rows": 10,
+      "numeric_columns_verified": [
+        "estimate",
+        "low",
+        "high"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/analysis/unconflicted-heldout-predictions.csv",
+      "status": "matched",
+      "rows": 4724,
+      "numeric_columns_verified": [
+        "fold",
+        "prediction",
+        "observed",
+        "log_loss",
+        "brier"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/analysis/unconflicted-preview-effects.csv",
+      "status": "matched",
+      "rows": 3,
+      "numeric_columns_verified": [
+        "mean",
+        "low",
+        "high",
+        "questions",
+        "states"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/analysis/unconflicted-preview-question-effects.csv",
+      "status": "matched",
+      "rows": 192,
+      "numeric_columns_verified": [
+        "delta"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/analysis/unconflicted-regression-curves.csv",
+      "status": "matched",
+      "rows": 240,
+      "numeric_columns_verified": [
+        "r",
+        "likelihood",
+        "mean",
+        "low",
+        "high"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/analysis/unconflicted-regression.csv",
+      "status": "matched",
+      "rows": 4,
+      "numeric_columns_verified": [
+        "estimate",
+        "low",
+        "high",
+        "bootstrap_success"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/summary/answers.csv",
+      "status": "matched",
+      "rows": 18390,
+      "numeric_columns_verified": [
+        "sample",
+        "replica",
+        "seed",
+        "exact_match",
+        "f1",
+        "official_score",
+        "substring_exact_match",
+        "fallback",
+        "prompt_tokens",
+        "completion_tokens"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/summary/units.csv",
+      "status": "matched",
+      "rows": 10018,
+      "numeric_columns_verified": [
+        "conflicted",
+        "gold_hops",
+        "ordinal",
+        "r",
+        "run",
+        "step",
+        "trajectory_length",
+        "native_n",
+        "margin",
+        "likelihood",
+        "replica_margin_difference",
+        "input_tokens",
+        "answer_n",
+        "official_score",
+        "exact_match",
+        "f1",
+        "fallback_n",
+        "complete",
+        "mask",
+        "order",
+        "preview_slots"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/synthesis/data-counts.csv",
+      "status": "matched",
+      "rows": 6,
+      "numeric_columns_verified": [
+        "conflicted",
+        "units",
+        "questions",
+        "answers",
+        "fallbacks"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/synthesis/state-descriptives.csv",
+      "status": "matched",
+      "rows": 2,
+      "numeric_columns_verified": [
+        "complete_package",
+        "states",
+        "questions",
+        "mean_answer_score",
+        "mean_likelihood",
+        "answers"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/synthesis/unified/natural-aligned-means.csv",
+      "status": "matched",
+      "rows": 63,
+      "numeric_columns_verified": [
+        "progress",
+        "mean",
+        "low",
+        "high",
+        "questions",
+        "trajectories"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/synthesis/unified/natural-aligned-question-means.csv",
+      "status": "matched",
+      "rows": 1344,
+      "numeric_columns_verified": [
+        "progress",
+        "r",
+        "likelihood",
+        "margin"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/synthesis/unified/natural-coverage-means.csv",
+      "status": "matched",
+      "rows": 24,
+      "numeric_columns_verified": [
+        "hops",
+        "r",
+        "mean",
+        "low",
+        "high",
+        "questions"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/synthesis/unified/natural-coverage-question-means.csv",
+      "status": "matched",
+      "rows": 195,
+      "numeric_columns_verified": [
+        "gold_hops",
+        "r",
+        "likelihood",
+        "margin"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/synthesis/unified/natural-states.csv",
+      "status": "matched",
+      "rows": 1181,
+      "numeric_columns_verified": [
+        "conflicted",
+        "gold_hops",
+        "ordinal",
+        "r",
+        "run",
+        "step",
+        "trajectory_length",
+        "native_n",
+        "margin",
+        "likelihood",
+        "replica_margin_difference",
+        "input_tokens",
+        "answer_n",
+        "official_score",
+        "exact_match",
+        "f1",
+        "fallback_n",
+        "complete",
+        "mask",
+        "order",
+        "condition",
+        "introduced_hops",
+        "parent_state",
+        "preview_slots",
+        "tau",
+        "tau2"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/synthesis/unified/natural-temporal-means.csv",
+      "status": "matched",
+      "rows": 60,
+      "numeric_columns_verified": [
+        "progress",
+        "mean",
+        "low",
+        "high",
+        "questions",
+        "trajectories"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/synthesis/unified/natural-temporal-question-means.csv",
+      "status": "matched",
+      "rows": 1123,
+      "numeric_columns_verified": [
+        "progress",
+        "r",
+        "likelihood",
+        "margin"
+      ]
+    },
+    {
+      "path": "sufficiency-interventions-20260914/synthesis/unified/natural-time-regression.csv",
+      "status": "matched",
+      "rows": 10,
+      "numeric_columns_verified": [
+        "estimate",
+        "low",
+        "high",
+        "questions",
+        "states"
+      ]
+    }
+  ]
+}

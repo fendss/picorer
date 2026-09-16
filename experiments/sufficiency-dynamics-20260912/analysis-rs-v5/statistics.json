@@ -1,0 +1,294 @@
+{
+  "questions": 100,
+  "trajectories": 300,
+  "states": 2150,
+  "correct": 133,
+  "state_p_above_099": 0.13953488372093023,
+  "terminal_p_above_099": 220,
+  "source_sha256": "d02c302518c98ac92a71167b0f58bf08fb160d9f1055def0d96a71085d468845",
+  "invariance": {
+    "decisions_identical": true,
+    "state_ranks_identical": true
+  },
+  "correlations": [
+    {
+      "outcome": "S",
+      "metric": "pooled_pearson",
+      "estimate": 0.44959716569567515,
+      "low": 0.352593242667407,
+      "high": 0.5505524860947776
+    },
+    {
+      "outcome": "S",
+      "metric": "pooled_spearman",
+      "estimate": 0.4244057312715494,
+      "low": 0.3200465075873172,
+      "high": 0.5337590698381179
+    },
+    {
+      "outcome": "S",
+      "metric": "within_trajectory_weighted_pearson",
+      "estimate": 0.6862168146916733,
+      "low": 0.6467317691684508,
+      "high": 0.7204342834132068
+    },
+    {
+      "outcome": "sigmoid(S)",
+      "metric": "pooled_pearson",
+      "estimate": 0.3209418064646247,
+      "low": 0.21170508622175713,
+      "high": 0.4364570223320031
+    },
+    {
+      "outcome": "sigmoid(S)",
+      "metric": "pooled_spearman",
+      "estimate": 0.4244057312715494,
+      "low": 0.3200465075873172,
+      "high": 0.5337590698381179
+    },
+    {
+      "outcome": "sigmoid(S)",
+      "metric": "within_trajectory_weighted_pearson",
+      "estimate": 0.5171591226668959,
+      "low": 0.4731528627468481,
+      "high": 0.5545040804544897
+    }
+  ],
+  "primary_fe": [
+    {
+      "sample": "all",
+      "outcome": "native_s",
+      "controls": "committed_r+tau",
+      "term": "committed_r",
+      "estimate": 2.5748905192906184,
+      "low": 1.8325808241743566,
+      "high": 3.316855642171541,
+      "within_r_squared": 0.5878628024771565,
+      "questions": 100,
+      "trajectories": 300,
+      "states": 2150
+    },
+    {
+      "sample": "all",
+      "outcome": "native_s",
+      "controls": "committed_r+tau",
+      "term": "tau",
+      "estimate": 7.190721536055292,
+      "low": 5.836836422956548,
+      "high": 8.635680063626863,
+      "within_r_squared": 0.5878628024771565,
+      "questions": 100,
+      "trajectories": 300,
+      "states": 2150
+    },
+    {
+      "sample": "all",
+      "outcome": "p",
+      "controls": "committed_r+tau",
+      "term": "committed_r",
+      "estimate": -0.0507846296544907,
+      "low": -0.14790343610788076,
+      "high": 0.0444087112346979,
+      "within_r_squared": 0.4519543468635222,
+      "questions": 100,
+      "trajectories": 300,
+      "states": 2150
+    },
+    {
+      "sample": "all",
+      "outcome": "p",
+      "controls": "committed_r+tau",
+      "term": "tau",
+      "estimate": 0.9014600350656452,
+      "low": 0.7383984142550435,
+      "high": 1.0743301673549854,
+      "within_r_squared": 0.4519543468635222,
+      "questions": 100,
+      "trajectories": 300,
+      "states": 2150
+    }
+  ],
+  "terminal_logistic": [
+    {
+      "outcome": "correct",
+      "score": "p",
+      "term": "intercept",
+      "coefficient": -3.5855457973575953,
+      "low": -5.77492356911052,
+      "high": -1.3961680256046702,
+      "p_value": 0.0013281134879652395,
+      "interval": "question-cluster sandwich, normal Wald",
+      "converged": true
+    },
+    {
+      "outcome": "correct",
+      "score": "p",
+      "term": "p",
+      "coefficient": 0.8032710301808287,
+      "low": -1.6463110776560308,
+      "high": 3.252853138017688,
+      "p_value": 0.5204092780228129,
+      "interval": "question-cluster sandwich, normal Wald",
+      "converged": true
+    },
+    {
+      "outcome": "correct",
+      "score": "p",
+      "term": "full",
+      "coefficient": 2.5578417597621,
+      "low": 0.010449686010030046,
+      "high": 5.10523383351417,
+      "p_value": 0.049067580337770894,
+      "interval": "question-cluster sandwich, normal Wald",
+      "converged": true
+    },
+    {
+      "outcome": "correct",
+      "score": "p",
+      "term": "interaction",
+      "coefficient": 1.4767068269115198,
+      "low": -1.32180696313966,
+      "high": 4.2752206169627,
+      "p_value": 0.30103111097308166,
+      "interval": "question-cluster sandwich, normal Wald",
+      "converged": true
+    },
+    {
+      "outcome": "correct",
+      "score": "p",
+      "term": "round2",
+      "coefficient": -0.1753023299831386,
+      "low": -0.7611668477234466,
+      "high": 0.4105621877571694,
+      "p_value": 0.557566264339771,
+      "interval": "question-cluster sandwich, normal Wald",
+      "converged": true
+    },
+    {
+      "outcome": "correct",
+      "score": "p",
+      "term": "round3",
+      "coefficient": -0.05064611019708295,
+      "low": -0.6560277959652703,
+      "high": 0.5547355755711043,
+      "p_value": 0.8697546086106286,
+      "interval": "question-cluster sandwich, normal Wald",
+      "converged": true
+    },
+    {
+      "outcome": "correct",
+      "score": "p",
+      "term": "slope_when_full_0",
+      "coefficient": 0.8032710301808287,
+      "low": -1.6463110776560308,
+      "high": 3.252853138017688,
+      "p_value": 0.5204092780228129,
+      "interval": "question-cluster sandwich, normal Wald",
+      "converged": true
+    },
+    {
+      "outcome": "correct",
+      "score": "p",
+      "term": "slope_when_full_1",
+      "coefficient": 2.2799778570923483,
+      "low": 0.8055267059123845,
+      "high": 3.754429008272312,
+      "p_value": 0.00243957190499171,
+      "interval": "question-cluster sandwich, normal Wald",
+      "converged": true
+    },
+    {
+      "outcome": "correct",
+      "score": "native_s",
+      "term": "intercept",
+      "coefficient": -3.38959925279466,
+      "low": -4.727142265834242,
+      "high": -2.052056239755078,
+      "p_value": 6.80185215304584e-07,
+      "interval": "question-cluster sandwich, normal Wald",
+      "converged": true
+    },
+    {
+      "outcome": "correct",
+      "score": "native_s",
+      "term": "native_s",
+      "coefficient": 0.10333686579196914,
+      "low": -0.11267688788548492,
+      "high": 0.3193506194694232,
+      "p_value": 0.3484451568598045,
+      "interval": "question-cluster sandwich, normal Wald",
+      "converged": true
+    },
+    {
+      "outcome": "correct",
+      "score": "native_s",
+      "term": "full",
+      "coefficient": 3.145071867377208,
+      "low": 1.5748246243813973,
+      "high": 4.715319110373018,
+      "p_value": 8.649893839797437e-05,
+      "interval": "question-cluster sandwich, normal Wald",
+      "converged": true
+    },
+    {
+      "outcome": "correct",
+      "score": "native_s",
+      "term": "interaction",
+      "coefficient": 0.12088725856294436,
+      "low": -0.12401403669967706,
+      "high": 0.36578855382556574,
+      "p_value": 0.3333090970201008,
+      "interval": "question-cluster sandwich, normal Wald",
+      "converged": true
+    },
+    {
+      "outcome": "correct",
+      "score": "native_s",
+      "term": "round2",
+      "coefficient": -0.17190000175977302,
+      "low": -0.7818541981372327,
+      "high": 0.4380541946176866,
+      "p_value": 0.5806977855505113,
+      "interval": "question-cluster sandwich, normal Wald",
+      "converged": true
+    },
+    {
+      "outcome": "correct",
+      "score": "native_s",
+      "term": "round3",
+      "coefficient": -0.025256955982720958,
+      "low": -0.6458690101624229,
+      "high": 0.5953550981969811,
+      "p_value": 0.9364246695794198,
+      "interval": "question-cluster sandwich, normal Wald",
+      "converged": true
+    },
+    {
+      "outcome": "correct",
+      "score": "native_s",
+      "term": "slope_when_full_0",
+      "coefficient": 0.10333686579196914,
+      "low": -0.11267688788548492,
+      "high": 0.3193506194694232,
+      "p_value": 0.3484451568598045,
+      "interval": "question-cluster sandwich, normal Wald",
+      "converged": true
+    },
+    {
+      "outcome": "correct",
+      "score": "native_s",
+      "term": "slope_when_full_1",
+      "coefficient": 0.2242241243549135,
+      "low": 0.10209422537362377,
+      "high": 0.34635402333620324,
+      "p_value": 0.00032019119884659647,
+      "interval": "question-cluster sandwich, normal Wald",
+      "converged": true
+    }
+  ],
+  "bootstrap": {
+    "draws": 5000,
+    "seed": 20260914,
+    "unit": "question; all runs and all states retained"
+  }
+}

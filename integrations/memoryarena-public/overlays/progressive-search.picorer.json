@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "suite": "progressive_search",
+  "base_config": "configs/web_search_configs/search_task.json",
+  "patch": {
+    "memory.memory_system_name": "${MEMORY_BACKEND}",
+    "memory.memory_url": "${MEMORY_URL}",
+    "output.output_dir": "${RUN_DIR}/outputs/progressive_search"
+  },
+  "task_selection": {
+    "source": "public-task-manifest",
+    "mode": "complete"
+  }
+}

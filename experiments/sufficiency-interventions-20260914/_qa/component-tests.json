@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "coverage_functions": true,
+    "correlation_functions": true,
+    "preview_functions": true,
+    "export_and_font_loading": true
+  },
+  "completed_questions": 2,
+  "bootstrap_draws_for_software_test_only": 20,
+  "not_final_results": true
+}

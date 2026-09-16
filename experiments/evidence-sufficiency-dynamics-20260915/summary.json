@@ -1,0 +1,60 @@
+{
+  "inputs": {
+    "units": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-interventions-20260914/summary/units.csv",
+    "units_sha256": "bdc60e91791fae79bd256a738424625cbc2dade4e74874dde2522b99428c2e67",
+    "status": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-interventions-20260914/summary/status.json",
+    "status_sha256": "d450ae500a08eb30d18e395a7453cc78ab4a6775d1ec5d51081e604c1db86ff9",
+    "answer_predictiveness": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-interventions-20260914/analysis/unconflicted-heldout-metrics.csv",
+    "answer_predictiveness_sha256": "fe606e5fd13186de8267d24db769994c81501ae0c3f792e0d261b0725a371070",
+    "state_package_files": {
+      "1": {
+        "path": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-dynamics-20260912/coverage/run1/states.jsonl",
+        "sha256": "d84fbfb0c37b0c7684940daf9034bea3f0f61be784175b56e3080752fbc32945"
+      },
+      "2": {
+        "path": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-dynamics-20260912/coverage/run2/states.jsonl",
+        "sha256": "252e2bf9c05fea76073dc6a8f5d35460c6d019fb1373233e9e580a0aeb087f58"
+      },
+      "3": {
+        "path": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-dynamics-20260912/coverage/complete-run/states.jsonl",
+        "sha256": "db9b8e5e02cbd3bf14fab7468c89294c57a689a61fac6a9bc3c0455a982881c3"
+      }
+    }
+  },
+  "primary_sample": {
+    "questions": 64,
+    "trajectories": 192,
+    "states": 1181,
+    "transitions": 989,
+    "support_gain_transitions": 287,
+    "controlled_conditions": 760,
+    "controlled_pairs": 1072
+  },
+  "specificity": {
+    "p_margin_rise_given_support_gain": 0.863967803030303,
+    "p_support_gain_given_margin_rise": 0.3907400248852455,
+    "p_margin_rise_given_no_support_gain": 0.719784492495164,
+    "p_margin_rise_given_package_unchanged": 0.7163216783565152,
+    "auprc": 0.36011347393168325,
+    "auprc_baseline": 0.3494508911750521
+  },
+  "onset": {
+    "trajectory_category_counts": {
+      "S before R": 133,
+      "S and R together": 1,
+      "R before S": 0,
+      "S observed; R not observed": 54,
+      "R observed; S not observed": 0,
+      "Neither observed": 4
+    },
+    "answer_accuracy_at_t_s": 0.013756613756613757,
+    "answer_accuracy_at_t_r": 0.8783625730994152,
+    "reversal_rate": 0.17460317460317454,
+    "persistence_ratio": 0.929699375626694
+  },
+  "bootstrap": {
+    "unit": "question",
+    "draws": 5000,
+    "seed_family": 20260915
+  }
+}

@@ -1,0 +1,7 @@
+sample,threshold,category,trajectories,total_trajectories,question_weighted_fraction,ci_low,ci_high,questions
+unconflicted,0.5,S before R,133,192,0.6927083333333333,0.6041666666666666,0.78125,64
+unconflicted,0.5,S and R together,1,192,0.005208333333333333,0.0,0.015625,64
+unconflicted,0.5,R before S,0,192,0.0,0.0,0.0,64
+unconflicted,0.5,S observed; R not observed,54,192,0.28125,0.19791666666666666,0.36979166666666663,64
+unconflicted,0.5,R observed; S not observed,0,192,0.0,0.0,0.0,64
+unconflicted,0.5,Neither observed,4,192,0.020833333333333332,0.0,0.05729166666666667,64

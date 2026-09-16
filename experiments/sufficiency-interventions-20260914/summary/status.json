@@ -1,0 +1,19 @@
+{
+  "expected_jobs": 34126,
+  "completed_jobs": 34126,
+  "missing_jobs": 0,
+  "retried_jobs": 28,
+  "archived_failed_attempts": 44,
+  "units": {
+    "state_answers": 2150,
+    "coverage": 1528,
+    "preview": 6340
+  },
+  "complete_units": {
+    "state_answers": 2150,
+    "coverage": 1528,
+    "preview": 6340
+  },
+  "completed_answers": 18390,
+  "fallback_answers": 1527
+}

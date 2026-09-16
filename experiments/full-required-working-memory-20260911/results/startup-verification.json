@@ -1,0 +1,259 @@
+{
+  "checked_at": "2026-09-11T14:29:09.953702+00:00",
+  "status_counts": [
+    [
+      "answer",
+      "blocked",
+      291
+    ],
+    [
+      "evaluation",
+      "blocked",
+      297
+    ],
+    [
+      "answer",
+      "completed",
+      3
+    ],
+    [
+      "evaluation",
+      "completed",
+      3
+    ],
+    [
+      "retrieval",
+      "completed",
+      9
+    ],
+    [
+      "retrieval",
+      "queued",
+      275
+    ],
+    [
+      "answer",
+      "running",
+      6
+    ],
+    [
+      "retrieval",
+      "running",
+      16
+    ]
+  ],
+  "first_traces": [
+    {
+      "question_id": "context-0/factconsolidation_mh_262k_no12",
+      "status": "sufficient",
+      "actions": [
+        {
+          "tool": "search",
+          "is_error": false,
+          "note_mode": "initial-omitted",
+          "note_visible_in_tool_text": false,
+          "error": null
+        },
+        {
+          "tool": "read",
+          "is_error": false,
+          "note_mode": "replaced",
+          "note_visible_in_tool_text": true,
+          "error": null
+        },
+        {
+          "tool": "finish",
+          "is_error": false,
+          "note_mode": "replaced",
+          "note_visible_in_tool_text": false,
+          "error": null
+        }
+      ]
+    },
+    {
+      "question_id": "context-0/factconsolidation_mh_262k_no3",
+      "status": "sufficient",
+      "actions": [
+        {
+          "tool": "search",
+          "is_error": false,
+          "note_mode": "initial-omitted",
+          "note_visible_in_tool_text": false,
+          "error": null
+        },
+        {
+          "tool": "search",
+          "is_error": true,
+          "note_mode": null,
+          "note_visible_in_tool_text": false,
+          "error": "workingMemory is required after observing tool results and at finish. Write current progress, or use null to confirm the existing note."
+        },
+        {
+          "tool": "search",
+          "is_error": false,
+          "note_mode": "replaced",
+          "note_visible_in_tool_text": true,
+          "error": null
+        },
+        {
+          "tool": "read",
+          "is_error": false,
+          "note_mode": "replaced",
+          "note_visible_in_tool_text": true,
+          "error": null
+        },
+        {
+          "tool": "finish",
+          "is_error": false,
+          "note_mode": "replaced",
+          "note_visible_in_tool_text": false,
+          "error": null
+        }
+      ]
+    },
+    {
+      "question_id": "context-0/factconsolidation_mh_262k_no6",
+      "status": "sufficient",
+      "actions": [
+        {
+          "tool": "search",
+          "is_error": false,
+          "note_mode": "initial-omitted",
+          "note_visible_in_tool_text": false,
+          "error": null
+        },
+        {
+          "tool": "read",
+          "is_error": false,
+          "note_mode": "replaced",
+          "note_visible_in_tool_text": true,
+          "error": null
+        },
+        {
+          "tool": "finish",
+          "is_error": false,
+          "note_mode": "replaced",
+          "note_visible_in_tool_text": false,
+          "error": null
+        }
+      ]
+    },
+    {
+      "question_id": "context-0/factconsolidation_mh_262k_no14",
+      "status": "sufficient",
+      "actions": [
+        {
+          "tool": "search",
+          "is_error": false,
+          "note_mode": "initial-omitted",
+          "note_visible_in_tool_text": false,
+          "error": null
+        },
+        {
+          "tool": "read",
+          "is_error": false,
+          "note_mode": "replaced",
+          "note_visible_in_tool_text": true,
+          "error": null
+        },
+        {
+          "tool": "read",
+          "is_error": false,
+          "note_mode": "replaced",
+          "note_visible_in_tool_text": true,
+          "error": null
+        },
+        {
+          "tool": "finish",
+          "is_error": false,
+          "note_mode": "replaced",
+          "note_visible_in_tool_text": false,
+          "error": null
+        }
+      ]
+    },
+    {
+      "question_id": "context-0/factconsolidation_mh_262k_no9",
+      "status": "sufficient",
+      "actions": [
+        {
+          "tool": "search",
+          "is_error": false,
+          "note_mode": "initial-omitted",
+          "note_visible_in_tool_text": false,
+          "error": null
+        },
+        {
+          "tool": "read",
+          "is_error": false,
+          "note_mode": "replaced",
+          "note_visible_in_tool_text": true,
+          "error": null
+        },
+        {
+          "tool": "search",
+          "is_error": false,
+          "note_mode": "replaced",
+          "note_visible_in_tool_text": true,
+          "error": null
+        },
+        {
+          "tool": "read",
+          "is_error": false,
+          "note_mode": "replaced",
+          "note_visible_in_tool_text": true,
+          "error": null
+        },
+        {
+          "tool": "finish",
+          "is_error": false,
+          "note_mode": "replaced",
+          "note_visible_in_tool_text": false,
+          "error": null
+        }
+      ]
+    },
+    {
+      "question_id": "context-0/factconsolidation_mh_262k_no13",
+      "status": "sufficient",
+      "actions": [
+        {
+          "tool": "search",
+          "is_error": false,
+          "note_mode": "initial-omitted",
+          "note_visible_in_tool_text": false,
+          "error": null
+        },
+        {
+          "tool": "read",
+          "is_error": false,
+          "note_mode": "replaced",
+          "note_visible_in_tool_text": true,
+          "error": null
+        },
+        {
+          "tool": "search",
+          "is_error": false,
+          "note_mode": "replaced",
+          "note_visible_in_tool_text": true,
+          "error": null
+        },
+        {
+          "tool": "read",
+          "is_error": false,
+          "note_mode": "replaced",
+          "note_visible_in_tool_text": true,
+          "error": null
+        },
+        {
+          "tool": "finish",
+          "is_error": false,
+          "note_mode": "replaced",
+          "note_visible_in_tool_text": false,
+          "error": null
+        }
+      ]
+    }
+  ],
+  "scope": "Tool response text checked. Finish terminates the run and does not need a following model input. This is not an HTTP request capture."
+}

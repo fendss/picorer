@@ -1,0 +1,42 @@
+{
+  "providers": {
+    "picorer-openai-responses": {
+      "baseUrl": "https://example.invalid/v1",
+      "api": "openai-responses",
+      "compat": {
+        "supportsDeveloperRole": false,
+        "sessionAffinityFormat": "openai-nosession"
+      },
+      "models": [
+        {
+          "id": "gpt-5.4",
+          "name": "GPT-5.4",
+          "reasoning": true,
+          "input": ["text"],
+          "contextWindow": 128000,
+          "maxTokens": 16384,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          }
+        },
+        {
+          "id": "gpt-5.4-mini",
+          "name": "GPT-5.4 mini",
+          "reasoning": true,
+          "input": ["text"],
+          "contextWindow": 128000,
+          "maxTokens": 16384,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          }
+        }
+      ]
+    }
+  }
+}

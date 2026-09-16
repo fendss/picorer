@@ -1,0 +1,44 @@
+{
+  "notice": "Export completed with explicit settings. This report does not establish visual, accessibility, scientific-integrity, or journal-submission compliance.",
+  "outputs": [
+    {
+      "format": "pdf",
+      "kind": "vector-container",
+      "path": "/data/zhaogangyi/picorer-eval/sufficiency-interventions-20260914-v2/_qa/layout-check.pdf",
+      "size_bytes": 25941
+    },
+    {
+      "format": "png",
+      "kind": "raster",
+      "path": "/data/zhaogangyi/picorer-eval/sufficiency-interventions-20260914-v2/_qa/layout-check.png",
+      "size_bytes": 37899
+    }
+  ],
+  "provenance": {
+    "data": "incomplete actual pilot; one question",
+    "not_final_results": true,
+    "purpose": "software and layout QA only"
+  },
+  "schema_version": "1.0",
+  "settings": {
+    "bbox_inches": null,
+    "dpi": 200.0,
+    "facecolor": "white",
+    "figure_size_inches": [
+      5.3,
+      3.8
+    ],
+    "font_mode": "truetype",
+    "formats": [
+      "pdf",
+      "png"
+    ],
+    "pad_inches": 0.1,
+    "transparent": false
+  },
+  "versions": {
+    "matplotlib": "3.11.2",
+    "pillow": "12.3.0"
+  },
+  "warnings": []
+}

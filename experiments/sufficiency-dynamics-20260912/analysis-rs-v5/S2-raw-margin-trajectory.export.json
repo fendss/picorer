@@ -1,0 +1,55 @@
+{
+  "notice": "Export completed with explicit settings. This report does not establish visual, accessibility, scientific-integrity, or journal-submission compliance.",
+  "outputs": [
+    {
+      "format": "pdf",
+      "kind": "vector-container",
+      "path": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-dynamics-20260912/analysis-rs-v5/S2-raw-margin-trajectory.pdf",
+      "size_bytes": 27057
+    },
+    {
+      "format": "png",
+      "kind": "raster",
+      "path": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-dynamics-20260912/analysis-rs-v5/S2-raw-margin-trajectory.png",
+      "size_bytes": 140523
+    }
+  ],
+  "provenance": {
+    "alt_text": "充分性倾向和包内标准证据覆盖率随检索推进上升；两条曲线不是同一种概率。",
+    "destination": "General research report, 162.56 mm width; journal requirements not specified",
+    "input": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-dynamics-20260912/analysis-rs-v4/states.csv",
+    "input_sha256": "d02c302518c98ac92a71167b0f58bf08fb160d9f1055def0d96a71085d468845",
+    "seed": 20260914,
+    "source_tables": [
+      "temporal-original-means.csv"
+    ],
+    "transformations": [
+      "sigmoid per state before averaging",
+      "LOCF on 0.05 grid; no extrapolation before first state",
+      "average available runs per question, then questions; grey region: not all trajectories observed"
+    ],
+    "uncertainty": "95% pointwise question-cluster bootstrap, 5000 draws; terminal GLM uses clustered sandwich delta method"
+  },
+  "schema_version": "1.0",
+  "settings": {
+    "bbox_inches": null,
+    "dpi": 450.0,
+    "facecolor": "white",
+    "figure_size_inches": [
+      6.4,
+      3.85
+    ],
+    "font_mode": "truetype",
+    "formats": [
+      "pdf",
+      "png"
+    ],
+    "pad_inches": 0.1,
+    "transparent": false
+  },
+  "versions": {
+    "matplotlib": "3.11.2",
+    "pillow": "12.3.0"
+  },
+  "warnings": []
+}

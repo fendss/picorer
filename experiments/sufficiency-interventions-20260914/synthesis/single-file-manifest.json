@@ -1,0 +1,639 @@
+{
+  "title": "Picorer sufficiency research collection",
+  "experiment_date": "2026-09-14",
+  "figures": 17,
+  "csv_tables": 51,
+  "files": [
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/01-mean-trajectories.export.json",
+      "bytes": 2063,
+      "sha256": "309278f8f908c764712d4280415f54b050d8fb05648eb57e5c0893ec9904165f"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/01-mean-trajectories.pdf",
+      "bytes": 30618,
+      "sha256": "a175dfd38f51616737a311012c728c473886dd025c132262c15a77e7f95cfe5a"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/01-mean-trajectories.png",
+      "bytes": 190683,
+      "sha256": "0c9be9fe1fb5197b4c79ffea263f731434e0202e4199a9a9a9dcd6e5350dd1d4"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/02-sufficiency-by-coverage.export.json",
+      "bytes": 2103,
+      "sha256": "beed133bf3a883a1ee8f10a53fbbc999dc21928c1ee54d26661fe7c2a789f5fe"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/02-sufficiency-by-coverage.pdf",
+      "bytes": 27927,
+      "sha256": "78e1cfdc1b97783f7d48e922808871f79da9e37d132825ecb5e0e57cc7e45fdc"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/02-sufficiency-by-coverage.png",
+      "bytes": 170778,
+      "sha256": "d4d95c48b5a3aeae361da5b2b726e7e4ff0376b3773a93738ee4d15dec713c49"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/03-correctness-regression.export.json",
+      "bytes": 2222,
+      "sha256": "5a9299094c965e5405868e0b30b38dfb18ed954e4a057662e240f74d19d75abf"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/03-correctness-regression.pdf",
+      "bytes": 35138,
+      "sha256": "86f8fde3af3e91eafc364eafc25ba910efcd9a5dd112e0fa31a7cce356704b25"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/03-correctness-regression.png",
+      "bytes": 175133,
+      "sha256": "89d5ff6b31a9a1f88de532771bf0933fabb8f10e19fdd26dfe81689004482ed3"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/REPORT.zh-CN.md",
+      "bytes": 15834,
+      "sha256": "60c66bc5e1f01c4622d6d8b6cb6b5b17900362c7ecc707582c8cfa9a04536e08"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/REPRODUCE.md",
+      "bytes": 3019,
+      "sha256": "374b78850aa1d894f2b4e9f8dba3b6040cb38c61eb785ec089105b863c49fb97"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/REVIEW.md",
+      "bytes": 4222,
+      "sha256": "befdcc458ee1025b55f68730d520b68d4455aaec659d0a7ee638a72226090ea0"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/S1-aligned-mean-trajectories.export.json",
+      "bytes": 2078,
+      "sha256": "e35d44e65677f52c0a06e82c11be76e2ccaa9e07f01f5ce58848cfc4b679ed43"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/S1-aligned-mean-trajectories.pdf",
+      "bytes": 28420,
+      "sha256": "89363465c135b50a1136dde7023abd45174764034d18ac9e38ae67b144899c2e"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/S1-aligned-mean-trajectories.png",
+      "bytes": 190355,
+      "sha256": "dc9f45970d8e06add128d6602eb1447273dcac8f0dbfc192d7b3e46bf8bf5d21"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/S2-raw-margin-trajectory.export.json",
+      "bytes": 2071,
+      "sha256": "bb54228001d86748bf4ec4a7e5fc46ae4d11d0fbc86bf998ae392a7d414de16d"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/S2-raw-margin-trajectory.pdf",
+      "bytes": 27057,
+      "sha256": "eb2ede9b4d86adcebf5a11636b749afe3afcf42b86fde1a58768eeab53f40b52"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/S2-raw-margin-trajectory.png",
+      "bytes": 140523,
+      "sha256": "e7805bd869c71b7a346c25a15b6e4c880014ca2edb22a993aa256b666f295148"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/S3-raw-margin-by-coverage.export.json",
+      "bytes": 2101,
+      "sha256": "2585bfdaaf2b73c771f0ef4d750469ab9ab09f8209b5c3c6c7e85379accda032"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/S3-raw-margin-by-coverage.pdf",
+      "bytes": 27048,
+      "sha256": "9f6f9c2b06fe0da1b4eea76d30bd309e8c4c666c61d75a6f6444e36bc4189321"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/S3-raw-margin-by-coverage.png",
+      "bytes": 178793,
+      "sha256": "5448f5c3b8f1fdde0db98d7f8e80046f2a6d03142605661ca4801dd29f1cfa5e"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/S4-sigmoid-correctness-regression.export.json",
+      "bytes": 2231,
+      "sha256": "d4669908504a2c38c8e4c4a9013c7ed0618f9ace7d3fde57caf565912661ddb4"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/S4-sigmoid-correctness-regression.pdf",
+      "bytes": 34834,
+      "sha256": "b6698d0a07d34c83234aa4232b87963bc34dc7df9c5ea6b42c8ea9ca00b6a1e1"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/S4-sigmoid-correctness-regression.png",
+      "bytes": 161855,
+      "sha256": "65d551fa576e7c7cc29605db892e9b972f3ae8133c42a97babe98b73f4038f9a"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/correlations.csv",
+      "bytes": 547,
+      "sha256": "bbf2fc0864cdeb7219a7e7926dd3d094cfb862391a478507c439584c7cfbb2ca"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/coverage-means.csv",
+      "bytes": 2862,
+      "sha256": "15ca9d1206508e16b17df6c7c7f391d481674cb8f2b26edd83f0d08d65d31636"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/coverage-question-means.csv",
+      "bytes": 35952,
+      "sha256": "890aa2e7da1249353483f99564660f08d897663a2341fad47d1f04db0cf2ea87"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/environment.json",
+      "bytes": 484,
+      "sha256": "0e60017a30e7e4fa1515eaadacb67cf07ceeafadf325ebd9663d1367b1186882"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/palette-audit.json",
+      "bytes": 2392,
+      "sha256": "e3319695e568fb51d6bcd0c9254035c8ed11c139368b2a2d73a20051c880f476"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/presentation-validation.json",
+      "bytes": 10078,
+      "sha256": "0c3bc30cea7976a74a5e3dca08e9c9c20b240a0d551a0e1b29cc951570a32f46"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/states-with-sigmoid.csv",
+      "bytes": 873756,
+      "sha256": "f99ea4827d2081c7bd1f0416ca18afcb023b4898884d52bddc360e7bdfa96e2e"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/statistics.json",
+      "bytes": 8183,
+      "sha256": "185f2494ed3327d9adc11ad7994cd5cbbd13832d0dd4e5f6451ba3cf7914dbca"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/temporal-aligned-means.csv",
+      "bytes": 4934,
+      "sha256": "786918048f6835a394ffb6594f0b20d320c4f3d5b9e5066e878a6befccf45807"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/temporal-aligned-question-values.csv",
+      "bytes": 272214,
+      "sha256": "6621ccc18c519ffdb406dfbba909c7b3f6398945ace096cf02aa07e349c4d2f9"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/temporal-aligned-trajectory-values.csv",
+      "bytes": 1263052,
+      "sha256": "f1022b5d821c293d21ad3f1237e5e57446d718d85d8f01f27971a12a94c781a9"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/temporal-original-means.csv",
+      "bytes": 4635,
+      "sha256": "a3a6b0224560279f86f01d9ca4e23750d77e5898ff41621b90bdae7f0d03709f"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/temporal-original-question-values.csv",
+      "bytes": 230359,
+      "sha256": "e771e5c620757dbc0c12cfac810b5e256f704d7ea9a81ff174d15d5f88f1d460"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/temporal-original-trajectory-values.csv",
+      "bytes": 1028523,
+      "sha256": "cc31518a38814859ba59096c3aba4364d0176d2db1fc5a88dc2dd236f8e82aa5"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/terminal-empirical-quartiles.csv",
+      "bytes": 1418,
+      "sha256": "544bc62b746ccafce6346801d077dcc1541e51f25cef766e29317895ebdc3008"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/terminal-logistic-regression.csv",
+      "bytes": 2429,
+      "sha256": "a2f85d4d0a4e0e5e6e3fe5466d3fda84e910b2669d7140bd6400f149e908a944"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/terminal-observed-cells.csv",
+      "bytes": 299,
+      "sha256": "3ea0098c455d72748740da2321ddfece99ad6d8582027366bb065d351a664078"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/terminal-regression-curves.csv",
+      "bytes": 51773,
+      "sha256": "240a926503bc4832dfe88ecd79f7d9d1d1a011d59581e8e3cfde13051f9d59c7"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/terminal-states.csv",
+      "bytes": 122739,
+      "sha256": "01ccc94d7b5848b8bb34b67e674a532d03b8c3fe70a48e8258d7ecd0fbafdb46"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/validation.json",
+      "bytes": 12320,
+      "sha256": "8cebe4cad2a248c1f2e57c35b57f3bae74eb0fa4d2679a5b1f4af7522483519c"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/analysis-rs-v5/within-trajectory-regression.csv",
+      "bytes": 6501,
+      "sha256": "0f10ad0241766d66d3914a67554714de87bcf25df1276028ea91f0a1c8a9ef09"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/redraw_rs_v5.py",
+      "bytes": 23898,
+      "sha256": "c0b0b9e504918c8298f1270fd58d2b7b7d899cb07637e12efe8558831f819597"
+    },
+    {
+      "path": "experiments/sufficiency-dynamics-20260912/verify_rs_v5.py",
+      "bytes": 4569,
+      "sha256": "7a712fd1e0dcf237815f51f478295c9a7fb42d129a46811bd8a93b97ece7c0b8"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/PROTOCOL.zh-CN.md",
+      "bytes": 8720,
+      "sha256": "c18181c2a74c34f447d3ba798a701f26aa5a5a54aeed7651ea06765da8637948"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/01-coverage-likelihood.export.json",
+      "bytes": 1867,
+      "sha256": "68a14414924a9c8a9ac892ce77a69cbba48a716d320c63c124798d7fd4d7c1a1"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/01-coverage-likelihood.pdf",
+      "bytes": 26116,
+      "sha256": "720838c46d1370efd190d24504c85c547bfabcaa8d12f70f1798441189235e91"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/01-coverage-likelihood.png",
+      "bytes": 223367,
+      "sha256": "5414aeb5ef7059a10fe6c3383792c3e47f11f041d8ad62a51f5d985982f3ea32"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/02-coverage-accuracy.export.json",
+      "bytes": 1863,
+      "sha256": "04ea77c38667520f581f47f541127ebce5cc7019f1ac7617ba257247fe11c778"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/02-coverage-accuracy.pdf",
+      "bytes": 26002,
+      "sha256": "63f7b8590a904526092de826304ba637c5b63d9eb33fa198bcc08fd60148503a"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/02-coverage-accuracy.png",
+      "bytes": 214040,
+      "sha256": "a1e20d3b01a335983303f543e69721bef08e683c8bc5165c1449f4fcf519d4c6"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/03-preview-effect.export.json",
+      "bytes": 1872,
+      "sha256": "84be8dfb477163fa8c55e37b7bcffe92d610d23243071b985b7eb4d652a3bd5b"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/03-preview-effect.pdf",
+      "bytes": 31200,
+      "sha256": "76cc176ebf64cf423e37b6fefadbd6d0424e9550392734cc64d1eea9e116df1d"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/03-preview-effect.png",
+      "bytes": 129666,
+      "sha256": "cd3431fa428ea958c7f3c1c856d2765d849d67671b1457950777572904d46438"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/04-state-answer-regression.export.json",
+      "bytes": 1897,
+      "sha256": "68c5faa172f952244718589ba20fed42ccd3c300ffcf3aec63aa22b9a75e75b7"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/04-state-answer-regression.pdf",
+      "bytes": 33586,
+      "sha256": "b2f1535ed56df51899a4cb231da645ddc9ab6b5885513245527b2d66d7d7113b"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/04-state-answer-regression.png",
+      "bytes": 134645,
+      "sha256": "5c4028e259d35ce1aacc6bf2fed4d1d6299040db6f83de87a841714f4772c57f"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/REPORT.zh-CN.md",
+      "bytes": 4659,
+      "sha256": "3680c37a46b7fd68aaa266149b08a463af3561dc1df0bc06d0087ad330ef63b8"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/S-all-01-coverage-likelihood.export.json",
+      "bytes": 1870,
+      "sha256": "ba7d893e06310e503df255d67f34802ca79f41ff60c276d0a8aabdd4efeb6bf0"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/S-all-01-coverage-likelihood.pdf",
+      "bytes": 26123,
+      "sha256": "7cf8f35cf485b0542d2d49fdfdd1778279bd6ad7bfc25c9097d155285e846f1e"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/S-all-01-coverage-likelihood.png",
+      "bytes": 224469,
+      "sha256": "98d99ec95cf1947a2d7c04ed6d3cb3f474f6f7559eb2a5682b634d6a5f4b72c2"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/S-all-02-coverage-accuracy.export.json",
+      "bytes": 1866,
+      "sha256": "ba9fcbb1b789cfaa153b16cebf612fc258d77b347644a4cfcfe593aeca76b9ee"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/S-all-02-coverage-accuracy.pdf",
+      "bytes": 26027,
+      "sha256": "cc606b3434504367b221cbafae825a6884bdcc9c70ea769178d3e6bb5fd45cd3"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/S-all-02-coverage-accuracy.png",
+      "bytes": 227588,
+      "sha256": "80b3e63a96b9b131172399dc4bb92468998443dc205b784792a0ec2f4629e644"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/S-all-03-preview-effect.export.json",
+      "bytes": 1875,
+      "sha256": "c1d09d791187c8dd40a7e4b28fffbb9031b96a00c22abbaf0024c770ec3f7290"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/S-all-03-preview-effect.pdf",
+      "bytes": 32967,
+      "sha256": "ce0b6e834110e40505b5f616e3f4856dc222c3c61551999c8a73c07fd8edb887"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/S-all-03-preview-effect.png",
+      "bytes": 147831,
+      "sha256": "59d679d44648ae4894d603f3b999efe3f6b5a0f18f68c8194455c42df84cb23f"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/S-conflicted-01-coverage-likelihood.export.json",
+      "bytes": 1891,
+      "sha256": "b21c6b1e8a0783fad1c3f053dc78507f6eb0600d11470f355cc62939cd5c5e56"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/S-conflicted-01-coverage-likelihood.pdf",
+      "bytes": 26125,
+      "sha256": "7339bb514183c0c0860b33535609ac19c7644ebf03296b6e825027f92ebc8d44"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/S-conflicted-01-coverage-likelihood.png",
+      "bytes": 220009,
+      "sha256": "b264e08217ba1a194672c915e18082e6a1735b15c1a710b2d4ad4554432ca00f"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/S-conflicted-02-coverage-accuracy.export.json",
+      "bytes": 1887,
+      "sha256": "8a6e33cc27b1bc4f5765ef748e5955eb6be158a72d2f45d67936bf481eb726bf"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/S-conflicted-02-coverage-accuracy.pdf",
+      "bytes": 26003,
+      "sha256": "876a392beaf1a402af4cc4c1c48b99ef2acaefc4ed388c2d871b8b580988afb6"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/S-conflicted-02-coverage-accuracy.png",
+      "bytes": 216394,
+      "sha256": "23c99852a1be78f13256a192d0205311a474c0ecd4b18e287082ae703538f4f9"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/S-conflicted-03-preview-effect.export.json",
+      "bytes": 1896,
+      "sha256": "43057152bb64f852cd71de2bde7a666e2f038c0edc74ee1690aafd7639829728"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/S-conflicted-03-preview-effect.pdf",
+      "bytes": 29850,
+      "sha256": "fee50b2c23a9b0dd450a2f2e3590278149e2b4ea32afff5e1215368784b73726"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/S-conflicted-03-preview-effect.png",
+      "bytes": 115676,
+      "sha256": "ba05f87cae3f2d3a9b576d13f44f173d25c5a543feb63825d65631e1d09228d9"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/all-coverage-effects.csv",
+      "bytes": 1046,
+      "sha256": "a26fd8b2c059ed9bdd11c39afb854091733f745def5b0c4c5ac6e3edc10f7bb7"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/all-coverage-means.csv",
+      "bytes": 2752,
+      "sha256": "b4a05ea9d3a848e06d32d3b27ffafe545ee5024dc7b05a0c0842c21676468571"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/all-coverage-pairs.csv",
+      "bytes": 323585,
+      "sha256": "ef49fca74f7bdeaa3bc7abec51c9f6566acd16460befaae9b38b9e2d74276659"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/all-coverage-question-means.csv",
+      "bytes": 47723,
+      "sha256": "d72d430584f6a469b3022849e9720d58702b70ff9620e56ce41d4895726e8575"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/all-heldout-metrics.csv",
+      "bytes": 985,
+      "sha256": "657e3ae948ffbd4070937a4ca0a7a0d1569a069ab258201a8adbfb030a287c7d"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/all-heldout-predictions.csv",
+      "bytes": 1523943,
+      "sha256": "06fb3a94d8b2dec18f7b1e06613939badf291810c3e9bf8ead96949ee778cc3d"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/all-preview-effects.csv",
+      "bytes": 337,
+      "sha256": "694bc12f00c305aefe32e49cf1d171be27e25b7d2b4acc6f3480acc9bcd91d04"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/all-preview-question-effects.csv",
+      "bytes": 35232,
+      "sha256": "60434f876ff035d7496fa88b0c3cbdb0ce7023d99c52a41b6dcd3058e3440f65"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/all-regression-curves.csv",
+      "bytes": 21330,
+      "sha256": "5fe03c4dbe8c952bcf55eab0da277756838e7cf51401052867f389f5c5d275b7"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/all-regression.csv",
+      "bytes": 346,
+      "sha256": "1b10e6297db564684899627732304a2ecfd99848c678f3a4991303cc4426f64a"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/conflicted-coverage-effects.csv",
+      "bytes": 1104,
+      "sha256": "e0aa6952e6e8823454f98f7b44f1d90e7a9fd8f00e31d0807830dc70c9cfa069"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/conflicted-coverage-means.csv",
+      "bytes": 2783,
+      "sha256": "3571d73ca1a12a0d3aba629415817b8c19b654193003762d8aff1d78e3e45e9b"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/conflicted-coverage-pairs.csv",
+      "bytes": 182634,
+      "sha256": "9f547b7715b64eca3d1296650cde55f59e123c1b7f7992ebfdb99a136afb9bfa"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/conflicted-coverage-question-means.csv",
+      "bytes": 20363,
+      "sha256": "b49c0c0a43e54789de3b61d9613bd38b7ecd358b5b64451493797a5a531f3921"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/conflicted-heldout-metrics.csv",
+      "bytes": 1067,
+      "sha256": "ff2d10987ef7687f7deb4be64b0622441e7081103c1b0823cb53248ff8e8dcdc"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/conflicted-heldout-predictions.csv",
+      "bytes": 713481,
+      "sha256": "fca8b0379efbf58776129ce0322900a38ec4f67d032f67a931c7983d7fe04cd0"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/conflicted-preview-effects.csv",
+      "bytes": 350,
+      "sha256": "4ac761aca168ec2deb1830e0c708788bff104eb4ce3c064251ad8dff45f98b7b"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/conflicted-preview-question-effects.csv",
+      "bytes": 13480,
+      "sha256": "9fd98992a85c0a8a24994698bc83379d0933fdfe71b6a53091b07f78ec25d78b"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/conflicted-regression-curves.csv",
+      "bytes": 22893,
+      "sha256": "e14baec2b39d354aa4b1bfd393e25fb569a02387b5f69213b17a73db7ff4d32a"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/conflicted-regression.csv",
+      "bytes": 374,
+      "sha256": "9f20d9c672c11569416580cc9f9b1afe959be7ee602dea592445d6803fa8ab0e"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/correlations.csv",
+      "bytes": 1979,
+      "sha256": "8f63580c5421eac79968893839f25838ca54d8c8d38158173c1786159eef3e28"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/environment.json",
+      "bytes": 653,
+      "sha256": "21e96fe11fb111887659a5327ecf40e4a199e79a5f615df0a68f15d7c4e914f2"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/export-validation.json",
+      "bytes": 3057,
+      "sha256": "2b1b6a3776c0183d02946fbeab4f6bcc417a43366b1a5380824af981cab77a9f"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/unconflicted-coverage-effects.csv",
+      "bytes": 1080,
+      "sha256": "37f0cfcf05b751cae6277be2162a1ee06a2a5a2a07af49a2243cf44a4311386d"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/unconflicted-coverage-means.csv",
+      "bytes": 2840,
+      "sha256": "e3e32a840bbaa7b56896709af30df5724d87c6e70b4fa82bc3143006be7b0335"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/unconflicted-coverage-pairs.csv",
+      "bytes": 141040,
+      "sha256": "12932b13247817e53ee4f9db8b3af9f18edeaca5f3f979454d213da1944642b9"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/unconflicted-coverage-question-means.csv",
+      "bytes": 27429,
+      "sha256": "232d5300ca721cb7886a5fa5995820f7d5fd097cd45c856f373ed249e3e1b381"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/unconflicted-heldout-metrics.csv",
+      "bytes": 1078,
+      "sha256": "fe606e5fd13186de8267d24db769994c81501ae0c3f792e0d261b0725a371070"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/unconflicted-heldout-predictions.csv",
+      "bytes": 880361,
+      "sha256": "4a76357966e4168721ebc2cbfd49f15623713fca44a61f0d36c90f5c1af4a02e"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/unconflicted-preview-effects.csv",
+      "bytes": 351,
+      "sha256": "613721da8017f85f80b4e21f190580e8d135f10e2ecec3b654a04badf9e8aa7a"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/unconflicted-preview-question-effects.csv",
+      "bytes": 24272,
+      "sha256": "6501a63aed6e29971f3b4653f417047b59f38c1dd4b68d9bd338d93363d45a62"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/unconflicted-regression-curves.csv",
+      "bytes": 23697,
+      "sha256": "b4595081c542a95ef52aa560244200351e2a1ebde8bfea181b35bd35149bceac"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analysis/unconflicted-regression.csv",
+      "bytes": 378,
+      "sha256": "b9d17d1d4bba6907401fbf6bc383363509c39d4c3240ddefabd06f075cc03f00"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/analyze.py",
+      "bytes": 22923,
+      "sha256": "a47a932b4684e32c4b5894c2dc8b0769d404a8a9e097b62ae624fb4d0f469422"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/output-audit.json",
+      "bytes": 483,
+      "sha256": "ec2573588a2bafa33fd812304c4679da61a6b42f64406a73f56af96056626c30"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/suite-complete.json",
+      "bytes": 147,
+      "sha256": "7b1a600e46617dbe2bc149df80604334493dad4066cac1465f144f46da4fb566"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/summary/answers.csv",
+      "bytes": 3394072,
+      "sha256": "c6f4268bbde36f22e10f6e3311a42f47a8725f45f45883c26e343db9c580c9be"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/summary/status.json",
+      "bytes": 373,
+      "sha256": "d450ae500a08eb30d18e395a7453cc78ab4a6775d1ec5d51081e604c1db86ff9"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/summary/units.csv",
+      "bytes": 5427443,
+      "sha256": "bdc60e91791fae79bd256a738424625cbc2dade4e74874dde2522b99428c2e67"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/synthesis/REPORT.zh-CN.md",
+      "bytes": 23266,
+      "sha256": "04af75d8e4d3d2e1e78cd09d2fec9ee338eed2c2f40efb0ac230062f78cf1c5d"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/synthesis/REVIEW.md",
+      "bytes": 4437,
+      "sha256": "7fcf39ddbcf9b99c502399b0e076ef457521b21959fa79929213df162361de7b"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/synthesis/build_single_file.py",
+      "bytes": 27968,
+      "sha256": "97eebba289298b819f5f841a9a8185c7bfc6a8f9c743787a6ee015c5f55ac437"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/synthesis/data-counts.csv",
+      "bytes": 252,
+      "sha256": "0ca8f27d034bfb5e2b426a8f6aa886c8a1ae2c23cd3ed583163999d86c2e17cf"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/synthesis/evidence-checks.json",
+      "bytes": 10877,
+      "sha256": "9eababf10cb45f69c8096dea7f4c5f215b2c4552e9b9acf4376cb648124216ec"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/synthesis/state-descriptives.csv",
+      "bytes": 188,
+      "sha256": "9edbe8f4a08de94fab69797e8ecbf41dd7250c013cae235865d3d40c9c9c962d"
+    },
+    {
+      "path": "experiments/sufficiency-interventions-20260914/synthesis/verify_synthesis.py",
+      "bytes": 8138,
+      "sha256": "573a4024d27c58bbcc76d09f6be2241beada1826d6995af0fa1bfeb4881a7d9c"
+    }
+  ],
+  "scope": "Previous v5 report and completed v2 interventions; excludes J, historical superseded plots, server HTTP responses and model weights.",
+  "transformation": "Presentation-only Markdown rendering and base64 embedding; source bytes retained without modification.",
+  "output": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-interventions-20260914/synthesis/Picorer-Sufficiency-完整实验资料.html",
+  "html_bytes": 12343538,
+  "zip_bytes": 5204977,
+  "zip_sha256": "3fae65dafdf42224bfe90a498155ab93a5b30c97f007641a505b1cad6035ff9f"
+}

@@ -1,0 +1,33 @@
+sample,metric,estimate,ci_low,ci_high,eligible_questions,denominator_transitions,record_type,threshold,category,trajectories,total_trajectories,question_weighted_fraction,questions,eligible_trajectories,analysis,pairs
+all100,P(margin rises | support gained),0.8684711399711401,0.8350624999999999,0.9018727272727274,100.0,447.0,specificity,,,,,,,,,
+all100,P(support gained | margin rises),0.35187717954821535,0.32276627797820256,0.3796343435017668,100.0,1210.0,specificity,,,,,,,,,
+all100,P(margin rises | no support gained),0.6824786756357928,0.6456290554610259,0.7200359682536797,100.0,1403.0,specificity,,,,,,,,,
+all100,"P(margin rises | package changed, no support gained)",0.7044327200577202,0.6229545680014429,0.7803841540404038,60.0,235.0,specificity,,,,,,,,,
+all100,P(margin rises | package unchanged),0.6710659621069357,0.6310458180462278,0.7103439368299753,100.0,1168.0,specificity,,,,,,,,,
+all100,Support-gain base rate,0.30421300309508287,0.27628499163248726,0.3326672303227121,100.0,1850.0,specificity,,,,,,,,,
+all100,Mean margin change | support gained,2.810815649045487,2.5241233018430003,3.1001430145482387,100.0,447.0,specificity,,,,,,,,,
+all100,Mean margin change | no support gained,2.187407295005574,1.8453121246550328,2.5354824921484864,100.0,1403.0,specificity,,,,,,,,,
+all100,Mean margin change | package unchanged,2.1668323273184114,1.8297320826290193,2.523428095816047,100.0,1168.0,specificity,,,,,,,,,
+all100,AUPRC: margin change predicts support gain,0.3442277971511044,0.32281383620025045,0.3749980085177126,100.0,1850.0,specificity,,,,,,,,,
+all100,AUPRC baseline: support-gain prevalence,0.3042130030950829,0.27563281270782297,0.3326980736800511,100.0,1850.0,specificity,,,,,,,,,
+all100,,,0.49333333333333335,0.6533333333333333,,,onset_category,0.5,S before R,172.0,300.0,0.5733333333333333,100.0,,,
+all100,,,0.0,0.01,,,onset_category,0.5,S and R together,1.0,300.0,0.003333333333333333,100.0,,,
+all100,,,0.0,0.0,,,onset_category,0.5,R before S,0.0,300.0,0.0,100.0,,,
+all100,,,0.32333333333333336,0.48,,,onset_category,0.5,S observed; R not observed,120.0,300.0,0.4000000000000001,100.0,,,
+all100,,,0.0,0.0,,,onset_category,0.5,R observed; S not observed,0.0,300.0,0.0,100.0,,,
+all100,,,0.0,0.056666666666666664,,,onset_category,0.5,Neither observed,7.0,300.0,0.02333333333333333,100.0,,,
+all100,Reversal after first sufficiency onset,0.2687074829931973,0.2006802721088435,0.336734693877551,98.0,,onset_event,0.5,,,,,,292.0,,
+all100,Persistence ratio after first sufficiency onset,0.8792840222300954,0.8351553363002666,0.918473281903504,98.0,,onset_event,0.5,,,,,,293.0,,
+all100,Answer accuracy at first sufficiency onset,0.01904761904761905,0.004081632653061224,0.03945578231292517,98.0,,onset_event,0.5,,,,,,293.0,,
+all100,Answer accuracy at first full coverage,0.7241228070175438,0.6324561403508772,0.8083333333333332,76.0,,onset_event,0.5,,,,,,173.0,,
+all100,Lead in decision steps among trajectories with both events,3.225877192982456,2.8750000000000004,3.6097039473684207,76.0,,onset_event,0.5,,,,,,173.0,,
+all100,Native sufficiency margin,5.296608070467084,4.952444024004968,5.637248693328355,,,controlled,,,,,,100.0,,Any missing gold fact added,2448.0
+all100,Sufficiency likelihood,0.4097544128866771,0.39072704091977006,0.4277402887517936,,,controlled,,,,,,100.0,,Any missing gold fact added,2448.0
+all100,Answer accuracy,0.4083333333333334,0.3876453124999999,0.42887760416666676,,,controlled,,,,,,100.0,,Any missing gold fact added,2448.0
+all100,Strict exact match,0.4025833333333334,0.37999583333333337,0.42464635416666674,,,controlled,,,,,,100.0,,Any missing gold fact added,2448.0
+all100,Input tokens,-0.17916666666666664,-0.4725,0.12335416666666638,,,controlled,,,,,,100.0,,Any missing gold fact added,2448.0
+all100,Native sufficiency margin,6.544609370647893,6.238915353366455,6.860032566831582,,,controlled,,,,,,100.0,,Last missing gold fact added,534.0
+all100,Sufficiency likelihood,0.22865330589867344,0.19549889803913736,0.2634599095326538,,,controlled,,,,,,100.0,,Last missing gold fact added,534.0
+all100,Answer accuracy,0.4395000000000001,0.3957458333333333,0.4851687499999999,,,controlled,,,,,,100.0,,Last missing gold fact added,534.0
+all100,Strict exact match,0.4285,0.38533124999999996,0.47508333333333325,,,controlled,,,,,,100.0,,Last missing gold fact added,534.0
+all100,Input tokens,-0.17916666666666664,-0.4725,0.12335416666666638,,,controlled,,,,,,100.0,,Last missing gold fact added,534.0

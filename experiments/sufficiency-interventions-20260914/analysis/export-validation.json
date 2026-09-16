@@ -1,0 +1,185 @@
+{
+  "checks": [
+    {
+      "file": "01-coverage-likelihood.pdf",
+      "fonts": [
+        "/NFXQWD+TimesNewRomanPSMT"
+      ],
+      "pixels": [
+        2120,
+        1520
+      ],
+      "dpi": [
+        399.9992,
+        399.9992
+      ],
+      "pdf_page_points": [
+        381.6,
+        273.6
+      ]
+    },
+    {
+      "file": "02-coverage-accuracy.pdf",
+      "fonts": [
+        "/GBYOBK+TimesNewRomanPSMT"
+      ],
+      "pixels": [
+        2120,
+        1520
+      ],
+      "dpi": [
+        399.9992,
+        399.9992
+      ],
+      "pdf_page_points": [
+        381.6,
+        273.6
+      ]
+    },
+    {
+      "file": "03-preview-effect.pdf",
+      "fonts": [
+        "/FEJGML+TimesNewRomanPSMT"
+      ],
+      "pixels": [
+        2280,
+        1280
+      ],
+      "dpi": [
+        399.9992,
+        399.9992
+      ],
+      "pdf_page_points": [
+        410.4,
+        230.4
+      ]
+    },
+    {
+      "file": "04-state-answer-regression.pdf",
+      "fonts": [
+        "/GJYGRJ+TimesNewRomanPSMT"
+      ],
+      "pixels": [
+        2120,
+        1520
+      ],
+      "dpi": [
+        399.9992,
+        399.9992
+      ],
+      "pdf_page_points": [
+        381.6,
+        273.6
+      ]
+    },
+    {
+      "file": "S-all-01-coverage-likelihood.pdf",
+      "fonts": [
+        "/NFXQWD+TimesNewRomanPSMT"
+      ],
+      "pixels": [
+        2120,
+        1520
+      ],
+      "dpi": [
+        399.9992,
+        399.9992
+      ],
+      "pdf_page_points": [
+        381.6,
+        273.6
+      ]
+    },
+    {
+      "file": "S-all-02-coverage-accuracy.pdf",
+      "fonts": [
+        "/GBYOBK+TimesNewRomanPSMT"
+      ],
+      "pixels": [
+        2120,
+        1520
+      ],
+      "dpi": [
+        399.9992,
+        399.9992
+      ],
+      "pdf_page_points": [
+        381.6,
+        273.6
+      ]
+    },
+    {
+      "file": "S-all-03-preview-effect.pdf",
+      "fonts": [
+        "/FEJGML+TimesNewRomanPSMT"
+      ],
+      "pixels": [
+        2280,
+        1280
+      ],
+      "dpi": [
+        399.9992,
+        399.9992
+      ],
+      "pdf_page_points": [
+        410.4,
+        230.4
+      ]
+    },
+    {
+      "file": "S-conflicted-01-coverage-likelihood.pdf",
+      "fonts": [
+        "/NFXQWD+TimesNewRomanPSMT"
+      ],
+      "pixels": [
+        2120,
+        1520
+      ],
+      "dpi": [
+        399.9992,
+        399.9992
+      ],
+      "pdf_page_points": [
+        381.6,
+        273.6
+      ]
+    },
+    {
+      "file": "S-conflicted-02-coverage-accuracy.pdf",
+      "fonts": [
+        "/GBYOBK+TimesNewRomanPSMT"
+      ],
+      "pixels": [
+        2120,
+        1520
+      ],
+      "dpi": [
+        399.9992,
+        399.9992
+      ],
+      "pdf_page_points": [
+        381.6,
+        273.6
+      ]
+    },
+    {
+      "file": "S-conflicted-03-preview-effect.pdf",
+      "fonts": [
+        "/FEJGML+TimesNewRomanPSMT"
+      ],
+      "pixels": [
+        2280,
+        1280
+      ],
+      "dpi": [
+        399.9992,
+        399.9992
+      ],
+      "pdf_page_points": [
+        410.4,
+        230.4
+      ]
+    }
+  ],
+  "manual_visual_review": "pending"
+}

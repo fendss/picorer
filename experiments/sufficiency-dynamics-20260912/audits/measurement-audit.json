@@ -1,0 +1,101 @@
+{
+  "audit_failures": [],
+  "integrity": {
+    "capture_hash_failures": [],
+    "capture_paths": {
+      "/v1/chat/completions": 694,
+      "/v1/models": 2
+    },
+    "chat_captures": 694,
+    "chat_response_dispositions": {
+      "content_without_tool": 2,
+      "empty_without_tool": 1,
+      "tool:finish": 100,
+      "tool:read": 226,
+      "tool:read+search": 1,
+      "tool:search": 356,
+      "tool:search_more": 7,
+      "tool:workingMemory": 1
+    },
+    "decision_states": 694,
+    "duplicate_acquisition_request_hashes": {},
+    "j_total_sampled_choices": 43722,
+    "manifest_questions": 100,
+    "manifest_questions_with_nonempty_keypoints": 0,
+    "non_tool_decision_states": [
+      {
+        "capture_id": "1789211128304701981-a84baa64b973417d8e033c8bc7fd7d23",
+        "decision_step": 3,
+        "disposition": "content_without_tool",
+        "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no21"
+      },
+      {
+        "capture_id": "1789211192102568605-0e509cad8f5a4a17a26814ae58df8aed",
+        "decision_step": 3,
+        "disposition": "empty_without_tool",
+        "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no43"
+      },
+      {
+        "capture_id": "1789211393742025440-9713bc98baca44ae909c74807766fea2",
+        "decision_step": 6,
+        "disposition": "content_without_tool",
+        "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no90"
+      }
+    ],
+    "probe_results": 694,
+    "raw_j_choice_sequence_persisted": false,
+    "raw_s_and_j_http_responses_persisted": false,
+    "retrieval_artifacts": 100,
+    "wrap_audits": 100
+  },
+  "numerical": {
+    "binary_agreement": 0.9870317002881844,
+    "mae": 0.02357599376096516,
+    "mean_j": 0.5399798728328987,
+    "mean_s": 0.5390555245828756,
+    "pearson": 0.9962842983849656,
+    "spearman": 0.9831577768097874,
+    "standardized_binomial_residual": {
+      "count": 694,
+      "fraction_abs_gt_2": 0.05763688760806916,
+      "fraction_abs_gt_3": 0.010086455331412104,
+      "max_abs": 4.668851335792526,
+      "mean": 0.010788369719581732,
+      "std": 1.0040935461944427
+    }
+  },
+  "protocol": {
+    "choices_per_j_request": 63,
+    "generated_tokens_per_choice": 1,
+    "j_is_sampled_from_same_two_branch_logits_used_to_compute_s": true,
+    "j_request_count": 694,
+    "shared_prefill_within_each_j_request": true,
+    "status_branch_pairs": {
+      "(82, 1283, 's', 'ins')": 694
+    }
+  },
+  "routing": {
+    "acquisition": {
+      "172.16.200.114:18081": 356,
+      "172.16.200.114:18082": 338
+    },
+    "j": {
+      "172.16.200.114:18081": 354,
+      "172.16.200.114:18082": 340
+    },
+    "render": {
+      "172.16.200.114:18081": 705,
+      "172.16.200.114:18082": 683
+    },
+    "s": {
+      "172.16.200.114:18081": 357,
+      "172.16.200.114:18082": 337
+    }
+  },
+  "schema_version": 1,
+  "timing": {
+    "first_probe_mtime_unix": 1789211541.0125217,
+    "last_probe_mtime_unix": 1789214134.0490766,
+    "probe_wall_span_seconds": 2593.036554813385
+  }
+}

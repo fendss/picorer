@@ -1,0 +1,4 @@
+sample,support_gain,package_changed,transitions,raw_rise_fraction,raw_mean_delta_margin,questions
+unconflicted,False,False,608,0.6282894736842105,1.715357734302571,64
+unconflicted,False,True,94,0.6595744680851063,1.2367021221078012,31
+unconflicted,True,True,287,0.8606271777003485,2.879355386865307,64

@@ -1,0 +1,266 @@
+{
+  "status": "passed",
+  "figure_language": "English",
+  "style": "Times New Roman; top-centered frameless legends; descriptive variable labels",
+  "font_path": "/System/Library/Fonts/Supplemental/Times New Roman.ttf",
+  "statistical_inputs_unchanged": true,
+  "input_hashes": {
+    "coverage-means.csv": "15ca9d1206508e16b17df6c7c7f391d481674cb8f2b26edd83f0d08d65d31636",
+    "states-with-sigmoid.csv": "f99ea4827d2081c7bd1f0416ca18afcb023b4898884d52bddc360e7bdfa96e2e",
+    "coverage-question-means.csv": "890aa2e7da1249353483f99564660f08d897663a2341fad47d1f04db0cf2ea87",
+    "within-trajectory-regression.csv": "0f10ad0241766d66d3914a67554714de87bcf25df1276028ea91f0a1c8a9ef09",
+    "terminal-logistic-regression.csv": "a2f85d4d0a4e0e5e6e3fe5466d3fda84e910b2669d7140bd6400f149e908a944",
+    "terminal-observed-cells.csv": "3ea0098c455d72748740da2321ddfece99ad6d8582027366bb065d351a664078",
+    "temporal-aligned-trajectory-values.csv": "f1022b5d821c293d21ad3f1237e5e57446d718d85d8f01f27971a12a94c781a9",
+    "correlations.csv": "bbf2fc0864cdeb7219a7e7926dd3d094cfb862391a478507c439584c7cfbb2ca",
+    "temporal-original-question-values.csv": "e771e5c620757dbc0c12cfac810b5e256f704d7ea9a81ff174d15d5f88f1d460",
+    "terminal-regression-curves.csv": "240a926503bc4832dfe88ecd79f7d9d1d1a011d59581e8e3cfde13051f9d59c7",
+    "terminal-empirical-quartiles.csv": "544bc62b746ccafce6346801d077dcc1541e51f25cef766e29317895ebdc3008",
+    "temporal-aligned-means.csv": "786918048f6835a394ffb6594f0b20d320c4f3d5b9e5066e878a6befccf45807",
+    "terminal-states.csv": "01ccc94d7b5848b8bb34b67e674a532d03b8c3fe70a48e8258d7ecd0fbafdb46",
+    "temporal-original-means.csv": "a3a6b0224560279f86f01d9ca4e23750d77e5898ff41621b90bdae7f0d03709f",
+    "temporal-aligned-question-values.csv": "6621ccc18c519ffdb406dfbba909c7b3f6398945ace096cf02aa07e349c4d2f9",
+    "temporal-original-trajectory-values.csv": "cc31518a38814859ba59096c3aba4364d0176d2db1fc5a88dc2dd236f8e82aa5",
+    "statistics.json": "185f2494ed3327d9adc11ad7994cd5cbbd13832d0dd4e5f6451ba3cf7914dbca"
+  },
+  "figures": [
+    {
+      "file": "01-mean-trajectories.pdf",
+      "text": "0 0.25 0.50 0.75 1\nNormalized acquisition progress (t/T)\n0\n0.25\n0.50\n0.75\n1\nMean\nSufficiency likelihood Evidence coverage",
+      "metadata": {
+        "format": "PDF",
+        "kind": "vector-container",
+        "encrypted": false,
+        "page_count": 1,
+        "first_page_width_pt": 460.8,
+        "first_page_height_pt": 277.2,
+        "width_mm": 162.56,
+        "height_mm": 97.78999999999999,
+        "dpi_x": null,
+        "dpi_y": null,
+        "mode": null,
+        "font_resources": {
+          "resource_count": 1,
+          "embedded_count": 1,
+          "unembedded_count": 0,
+          "unknown_count": 0,
+          "all_embedded": true,
+          "fonts": [
+            {
+              "resource": "/F1",
+              "base_font": "/GYUKVJ+TimesNewRomanPSMT",
+              "subtype": "/Type0",
+              "embedded": true
+            }
+          ],
+          "scope": "first page resource dictionary only"
+        },
+        "note": "PDF page size and font resources do not establish the resolution of embedded raster images."
+      }
+    },
+    {
+      "file": "02-sufficiency-by-coverage.pdf",
+      "text": "0 0.25 0.50 0.75 1\nGold-evidence coverage, R\n0\n0.25\n0.50\n0.75\n1\nMean sufficiency likelihood\n2-hop 3-hop 4-hop",
+      "metadata": {
+        "format": "PDF",
+        "kind": "vector-container",
+        "encrypted": false,
+        "page_count": 1,
+        "first_page_width_pt": 460.8,
+        "first_page_height_pt": 277.2,
+        "width_mm": 162.56,
+        "height_mm": 97.78999999999999,
+        "dpi_x": null,
+        "dpi_y": null,
+        "mode": null,
+        "font_resources": {
+          "resource_count": 1,
+          "embedded_count": 1,
+          "unembedded_count": 0,
+          "unknown_count": 0,
+          "all_embedded": true,
+          "fonts": [
+            {
+              "resource": "/F1",
+              "base_font": "/FOMGKJ+TimesNewRomanPSMT",
+              "subtype": "/Type0",
+              "embedded": true
+            }
+          ],
+          "scope": "first page resource dictionary only"
+        },
+        "note": "PDF page size and font resources do not establish the resolution of embedded raster images."
+      }
+    },
+    {
+      "file": "03-correctness-regression.pdf",
+      "text": "−7.5 −5.0 −2.5 0.0 2.5 5.0 7.5 10.0\nTerminal logit margin, S\n0\n0.25\n0.50\n0.75\n1\nFinal-answer accuracy\nComplete evidence (R = 1) Incomplete evidence (R < 1)",
+      "metadata": {
+        "format": "PDF",
+        "kind": "vector-container",
+        "encrypted": false,
+        "page_count": 1,
+        "first_page_width_pt": 460.8,
+        "first_page_height_pt": 277.2,
+        "width_mm": 162.56,
+        "height_mm": 97.78999999999999,
+        "dpi_x": null,
+        "dpi_y": null,
+        "mode": null,
+        "font_resources": {
+          "resource_count": 1,
+          "embedded_count": 1,
+          "unembedded_count": 0,
+          "unknown_count": 0,
+          "all_embedded": true,
+          "fonts": [
+            {
+              "resource": "/F1",
+              "base_font": "/FFZQOF+TimesNewRomanPSMT",
+              "subtype": "/Type0",
+              "embedded": true
+            }
+          ],
+          "scope": "first page resource dictionary only"
+        },
+        "note": "PDF page size and font resources do not establish the resolution of embedded raster images."
+      }
+    },
+    {
+      "file": "S1-aligned-mean-trajectories.pdf",
+      "text": "0 0.25 0.50 0.75 1\nEndpoint-aligned acquisition progress\n0\n0.25\n0.50\n0.75\n1\nMean\nSufficiency likelihood Evidence coverage",
+      "metadata": {
+        "format": "PDF",
+        "kind": "vector-container",
+        "encrypted": false,
+        "page_count": 1,
+        "first_page_width_pt": 460.8,
+        "first_page_height_pt": 277.2,
+        "width_mm": 162.56,
+        "height_mm": 97.78999999999999,
+        "dpi_x": null,
+        "dpi_y": null,
+        "mode": null,
+        "font_resources": {
+          "resource_count": 1,
+          "embedded_count": 1,
+          "unembedded_count": 0,
+          "unknown_count": 0,
+          "all_embedded": true,
+          "fonts": [
+            {
+              "resource": "/F1",
+              "base_font": "/FPTRNE+TimesNewRomanPSMT",
+              "subtype": "/Type0",
+              "embedded": true
+            }
+          ],
+          "scope": "first page resource dictionary only"
+        },
+        "note": "PDF page size and font resources do not establish the resolution of embedded raster images."
+      }
+    },
+    {
+      "file": "S2-raw-margin-trajectory.pdf",
+      "text": "0 0.25 0.50 0.75 1\nNormalized acquisition progress (t/T)\n−6\n−4\n−2\n0\n2\n4\n6\nMean logit margin, S\n",
+      "metadata": {
+        "format": "PDF",
+        "kind": "vector-container",
+        "encrypted": false,
+        "page_count": 1,
+        "first_page_width_pt": 460.8,
+        "first_page_height_pt": 277.2,
+        "width_mm": 162.56,
+        "height_mm": 97.78999999999999,
+        "dpi_x": null,
+        "dpi_y": null,
+        "mode": null,
+        "font_resources": {
+          "resource_count": 1,
+          "embedded_count": 1,
+          "unembedded_count": 0,
+          "unknown_count": 0,
+          "all_embedded": true,
+          "fonts": [
+            {
+              "resource": "/F1",
+              "base_font": "/SSJLXA+TimesNewRomanPSMT",
+              "subtype": "/Type0",
+              "embedded": true
+            }
+          ],
+          "scope": "first page resource dictionary only"
+        },
+        "note": "PDF page size and font resources do not establish the resolution of embedded raster images."
+      }
+    },
+    {
+      "file": "S3-raw-margin-by-coverage.pdf",
+      "text": "0 0.25 0.50 0.75 1\nGold-evidence coverage, R\n−2\n0\n2\n4\n6\nMean logit margin, S\n2-hop 3-hop 4-hop",
+      "metadata": {
+        "format": "PDF",
+        "kind": "vector-container",
+        "encrypted": false,
+        "page_count": 1,
+        "first_page_width_pt": 460.8,
+        "first_page_height_pt": 277.2,
+        "width_mm": 162.56,
+        "height_mm": 97.78999999999999,
+        "dpi_x": null,
+        "dpi_y": null,
+        "mode": null,
+        "font_resources": {
+          "resource_count": 1,
+          "embedded_count": 1,
+          "unembedded_count": 0,
+          "unknown_count": 0,
+          "all_embedded": true,
+          "fonts": [
+            {
+              "resource": "/F1",
+              "base_font": "/DYPZJK+TimesNewRomanPSMT",
+              "subtype": "/Type0",
+              "embedded": true
+            }
+          ],
+          "scope": "first page resource dictionary only"
+        },
+        "note": "PDF page size and font resources do not establish the resolution of embedded raster images."
+      }
+    },
+    {
+      "file": "S4-sigmoid-correctness-regression.pdf",
+      "text": "0 0.25 0.50 0.75 1\nTerminal sufficiency likelihood\n0\n0.25\n0.50\n0.75\n1\nFinal-answer accuracy\nComplete evidence (R = 1) Incomplete evidence (R < 1)",
+      "metadata": {
+        "format": "PDF",
+        "kind": "vector-container",
+        "encrypted": false,
+        "page_count": 1,
+        "first_page_width_pt": 460.8,
+        "first_page_height_pt": 277.2,
+        "width_mm": 162.56,
+        "height_mm": 97.78999999999999,
+        "dpi_x": null,
+        "dpi_y": null,
+        "mode": null,
+        "font_resources": {
+          "resource_count": 1,
+          "embedded_count": 1,
+          "unembedded_count": 0,
+          "unknown_count": 0,
+          "all_embedded": true,
+          "fonts": [
+            {
+              "resource": "/F1",
+              "base_font": "/EZNVHP+TimesNewRomanPSMT",
+              "subtype": "/Type0",
+              "embedded": true
+            }
+          ],
+          "scope": "first page resource dictionary only"
+        },
+        "note": "PDF page size and font resources do not establish the resolution of embedded raster images."
+      }
+    }
+  ]
+}

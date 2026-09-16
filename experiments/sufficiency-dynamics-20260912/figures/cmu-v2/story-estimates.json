@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "input": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-dynamics-20260912/coverage/complete-run/state-replica.csv",
+  "questions": 100,
+  "decision_states": 738,
+  "bootstrap_draws": 2000,
+  "seed": 20260913,
+  "max_temporal_s_minus_r": {
+    "normalized_progress": 0.42,
+    "gap": 0.4981641605121235
+  },
+  "r0": {
+    "r": 0.0,
+    "questions": 100.0,
+    "j_mean": 0.8974229137199433,
+    "j_ci_low": 0.8792082154644036,
+    "j_ci_high": 0.9150195043611503,
+    "native_s_mean": 0.40183622421518217,
+    "native_s_ci_low": 0.37001885436714554,
+    "native_s_ci_high": 0.43330523126796944,
+    "native_margin_mean": -1.269254461523068,
+    "native_margin_ci_low": -1.531894197655846,
+    "native_margin_ci_high": -1.0173144691730485,
+    "native_decision_rate_mean": 0.42889285714285713,
+    "native_decision_rate_ci_low": 0.3808300595238095,
+    "native_decision_rate_ci_high": 0.4766547619047618,
+    "explicit_decision_rate_mean": 0.9723214285714286,
+    "explicit_decision_rate_ci_low": 0.9554160714285714,
+    "explicit_decision_rate_ci_high": 0.987238392857143
+  },
+  "r1": {
+    "r": 1.0,
+    "questions": 57.0,
+    "j_mean": 0.9863139822754206,
+    "j_ci_low": 0.9761540956727252,
+    "j_ci_high": 0.9943697768899696,
+    "native_s_mean": 0.9520262191060663,
+    "native_s_ci_low": 0.905026422353931,
+    "native_s_ci_high": 0.9889439172747579,
+    "native_margin_mean": 6.1350899025683585,
+    "native_margin_ci_low": 5.480092287141291,
+    "native_margin_ci_high": 6.738419529002085,
+    "native_decision_rate_mean": 0.9548112706007443,
+    "native_decision_rate_ci_low": 0.9021708311181995,
+    "native_decision_rate_ci_high": 0.9961013645224172,
+    "explicit_decision_rate_mean": 0.9992025518341308,
+    "explicit_decision_rate_ci_low": 0.9976076555023923,
+    "explicit_decision_rate_ci_high": 1.0
+  },
+  "terminal_accuracy": [
+    {
+      "label": "Incomplete\n$R_T<1$",
+      "questions": 43,
+      "correct": 3,
+      "accuracy": 0.06976744186046512,
+      "ci_low": 0.024011589577214484,
+      "ci_high": 0.18608986901241975
+    },
+    {
+      "label": "Complete\n$R_T=1$",
+      "questions": 57,
+      "correct": 41,
+      "accuracy": 0.7192982456140351,
+      "ci_low": 0.5916980132395605,
+      "ci_high": 0.8192060065617645
+    }
+  ],
+  "replica_reliability": {
+    "j_pearson": 0.9784011943886063,
+    "j_binary_agreement": 0.9769647696476965,
+    "margin_pearson": 0.999418581080493,
+    "margin_sign_agreement": 0.9932249322493225
+  },
+  "native_binary_rule": "native_logit_margin > 0",
+  "explicit_binary_rule": "j_sufficient_fraction > 0.5"
+}

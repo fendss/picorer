@@ -1,0 +1,18 @@
+{
+  "terminal_trajectories": 600,
+  "distinct_questions": 100,
+  "primary_questions": 64,
+  "predefined_conflict_questions": 36,
+  "unique_audit_matches": 600,
+  "explicit_finish": 600,
+  "package_completeness_equals_handoff_completeness": 600,
+  "package_hop_set_equals_handoff_hop_set": 599,
+  "all_successful_read_ranges_retained": 600,
+  "last_reads_checked": 599,
+  "no_read_empty_package_insufficient": 1,
+  "score_recomputation": {
+    "checked": 600,
+    "mismatches": []
+  },
+  "units_note": "600 rows are 100 shared questions across six saved run configurations, not 600 independent questions."
+}

@@ -1,0 +1,54 @@
+{
+  "notice": "Export completed with explicit settings. This report does not establish visual, accessibility, scientific-integrity, or journal-submission compliance.",
+  "outputs": [
+    {
+      "format": "pdf",
+      "kind": "vector-container",
+      "path": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/evidence-sufficiency-dynamics-20260915/figures/native-margin-around-evidence-completion.pdf",
+      "size_bytes": 27722
+    },
+    {
+      "format": "png",
+      "kind": "raster",
+      "path": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/evidence-sufficiency-dynamics-20260915/figures/native-margin-around-evidence-completion.png",
+      "size_bytes": 216558
+    }
+  ],
+  "provenance": {
+    "aggregation": "runs within question, then equal-weight questions at each integer offset",
+    "alt_text": "Mean native sufficiency margin is positive two decisions before full annotated evidence coverage and rises sharply at the completion event.",
+    "destination": "General manuscript figure; journal requirements unspecified",
+    "missing_data": "no padding outside observed trajectories; n under each tick gives contributing questions",
+    "raw_data": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-interventions-20260914/summary/units.csv",
+    "raw_data_sha256": "bdc60e91791fae79bd256a738424625cbc2dade4e74874dde2522b99428c2e67",
+    "sample": "64 unconflicted questions; event-aligned natural Qwen3.6-27B trajectories with observed full coverage",
+    "transformations": [
+      "align integer decision states to the first state with R=1",
+      "retain the native sufficient-vs-insufficient readout requested by the figure",
+      "no smoothing and no monotonicity constraint"
+    ],
+    "uncertainty": "95% pointwise question bootstrap; 5000 draws; seed family 20260915"
+  },
+  "schema_version": "1.0",
+  "settings": {
+    "bbox_inches": null,
+    "dpi": 600.0,
+    "facecolor": "white",
+    "figure_size_inches": [
+      4.7,
+      3.25
+    ],
+    "font_mode": "truetype",
+    "formats": [
+      "pdf",
+      "png"
+    ],
+    "pad_inches": 0.1,
+    "transparent": false
+  },
+  "versions": {
+    "matplotlib": "3.11.2",
+    "pillow": "12.3.0"
+  },
+  "warnings": []
+}

@@ -1,0 +1,13 @@
+{
+  "counts": {
+    "answer": 528,
+    "completed": 1132,
+    "native": 612,
+    "reused": 8
+  },
+  "elapsed_seconds": 724.1553597450256,
+  "errors": [],
+  "expected": 4070,
+  "phase": "pilot",
+  "updated_unix": 1789365027.5573602
+}

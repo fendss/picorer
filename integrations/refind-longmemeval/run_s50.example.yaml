@@ -1,0 +1,43 @@
+# Copy this file outside the repository, fill the credentials, and chmod 600 it.
+schema_version: 1
+
+paths:
+  root: /path/to/picorer-eval/plans-v1-experiment-run1
+  data_dir: /path/to/picorer-eval/data-s50
+  output_dir: /path/to/picorer-eval/full-native-plans-v1-budget4-s128-s50-run1
+  evaluator_source: /secure/path/longmemeval_s_evaluator_source.json
+  embedding_env: /secure/path/embedding.env
+
+source:
+  commit: 9f87a1c1014760f81f3852e9055765c1b042f725
+  fingerprint: replace-with-deployed-source-fingerprint
+
+credentials:
+  generation:
+    api_key: replace-me
+    base_url: https://api.gpt.ge/v1
+  # Omit this block when judge and generation share one credential/base URL.
+  judge:
+    api_key: replace-me
+    base_url: https://api.gpt.ge/v1
+
+models:
+  retrieval:
+    id: gpt-5-mini
+    thinking_level: medium
+    context_window: 128000
+    max_tokens: 4096
+  answer:
+    id: gpt-5-mini
+    thinking_level: medium
+    context_window: 128000
+    max_tokens: 4096
+  judge:
+    id: gpt-4.1-mini
+
+run:
+  label: plans-v1-budget4-s128-s50-run1
+  slots: 128
+  max_search_calls: 4
+  expected_questions: 50
+  health_retry_seconds: 60

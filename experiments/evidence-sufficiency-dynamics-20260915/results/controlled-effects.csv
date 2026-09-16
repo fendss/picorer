@@ -1,0 +1,11 @@
+sample,analysis,metric,estimate,ci_low,ci_high,questions,pairs
+unconflicted,Any missing gold fact added,Native sufficiency margin,5.890248614766754,5.4895144179367295,6.285253640350288,64,1072
+unconflicted,Any missing gold fact added,Sufficiency likelihood,0.44896918802194086,0.42886865106379424,0.46677474340950986,64,1072
+unconflicted,Any missing gold fact added,Answer accuracy,0.4439778645833333,0.41861735026041663,0.46673258463541667,64,1072
+unconflicted,Any missing gold fact added,Strict exact match,0.4431966145833333,0.4184244791666667,0.4661783854166667,64,1072
+unconflicted,Any missing gold fact added,Input tokens,0.03125,-0.3685221354166667,0.4270833333333333,64,1072
+unconflicted,Last missing gold fact added,Native sufficiency margin,6.689860024639181,6.314281200609482,7.042859896786503,64,302
+unconflicted,Last missing gold fact added,Sufficiency likelihood,0.28788306200368463,0.24470863749967683,0.33132790130856116,64,302
+unconflicted,Last missing gold fact added,Answer accuracy,0.5169270833333334,0.47005208333333337,0.5653645833333334,64,302
+unconflicted,Last missing gold fact added,Strict exact match,0.5161458333333333,0.46770833333333334,0.5658854166666667,64,302
+unconflicted,Last missing gold fact added,Input tokens,0.03125,-0.3685221354166667,0.4270833333333333,64,302

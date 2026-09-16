@@ -1,0 +1,2702 @@
+[
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no0",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no1",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no2",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no3",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no4",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no5",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no6",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no7",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no8",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no9",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no10",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no11",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no12",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no13",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no14",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no15",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no16",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no17",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no18",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no19",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no20",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no21",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no22",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no23",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no24",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no25",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no26",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no27",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no28",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no29",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no30",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no31",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no32",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no33",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no34",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no35",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no36",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no37",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no38",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no39",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no40",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no41",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no42",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no43",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no44",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no45",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no46",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no47",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no48",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no49",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no50",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no51",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no52",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no53",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no54",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no55",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no56",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no57",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no58",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no59",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no60",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no61",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no62",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no63",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no64",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no65",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no66",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.5,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no67",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no68",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no69",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no70",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no71",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 1.0,
+      "f1": 0.6,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no72",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no73",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no74",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no75",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no76",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no77",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no78",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no79",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no80",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no81",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no82",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no83",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no84",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no85",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no86",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no87",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no88",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no89",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no90",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no91",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no92",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no93",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no94",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no95",
+    "metrics": {
+      "exact_match": 1.0,
+      "substring_exact_match": 1.0,
+      "f1": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no96",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no97",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no98",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no99",
+    "metrics": {
+      "exact_match": 0.0,
+      "substring_exact_match": 0.0,
+      "f1": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no0",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no1",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no2",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.5,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no3",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no4",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no5",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no6",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no7",
+    "metrics": {
+      "recsys_recall@1": 1.0,
+      "recsys_recall@5": 1.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no8",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no9",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.5,
+      "recsys_recall@10": 0.5,
+      "official_score": 0.5
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no10",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no11",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no12",
+    "metrics": {
+      "recsys_recall@1": 1.0,
+      "recsys_recall@5": 1.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no13",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no14",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no15",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no16",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no17",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no18",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no19",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no20",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no21",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no22",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no23",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no24",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no25",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no26",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no27",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.5,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no28",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no29",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.5,
+      "recsys_recall@10": 0.5,
+      "official_score": 0.5
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no30",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no31",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no32",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no33",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no34",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no35",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 1.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no36",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no37",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no38",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no39",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 1.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no40",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no41",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no42",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no43",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 1.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no44",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no45",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no46",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.3333333333333333,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no47",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no48",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no49",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no50",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no51",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no52",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no53",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no54",
+    "metrics": {
+      "recsys_recall@1": 1.0,
+      "recsys_recall@5": 1.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no55",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no56",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.3333333333333333,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no57",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no58",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.6666666666666666,
+      "recsys_recall@10": 0.6666666666666666,
+      "official_score": 0.6666666666666666
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no59",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.6666666666666666,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no60",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no61",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no62",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 1.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no63",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 1.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no64",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no65",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.5,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no66",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no67",
+    "metrics": {
+      "recsys_recall@1": 1.0,
+      "recsys_recall@5": 1.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no68",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no69",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no70",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 1.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no71",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no72",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no73",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.3333333333333333,
+      "recsys_recall@10": 0.3333333333333333,
+      "official_score": 0.3333333333333333
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no74",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no75",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no76",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no77",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no78",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no79",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no80",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 1.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no81",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no82",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no83",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no84",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no85",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no86",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no87",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no88",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no89",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no90",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no91",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.5,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no92",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no93",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no94",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no95",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no96",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no97",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no98",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 1.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no99",
+    "metrics": {
+      "recsys_recall@1": 0.5,
+      "recsys_recall@5": 0.5,
+      "recsys_recall@10": 0.5,
+      "official_score": 0.5
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no100",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no101",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no102",
+    "metrics": {
+      "recsys_recall@1": 1.0,
+      "recsys_recall@5": 1.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no103",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no104",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.3333333333333333,
+      "recsys_recall@10": 0.3333333333333333,
+      "official_score": 0.3333333333333333
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no105",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 1.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no106",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no107",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no108",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no109",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.5,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no110",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no111",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.5,
+      "recsys_recall@10": 0.5,
+      "official_score": 0.5
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no112",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no113",
+    "metrics": {
+      "recsys_recall@1": 0.5,
+      "recsys_recall@5": 1.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no114",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no115",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no116",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no117",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no118",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no119",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no120",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no121",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no122",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no123",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no124",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no125",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 1.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no126",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no127",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 1.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no128",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no129",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no130",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no131",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no132",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no133",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 1.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no134",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no135",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no136",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.5,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no137",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no138",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no139",
+    "metrics": {
+      "recsys_recall@1": 1.0,
+      "recsys_recall@5": 1.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no140",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no141",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no142",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no143",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no144",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no145",
+    "metrics": {
+      "recsys_recall@1": 0.5,
+      "recsys_recall@5": 1.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no146",
+    "metrics": {
+      "recsys_recall@1": 1.0,
+      "recsys_recall@5": 1.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no147",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no148",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no149",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no150",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no151",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no152",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no153",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no154",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no155",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no156",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no157",
+    "metrics": {
+      "recsys_recall@1": 0.5,
+      "recsys_recall@5": 1.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no158",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no159",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no160",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no161",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no162",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no163",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no164",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no165",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no166",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no167",
+    "metrics": {
+      "recsys_recall@1": 1.0,
+      "recsys_recall@5": 1.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no168",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no169",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no170",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no171",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no172",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no173",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no174",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no175",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no176",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no177",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no178",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no179",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no180",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no181",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no182",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no183",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 1.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no184",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no185",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no186",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no187",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no188",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no189",
+    "metrics": {
+      "recsys_recall@1": 0.5,
+      "recsys_recall@5": 1.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no190",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no191",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no192",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no193",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 1.0,
+      "recsys_recall@10": 1.0,
+      "official_score": 1.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no194",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no195",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no196",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no197",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no198",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  },
+  {
+    "question_id": "agentmemorybench:recsys-redial-full:context-0/recsys_redial_full_no199",
+    "metrics": {
+      "recsys_recall@1": 0.0,
+      "recsys_recall@5": 0.0,
+      "recsys_recall@10": 0.0,
+      "official_score": 0.0
+    }
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "status": "historical_comparison_not_recomputed_after_canonical_namespace_migration",
+  "compared_files": 373,
+  "missing_files": [],
+  "different_file_paths": [
+    "integrations/memoryagentbench/README.md",
+    "integrations/memoryagentbench/mab_adapter/cli.py",
+    "integrations/memoryagentbench/mab_adapter/clients.py",
+    "integrations/memoryagentbench/mab_adapter/config.py",
+    "integrations/memoryagentbench/mab_adapter/contracts.py",
+    "integrations/memoryagentbench/mab_adapter/dataset.py",
+    "integrations/memoryagentbench/mab_adapter/runner.py",
+    "integrations/memoryagentbench/mab_adapter/scoring.py",
+    "integrations/memoryagentbench/pins.json",
+    "integrations/memoryagentbench/requirements.txt",
+    "integrations/memoryagentbench/run_from_yaml.mjs",
+    "integrations/memoryagentbench/tests/test_config_contracts.py",
+    "integrations/memoryagentbench/tests/test_scoring.py",
+    "integrations/memoryagentbench/tests/test_yaml_runner.py"
+  ]
+}

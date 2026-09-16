@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "suite": "bundled_shopping",
+  "base_config": "configs/web_shopping_configs/bm25.json",
+  "patch": {
+    "memory.memory_system_name": "${MEMORY_BACKEND}",
+    "memory.server_url": "${MEMORY_URL}",
+    "output.output_dir": "${RUN_DIR}/outputs/bundled_shopping"
+  },
+  "task_selection": {
+    "source": "public-task-manifest",
+    "mode": "complete"
+  }
+}

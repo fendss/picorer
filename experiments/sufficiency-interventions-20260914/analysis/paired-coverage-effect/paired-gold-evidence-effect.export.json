@@ -1,0 +1,53 @@
+{
+  "notice": "Export completed with explicit settings. This report does not establish visual, accessibility, scientific-integrity, or journal-submission compliance.",
+  "outputs": [
+    {
+      "format": "pdf",
+      "kind": "vector-container",
+      "path": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-interventions-20260914/analysis/paired-coverage-effect/paired-gold-evidence-effect.pdf",
+      "size_bytes": 55863
+    },
+    {
+      "format": "png",
+      "kind": "raster",
+      "path": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-interventions-20260914/analysis/paired-coverage-effect/paired-gold-evidence-effect.png",
+      "size_bytes": 570992
+    }
+  ],
+  "provenance": {
+    "alt_text": "All 64 gray question-average lines rise from the matched control to the one-gold-fact intervention. The overall mean sufficiency likelihood rises from 0.360 to 0.809, a paired increase of 0.449 with 95% CI 0.428 to 0.466.",
+    "destination": "General manuscript figure, approximately 130 mm wide; journal requirements unspecified",
+    "raw_data": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-interventions-20260914/summary/units.csv",
+    "raw_data_sha256": "62a53a5b7dba5c3f11695d2a87ad9ffa002153eb6bad1e013c3ee6802dafda91",
+    "sample": "64 predeclared FactConsolidation-MH questions without known gold conflicts",
+    "transformations": [
+      "coverage experiment only; all complete units retained",
+      "construct every within-question, within-order pair differing by exactly one gold fact",
+      "the absent gold fact is replaced by a word-length-matched unrelated fact",
+      "average all eligible pairs within question before averaging questions"
+    ],
+    "uncertainty": "95% percentile bootstrap over 64 question means; 2,000 draws; seed 20260914"
+  },
+  "schema_version": "1.0",
+  "settings": {
+    "bbox_inches": null,
+    "dpi": 600.0,
+    "facecolor": "white",
+    "figure_size_inches": [
+      5.1,
+      3.85
+    ],
+    "font_mode": "truetype",
+    "formats": [
+      "pdf",
+      "png"
+    ],
+    "pad_inches": 0.1,
+    "transparent": false
+  },
+  "versions": {
+    "matplotlib": "3.11.2",
+    "pillow": "12.3.0"
+  },
+  "warnings": []
+}

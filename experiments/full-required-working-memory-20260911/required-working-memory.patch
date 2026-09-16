@@ -1,0 +1,370 @@
+--- a/test/required-working-memory.test.ts
++++ b/test/required-working-memory.test.ts
+@@ -0,0 +1,74 @@
++import { describe, expect, it, vi } from "vitest";
++import { Type } from "@earendil-works/pi-ai";
++import type { AgentMessage, AgentTool } from "@earendil-works/pi-agent-core";
++import { createRequiredWorkingMemory } from "../src/evidence-agent/adapters/pi/required-working-memory.js";
++import { createMemoryObservation } from "../src/evidence-agent/adapters/pi/memory-observation.js";
++import { createEphemeralMemoryContext } from "../src/evidence-agent/adapters/pi/ephemeral-context.js";
++import { MemoryLedger } from "../src/evidence-agent/model/ledger.js";
++
++const messages: AgentMessage[] = [{ role: "toolResult", toolCallId: "s1", toolName: "search",
++  content: [{ type: "text", text: "source fact" }], isError: false, timestamp: 1 }];
++function fixture(name = "search") {
++  const observation = createMemoryObservation({ ledger: new MemoryLedger("scope") });
++  const policy = createRequiredWorkingMemory(observation);
++  const execute = vi.fn<AgentTool["execute"]>(async () => ({ content: [], details: { kept: true } }));
++  const native: AgentTool = { name, label: name, description: name,
++    parameters: Type.Object({ query: Type.Optional(Type.String()) }), execute };
++  const tool = policy.wrapTools([native])[0]!;
++  return { observation, policy, execute, tool };
++}
++
++describe("full required working memory", () => {
++  it("allows initial omission but rejects omission after observation before running native work", async () => {
++    const { policy, tool, execute } = fixture();
++    await tool.execute("s1", { query: "entity" });
++    policy.observe(messages);
++    await expect(tool.execute("s2", { query: "relation" })).rejects.toThrow("required");
++    expect(execute).toHaveBeenCalledTimes(1);
++  });
++  it("requires an initial note and permits explicit unchanged only after one exists", async () => {
++    const { policy, tool, observation } = fixture();
++    policy.observe(messages);
++    await expect(tool.execute("a", { workingMemory: null })).rejects.toThrow("No workingMemory");
++    await tool.execute("b", { workingMemory: "Established: A. Missing: B." });
++    const result = await tool.execute("c", { workingMemory: null });
++    expect(result.details.requiredWorkingMemory).toMatchObject({ mode: "confirmed", note: "Established: A. Missing: B." });
++    expect(observation.render()).toContain("Established: A. Missing: B.");
++  });
++  it("rejects blank and oversized notes atomically and removes only the note argument", async () => {
++    const { tool, observation, execute } = fixture();
++    await tool.execute("a", { workingMemory: "current", query: "relation" });
++    for (const note of [" ", "a".repeat(1601)]) {
++      await expect(tool.execute("b", { workingMemory: note })).rejects.toThrow();
++    }
++    expect(observation.render()).toContain("current");
++    expect(execute.mock.calls).toHaveLength(1);
++    expect(execute.mock.calls[0]?.[1]).toEqual({ query: "relation" });
++  });
++  it("requires confirmation at finish and persists replacement in the same observation", async () => {
++    const { tool, observation } = fixture("finish");
++    await expect(tool.execute("a", {})).rejects.toThrow("required");
++    const result = await tool.execute("b", { workingMemory: "Established: A. Missing: none." });
++    expect(result.details.kept).toBe(true);
++    expect(observation.render()).toContain("Established: A. Missing: none.");
++  });
++  it("does not mistake same-batch execution for an observed result or compact history", async () => {
++    const { policy, tool } = fixture();
++    await tool.execute("a", {});
++    await tool.execute("b", {});
++    const before = structuredClone(messages);
++    const context = createEphemeralMemoryContext();
++    const expected = await context.transformContext(messages);
++    policy.observe(messages);
++    expect(await context.transformContext(messages)).toEqual(expected);
++    expect(messages).toEqual(before);
++  });
++  it("keeps the native full pre-action note commit when the subsequent tool fails", async () => {
++    const { policy, observation } = fixture();
++    const failing: AgentTool = { name: "read", label: "read", description: "read",
++      parameters: Type.Object({}), execute: async () => { throw new Error("source unavailable"); } };
++    const tool = policy.wrapTools([failing])[0]!;
++    await expect(tool.execute("f", { workingMemory: "still missing B" })).rejects.toThrow("source unavailable");
++    expect(observation.render()).toContain("still missing B");
++  });
++});
+--- a/integrations/memoryagentbench/run_from_yaml.mjs
++++ b/integrations/memoryagentbench/run_from_yaml.mjs
+@@ -433,6 +433,8 @@
+     retrievalProfile,
+   );
+   const skill = skillAt(service.skill, "config.service.skill");
++  const requireWorkingMemory = service.require_working_memory ?? false;
++  if (typeof requireWorkingMemory !== "boolean") throw new Error("config.service.require_working_memory must be boolean");
+   const interfaceMode = interfaceModeAt(
+     service.interface_mode,
+     "config.service.interface_mode",
+@@ -477,6 +479,7 @@
+       qdrant,
+       skill,
+       interfaceMode,
++      requireWorkingMemory,
+       maxRunMs: integerAt(service.max_run_ms, "config.service.max_run_ms", 1, 1_800_000),
+       maxTurns: integerAt(service.max_turns, "config.service.max_turns", 1, 256),
+       maxToolCalls: integerAt(service.max_tool_calls, "config.service.max_tool_calls", 1, 512),
+@@ -641,6 +644,7 @@
+       sha256: sha256(path === null ? "" : readFileSync(path, "utf8")),
+     },
+     agent_interface: config.service.interfaceMode,
++    ...(config.service.requireWorkingMemory ? { working_memory_requirement: "required-after-observation-v1" } : {}),
+     retrieval: {
+       provider_id: "picorer-openai",
+       logical_model_id: config.models.retrieval.id,
+@@ -770,6 +774,7 @@
+     PICORER_REQUEST_TIMEOUT_MS: String(config.service.requestTimeoutMs),
+     PICORER_SKILL: config.service.skill,
+     PICORER_INTERFACE_MODE: config.service.interfaceMode,
++    PICORER_REQUIRE_WORKING_MEMORY: String(config.service.requireWorkingMemory),
+     PICORER_SOURCE_IDENTITY: config.service.sourceIdentity,
+     PICORER_BUILD_IDENTITY: config.service.buildIdentity,
+     PICORER_EXPECTED_RUNTIME_IDENTITY_SHA256: runtimeIdentity.sha256,
+@@ -911,6 +916,7 @@
+     memory_timeout_seconds: config.run.memoryTimeoutSeconds,
+     retrieval_skill: config.service.skill,
+     agent_interface: config.service.interfaceMode,
++    ...(config.service.requireWorkingMemory ? { working_memory_requirement: "required-after-observation-v1" } : {}),
+     context_slots: config.run.contextSlots,
+     query_slots: config.run.querySlots,
+     adaptive_query_slots: config.run.adaptiveQuerySlots,
+--- a/integrations/memoryagentbench/run_from_yaml.d.mts
++++ b/integrations/memoryagentbench/run_from_yaml.d.mts
+@@ -56,6 +56,7 @@
+     } | null;
+     skill: "none" | "picorer-minimal" | "picorer-v0";
+     interfaceMode: "full" | "compact";
++    requireWorkingMemory: boolean;
+     maxRunMs: number;
+     maxTurns: number;
+     maxToolCalls: number;
+--- a/src/benchmark/memoryarena-public/adapters/picorer-memory-runtime.ts
++++ b/src/benchmark/memoryarena-public/adapters/picorer-memory-runtime.ts
+@@ -42,6 +42,7 @@
+   modelRuntime: PiModelRuntime;
+   skill?: PicorerSkill;
+   interfaceMode?: PicorerInterfaceMode;
++  requireWorkingMemory?: boolean;
+   maxRunMs?: number;
+   maxTurns?: number;
+   maxToolCalls?: number;
+@@ -311,6 +312,7 @@
+         ...(this.options.interfaceMode === undefined
+           ? {}
+           : { interfaceMode: this.options.interfaceMode }),
++        ...(this.options.requireWorkingMemory === undefined ? {} : { requireWorkingMemory: this.options.requireWorkingMemory }),
+         ...(experiment === undefined
+           ? {}
+           : {
+--- a/src/benchmark/memoryarena-public/composition/create-runtime.ts
++++ b/src/benchmark/memoryarena-public/composition/create-runtime.ts
+@@ -55,6 +55,7 @@
+   memorySystemName?: string;
+   skill?: PicorerSkill;
+   interfaceMode?: PicorerInterfaceMode;
++  requireWorkingMemory?: boolean;
+   maxRunMs?: number;
+   maxTurns?: number;
+   maxToolCalls?: number;
+@@ -296,6 +297,7 @@
+       ...(options.interfaceMode === undefined
+         ? {}
+         : { interfaceMode: options.interfaceMode }),
++      ...(options.requireWorkingMemory === undefined ? {} : { requireWorkingMemory: options.requireWorkingMemory }),
+       ...(options.maxRunMs === undefined ? {} : { maxRunMs: options.maxRunMs }),
+       ...(options.maxTurns === undefined ? {} : { maxTurns: options.maxTurns }),
+       ...(options.maxToolCalls === undefined
+--- a/src/entrypoints/memoryarena-public-api/main.ts
++++ b/src/entrypoints/memoryarena-public-api/main.ts
+@@ -187,6 +187,10 @@
+   }
+   const skill = skillEnvironment();
+   const interfaceMode = interfaceModeEnvironment(skill);
++  const rawRequiredMemory = process.env.PICORER_REQUIRE_WORKING_MEMORY?.trim() || "false";
++  if (rawRequiredMemory !== "true" && rawRequiredMemory !== "false") throw new Error("PICORER_REQUIRE_WORKING_MEMORY must be true or false");
++  const requireWorkingMemory = rawRequiredMemory === "true";
++  if (requireWorkingMemory && interfaceMode !== "full") throw new Error("Required working memory experiment needs full interface");
+   const maxRunMs = integerEnvironment("PICORER_MAX_RUN_MS", 300_000, 1_800_000);
+   const maxTurns = integerEnvironment("PICORER_MAX_TURNS", 64, 256);
+   const maxToolCalls = integerEnvironment("PICORER_MAX_TOOL_CALLS", 80, 512);
+@@ -205,6 +209,7 @@
+       MEMORYARENA_PUBLIC_MEMORY_SYSTEM,
+     skill,
+     interfaceMode,
++    requireWorkingMemory,
+     maxRunMs,
+     maxTurns,
+     maxToolCalls,
+@@ -215,6 +220,7 @@
+     buildIdentity: requiredEnvironment("PICORER_BUILD_IDENTITY"),
+     skill,
+     interfaceMode,
++    requireWorkingMemory,
+     modelRuntime,
+     logicalModelId: requiredEnvironment("PICORER_LOGICAL_MODEL_ID"),
+     protocol: requiredEnvironment("PICORER_RETRIEVAL_PROTOCOL"),
+--- a/src/entrypoints/memoryarena-public-api/runtime-contract.ts
++++ b/src/entrypoints/memoryarena-public-api/runtime-contract.ts
+@@ -21,6 +21,7 @@
+     sha256: string;
+   };
+   agent_interface: PicorerInterfaceMode;
++  working_memory_requirement?: "required-after-observation-v1";
+   retrieval: {
+     provider_id: string;
+     logical_model_id: string;
+@@ -86,6 +87,7 @@
+   buildIdentity: string;
+   skill: PicorerSkill;
+   interfaceMode: PicorerInterfaceMode;
++  requireWorkingMemory?: boolean;
+   modelRuntime: PiModelRuntime;
+   logicalModelId: string;
+   protocol: string;
+@@ -109,6 +111,7 @@
+       sha256: skillHash(options.skill),
+     },
+     agent_interface: options.interfaceMode,
++    ...(options.requireWorkingMemory ? { working_memory_requirement: "required-after-observation-v1" as const } : {}),
+     retrieval: {
+       provider_id: options.modelRuntime.providerId,
+       logical_model_id: nonEmpty(
+--- a/src/evidence-agent/adapters/pi/run-agent.ts
++++ b/src/evidence-agent/adapters/pi/run-agent.ts
+@@ -1,3 +1,5 @@
++import { createMemoryObservation } from "./memory-observation.js";
++import { createRequiredWorkingMemory, REQUIRED_WORKING_MEMORY_PROMPT } from "./required-working-memory.js";
+ import { WORK_PROGRESS_PROMPT } from "./work-progress-contract.js";
+ import { Agent } from "@earendil-works/pi-agent-core";
+ import { createEphemeralMemoryContext } from "./ephemeral-context.js";
+@@ -71,6 +73,8 @@
+   skill?: PicorerSkill;
+   /** Controls presentation and history compaction independently of retrieval guidance. */
+   interfaceMode?: PicorerInterfaceMode;
++  /** Experimental full-interface note acknowledgement; default off. */
++  requireWorkingMemory?: boolean;
+   /** Opt-in note-driven context with acknowledged tool-result expiry. */
+   contextPolicy?: "current-window" | "working-memory-rewrite" | "working-memory-v2" | "working-memory-v3";
+   /** Approved declarative operators loaded into this run before the Agent starts. */
+@@ -216,6 +220,9 @@
+   if (contextPolicy !== undefined && contextPolicy !== "current-window" &&
+       contextPolicy !== "working-memory-v2" && contextPolicy !== "working-memory-v3" && contextPolicy !== "working-memory-rewrite") {
+     throw new Error("Unsupported contextPolicy. Use working-memory-rewrite for a single note, working-memory-v2 for entries or working-memory-v3 for current task progress; the old working-memory-v1 replacement policy is available only in its frozen experiment snapshot.");
++  }
++  if (options.requireWorkingMemory && (compactInterface || (contextPolicy !== undefined && contextPolicy !== "current-window"))) {
++    throw new Error("requireWorkingMemory requires full interface with current-window context.");
+   }
+   const scopeId = assertNonEmpty(options.scopeId, "scopeId");
+   const question = assertNonEmpty(options.question, "question");
+@@ -273,6 +280,12 @@
+   for (const definition of options.operatorDefinitions ?? []) {
+     operatorCatalog.define(structuredClone(definition));
+   }
++  const requiredObservation = options.requireWorkingMemory ? createMemoryObservation({
++    ledger, question,
++    ...(options.questionDate === undefined ? {} : { questionDate: options.questionDate }),
++    ...(options.maxSearchCalls === undefined ? {} : { maxSearchCalls: options.maxSearchCalls }),
++  }) : undefined;
++  const requiredMemory = requiredObservation === undefined ? undefined : createRequiredWorkingMemory(requiredObservation);
+   const tools = createPicorerTools({
+     store: options.store,
+     operatorRegistry: operatorCatalog,
+@@ -281,6 +294,7 @@
+     ledger,
+     question,
+     ...(workingContext === undefined ? {} : { observation: workingContext.observation }),
++    ...(requiredObservation === undefined ? {} : { observation: requiredObservation }),
+     ...(options.questionDate === undefined
+       ? {}
+       : { questionDate: options.questionDate }),
+@@ -302,7 +316,7 @@
+         }),
+ 
+   });
+-  const agentTools = workingContext?.wrapTools(tools.all) ?? tools.all;
++  const agentTools = requiredMemory?.wrapTools(tools.all) ?? workingContext?.wrapTools(tools.all) ?? tools.all;
+   const enforceToolProtocol = createToolProtocolBeforeToolCall();
+   const agent = new Agent({
+     initialState: {
+@@ -310,7 +324,8 @@
+         skill,
+         options.systemPrompt,
+         operatorCatalog.list(),
+-      ) + (workingContext === undefined ? "" : workingPrompt),
++      ) + (workingContext === undefined ? "" : workingPrompt)
++        + (requiredMemory === undefined ? "" : REQUIRED_WORKING_MEMORY_PROMPT),
+       model: options.modelRuntime.model,
+       thinkingLevel: options.modelRuntime.thinkingLevel,
+       tools: workingContext?.availableTools(agentTools) ?? agentTools,
+@@ -320,7 +335,10 @@
+     }),
+     streamFn: options.modelRuntime.streamFn,
+     getApiKey: options.modelRuntime.getApiKey,
+-    transformContext: ephemeralContext.transformContext,
++    transformContext: async (messages) => {
++      requiredMemory?.observe(messages);
++      return ephemeralContext.transformContext(messages);
++    },
+     beforeToolCall: enforceToolProtocol,
+     afterToolCall: async (context) => {
+       if (
+--- a/src/evidence-agent/adapters/pi/required-working-memory.ts
++++ b/src/evidence-agent/adapters/pi/required-working-memory.ts
+@@ -0,0 +1,67 @@
++import type { AgentMessage, AgentTool } from "@earendil-works/pi-agent-core";
++import { Type } from "@earendil-works/pi-ai";
++import type { MemoryObservation } from "./memory-observation.js";
++
++export const REQUIRED_WORKING_MEMORY_PROMPT = `
++Working-memory requirement (full interface experiment):
++After observing a tool result, every next tool call must include workingMemory.
++Write a short current note describing what is established and what is still
++missing. Replace outdated conclusions when new evidence changes your judgment.
++Use null only to explicitly confirm an existing note is still current. Before
++any tool result, the initial search may omit the note. Finish must also include
++a current note or null to confirm it. The note limit remains 1600 characters.
++Notes are fallible progress records, never source evidence. Tool history,
++search operators and final source delivery follow the existing full interface.
++`;
++
++/** Require an explicit note decision without changing full-context retention. */
++export function createRequiredWorkingMemory(observation: MemoryObservation) {
++  let observedResult = false;
++  let note: string | undefined;
++  const parameter = Type.Optional(Type.Union([
++    Type.String({ minLength: 1, maxLength: 1600 }), Type.Null(),
++  ], { description: "Required after a tool result and at finish: current progress and missing facts; null explicitly keeps an existing note. Initial search may omit it." }));
++
++  return {
++    observe(messages: readonly AgentMessage[]): void {
++      // A preceding action in the same assistant batch has not been observed yet.
++      if (messages.some(message => message.role === "toolResult")) observedResult = true;
++    },
++    wrapTools(tools: readonly AgentTool[]): AgentTool[] {
++      return tools.map(tool => {
++        const parameters = tool.parameters as ReturnType<typeof Type.Object>;
++        return {
++          ...tool,
++          parameters: {
++            ...parameters,
++            properties: { ...parameters.properties, workingMemory: parameter },
++          },
++          async execute(id, params, signal, onUpdate) {
++            signal?.throwIfAborted();
++            const fields = params as Record<string, unknown>;
++            const value = fields.workingMemory;
++            if ((observedResult || tool.name === "finish") && value === undefined) {
++              throw new Error("workingMemory is required after observing tool results and at finish. Write current progress, or use null to confirm the existing note.");
++            }
++            if (value === null && note === undefined) {
++              throw new Error("No workingMemory exists yet. Write an initial note describing confirmed facts and unresolved needs.");
++            }
++            if (value !== undefined && value !== null) {
++              if (typeof value !== "string") throw new Error("workingMemory must be a string or null.");
++              // Same validation, limit and pre-action commit as native full notes.
++              observation.recordWorkingMemory(value);
++              note = value.trim();
++            }
++            const { workingMemory: _note, ...nativeParams } = fields;
++            const result = await tool.execute(id, nativeParams, signal, onUpdate);
++            return { ...result, details: { ...result.details, requiredWorkingMemory: {
++              mode: value === undefined ? "initial-omitted" : value === null ? "confirmed" : "replaced",
++              note: note ?? null,
++              observedResult,
++            } } };
++          },
++        };
++      });
++    },
++  };
++}

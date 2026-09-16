@@ -1,0 +1,170 @@
+{
+  "status": "passed",
+  "checks_passed": 40,
+  "checks": [
+    {
+      "check": "units input hash matches",
+      "passed": true
+    },
+    {
+      "check": "status input hash matches",
+      "passed": true
+    },
+    {
+      "check": "answer-predictiveness input hash matches",
+      "passed": true
+    },
+    {
+      "check": "run 1 state-package input hash matches",
+      "passed": true
+    },
+    {
+      "check": "run 2 state-package input hash matches",
+      "passed": true
+    },
+    {
+      "check": "run 3 state-package input hash matches",
+      "passed": true
+    },
+    {
+      "check": "all 34,126 inference jobs complete",
+      "passed": true
+    },
+    {
+      "check": "all 10,018 units complete",
+      "passed": true
+    },
+    {
+      "check": "two native logit reads per unit",
+      "passed": true
+    },
+    {
+      "check": "five package-fixed answers per analyzed unit",
+      "passed": true
+    },
+    {
+      "check": "controlled-effects.csv is present and nonempty",
+      "passed": true
+    },
+    {
+      "check": "specificity.csv is present and nonempty",
+      "passed": true
+    },
+    {
+      "check": "natural-transitions.csv is present and nonempty",
+      "passed": true
+    },
+    {
+      "check": "natural-states-with-packages.csv is present and nonempty",
+      "passed": true
+    },
+    {
+      "check": "trajectory-onsets.csv is present and nonempty",
+      "passed": true
+    },
+    {
+      "check": "onset-categories.csv is present and nonempty",
+      "passed": true
+    },
+    {
+      "check": "event-aligned-summary.csv is present and nonempty",
+      "passed": true
+    },
+    {
+      "check": "threshold-sensitivity.csv is present and nonempty",
+      "passed": true
+    },
+    {
+      "check": "hop-stratified.csv is present and nonempty",
+      "passed": true
+    },
+    {
+      "check": "full100-sensitivity.csv is present and nonempty",
+      "passed": true
+    },
+    {
+      "check": "transition-regression.csv is present and nonempty",
+      "passed": true
+    },
+    {
+      "check": "answer-predictiveness.csv is present and nonempty",
+      "passed": true
+    },
+    {
+      "check": "evidence-sufficiency-coupling.csv is present and nonempty",
+      "passed": true
+    },
+    {
+      "check": "state export retains all 100 questions",
+      "passed": true
+    },
+    {
+      "check": "primary sample has 64 questions",
+      "passed": true
+    },
+    {
+      "check": "primary sample has 192 trajectories",
+      "passed": true
+    },
+    {
+      "check": "primary sample has 1,181 states",
+      "passed": true
+    },
+    {
+      "check": "primary sample has 989 transitions",
+      "passed": true
+    },
+    {
+      "check": "287 transitions gain gold support",
+      "passed": true
+    },
+    {
+      "check": "1,072 controlled support-addition pairs",
+      "passed": true
+    },
+    {
+      "check": "event figure uses only observed integer offsets",
+      "passed": true
+    },
+    {
+      "check": "event-point question counts match figure",
+      "passed": true
+    },
+    {
+      "check": "transition regression uses 381 package-changing transitions",
+      "passed": true
+    },
+    {
+      "check": "adjusted margin-change coefficient remains positive",
+      "passed": true
+    },
+    {
+      "check": "sufficiency-around-evidence-completion PNG is 600-dpi export size",
+      "passed": true
+    },
+    {
+      "check": "sufficiency-around-evidence-completion PDF embeds Times New Roman",
+      "passed": true
+    },
+    {
+      "check": "sufficiency-around-evidence-completion PDF is nonempty",
+      "passed": true
+    },
+    {
+      "check": "native-margin-around-evidence-completion PNG is 600-dpi export size",
+      "passed": true
+    },
+    {
+      "check": "native-margin-around-evidence-completion PDF embeds Times New Roman",
+      "passed": true
+    },
+    {
+      "check": "native-margin-around-evidence-completion PDF is nonempty",
+      "passed": true
+    }
+  ],
+  "input_hashes_frozen": true,
+  "analysis_unit": "question",
+  "bootstrap_draws": 5000,
+  "bootstrap_seed_family": 20260915
+}

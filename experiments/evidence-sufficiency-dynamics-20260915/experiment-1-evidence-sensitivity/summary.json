@@ -1,0 +1,18 @@
+{
+  "experiment": "Evidence sensitivity",
+  "input": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-interventions-20260914/summary/units.csv",
+  "input_sha256": "bdc60e91791fae79bd256a738424625cbc2dade4e74874dde2522b99428c2e67",
+  "status_sha256": "d450ae500a08eb30d18e395a7453cc78ab4a6775d1ec5d51081e604c1db86ff9",
+  "sample": {
+    "questions": 64,
+    "controlled_conditions": 760,
+    "pairs": 1072,
+    "completion_pairs": 302
+  },
+  "inference": {
+    "unit": "question",
+    "bootstrap_draws": 10000,
+    "permutation_draws": 200000,
+    "seed_family": 20260915
+  }
+}

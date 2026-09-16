@@ -1,0 +1,56 @@
+{
+  "notice": "Export completed with explicit settings. This report does not establish visual, accessibility, scientific-integrity, or journal-submission compliance.",
+  "outputs": [
+    {
+      "format": "pdf",
+      "kind": "vector-container",
+      "path": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-dynamics-20260912/analysis-rs-v5/03-correctness-regression.pdf",
+      "size_bytes": 35138
+    },
+    {
+      "format": "png",
+      "kind": "raster",
+      "path": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-dynamics-20260912/analysis-rs-v5/03-correctness-regression.png",
+      "size_bytes": 175133
+    }
+  ],
+  "provenance": {
+    "alt_text": "相同的高充分性倾向下，标准证据包完整与不完整的最终正确率明显不同；曲线为观察性回归而非校准曲线。",
+    "destination": "General research report, 162.56 mm width; journal requirements not specified",
+    "input": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-dynamics-20260912/analysis-rs-v4/states.csv",
+    "input_sha256": "d02c302518c98ac92a71167b0f58bf08fb160d9f1055def0d96a71085d468845",
+    "seed": 20260914,
+    "source_tables": [
+      "terminal-regression-curves.csv",
+      "terminal-empirical-quartiles.csv"
+    ],
+    "transformations": [
+      "binomial GLM: correctness ~ native_s + full R + interaction + round fixed effects",
+      "curves averaged over three rounds; only observed p range in each R group",
+      "hollow points: within-R empirical quartile means; no x jitter; no fitted values used for points"
+    ],
+    "uncertainty": "95% pointwise question-cluster bootstrap, 5000 draws; terminal GLM uses clustered sandwich delta method"
+  },
+  "schema_version": "1.0",
+  "settings": {
+    "bbox_inches": null,
+    "dpi": 450.0,
+    "facecolor": "white",
+    "figure_size_inches": [
+      6.4,
+      3.85
+    ],
+    "font_mode": "truetype",
+    "formats": [
+      "pdf",
+      "png"
+    ],
+    "pad_inches": 0.1,
+    "transparent": false
+  },
+  "versions": {
+    "matplotlib": "3.11.2",
+    "pillow": "12.3.0"
+  },
+  "warnings": []
+}

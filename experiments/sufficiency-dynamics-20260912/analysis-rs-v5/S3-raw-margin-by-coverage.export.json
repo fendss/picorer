@@ -1,0 +1,54 @@
+{
+  "notice": "Export completed with explicit settings. This report does not establish visual, accessibility, scientific-integrity, or journal-submission compliance.",
+  "outputs": [
+    {
+      "format": "pdf",
+      "kind": "vector-container",
+      "path": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-dynamics-20260912/analysis-rs-v5/S3-raw-margin-by-coverage.pdf",
+      "size_bytes": 27048
+    },
+    {
+      "format": "png",
+      "kind": "raster",
+      "path": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-dynamics-20260912/analysis-rs-v5/S3-raw-margin-by-coverage.png",
+      "size_bytes": 178793
+    }
+  ],
+  "provenance": {
+    "alt_text": "按二、三、四跳题分别显示覆盖率与充分性倾向的均值和区间；总体上升但中间覆盖水平并非严格单调。",
+    "destination": "General research report, 162.56 mm width; journal requirements not specified",
+    "input": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-dynamics-20260912/analysis-rs-v4/states.csv",
+    "input_sha256": "d02c302518c98ac92a71167b0f58bf08fb160d9f1055def0d96a71085d468845",
+    "seed": 20260914,
+    "source_tables": [
+      "coverage-means.csv"
+    ],
+    "transformations": [
+      "same-R states averaged within trajectory, then runs within question, then questions",
+      "stratify annotated hop count to avoid mixing different denominators; straight segments are descriptive, not fitted"
+    ],
+    "uncertainty": "95% pointwise question-cluster bootstrap, 5000 draws; terminal GLM uses clustered sandwich delta method"
+  },
+  "schema_version": "1.0",
+  "settings": {
+    "bbox_inches": null,
+    "dpi": 450.0,
+    "facecolor": "white",
+    "figure_size_inches": [
+      6.4,
+      3.85
+    ],
+    "font_mode": "truetype",
+    "formats": [
+      "pdf",
+      "png"
+    ],
+    "pad_inches": 0.1,
+    "transparent": false
+  },
+  "versions": {
+    "matplotlib": "3.11.2",
+    "pillow": "12.3.0"
+  },
+  "warnings": []
+}

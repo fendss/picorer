@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "suite": "formal_reasoning_math",
+  "base_config": "configs/formal_reasoning_configs/math_bm25.json",
+  "patch": {
+    "memory.memory_system_name": "${MEMORY_BACKEND}",
+    "memory.base_url": "${MEMORY_URL}",
+    "output.json_output_dir": "${RUN_DIR}/outputs/formal_reasoning_math"
+  },
+  "task_selection": {
+    "source": "public-task-manifest",
+    "mode": "complete"
+  }
+}

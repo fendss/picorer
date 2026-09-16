@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "benchmark": {
+    "repository": "https://github.com/HUST-AI-HYZ/MemoryAgentBench.git",
+    "commit": "fe1735de8cf8b9908e1e3d3b5612afc815698062"
+  },
+  "dataset": {
+    "repository": "ai-hyz/MemoryAgentBench",
+    "revision": "7ea066982b140a19337e17e60d45d4076e042faf",
+    "files": {
+      "accurate_retrieval": {
+        "path": "data/Accurate_Retrieval-00000-of-00001.parquet",
+        "size": 20024386,
+        "sha256": "56c3cd80fb6731a3e53cd1a6be3148f54df60ff2d290ee50e28f8acebf9655c1"
+      },
+      "conflict_resolution": {
+        "path": "data/Conflict_Resolution-00000-of-00001.parquet",
+        "size": 1491588,
+        "sha256": "24d5c3f09ce0ce15625cb9f8a98f44f0d864ca6c94d7b4ad04eb697ca3a5ff45"
+      },
+      "test_time_learning": {
+        "path": "data/Test_Time_Learning-00000-of-00001.parquet",
+        "size": 3947476,
+        "sha256": "5338753be48f925d03318eed66117286e3489025fabe050a547bd086cd7d79c0"
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+# Answer and scoring configuration for the two-task full-interface rerun.
+# "full" is configured on the Picorer retrieval service, NOT by this file.
+# Keep this file immutable once a manifest has bound its SHA-256.
+schema_version: 1
+
+models:
+  local-qwen:
+    id: qwen3.6-27b
+    base_url_env: QWEN36_BASE_URL
+    api_key_env: QWEN36_API_KEY
+    thinking_level: low
+    timeout_seconds: 600
+    context_window: 131072
+    context_safety_tokens: 4096
+
+prompts:
+  mab-answer:
+    system: >-
+      You are a helpful assistant that can read the context and memorize it
+      for future retrieval.
+    user: "${retrieval}"
+
+datasets:
+  agentmemorybench/fact-mh-262k:
+    answer:
+      model: local-qwen
+      prompt: mab-answer
+      max_tokens: 16384
+    judge:
+      method: native
+      metric: substring_exact_match
+  agentmemorybench/recsys-redial-full:
+    answer:
+      model: local-qwen
+      prompt: mab-answer
+      max_tokens: 16384
+    judge:
+      method: native
+      metric: recsys_recall@5

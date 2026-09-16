@@ -1,0 +1,163 @@
+{
+  "analysis_version": 2,
+  "primary_sufficiency_readout": "native_logit_margin = log p(sufficient) - log p(insufficient)",
+  "decision_rule": "native sufficient iff native_logit_margin > 0",
+  "weighting": "replicas collapsed within state; repeated coverage states collapsed within trajectory; rounds averaged within benchmark question; confidence intervals bootstrap benchmark questions",
+  "bootstrap": {
+    "draws": 5000,
+    "seed": 20260913,
+    "interval": "percentile 95%"
+  },
+  "validation": {
+    "Run 1": {
+      "path": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-dynamics-20260912/coverage/run1/state-replica.csv",
+      "questions": 100,
+      "states": 694,
+      "state_replica_rows": 1388,
+      "replicas_per_state": [
+        2
+      ],
+      "j_samples_per_state_replica": [
+        101
+      ],
+      "coverage_monotone": true
+    },
+    "Run 2": {
+      "path": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-dynamics-20260912/coverage/run2/state-replica.csv",
+      "questions": 100,
+      "states": 718,
+      "state_replica_rows": 1436,
+      "replicas_per_state": [
+        2
+      ],
+      "j_samples_per_state_replica": [
+        101
+      ],
+      "coverage_monotone": true
+    },
+    "Run 3": {
+      "path": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-dynamics-20260912/coverage/complete-run/state-replica.csv",
+      "questions": 100,
+      "states": 738,
+      "state_replica_rows": 1476,
+      "replicas_per_state": [
+        2
+      ],
+      "j_samples_per_state_replica": [
+        101
+      ],
+      "coverage_monotone": true
+    }
+  },
+  "sample": {
+    "rounds": 3,
+    "benchmark_questions": 100,
+    "independent_trajectories": 300,
+    "states": 2150,
+    "state_replica_rows": 4300
+  },
+  "replica_stability": {
+    "native_decision_disagreement_states": 14,
+    "native_decision_disagreement_rate": 0.0065116279069767444,
+    "median_margin_sd": 0.08838819618308161,
+    "max_margin_sd": 0.3535535565464898
+  },
+  "r_s_association": {
+    "pooled_pearson": 0.44959716569567515,
+    "pooled_spearman": 0.4244057312715494,
+    "within_trajectory_pearson": 0.6029933649277954,
+    "question_balanced_within_regression": {
+      "r_coefficient_controlling_tau": 2.5748905192906166,
+      "r_ci_low": 1.834262961835467,
+      "r_ci_high": 3.3039186470437847,
+      "tau_coefficient_controlling_r": 7.190721536055292,
+      "tau_ci_low": 5.826165392246421,
+      "tau_ci_high": 8.553898885748689,
+      "within_r_squared": 0.5878628024771565
+    }
+  },
+  "evidence_gain_event": {
+    "questions_with_both_event_types": 100,
+    "gain_minus_no_gain": 0.5551711931157609,
+    "ci_low": 0.2083693254855733,
+    "ci_high": 0.9047853607666864,
+    "within_trajectory_gain_effect_controlling_event_time": 0.7583351321162676,
+    "controlled_ci_low": 0.37829248422328726,
+    "controlled_ci_high": 1.1522155482895255,
+    "event_time_coefficient": -2.860721987254773,
+    "controlled_within_r_squared": 0.06259635239455319
+  },
+  "terminal": {
+    "auc_for_correctness": {
+      "terminal_coverage": {
+        "auc": 0.8339336364864256,
+        "ci_low": 0.7845633495373079,
+        "ci_high": 0.8819820917875708
+      },
+      "terminal_margin": {
+        "auc": 0.7115618387285579,
+        "ci_low": 0.6407835484696931,
+        "ci_high": 0.7772980240414293
+      }
+    },
+    "terminal_groups": {
+      "incomplete": {
+        "trajectories": 127,
+        "correct": 6,
+        "accuracy": 0.047244094488188976,
+        "native_positive_rate": 0.7716535433070866
+      },
+      "full": {
+        "trajectories": 173,
+        "correct": 127,
+        "accuracy": 0.7341040462427746,
+        "native_positive_rate": 0.9421965317919075
+      }
+    },
+    "within_question_correct_minus_incorrect": {
+      "questions_with_both_outcomes": 34,
+      "coverage_difference": 0.3137254901960784,
+      "coverage_difference_ci_low": 0.2230392156862745,
+      "coverage_difference_ci_high": 0.4019607843137255,
+      "margin_difference": 1.5386029058290125,
+      "margin_difference_ci_low": 0.2527343140304712,
+      "margin_difference_ci_high": 2.9935661794157595
+    }
+  },
+  "lww_conflict_sensitivity": [
+    {
+      "subset": "All questions",
+      "questions": 100,
+      "trajectories": 300,
+      "states": 2150,
+      "r_coefficient": 2.5748905192906166,
+      "r_ci_low": 1.8286279387364426,
+      "r_ci_high": 3.305074264591555,
+      "tau_coefficient": 7.190721536055292,
+      "tau_ci_low": 5.778476900648671,
+      "tau_ci_high": 8.587779827670687,
+      "within_r_squared": 0.5878628024771565
+    },
+    {
+      "subset": "LWW-clean only",
+      "questions": 64,
+      "trajectories": 192,
+      "states": 1181,
+      "r_coefficient": 1.7729475521259817,
+      "r_ci_low": 0.7471289828592717,
+      "r_ci_high": 2.7352825780110717,
+      "tau_coefficient": 9.321483937205489,
+      "tau_ci_low": 7.561350235115068,
+      "tau_ci_high": 11.115705530817609,
+      "within_r_squared": 0.6753561016417907
+    }
+  ],
+  "mismatch_states": {
+    "incomplete_coverage_states": 1850,
+    "positive_native_margin_while_incomplete": 1007,
+    "positive_rate_while_incomplete": 0.5443243243243243,
+    "full_coverage_states": 300,
+    "nonpositive_native_margin_at_full_coverage": 61,
+    "nonpositive_rate_at_full_coverage": 0.20333333333333334
+  }
+}

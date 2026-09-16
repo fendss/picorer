@@ -1,0 +1,97 @@
+sample,metric,estimate,ci_low,ci_high,eligible_questions,denominator_transitions,record_type,threshold,category,trajectories,total_trajectories,question_weighted_fraction,questions,eligible_trajectories,analysis,pairs
+2-hop,P(margin rises | support gained),0.8755102040816327,0.8319727891156462,0.9176870748299318,49.0,211.0,specificity,,,,,,,,,
+2-hop,P(support gained | margin rises),0.4220756700948778,0.38960192302029034,0.45336624151825233,49.0,452.0,specificity,,,,,,,,,
+2-hop,P(margin rises | no support gained),0.7413368012960482,0.6853792979939755,0.7976871390501975,49.0,402.0,specificity,,,,,,,,,
+2-hop,"P(margin rises | package changed, no support gained)",0.638095238095238,0.45952380952380956,0.8083333333333332,20.0,40.0,specificity,,,,,,,,,
+2-hop,P(margin rises | package unchanged),0.7437368470531736,0.680242618775782,0.8009049036281178,49.0,362.0,specificity,,,,,,,,,
+2-hop,Support-gain base rate,0.3809452164648362,0.3476487776345588,0.41150120534428547,49.0,613.0,specificity,,,,,,,,,
+2-hop,Mean margin change | support gained,3.389880937292533,3.015064290179186,3.768248266674858,49.0,211.0,specificity,,,,,,,,,
+2-hop,Mean margin change | no support gained,3.0601663663875014,2.5896806487948067,3.538613235562218,49.0,402.0,specificity,,,,,,,,,
+2-hop,Mean margin change | package unchanged,3.1271133898734873,2.6607479521020534,3.6108218387205153,49.0,362.0,specificity,,,,,,,,,
+2-hop,AUPRC: margin change predicts support gain,0.3668787035238227,0.34330194296738303,0.4074025961785004,49.0,613.0,specificity,,,,,,,,,
+2-hop,AUPRC baseline: support-gain prevalence,0.38094521646483626,0.34693172592077637,0.41148806124398535,49.0,613.0,specificity,,,,,,,,,
+2-hop,,,0.6598639455782312,0.8367346938775511,,,onset_category,0.5,S before R,110.0,147.0,0.7482993197278911,49.0,,,
+2-hop,,,0.0,0.02040816326530612,,,onset_category,0.5,S and R together,1.0,147.0,0.006802721088435374,49.0,,,
+2-hop,,,0.0,0.0,,,onset_category,0.5,R before S,0.0,147.0,0.0,49.0,,,
+2-hop,,,0.16326530612244897,0.3333333333333333,,,onset_category,0.5,S observed; R not observed,36.0,147.0,0.24489795918367344,49.0,,,
+2-hop,,,0.0,0.0,,,onset_category,0.5,R observed; S not observed,0.0,147.0,0.0,49.0,,,
+2-hop,,,0.0,0.0,,,onset_category,0.5,Neither observed,0.0,147.0,0.0,49.0,,,
+2-hop,Reversal after first sufficiency onset,0.11564625850340135,0.05442176870748299,0.19047619047619047,49.0,,onset_event,0.5,,,,,,146.0,,
+2-hop,Persistence ratio after first sufficiency onset,0.9539250620883274,0.9106803211905252,0.9866324321936567,49.0,,onset_event,0.5,,,,,,147.0,,
+2-hop,Answer accuracy at first sufficiency onset,0.017687074829931974,0.0,0.04625850340136054,49.0,,onset_event,0.5,,,,,,147.0,,
+2-hop,Answer accuracy at first full coverage,0.8602836879432624,0.7836702127659572,0.927659574468085,47.0,,onset_event,0.5,,,,,,111.0,,
+2-hop,Lead in decision steps among trajectories with both events,2.804964539007092,2.4680851063829783,3.2304964539007086,47.0,,onset_event,0.5,,,,,,111.0,,
+2-hop,Native sufficiency margin,6.6036352002827705,6.278691004383869,6.904703445119045,,,controlled,,,,,,49.0,,Any missing gold fact added,392.0
+2-hop,Sufficiency likelihood,0.484924382648428,0.4723973205333331,0.49453449460667237,,,controlled,,,,,,49.0,,Any missing gold fact added,392.0
+2-hop,Answer accuracy,0.49081632653061225,0.4744897959183674,0.5,,,controlled,,,,,,49.0,,Any missing gold fact added,392.0
+2-hop,Strict exact match,0.4897959183673469,0.473469387755102,0.4989795918367347,,,controlled,,,,,,49.0,,Any missing gold fact added,392.0
+2-hop,Input tokens,0.29591836734693877,-0.1836734693877551,0.7653061224489796,,,controlled,,,,,,49.0,,Any missing gold fact added,392.0
+2-hop,Native sufficiency margin,6.989477036984579,6.5280453202732565,7.409765629621144,,,controlled,,,,,,49.0,,Last missing gold fact added,196.0
+2-hop,Sufficiency likelihood,0.3398429675690139,0.2939255783521063,0.38493110610426623,,,controlled,,,,,,49.0,,Last missing gold fact added,196.0
+2-hop,Answer accuracy,0.5816326530612245,0.5316326530612245,0.633673469387755,,,controlled,,,,,,49.0,,Last missing gold fact added,196.0
+2-hop,Strict exact match,0.5806122448979592,0.5306122448979592,0.6316326530612245,,,controlled,,,,,,49.0,,Last missing gold fact added,196.0
+2-hop,Input tokens,0.29591836734693877,-0.1836734693877551,0.7653061224489796,,,controlled,,,,,,49.0,,Last missing gold fact added,196.0
+3-hop,P(margin rises | support gained),0.7857142857142857,0.6428571428571429,0.9285714285714286,7.0,30.0,specificity,,,,,,,,,
+3-hop,P(support gained | margin rises),0.27437919223633506,0.18789424860853435,0.36451048951048953,7.0,91.0,specificity,,,,,,,,,
+3-hop,P(margin rises | no support gained),0.6826839826839824,0.5861471861471861,0.7826839826839825,7.0,107.0,specificity,,,,,,,,,
+3-hop,"P(margin rises | package changed, no support gained)",0.5833333333333334,0.20833333333333334,0.9166666666666667,4.0,16.0,specificity,,,,,,,,,
+3-hop,P(margin rises | package unchanged),0.6691849816849816,0.5739468864468865,0.7698412698412698,7.0,91.0,specificity,,,,,,,,,
+3-hop,Support-gain base rate,0.2547772657450077,0.17033278472679392,0.336734693877551,7.0,137.0,specificity,,,,,,,,,
+3-hop,Mean margin change | support gained,2.0761904798760953,1.2752976216614205,2.966369052407667,7.0,30.0,specificity,,,,,,,,,
+3-hop,Mean margin change | no support gained,1.813122281238946,0.9227994239536793,2.6574404603657458,7.0,107.0,specificity,,,,,,,,,
+3-hop,Mean margin change | package unchanged,1.723363497790731,0.8950546913230478,2.5175471141976433,7.0,91.0,specificity,,,,,,,,,
+3-hop,AUPRC: margin change predicts support gain,0.3233519229319164,0.21693159568313802,0.47867967299066194,7.0,137.0,specificity,,,,,,,,,
+3-hop,AUPRC baseline: support-gain prevalence,0.2547772657450077,0.167597103357472,0.3380952380952381,7.0,137.0,specificity,,,,,,,,,
+3-hop,,,0.19047619047619047,0.761904761904762,,,onset_category,0.5,S before R,10.0,21.0,0.4761904761904762,7.0,,,
+3-hop,,,0.0,0.0,,,onset_category,0.5,S and R together,0.0,21.0,0.0,7.0,,,
+3-hop,,,0.0,0.0,,,onset_category,0.5,R before S,0.0,21.0,0.0,7.0,,,
+3-hop,,,0.14285714285714285,0.6666666666666666,,,onset_category,0.5,S observed; R not observed,8.0,21.0,0.38095238095238093,7.0,,,
+3-hop,,,0.0,0.0,,,onset_category,0.5,R observed; S not observed,0.0,21.0,0.0,7.0,,,
+3-hop,,,0.0,0.42857142857142855,,,onset_category,0.5,Neither observed,3.0,21.0,0.14285714285714285,7.0,,,
+3-hop,Reversal after first sufficiency onset,0.3333333333333333,0.1111111111111111,0.5555555555555555,6.0,,onset_event,0.5,,,,,,18.0,,
+3-hop,Persistence ratio after first sufficiency onset,0.8875000000000001,0.7916666666666666,0.9652777777777777,6.0,,onset_event,0.5,,,,,,18.0,,
+3-hop,Answer accuracy at first sufficiency onset,0.0,0.0,0.0,6.0,,onset_event,0.5,,,,,,18.0,,
+3-hop,Answer accuracy at first full coverage,0.96,0.8800000000000001,1.0,5.0,,onset_event,0.5,,,,,,10.0,,
+3-hop,Lead in decision steps among trajectories with both events,3.4666666666666663,3.1333333333333333,3.8,5.0,,onset_event,0.5,,,,,,10.0,,
+3-hop,Native sufficiency margin,4.097842268666887,3.6826636855403843,4.442336325112451,,,controlled,,,,,,7.0,,Any missing gold fact added,168.0
+3-hop,Sufficiency likelihood,0.37498713213547397,0.36582025387953926,0.38536734046453064,,,controlled,,,,,,7.0,,Any missing gold fact added,168.0
+3-hop,Answer accuracy,0.33690476190476193,0.32976190476190476,0.3476190476190476,,,controlled,,,,,,7.0,,Any missing gold fact added,168.0
+3-hop,Strict exact match,0.33690476190476193,0.32976190476190476,0.3476190476190476,,,controlled,,,,,,7.0,,Any missing gold fact added,168.0
+3-hop,Input tokens,-0.42857142857142855,-1.380952380952381,0.5714285714285714,,,controlled,,,,,,7.0,,Any missing gold fact added,168.0
+3-hop,Native sufficiency margin,5.79613094456861,5.22767850807473,6.328906177656701,,,controlled,,,,,,7.0,,Last missing gold fact added,42.0
+3-hop,Sufficiency likelihood,0.18671076422407734,0.1186620715339195,0.2646106142067525,,,controlled,,,,,,7.0,,Last missing gold fact added,42.0
+3-hop,Answer accuracy,0.36190476190476195,0.3333333333333333,0.4095238095238095,,,controlled,,,,,,7.0,,Last missing gold fact added,42.0
+3-hop,Strict exact match,0.36190476190476195,0.3333333333333333,0.4095238095238095,,,controlled,,,,,,7.0,,Last missing gold fact added,42.0
+3-hop,Input tokens,-0.42857142857142855,-1.380952380952381,0.5714285714285714,,,controlled,,,,,,7.0,,Last missing gold fact added,42.0
+4-hop,P(margin rises | support gained),0.8617424242424243,0.7291666666666666,1.0,8.0,46.0,specificity,,,,,,,,,
+4-hop,P(support gained | margin rises),0.30062492654404416,0.19600249474789913,0.4103789868220015,8.0,148.0,specificity,,,,,,,,,
+4-hop,P(margin rises | no support gained),0.6202395471745317,0.5123071172248804,0.7283340858273132,8.0,193.0,specificity,,,,,,,,,
+4-hop,"P(margin rises | package changed, no support gained)",0.7755952380952381,0.6267857142857143,0.9285714285714286,7.0,38.0,specificity,,,,,,,,,
+4-hop,P(margin rises | package unchanged),0.5896483796770741,0.4829849012775842,0.7061741363211951,8.0,155.0,specificity,,,,,,,,,
+4-hop,Support-gain base rate,0.23938757102641392,0.14693497797899344,0.3318778185761108,8.0,239.0,specificity,,,,,,,,,
+4-hop,Mean margin change | support gained,1.8432252080974014,1.1788983417934353,2.6150568114720625,8.0,46.0,specificity,,,,,,,,,
+4-hop,Mean margin change | no support gained,0.9763135977283705,0.5262153412331788,1.423230479838,8.0,193.0,specificity,,,,,,,,,
+4-hop,Mean margin change | package unchanged,0.8722749094040453,0.3442318062580194,1.3868003212183249,8.0,155.0,specificity,,,,,,,,,
+4-hop,AUPRC: margin change predicts support gain,0.3135500504792553,0.2337293901869647,0.3985483774313366,8.0,239.0,specificity,,,,,,,,,
+4-hop,AUPRC baseline: support-gain prevalence,0.239387571026414,0.1470797124849191,0.33454843869365913,8.0,239.0,specificity,,,,,,,,,
+4-hop,,,0.25,0.8333333333333333,,,onset_category,0.5,S before R,13.0,24.0,0.5416666666666666,8.0,,,
+4-hop,,,0.0,0.0,,,onset_category,0.5,S and R together,0.0,24.0,0.0,8.0,,,
+4-hop,,,0.0,0.0,,,onset_category,0.5,R before S,0.0,24.0,0.0,8.0,,,
+4-hop,,,0.16666666666666666,0.7083333333333333,,,onset_category,0.5,S observed; R not observed,10.0,24.0,0.41666666666666663,8.0,,,
+4-hop,,,0.0,0.0,,,onset_category,0.5,R observed; S not observed,0.0,24.0,0.0,8.0,,,
+4-hop,,,0.0,0.125,,,onset_category,0.5,Neither observed,1.0,24.0,0.041666666666666664,8.0,,,
+4-hop,Reversal after first sufficiency onset,0.41666666666666663,0.16666666666666666,0.7083333333333333,8.0,,onset_event,0.5,,,,,,23.0,,
+4-hop,Persistence ratio after first sufficiency onset,0.8129665777692094,0.633370887153782,0.9528388278388279,8.0,,onset_event,0.5,,,,,,23.0,,
+4-hop,Answer accuracy at first sufficiency onset,0.0,0.0,0.0,8.0,,onset_event,0.5,,,,,,23.0,,
+4-hop,Answer accuracy at first full coverage,0.9666666666666666,0.9266666666666665,1.0,5.0,,onset_event,0.5,,,,,,13.0,,
+4-hop,Lead in decision steps among trajectories with both events,4.233333333333333,3.3,5.066666666666667,5.0,,onset_event,0.5,,,,,,13.0,,
+4-hop,Native sufficiency margin,3.089111331318529,2.8854797425620586,3.2937011793707587,,,controlled,,,,,,8.0,,Any missing gold fact added,512.0
+4-hop,Sufficiency likelihood,0.293477919835365,0.2808437496285514,0.30578777322240713,,,controlled,,,,,,8.0,,Any missing gold fact added,512.0
+4-hop,Answer accuracy,0.25078125,0.2421875,0.259375,,,controlled,,,,,,8.0,,Any missing gold fact added,512.0
+4-hop,Strict exact match,0.25078125,0.2421875,0.259375,,,controlled,,,,,,8.0,,Any missing gold fact added,512.0
+4-hop,Input tokens,-1.1875,-1.625,-0.875,,,controlled,,,,,,8.0,,Any missing gold fact added,512.0
+4-hop,Native sufficiency margin,5.636718769085363,4.959960963084015,6.325390600836876,,,controlled,,,,,,8.0,,Last missing gold fact added,64.0
+4-hop,Sufficiency likelihood,0.05815440097319956,0.03856190248086293,0.07847207894922936,,,controlled,,,,,,8.0,,Last missing gold fact added,64.0
+4-hop,Answer accuracy,0.25625,0.25,0.26875000000000004,,,controlled,,,,,,8.0,,Last missing gold fact added,64.0
+4-hop,Strict exact match,0.25625,0.25,0.26875000000000004,,,controlled,,,,,,8.0,,Last missing gold fact added,64.0
+4-hop,Input tokens,-1.1875,-1.625,-0.875,,,controlled,,,,,,8.0,,Last missing gold fact added,64.0

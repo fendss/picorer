@@ -1,0 +1,211 @@
+{
+  "analysis_version": 1,
+  "sample": {
+    "questions": 100,
+    "trajectories": 300,
+    "states": 2150
+  },
+  "first_positive_native_s": {
+    "trajectories_ever_positive": 293,
+    "trajectories_positive_before_full_committed_evidence": 292,
+    "first_positive_at_zero_committed_coverage": 241,
+    "first_positive_with_current_exact_gold_preview": 274,
+    "zero_committed_first_positive_with_current_exact_gold_preview": 225,
+    "committed_evidence_classes": {
+      "None": 241,
+      "Partial": 51,
+      "Never positive": 7,
+      "Complete": 1
+    },
+    "visible_evidence_classes": {
+      "Partial": 253,
+      "Complete": 27,
+      "None": 13,
+      "Never positive": 7
+    },
+    "median_normalized_position": 0.4
+  },
+  "native_s_dynamics": {
+    "nonterminal_states": 1850,
+    "nonterminal_positive_states": 985,
+    "trajectories_with_positive_to_nonpositive_reversal": 77,
+    "reversal_rate": 0.25666666666666665
+  },
+  "explicit_j": {
+    "first_state_native_positive_rate": 0.0,
+    "first_state_explicit_majority_sufficient_rate": 0.99,
+    "first_state_mean_explicit_sufficient_fraction": 0.8270132013201319,
+    "all_state_sign_agreement": 0.6297674418604651,
+    "all_state_pearson": 0.4795980309095575
+  },
+  "preview_handoff_gap": {
+    "terminal_incomplete_committed_but_complete_ever_seen": 10,
+    "correct": 1,
+    "native_positive": 9,
+    "matching_rule": "exact normalized gold statement in current search preview; cumulative union is a lower-bound audit"
+  },
+  "terminal_gate": {
+    "cells": [
+      {
+        "full_committed_coverage": false,
+        "native_positive": false,
+        "trajectories": 29,
+        "correct": 1,
+        "accuracy": 0.034482758620689655,
+        "ci_low": 0.0,
+        "ci_high": 0.10344827586206896,
+        "bootstrap_valid_draws": 5000
+      },
+      {
+        "full_committed_coverage": false,
+        "native_positive": true,
+        "trajectories": 98,
+        "correct": 5,
+        "accuracy": 0.05102040816326531,
+        "ci_low": 0.010638297872340425,
+        "ci_high": 0.10227272727272728,
+        "bootstrap_valid_draws": 5000
+      },
+      {
+        "full_committed_coverage": true,
+        "native_positive": false,
+        "trajectories": 10,
+        "correct": 3,
+        "accuracy": 0.3,
+        "ci_low": 0.0,
+        "ci_high": 0.5714285714285714,
+        "bootstrap_valid_draws": 4996
+      },
+      {
+        "full_committed_coverage": true,
+        "native_positive": true,
+        "trajectories": 163,
+        "correct": 124,
+        "accuracy": 0.7607361963190185,
+        "ci_low": 0.6624980095541401,
+        "ci_high": 0.845679012345679,
+        "bootstrap_valid_draws": 5000
+      }
+    ],
+    "contrasts": {
+      "positive_minus_nonpositive_when_full": {
+        "estimate": 0.46073619631901847,
+        "ci_low": 0.18022903974379823,
+        "ci_high": 0.7535520914431312,
+        "bootstrap_valid_draws": 4996
+      },
+      "positive_minus_nonpositive_when_incomplete": {
+        "estimate": 0.016537649542575653,
+        "ci_low": -0.06677608413092284,
+        "ci_high": 0.0891089108910891,
+        "bootstrap_valid_draws": 5000
+      },
+      "difference_in_differences": {
+        "estimate": 0.4441985467764428,
+        "ci_low": 0.15237812016162533,
+        "ci_high": 0.7387602220423442,
+        "bootstrap_valid_draws": 4996
+      },
+      "native_s_auc_within_coverage_stratum": {
+        "incomplete": {
+          "estimate": 0.5964187327823691,
+          "ci_low": 0.35585133491155385,
+          "ci_high": 0.8453036638789325,
+          "bootstrap_valid_draws": 4990
+        },
+        "full": {
+          "estimate": 0.6649263950701815,
+          "ci_low": 0.5677593988133735,
+          "ci_high": 0.7555705434113301,
+          "bootstrap_valid_draws": 5000
+        }
+      }
+    },
+    "per_round": [
+      {
+        "round": "Run 1",
+        "full": false,
+        "native_positive": false,
+        "trajectories": 9,
+        "accuracy": 0.0
+      },
+      {
+        "round": "Run 1",
+        "full": false,
+        "native_positive": true,
+        "trajectories": 30,
+        "accuracy": 0.06666666666666667
+      },
+      {
+        "round": "Run 1",
+        "full": true,
+        "native_positive": false,
+        "trajectories": 2,
+        "accuracy": 0.5
+      },
+      {
+        "round": "Run 1",
+        "full": true,
+        "native_positive": true,
+        "trajectories": 59,
+        "accuracy": 0.7627118644067796
+      },
+      {
+        "round": "Run 2",
+        "full": false,
+        "native_positive": false,
+        "trajectories": 11,
+        "accuracy": 0.0
+      },
+      {
+        "round": "Run 2",
+        "full": false,
+        "native_positive": true,
+        "trajectories": 34,
+        "accuracy": 0.029411764705882353
+      },
+      {
+        "round": "Run 2",
+        "full": true,
+        "native_positive": false,
+        "trajectories": 4,
+        "accuracy": 0.25
+      },
+      {
+        "round": "Run 2",
+        "full": true,
+        "native_positive": true,
+        "trajectories": 51,
+        "accuracy": 0.7647058823529411
+      },
+      {
+        "round": "Run 3",
+        "full": false,
+        "native_positive": false,
+        "trajectories": 9,
+        "accuracy": 0.1111111111111111
+      },
+      {
+        "round": "Run 3",
+        "full": false,
+        "native_positive": true,
+        "trajectories": 34,
+        "accuracy": 0.058823529411764705
+      },
+      {
+        "round": "Run 3",
+        "full": true,
+        "native_positive": false,
+        "trajectories": 4,
+        "accuracy": 0.25
+      },
+      {
+        "round": "Run 3",
+        "full": true,
+        "native_positive": true,
+        "trajectories": 53,
+        "accuracy": 0.7547169811320755
+      }
+    ]
+  }
+}

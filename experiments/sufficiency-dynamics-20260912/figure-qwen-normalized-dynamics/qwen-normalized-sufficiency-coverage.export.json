@@ -1,0 +1,55 @@
+{
+  "notice": "Export completed with explicit settings. This report does not establish visual, accessibility, scientific-integrity, or journal-submission compliance.",
+  "outputs": [
+    {
+      "format": "pdf",
+      "kind": "vector-container",
+      "path": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-dynamics-20260912/figure-qwen-normalized-dynamics/qwen-normalized-sufficiency-coverage.pdf",
+      "size_bytes": 30662
+    },
+    {
+      "format": "png",
+      "kind": "raster",
+      "path": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-dynamics-20260912/figure-qwen-normalized-dynamics/qwen-normalized-sufficiency-coverage.png",
+      "size_bytes": 268050
+    }
+  ],
+  "provenance": {
+    "alt_text": "Sufficiency likelihood and gold-evidence coverage both rise over normalized acquisition progress; sufficiency rises earlier, while evidence coverage increases gradually and jumps at the terminal state.",
+    "destination": "General manuscript figure, approximately 161 mm wide; journal requirements unspecified",
+    "missing_data": "gray region ends at first grid point with all 300 trajectories observed; early estimates retain all available observations",
+    "raw_data": "/Users/johnnychiu/Documents/memory harness from the first principle/picorer/experiments/sufficiency-dynamics-20260912/analysis-rs-v4/states.csv",
+    "raw_data_sha256": "d02c302518c98ac92a71167b0f58bf08fb160d9f1055def0d96a71085d468845",
+    "sample": "100 FactConsolidation-MH questions; three Qwen3.6-27B runs; 300 trajectories; 2,150 states",
+    "transformations": [
+      "normalize state index as t/T",
+      "evaluate a 0.05 grid using last observation carried forward",
+      "do not extrapolate before a trajectory's first observed state",
+      "average available runs within question, then average questions",
+      "map each audited sufficient-vs-insufficient logit margin to its two-status likelihood before aggregation"
+    ],
+    "uncertainty": "95% pointwise question-cluster bootstrap; 5,000 draws; seed 20260915"
+  },
+  "schema_version": "1.0",
+  "settings": {
+    "bbox_inches": null,
+    "dpi": 600.0,
+    "facecolor": "white",
+    "figure_size_inches": [
+      6.35,
+      3.65
+    ],
+    "font_mode": "truetype",
+    "formats": [
+      "pdf",
+      "png"
+    ],
+    "pad_inches": 0.1,
+    "transparent": false
+  },
+  "versions": {
+    "matplotlib": "3.11.2",
+    "pillow": "12.3.0"
+  },
+  "warnings": []
+}

@@ -1,0 +1,26 @@
+{
+  "providers": {
+    "picorer-openai": {
+      "baseUrl": "https://example.invalid/v1",
+      "api": "openai-completions",
+      "compat": {
+        "maxTokensField": "max_tokens"
+      },
+      "models": [
+        {
+          "id": "gpt-4o-mini",
+          "name": "GPT-4o mini",
+          "input": ["text"],
+          "contextWindow": 128000,
+          "maxTokens": 16384,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          }
+        }
+      ]
+    }
+  }
+}

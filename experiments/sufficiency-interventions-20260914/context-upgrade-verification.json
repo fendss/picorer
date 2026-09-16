@@ -1,0 +1,103 @@
+{
+  "verified_unix": 1789365728.944929,
+  "checks": [
+    {
+      "endpoint": "http://172.16.200.114:18081",
+      "models": {
+        "object": "list",
+        "data": [
+          {
+            "id": "qwen3.6-27b",
+            "object": "model",
+            "created": 1789365688,
+            "owned_by": "vllm",
+            "root": "/data/zhaogangyi/qwen36-27b-service/models/Qwen3.6-27B",
+            "parent": null,
+            "max_model_len": 262144,
+            "permission": [
+              {
+                "id": "modelperm-be3355507b9e887b",
+                "object": "model_permission",
+                "created": 1789365688,
+                "allow_create_engine": false,
+                "allow_sampling": true,
+                "allow_logprobs": true,
+                "allow_search_indices": false,
+                "allow_view": true,
+                "allow_fine_tuning": false,
+                "organization": "*",
+                "group": null,
+                "is_blocking": false
+              }
+            ]
+          }
+        ]
+      },
+      "longest_unit": "state-r1-q057-t022",
+      "input_tokens": 180129,
+      "formal_output_budget": 16384,
+      "render_with_formal_budget_passed": true,
+      "diagnostic_usage": {
+        "prompt_tokens": 180129,
+        "total_tokens": 180130,
+        "completion_tokens": 1,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1
+        }
+      }
+    },
+    {
+      "endpoint": "http://172.16.200.114:18082",
+      "models": {
+        "object": "list",
+        "data": [
+          {
+            "id": "qwen3.6-27b",
+            "object": "model",
+            "created": 1789365688,
+            "owned_by": "vllm",
+            "root": "/data/zhaogangyi/qwen36-27b-service/models/Qwen3.6-27B",
+            "parent": null,
+            "max_model_len": 262144,
+            "permission": [
+              {
+                "id": "modelperm-b9ec300c88106fdd",
+                "object": "model_permission",
+                "created": 1789365688,
+                "allow_create_engine": false,
+                "allow_sampling": true,
+                "allow_logprobs": true,
+                "allow_search_indices": false,
+                "allow_view": true,
+                "allow_fine_tuning": false,
+                "organization": "*",
+                "group": null,
+                "is_blocking": false
+              }
+            ]
+          }
+        ]
+      },
+      "longest_unit": "state-r1-q057-t022",
+      "input_tokens": 180129,
+      "formal_output_budget": 16384,
+      "render_with_formal_budget_passed": true,
+      "diagnostic_usage": {
+        "prompt_tokens": 180129,
+        "total_tokens": 180130,
+        "completion_tokens": 1,
+        "prompt_tokens_details": null,
+        "completion_tokens_details": {
+          "reasoning_tokens": 1
+        }
+      }
+    }
+  ],
+  "gpus": [
+    4,
+    7
+  ],
+  "evidence_truncated": false,
+  "diagnostic_is_experimental_answer": false
+}

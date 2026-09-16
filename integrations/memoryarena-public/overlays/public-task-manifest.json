@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "dataset": {
+    "repo_id": "ZexueHe/memoryarena",
+    "repo_type": "dataset",
+    "revision": "da1a37c8b19280e18627ca01cf368195a5e1d92e"
+  },
+  "expected_total_tasks": 701,
+  "suites": {
+    "bundled_shopping": {
+      "runner": "run_shopping.py",
+      "hf_config": "bundled_shopping",
+      "hf_split": "test",
+      "expected_count": 150,
+      "id_start": 0,
+      "id_end": 149,
+      "selection_mode": "all_hf_rows"
+    },
+    "progressive_search": {
+      "runner": "run_search.py",
+      "hf_config": "progressive_search",
+      "hf_split": "test",
+      "expected_count": 221,
+      "id_start": 0,
+      "id_end": 220,
+      "selection_mode": "pinned_auxiliary_query_ids"
+    },
+    "group_travel_planner": {
+      "runner": "run_travel.py",
+      "hf_config": "group_travel_planner",
+      "hf_split": "test",
+      "expected_count": 270,
+      "id_start": 1,
+      "id_end": 270,
+      "selection_mode": "runner_loads_full_split"
+    },
+    "formal_reasoning_math": {
+      "runner": "run_math.py",
+      "hf_config": "formal_reasoning_math",
+      "hf_split": "test",
+      "expected_count": 40,
+      "id_start": 0,
+      "id_end": 39,
+      "selection_mode": "runner_loads_full_split"
+    },
+    "formal_reasoning_phys": {
+      "runner": "run_math.py",
+      "hf_config": "formal_reasoning_phys",
+      "hf_split": "test",
+      "expected_count": 20,
+      "id_start": 0,
+      "id_end": 19,
+      "selection_mode": "runner_loads_full_split"
+    }
+  }
+}

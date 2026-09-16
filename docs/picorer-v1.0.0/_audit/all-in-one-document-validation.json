@@ -1,0 +1,23 @@
+{
+  "format": "all-in-one Markdown",
+  "entry": "README.md",
+  "chapters": 7,
+  "source_chapters_sha256": {
+    "01-system-design.md": "ecb086fb89321d07dd37b8145638a375974850b9835a4a6f51fadd5d955cd71e",
+    "02-storage-and-retrieval.md": "2d468fbfb9cd539ea1e5fd2c21faa164ea92e537508dff62a488f3a62ed6b858",
+    "03-agent-and-evidence.md": "404d6899f12e4075e7b5964c3c38dec567f45a9c8646ad5a8f9d5b5dc1828ca1",
+    "04-evaluation-framework.md": "5172ba643952d19c70cf7910703b0cd3d73ef935c1deda864c995a867d6dd854",
+    "05-evaluation-guide.md": "217b888fee828faa1aeca3f3836598838cbc5d3a7c38e0a52bf27d2b21b783c6",
+    "06-runtime-and-operations.md": "bdd3b7f88f2380895b1385a6e608accd80fd3a1d8c656ec7dc7a9238651f0770",
+    "07-code-navigation.md": "8eb098ebbf84a703fdc1abed7c518a4024784ff979a3521b04b5886b3e1e30b6"
+  },
+  "preserved_code_blocks": 24,
+  "characters": 73892,
+  "lines": 1594,
+  "headings": 88,
+  "internal_links_checked": 13,
+  "local_source_links_checked": 169,
+  "broken_links": 0,
+  "shell_and_json_examples": "validated",
+  "naming_correction": "Recom. in paper Table 3 = Movie-Rec Redial in Table 6 = recsys-redial-full in adapter"
+}

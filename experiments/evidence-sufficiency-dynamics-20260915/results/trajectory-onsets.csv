@@ -1,0 +1,193 @@
+question_id,run,gold_hops,threshold,t_s,t_r,lead_steps,category,has_later_state_after_t_s,reversal_after_t_s,persistence_ratio,answer_accuracy_at_t_s,answer_accuracy_at_t_r
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no0,1,3,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no0,2,3,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no0,3,3,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,0.8
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no1,1,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,0.8
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no1,2,2,0.5,2.0,5.0,3.0,S before R,True,True,0.75,0.0,0.6
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no1,3,2,0.5,2.0,4.0,2.0,S before R,True,False,1.0,0.0,0.8
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no12,1,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no12,2,2,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no12,3,2,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no13,1,2,0.5,2.0,4.0,2.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no13,2,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no13,3,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no14,1,2,0.5,2.0,3.0,1.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no14,2,2,0.5,2.0,6.0,4.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no14,3,2,0.5,2.0,3.0,1.0,S before R,True,False,1.0,0.0,0.8
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no15,1,2,0.5,2.0,4.0,2.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no15,2,2,0.5,2.0,4.0,2.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no15,3,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no21,1,2,0.5,2.0,3.0,1.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no21,2,2,0.5,2.0,3.0,1.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no21,3,2,0.5,2.0,3.0,1.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no22,1,3,0.5,2.0,,,S observed; R not observed,True,True,0.625,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no22,2,3,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no22,3,3,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no23,1,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no23,2,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no23,3,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no24,1,2,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no24,2,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,0.8
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no24,3,2,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no26,1,2,0.5,2.0,3.0,1.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no26,2,2,0.5,2.0,3.0,1.0,S before R,True,False,1.0,0.0,0.6
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no26,3,2,0.5,2.0,3.0,1.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no28,1,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no28,2,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no28,3,2,0.5,2.0,7.0,5.0,S before R,True,True,0.8333333333333334,0.0,0.8
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no29,1,2,0.5,2.0,4.0,2.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no29,2,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no29,3,2,0.5,2.0,4.0,2.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no3,1,2,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no3,2,2,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no3,3,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,0.8
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no30,1,2,0.5,2.0,3.0,1.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no30,2,2,0.5,2.0,3.0,1.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no30,3,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no31,1,2,0.5,2.0,5.0,3.0,S before R,True,True,0.75,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no31,2,2,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no31,3,2,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no32,1,4,0.5,,,,Neither observed,False,,,,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no32,2,4,0.5,6.0,,,S observed; R not observed,True,True,0.8571428571428571,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no32,3,4,0.5,8.0,,,S observed; R not observed,True,True,0.5555555555555556,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no34,1,3,0.5,,,,Neither observed,False,,,,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no34,2,3,0.5,,,,Neither observed,False,,,,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no34,3,3,0.5,,,,Neither observed,False,,,,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no37,1,2,0.5,2.0,4.0,2.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no37,2,2,0.5,2.0,4.0,2.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no37,3,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,0.8
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no38,1,2,0.5,2.0,4.0,2.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no38,2,2,0.5,3.0,6.0,3.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no38,3,2,0.5,2.0,7.0,5.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no39,1,2,0.5,3.0,5.0,2.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no39,2,2,0.5,4.0,6.0,2.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no39,3,2,0.5,2.0,8.0,6.0,S before R,True,True,0.7142857142857143,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no40,1,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no40,2,2,0.5,2.0,4.0,2.0,S before R,True,False,1.0,0.0,0.6
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no40,3,2,0.5,2.0,,,S observed; R not observed,True,True,0.4166666666666667,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no41,1,2,0.5,3.0,7.0,4.0,S before R,True,True,0.2,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no41,2,2,0.5,2.0,3.0,1.0,S before R,True,True,0.2,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no41,3,2,0.5,4.0,4.0,0.0,S and R together,True,True,0.09090909090909091,1.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no43,1,2,0.5,4.0,6.0,2.0,S before R,True,False,1.0,0.6,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no43,2,2,0.5,4.0,5.0,1.0,S before R,True,False,1.0,0.4,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no43,3,2,0.5,3.0,5.0,2.0,S before R,True,False,1.0,0.6,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no44,1,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no44,2,2,0.5,2.0,7.0,5.0,S before R,True,False,1.0,0.0,0.8
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no44,3,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,0.6
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no45,1,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,0.8
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no45,2,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no45,3,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no46,1,2,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no46,2,2,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no46,3,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,0.6
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no48,1,4,0.5,2.0,,,S observed; R not observed,True,True,0.15384615384615385,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no48,2,4,0.5,3.0,8.0,5.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no48,3,4,0.5,6.0,9.0,3.0,S before R,True,False,1.0,0.0,0.8
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no49,1,2,0.5,2.0,4.0,2.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no49,2,2,0.5,2.0,4.0,2.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no49,3,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no5,1,4,0.5,3.0,6.0,3.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no5,2,4,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no5,3,4,0.5,3.0,5.0,2.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no50,1,2,0.5,2.0,4.0,2.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no50,2,2,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no50,3,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no51,1,2,0.5,3.0,5.0,2.0,S before R,True,False,1.0,0.0,0.8
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no51,2,2,0.5,2.0,6.0,4.0,S before R,True,False,1.0,0.0,0.2
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no51,3,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no52,1,4,0.5,2.0,6.0,4.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no52,2,4,0.5,2.0,7.0,5.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no52,3,4,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no54,1,3,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no54,2,3,0.5,2.0,6.0,4.0,S before R,True,True,0.8,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no54,3,3,0.5,2.0,6.0,4.0,S before R,True,True,0.8,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no55,1,4,0.5,3.0,7.0,4.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no55,2,4,0.5,2.0,7.0,5.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no55,3,4,0.5,2.0,6.0,4.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no58,1,2,0.5,3.0,11.0,8.0,S before R,True,True,0.2222222222222222,0.0,0.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no58,2,2,0.5,3.0,,,S observed; R not observed,False,,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no58,3,2,0.5,3.0,,,S observed; R not observed,True,True,0.25,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no59,1,2,0.5,2.0,3.0,1.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no59,2,2,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no59,3,2,0.5,3.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no6,1,2,0.5,2.0,3.0,1.0,S before R,True,False,1.0,0.0,0.4
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no6,2,2,0.5,2.0,3.0,1.0,S before R,True,False,1.0,0.0,0.8
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no6,3,2,0.5,2.0,3.0,1.0,S before R,True,False,1.0,0.0,0.6
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no60,1,2,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no60,2,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no60,3,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,0.8
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no61,1,2,0.5,2.0,4.0,2.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no61,2,2,0.5,2.0,4.0,2.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no61,3,2,0.5,2.0,4.0,2.0,S before R,True,False,1.0,0.0,0.8
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no62,1,2,0.5,2.0,4.0,2.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no62,2,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no62,3,2,0.5,2.0,4.0,2.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no64,1,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,0.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no64,2,2,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no64,3,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,0.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no65,1,2,0.5,4.0,7.0,3.0,S before R,True,False,1.0,0.0,0.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no65,2,2,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no65,3,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,0.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no66,1,2,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no66,2,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,0.4
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no66,3,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,0.2
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no67,1,2,0.5,2.0,6.0,4.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no67,2,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no67,3,2,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no68,1,2,0.5,2.0,4.0,2.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no68,2,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no68,3,2,0.5,2.0,7.0,5.0,S before R,True,True,0.8571428571428571,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no69,1,4,0.5,5.0,10.0,5.0,S before R,True,True,0.8571428571428571,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no69,2,4,0.5,2.0,9.0,7.0,S before R,True,False,1.0,0.0,0.8
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no69,3,4,0.5,4.0,9.0,5.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no7,1,4,0.5,3.0,,,S observed; R not observed,True,True,0.2857142857142857,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no7,2,4,0.5,4.0,,,S observed; R not observed,True,True,0.21052631578947367,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no7,3,4,0.5,3.0,,,S observed; R not observed,True,True,0.2777777777777778,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no70,1,3,0.5,2.0,6.0,4.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no70,2,3,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no70,3,3,0.5,2.0,6.0,4.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no73,1,2,0.5,2.0,4.0,2.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no73,2,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no73,3,2,0.5,2.0,6.0,4.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no74,1,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no74,2,2,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no74,3,2,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no78,1,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no78,2,2,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no78,3,2,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no80,1,2,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no80,2,2,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no80,3,2,0.5,2.0,,,S observed; R not observed,True,True,0.9,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no81,1,2,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no81,2,2,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no81,3,2,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no83,1,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no83,2,2,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no83,3,2,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no86,1,2,0.5,2.0,3.0,1.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no86,2,2,0.5,2.0,3.0,1.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no86,3,2,0.5,2.0,3.0,1.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no87,1,3,0.5,2.0,6.0,4.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no87,2,3,0.5,2.0,5.0,3.0,S before R,True,True,0.75,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no87,3,3,0.5,2.0,6.0,4.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no89,1,2,0.5,3.0,5.0,2.0,S before R,True,True,0.6666666666666666,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no89,2,2,0.5,2.0,7.0,5.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no89,3,2,0.5,3.0,6.0,3.0,S before R,True,True,0.8,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no90,1,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no90,2,2,0.5,2.0,4.0,2.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no90,3,2,0.5,2.0,4.0,2.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no92,1,3,0.5,3.0,6.0,3.0,S before R,True,True,0.75,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no92,2,3,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no92,3,3,0.5,2.0,,,S observed; R not observed,True,True,0.25,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no93,1,4,0.5,2.0,,,S observed; R not observed,True,True,0.75,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no93,2,4,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no93,3,4,0.5,2.0,,,S observed; R not observed,True,True,0.8571428571428571,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no94,1,2,0.5,2.0,4.0,2.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no94,2,2,0.5,2.0,4.0,2.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no94,3,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no95,1,2,0.5,3.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no95,2,2,0.5,3.0,11.0,8.0,S before R,True,True,0.9090909090909091,0.0,1.0
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no95,3,2,0.5,3.0,,,S observed; R not observed,True,True,0.6666666666666666,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no97,1,2,0.5,2.0,,,S observed; R not observed,True,False,1.0,0.0,
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no97,2,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,0.8
+agentmemorybench:fact-mh-262k:context-0/factconsolidation_mh_262k_no97,3,2,0.5,2.0,5.0,3.0,S before R,True,False,1.0,0.0,1.0

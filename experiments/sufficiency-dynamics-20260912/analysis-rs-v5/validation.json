@@ -1,0 +1,461 @@
+{
+  "status": "passed",
+  "checks": [
+    "4300 raw replicas collapse exactly to 2150 analyzed states",
+    "S, R and correctness agree with raw source tables",
+    "sigmoid and binary/rank invariance",
+    "full dummy-variable WLS agrees with within-transformation estimator",
+    "aligned means retain all 100 questions and 300 trajectories",
+    "450 dpi export metadata"
+  ],
+  "regressions": [
+    {
+      "score": "native_s",
+      "direct_dummy_coefficient": 2.574890519290627,
+      "demeaned_coefficient": 2.5748905192906184
+    },
+    {
+      "score": "p",
+      "direct_dummy_coefficient": -0.05078462965448628,
+      "demeaned_coefficient": -0.0507846296544907
+    }
+  ],
+  "terminal_auc": {
+    "native_s": 0.7115618387285579,
+    "p": 0.7115618387285579,
+    "committed_r": 0.8339336364864256
+  },
+  "cells": [
+    {
+      "full": false,
+      "positive": false,
+      "n": 29,
+      "correct": 1,
+      "accuracy": 0.034482758620689655,
+      "low": 0.0,
+      "high": 0.10344827586206896
+    },
+    {
+      "full": false,
+      "positive": true,
+      "n": 98,
+      "correct": 5,
+      "accuracy": 0.05102040816326531,
+      "low": 0.010638297872340425,
+      "high": 0.10091974793809654
+    },
+    {
+      "full": true,
+      "positive": false,
+      "n": 10,
+      "correct": 3,
+      "accuracy": 0.3,
+      "low": 0.0,
+      "high": 0.5555555555555556
+    },
+    {
+      "full": true,
+      "positive": true,
+      "n": 163,
+      "correct": 124,
+      "accuracy": 0.7607361963190185,
+      "low": 0.6648036757237177,
+      "high": 0.8467257892045189
+    }
+  ],
+  "export_metadata": [
+    {
+      "file": "01-mean-trajectories.png",
+      "format": "PNG",
+      "kind": "raster",
+      "width_px": 2880,
+      "height_px": 1732,
+      "pixel_count": 4988160,
+      "mode": "RGBA",
+      "bands": [
+        "R",
+        "G",
+        "B",
+        "A"
+      ],
+      "has_alpha": true,
+      "frames": 1,
+      "dpi_x": 450.0118,
+      "dpi_y": 450.0118,
+      "width_mm_from_metadata": 162.55573742732966,
+      "height_mm_from_metadata": 97.75921431393576,
+      "icc_profile_present": false,
+      "icc_profile_bytes": 0,
+      "compression": null,
+      "exif_present": false
+    },
+    {
+      "file": "02-sufficiency-by-coverage.png",
+      "format": "PNG",
+      "kind": "raster",
+      "width_px": 2880,
+      "height_px": 1732,
+      "pixel_count": 4988160,
+      "mode": "RGBA",
+      "bands": [
+        "R",
+        "G",
+        "B",
+        "A"
+      ],
+      "has_alpha": true,
+      "frames": 1,
+      "dpi_x": 450.0118,
+      "dpi_y": 450.0118,
+      "width_mm_from_metadata": 162.55573742732966,
+      "height_mm_from_metadata": 97.75921431393576,
+      "icc_profile_present": false,
+      "icc_profile_bytes": 0,
+      "compression": null,
+      "exif_present": false
+    },
+    {
+      "file": "03-correctness-regression.png",
+      "format": "PNG",
+      "kind": "raster",
+      "width_px": 2880,
+      "height_px": 1732,
+      "pixel_count": 4988160,
+      "mode": "RGBA",
+      "bands": [
+        "R",
+        "G",
+        "B",
+        "A"
+      ],
+      "has_alpha": true,
+      "frames": 1,
+      "dpi_x": 450.0118,
+      "dpi_y": 450.0118,
+      "width_mm_from_metadata": 162.55573742732966,
+      "height_mm_from_metadata": 97.75921431393576,
+      "icc_profile_present": false,
+      "icc_profile_bytes": 0,
+      "compression": null,
+      "exif_present": false
+    },
+    {
+      "file": "S1-aligned-mean-trajectories.png",
+      "format": "PNG",
+      "kind": "raster",
+      "width_px": 2880,
+      "height_px": 1732,
+      "pixel_count": 4988160,
+      "mode": "RGBA",
+      "bands": [
+        "R",
+        "G",
+        "B",
+        "A"
+      ],
+      "has_alpha": true,
+      "frames": 1,
+      "dpi_x": 450.0118,
+      "dpi_y": 450.0118,
+      "width_mm_from_metadata": 162.55573742732966,
+      "height_mm_from_metadata": 97.75921431393576,
+      "icc_profile_present": false,
+      "icc_profile_bytes": 0,
+      "compression": null,
+      "exif_present": false
+    },
+    {
+      "file": "S2-raw-margin-trajectory.png",
+      "format": "PNG",
+      "kind": "raster",
+      "width_px": 2880,
+      "height_px": 1732,
+      "pixel_count": 4988160,
+      "mode": "RGBA",
+      "bands": [
+        "R",
+        "G",
+        "B",
+        "A"
+      ],
+      "has_alpha": true,
+      "frames": 1,
+      "dpi_x": 450.0118,
+      "dpi_y": 450.0118,
+      "width_mm_from_metadata": 162.55573742732966,
+      "height_mm_from_metadata": 97.75921431393576,
+      "icc_profile_present": false,
+      "icc_profile_bytes": 0,
+      "compression": null,
+      "exif_present": false
+    },
+    {
+      "file": "S3-raw-margin-by-coverage.png",
+      "format": "PNG",
+      "kind": "raster",
+      "width_px": 2880,
+      "height_px": 1732,
+      "pixel_count": 4988160,
+      "mode": "RGBA",
+      "bands": [
+        "R",
+        "G",
+        "B",
+        "A"
+      ],
+      "has_alpha": true,
+      "frames": 1,
+      "dpi_x": 450.0118,
+      "dpi_y": 450.0118,
+      "width_mm_from_metadata": 162.55573742732966,
+      "height_mm_from_metadata": 97.75921431393576,
+      "icc_profile_present": false,
+      "icc_profile_bytes": 0,
+      "compression": null,
+      "exif_present": false
+    },
+    {
+      "file": "S4-sigmoid-correctness-regression.png",
+      "format": "PNG",
+      "kind": "raster",
+      "width_px": 2880,
+      "height_px": 1732,
+      "pixel_count": 4988160,
+      "mode": "RGBA",
+      "bands": [
+        "R",
+        "G",
+        "B",
+        "A"
+      ],
+      "has_alpha": true,
+      "frames": 1,
+      "dpi_x": 450.0118,
+      "dpi_y": 450.0118,
+      "width_mm_from_metadata": 162.55573742732966,
+      "height_mm_from_metadata": 97.75921431393576,
+      "icc_profile_present": false,
+      "icc_profile_bytes": 0,
+      "compression": null,
+      "exif_present": false
+    },
+    {
+      "file": "01-mean-trajectories.pdf",
+      "format": "PDF",
+      "kind": "vector-container",
+      "encrypted": false,
+      "page_count": 1,
+      "first_page_width_pt": 460.8,
+      "first_page_height_pt": 277.2,
+      "width_mm": 162.56,
+      "height_mm": 97.78999999999999,
+      "dpi_x": null,
+      "dpi_y": null,
+      "mode": null,
+      "font_resources": {
+        "resource_count": 1,
+        "embedded_count": 1,
+        "unembedded_count": 0,
+        "unknown_count": 0,
+        "all_embedded": true,
+        "fonts": [
+          {
+            "resource": "/F1",
+            "base_font": "/RGMOTC+PingFangSC-Regular",
+            "subtype": "/Type0",
+            "embedded": true
+          }
+        ],
+        "scope": "first page resource dictionary only"
+      },
+      "note": "PDF page size and font resources do not establish the resolution of embedded raster images."
+    },
+    {
+      "file": "02-sufficiency-by-coverage.pdf",
+      "format": "PDF",
+      "kind": "vector-container",
+      "encrypted": false,
+      "page_count": 1,
+      "first_page_width_pt": 460.8,
+      "first_page_height_pt": 277.2,
+      "width_mm": 162.56,
+      "height_mm": 97.78999999999999,
+      "dpi_x": null,
+      "dpi_y": null,
+      "mode": null,
+      "font_resources": {
+        "resource_count": 1,
+        "embedded_count": 1,
+        "unembedded_count": 0,
+        "unknown_count": 0,
+        "all_embedded": true,
+        "fonts": [
+          {
+            "resource": "/F1",
+            "base_font": "/EJTNHN+PingFangSC-Regular",
+            "subtype": "/Type0",
+            "embedded": true
+          }
+        ],
+        "scope": "first page resource dictionary only"
+      },
+      "note": "PDF page size and font resources do not establish the resolution of embedded raster images."
+    },
+    {
+      "file": "03-correctness-regression.pdf",
+      "format": "PDF",
+      "kind": "vector-container",
+      "encrypted": false,
+      "page_count": 1,
+      "first_page_width_pt": 460.8,
+      "first_page_height_pt": 277.2,
+      "width_mm": 162.56,
+      "height_mm": 97.78999999999999,
+      "dpi_x": null,
+      "dpi_y": null,
+      "mode": null,
+      "font_resources": {
+        "resource_count": 1,
+        "embedded_count": 1,
+        "unembedded_count": 0,
+        "unknown_count": 0,
+        "all_embedded": true,
+        "fonts": [
+          {
+            "resource": "/F1",
+            "base_font": "/FSPNMG+PingFangSC-Regular",
+            "subtype": "/Type0",
+            "embedded": true
+          }
+        ],
+        "scope": "first page resource dictionary only"
+      },
+      "note": "PDF page size and font resources do not establish the resolution of embedded raster images."
+    },
+    {
+      "file": "S1-aligned-mean-trajectories.pdf",
+      "format": "PDF",
+      "kind": "vector-container",
+      "encrypted": false,
+      "page_count": 1,
+      "first_page_width_pt": 460.8,
+      "first_page_height_pt": 277.2,
+      "width_mm": 162.56,
+      "height_mm": 97.78999999999999,
+      "dpi_x": null,
+      "dpi_y": null,
+      "mode": null,
+      "font_resources": {
+        "resource_count": 1,
+        "embedded_count": 1,
+        "unembedded_count": 0,
+        "unknown_count": 0,
+        "all_embedded": true,
+        "fonts": [
+          {
+            "resource": "/F1",
+            "base_font": "/GLBPNJ+PingFangSC-Regular",
+            "subtype": "/Type0",
+            "embedded": true
+          }
+        ],
+        "scope": "first page resource dictionary only"
+      },
+      "note": "PDF page size and font resources do not establish the resolution of embedded raster images."
+    },
+    {
+      "file": "S2-raw-margin-trajectory.pdf",
+      "format": "PDF",
+      "kind": "vector-container",
+      "encrypted": false,
+      "page_count": 1,
+      "first_page_width_pt": 460.8,
+      "first_page_height_pt": 277.2,
+      "width_mm": 162.56,
+      "height_mm": 97.78999999999999,
+      "dpi_x": null,
+      "dpi_y": null,
+      "mode": null,
+      "font_resources": {
+        "resource_count": 1,
+        "embedded_count": 1,
+        "unembedded_count": 0,
+        "unknown_count": 0,
+        "all_embedded": true,
+        "fonts": [
+          {
+            "resource": "/F1",
+            "base_font": "/GSJFJT+PingFangSC-Regular",
+            "subtype": "/Type0",
+            "embedded": true
+          }
+        ],
+        "scope": "first page resource dictionary only"
+      },
+      "note": "PDF page size and font resources do not establish the resolution of embedded raster images."
+    },
+    {
+      "file": "S3-raw-margin-by-coverage.pdf",
+      "format": "PDF",
+      "kind": "vector-container",
+      "encrypted": false,
+      "page_count": 1,
+      "first_page_width_pt": 460.8,
+      "first_page_height_pt": 277.2,
+      "width_mm": 162.56,
+      "height_mm": 97.78999999999999,
+      "dpi_x": null,
+      "dpi_y": null,
+      "mode": null,
+      "font_resources": {
+        "resource_count": 1,
+        "embedded_count": 1,
+        "unembedded_count": 0,
+        "unknown_count": 0,
+        "all_embedded": true,
+        "fonts": [
+          {
+            "resource": "/F1",
+            "base_font": "/FJDFQO+PingFangSC-Regular",
+            "subtype": "/Type0",
+            "embedded": true
+          }
+        ],
+        "scope": "first page resource dictionary only"
+      },
+      "note": "PDF page size and font resources do not establish the resolution of embedded raster images."
+    },
+    {
+      "file": "S4-sigmoid-correctness-regression.pdf",
+      "format": "PDF",
+      "kind": "vector-container",
+      "encrypted": false,
+      "page_count": 1,
+      "first_page_width_pt": 460.8,
+      "first_page_height_pt": 277.2,
+      "width_mm": 162.56,
+      "height_mm": 97.78999999999999,
+      "dpi_x": null,
+      "dpi_y": null,
+      "mode": null,
+      "font_resources": {
+        "resource_count": 1,
+        "embedded_count": 1,
+        "unembedded_count": 0,
+        "unknown_count": 0,
+        "all_embedded": true,
+        "fonts": [
+          {
+            "resource": "/F1",
+            "base_font": "/DZVHAR+PingFangSC-Regular",
+            "subtype": "/Type0",
+            "embedded": true
+          }
+        ],
+        "scope": "first page resource dictionary only"
+      },
+      "note": "PDF page size and font resources do not establish the resolution of embedded raster images."
+    }
+  ],
+  "source_sha256": "d02c302518c98ac92a71167b0f58bf08fb160d9f1055def0d96a71085d468845"
+}

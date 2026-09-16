@@ -1,0 +1,15 @@
+{
+  "release_identity": "picorer-v1.0.0",
+  "changed_files_sha256": {
+    "test/required-working-memory.test.ts": "0c0506e7cf71916b9b760fa89482f06915fe7152d43494132cae02e123dad505",
+    "integrations/memoryagentbench/run_from_yaml.mjs": "db690050b16e52517febaa4aa9c17b815cfe3ed543f45c1702a645217009c5c1",
+    "integrations/memoryagentbench/run_from_yaml.d.mts": "398d8a3249d8fc0ad3a46e58472cd3aa300ea8f85926be3955c498e564c29276",
+    "src/benchmark/memoryarena-public/adapters/picorer-memory-runtime.ts": "45d7695e5b9cfc9d2cf93bb7038abbc5fe52ad90ddfd30b6228575f6056b1f92",
+    "src/benchmark/memoryarena-public/composition/create-runtime.ts": "d30b3195ee3857cb568c7aef4bb6599d20885e206da09cbc03af741672eb38e7",
+    "src/entrypoints/memoryarena-public-api/main.ts": "192c9c24a5bea66066dcf0344194583edb83e9c0298fd67a49bba65120454fb8",
+    "src/entrypoints/memoryarena-public-api/runtime-contract.ts": "5b5fdbc8b4daacaaaecd43994ec7a4f8e64fd4bc67bc5dd54e54de63510c3236",
+    "src/evidence-agent/adapters/pi/run-agent.ts": "a89a602de3730a8663faed3e46276e08e48c3673a2340bd82c379e12afba5887",
+    "src/evidence-agent/adapters/pi/required-working-memory.ts": "a7b3d1046dd8fb4d8d3864ea0dd9a5a97c0547ea738e55660fbb233c7537022e"
+  },
+  "patch_manifest_sha256": "d4532cdcac0ccc3bd520d2bb1e9b062266cc1ca340875e36b909d8fc48e3bb57"
+}

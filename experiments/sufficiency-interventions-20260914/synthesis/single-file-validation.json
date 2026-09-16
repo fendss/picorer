@@ -1,0 +1,121 @@
+{
+  "title": "Picorer｜充分性实验完整资料",
+  "images": [
+    {
+      "alt": "图 1：受控证据组合中的 Coverage 与 Sufficiency likelihood",
+      "width": 2120,
+      "height": 1520,
+      "embedded": true
+    },
+    {
+      "alt": "图 2：受控证据组合中的 Coverage 与答题正确率",
+      "width": 2120,
+      "height": 1520,
+      "embedded": true
+    },
+    {
+      "alt": "图 3：证据包固定时，改变搜索预览对 Sufficiency likelihood 的影响",
+      "width": 2280,
+      "height": 1280,
+      "embedded": true
+    },
+    {
+      "alt": "图1：平均充分性倾向和证据包覆盖率随轨迹进度变化，阴影表示题目级95%区间。",
+      "width": 2880,
+      "height": 1732,
+      "embedded": true
+    },
+    {
+      "alt": "图2：二、三、四跳题分别显示覆盖率与平均充分性倾向，整体上升但不强制单调。",
+      "width": 2880,
+      "height": 1732,
+      "embedded": true
+    },
+    {
+      "alt": "图3：按终止证据包是否完整分组的答案正确率回归，完整组内部高S对应更高正确率。",
+      "width": 2880,
+      "height": 1732,
+      "embedded": true
+    },
+    {
+      "alt": "原轨迹：首尾对齐的时间均值。100 题、300 条轨迹；使用 (t−1)/(T−1) 首尾对齐，不能与原定义 t/T 混用。先平均题内运行，再平均题目；逐点 95% 题目级重采样区间。",
+      "width": 2880,
+      "height": 1732,
+      "embedded": true
+    },
+    {
+      "alt": "原轨迹：原始分数随进度变化。原始 S 为 sufficient 相对 insufficient 的 logit margin。使用 t/T；不向首个观测之前外推。早期可用题目数随进度变化，完整支持数量见数据表。",
+      "width": 2880,
+      "height": 1732,
+      "embedded": true
+    },
+    {
+      "alt": "原轨迹：原始分数与覆盖率。100 题的自然轨迹；按跳数分组，题内先平均相同覆盖率状态与运行。不同覆盖点的题目集合可能不同，不是固定样本的干预曲线。",
+      "width": 2880,
+      "height": 1732,
+      "embedded": true
+    },
+    {
+      "alt": "原终止状态：likelihood 与正确率回归。300 个原始终止状态的样本内描述性回归，并非留出预测或校准检验。220 个状态的 likelihood 超过 0.99，右端聚集来自真实数值压缩。",
+      "width": 2880,
+      "height": 1732,
+      "embedded": true
+    },
+    {
+      "alt": "主分析 64 题：逐状态正确率的样本内回归。64 题、1,181 个真实状态；二项回归包含 R、likelihood 与交互项。逐点 95% 题目级区间。部分范围的不确定性很大；该图不是留出测试的校准图。",
+      "width": 2120,
+      "height": 1520,
+      "embedded": true
+    },
+    {
+      "alt": "全部 100 题：受控证据与 likelihood。100 道题（二／三／四跳：57／19／24）。题内平均同覆盖率组合与正反顺序，再跨题平均；阴影是逐点 95% 题目级重采样区间。正确率来自每条件五次回答。",
+      "width": 2120,
+      "height": 1520,
+      "embedded": true
+    },
+    {
+      "alt": "全部 100 题：受控证据与答题正确率。100 道题（二／三／四跳：57／19／24）。题内平均同覆盖率组合与正反顺序，再跨题平均；阴影是逐点 95% 题目级重采样区间。正确率来自每条件五次回答。",
+      "width": 2120,
+      "height": 1520,
+      "embedded": true
+    },
+    {
+      "alt": "全部 100 题：预览修改的配对效果。100 道题（二／三／四跳：57／19／24）。三项比较的状态数依次为 1,072／1,756／1,756；同状态配对后先平均运行、题目，再跨题平均。灰点为题目，深色点及区间为均值和 95% 区间。",
+      "width": 2280,
+      "height": 1280,
+      "embedded": true
+    },
+    {
+      "alt": "36 道已知冲突题：受控证据与 likelihood。36 道已知冲突题（二／三／四跳：8／12／16）。题内平均同覆盖率组合与正反顺序，再跨题平均；阴影是逐点 95% 题目级重采样区间。正确率来自每条件五次回答。",
+      "width": 2120,
+      "height": 1520,
+      "embedded": true
+    },
+    {
+      "alt": "36 道已知冲突题：受控证据与答题正确率。36 道已知冲突题（二／三／四跳：8／12／16）。题内平均同覆盖率组合与正反顺序，再跨题平均；阴影是逐点 95% 题目级重采样区间。正确率来自每条件五次回答。",
+      "width": 2120,
+      "height": 1520,
+      "embedded": true
+    },
+    {
+      "alt": "36 道已知冲突题：预览修改的配对效果。36 道已知冲突题（二／三／四跳：8／12／16）。三项比较的状态数依次为 508／813／813；同状态配对后先平均运行、题目，再跨题平均。灰点为题目，深色点及区间为均值和 95% 区间。",
+      "width": 2280,
+      "height": 1280,
+      "embedded": true
+    }
+  ],
+  "brokenAnchors": [],
+  "duplicateIds": [],
+  "externalDependencies": [],
+  "tableCount": 51,
+  "desktopOverflow": false,
+  "oldAppendixOpened": true,
+  "tableAnchorOpensAncestors": true,
+  "downloadSHA256": "3fae65dafdf42224bfe90a498155ab93a5b30c97f007641a505b1cad6035ff9f",
+  "mobileOverflow": false,
+  "mobileTocWorks": true,
+  "externalRequests": [],
+  "browserErrors": [],
+  "status": "passed",
+  "manualVisualReview": "Screenshots generated; reviewed separately before delivery."
+}

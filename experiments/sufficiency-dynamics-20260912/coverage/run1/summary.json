@@ -1,0 +1,220 @@
+{
+  "schema_version": 1,
+  "experiment_root": "/data/zhaogangyi/picorer-eval/qwen36-v100-sufficiency-dynamics-20260912",
+  "gold_definition": "official_mquake_label_chain",
+  "coverage_definition": "R(q,t) is the fraction of official MQuAKE gold-hop statements present in the exact source text visible from successful read calls before decision state t; query-focused truncation is respected and search previews are excluded",
+  "alignment_semantics": "Each row describes the frozen context before that state's action. Evidence read by state t is first included in R at state t+1.",
+  "search_previews_count_as_evidence": false,
+  "questions": 100,
+  "decision_states": 694,
+  "state_replica_rows": 1388,
+  "replicas": [
+    "qwen-r1",
+    "qwen-r2"
+  ],
+  "j_samples_per_state_replica": [
+    101
+  ],
+  "gold_hops": 267,
+  "read_memory_ids": 67,
+  "read_evidence_items": 620,
+  "truncated_read_evidence_items": 265,
+  "trace_actions": 692,
+  "initial_states": {
+    "states": 100,
+    "mean_r": 0.0,
+    "zero_r": 100,
+    "full_r": 0,
+    "distribution": {
+      "0": 100
+    }
+  },
+  "all_states": {
+    "states": 694,
+    "mean_r": 0.3360951008645533,
+    "zero_r": 282,
+    "full_r": 102,
+    "distribution": {
+      "0": 282,
+      "0.25": 74,
+      "0.333333": 79,
+      "0.5": 118,
+      "0.666667": 22,
+      "0.75": 17,
+      "1": 102
+    }
+  },
+  "terminal_states": {
+    "states": 100,
+    "mean_r": 0.7741666666666667,
+    "zero_r": 2,
+    "full_r": 61,
+    "distribution": {
+      "0": 2,
+      "0.25": 10,
+      "0.333333": 6,
+      "0.5": 14,
+      "0.666667": 4,
+      "0.75": 3,
+      "1": 61
+    }
+  },
+  "terminal_questions_full_coverage": 61,
+  "terminal_questions_partial_coverage": 37,
+  "terminal_questions_zero_coverage": 2,
+  "hops_acquired_by_read": 196,
+  "hops_never_acquired": 71,
+  "states_where_r_increases": 144,
+  "monotonicity_violations": [],
+  "by_progress_band": {
+    "(0,.2]": {
+      "states": 96,
+      "mean_r": 0.013888888888888888,
+      "zero_r": 93,
+      "full_r": 0,
+      "distribution": {
+        "0": 93,
+        "0.333333": 1,
+        "0.5": 2
+      }
+    },
+    "(.2,.4]": {
+      "states": 146,
+      "mean_r": 0.11187214611872145,
+      "zero_r": 104,
+      "full_r": 1,
+      "distribution": {
+        "0": 104,
+        "0.25": 13,
+        "0.333333": 13,
+        "0.5": 14,
+        "0.75": 1,
+        "1": 1
+      }
+    },
+    "(.4,.6]": {
+      "states": 132,
+      "mean_r": 0.3226010101010101,
+      "zero_r": 41,
+      "full_r": 9,
+      "distribution": {
+        "0": 41,
+        "0.25": 20,
+        "0.333333": 22,
+        "0.5": 34,
+        "0.666667": 3,
+        "0.75": 3,
+        "1": 9
+      }
+    },
+    "(.6,.8]": {
+      "states": 146,
+      "mean_r": 0.3852739726027397,
+      "zero_r": 38,
+      "full_r": 17,
+      "distribution": {
+        "0": 38,
+        "0.25": 19,
+        "0.333333": 23,
+        "0.5": 38,
+        "0.666667": 5,
+        "0.75": 6,
+        "1": 17
+      }
+    },
+    "(.8,1]": {
+      "states": 174,
+      "mean_r": 0.6709770114942529,
+      "zero_r": 6,
+      "full_r": 75,
+      "distribution": {
+        "0": 6,
+        "0.25": 22,
+        "0.333333": 20,
+        "0.5": 30,
+        "0.666667": 14,
+        "0.75": 7,
+        "1": 75
+      }
+    }
+  },
+  "by_dataset_status": {
+    "lww_clean": {
+      "states": 399,
+      "mean_r": 0.34419381787802844,
+      "zero_r": 178,
+      "full_r": 71,
+      "distribution": {
+        "0": 178,
+        "0.25": 24,
+        "0.333333": 25,
+        "0.5": 93,
+        "0.666667": 6,
+        "0.75": 2,
+        "1": 71
+      }
+    },
+    "lww_conflicted": {
+      "states": 295,
+      "mean_r": 0.3251412429378531,
+      "zero_r": 104,
+      "full_r": 31,
+      "distribution": {
+        "0": 104,
+        "0.25": 50,
+        "0.333333": 54,
+        "0.5": 25,
+        "0.666667": 16,
+        "0.75": 15,
+        "1": 31
+      }
+    }
+  },
+  "terminal_by_correctness": {
+    "correct": {
+      "states": 48,
+      "mean_r": 0.9739583333333334,
+      "zero_r": 0,
+      "full_r": 46,
+      "distribution": {
+        "0.25": 1,
+        "0.5": 1,
+        "1": 46
+      }
+    },
+    "incorrect": {
+      "states": 52,
+      "mean_r": 0.5897435897435898,
+      "zero_r": 2,
+      "full_r": 15,
+      "distribution": {
+        "0": 2,
+        "0.25": 9,
+        "0.333333": 6,
+        "0.5": 13,
+        "0.666667": 4,
+        "0.75": 3,
+        "1": 15
+      }
+    }
+  },
+  "validation": {
+    "manifest_questions_match_states_audits_scores": true,
+    "state_steps_contiguous": true,
+    "state_actions_match_trace_names_and_ids": true,
+    "all_read_memory_ids_resolved": true,
+    "all_excerpt_ranges_valid": true,
+    "all_probe_results_present": true,
+    "coverage_in_unit_interval": true,
+    "coverage_monotonic_per_question": true,
+    "all_initial_states_zero": true
+  },
+  "outputs": {
+    "states_jsonl": "/data/zhaogangyi/picorer-eval/qwen36-v100-sufficiency-dynamics-20260912/coverage-v1/states.jsonl",
+    "states_csv": "/data/zhaogangyi/picorer-eval/qwen36-v100-sufficiency-dynamics-20260912/coverage-v1/states.csv",
+    "hops_jsonl": "/data/zhaogangyi/picorer-eval/qwen36-v100-sufficiency-dynamics-20260912/coverage-v1/hops.jsonl",
+    "hops_csv": "/data/zhaogangyi/picorer-eval/qwen36-v100-sufficiency-dynamics-20260912/coverage-v1/hops.csv",
+    "state_replica_jsonl": "/data/zhaogangyi/picorer-eval/qwen36-v100-sufficiency-dynamics-20260912/coverage-v1/state-replica.jsonl",
+    "state_replica_csv": "/data/zhaogangyi/picorer-eval/qwen36-v100-sufficiency-dynamics-20260912/coverage-v1/state-replica.csv"
+  }
+}

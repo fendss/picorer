@@ -1,0 +1,941 @@
+{
+  "kind": "memoryarena-public-hf-source-manifests",
+  "repositories": {
+    "browsecomp_plus": {
+      "file_count": 8,
+      "files": [
+        {
+          "git_oid": "1ef325f1b111266a6b26e0196871bd78baa8c2f3",
+          "path": ".gitattributes",
+          "size": 2461
+        },
+        {
+          "git_oid": "fae3cb4fa14c442679edd8ccc5ca166541b3b119",
+          "path": "README.md",
+          "size": 6165
+        },
+        {
+          "git_oid": "fe4cd4e18b632961d9d9aea0dcdbb6a7fa9f210e",
+          "lfs_sha256": "4ff9e93054eaee61b8d079a89b7ec4d02f16c9d05fa6e2fef7185b0786427a3a",
+          "path": "data/test-00000-of-00006.parquet",
+          "size": 508023004
+        },
+        {
+          "git_oid": "92c02db85ee59b5fe712ea466c052a12bee567e5",
+          "lfs_sha256": "70cc3a6781693bb013c6855f231d15159222dddf826eb19947f6f85fcabccd4e",
+          "path": "data/test-00001-of-00006.parquet",
+          "size": 439458597
+        },
+        {
+          "git_oid": "c3c7f260371889f1c3ae38771219c75fdbaec5bd",
+          "lfs_sha256": "f4fab28dcd293231da1b9da48680a19c7cdcb831df889d0691304de66016d194",
+          "path": "data/test-00002-of-00006.parquet",
+          "size": 447012029
+        },
+        {
+          "git_oid": "d0c76f7039d767c1ce724c1c4ff4f5cf45dbd5c9",
+          "lfs_sha256": "e738eb7a2e76feebe60632fc279a99773586d75ce5344e205c9c53fc3071c126",
+          "path": "data/test-00003-of-00006.parquet",
+          "size": 415470437
+        },
+        {
+          "git_oid": "fa0059df1261abed45fcd9d1301728b6f71d9096",
+          "lfs_sha256": "25535ff3d41be25d8b213b903c478f34c18082af3cbfe0a4a3925989b84c87e4",
+          "path": "data/test-00004-of-00006.parquet",
+          "size": 473281326
+        },
+        {
+          "git_oid": "b948e003eafb23d995a7c1c191e38b13909a5ea0",
+          "lfs_sha256": "3a87031c5214322344b358db1d5f44d773b4d634ae43c60ce53ad582ccc47646",
+          "path": "data/test-00005-of-00006.parquet",
+          "size": 498182760
+        }
+      ],
+      "repo_id": "Tevatron/browsecomp-plus",
+      "repo_type": "dataset",
+      "revision": "144cff8e35b5eaef7e526346aa60774a9deb941f",
+      "tree_sha256": "21e3aacebd84b29306c1681c3b609342ad8a2c0e05ba1745f3467feb3515d1f0"
+    },
+    "browsecomp_plus_corpus": {
+      "file_count": 9,
+      "files": [
+        {
+          "git_oid": "1ef325f1b111266a6b26e0196871bd78baa8c2f3",
+          "path": ".gitattributes",
+          "size": 2461
+        },
+        {
+          "git_oid": "580447f000d53cb6f6bc50d15a8da97ea4ce33b1",
+          "path": "README.md",
+          "size": 3232
+        },
+        {
+          "git_oid": "3add794e0f9cae2156c1fd5c9821b3ea888d614d",
+          "lfs_sha256": "7c07f9e23b1ca548110fd831714cadc67d44db5223bace6e45fcaa795d3153d0",
+          "path": "data/train-00000-of-00007.parquet",
+          "size": 218510750
+        },
+        {
+          "git_oid": "2acda8517208db7829599c5606a7aadaa3481853",
+          "lfs_sha256": "e92d8202e0f656a85b262153dbcd22ecf80ea2d0c96d9884f9c8e25480b869ab",
+          "path": "data/train-00001-of-00007.parquet",
+          "size": 271758203
+        },
+        {
+          "git_oid": "b0629598d656da7f25053d93e528a4f2f2a2c390",
+          "lfs_sha256": "0e4113a4503342527258d8f2c49877747435f3e65bfe1f7306b4f488c8d225fe",
+          "path": "data/train-00002-of-00007.parquet",
+          "size": 257605847
+        },
+        {
+          "git_oid": "6b74604da17d51d9245410052c923ce01d9f5188",
+          "lfs_sha256": "0ceea5e703332a2e3ce700f641273400d84583fad84b659d3248ed06d3a9fef3",
+          "path": "data/train-00003-of-00007.parquet",
+          "size": 239125125
+        },
+        {
+          "git_oid": "e66dfc62197b61be753757b398d404674118007f",
+          "lfs_sha256": "15b62914ddc3de6946893c770f07d5d84d29646e833ca1447955668f2b57940c",
+          "path": "data/train-00004-of-00007.parquet",
+          "size": 259072824
+        },
+        {
+          "git_oid": "b89895d4007db00a3277c51ed637afdffc694df0",
+          "lfs_sha256": "a9a75708ad37c522e93a774e5a968a3129e12b0559971c8f950a5628e0201df0",
+          "path": "data/train-00005-of-00007.parquet",
+          "size": 257706279
+        },
+        {
+          "git_oid": "7300cf6f47896bc80db7601151ee98ffe0969107",
+          "lfs_sha256": "290062b60c1a6ebba7d5469a37a431f0a2596e68788295284b1b2d35db07b62c",
+          "path": "data/train-00006-of-00007.parquet",
+          "size": 257801458
+        }
+      ],
+      "repo_id": "Tevatron/browsecomp-plus-corpus",
+      "repo_type": "dataset",
+      "revision": "b27b02bc3e45511b8b82a13e6f90ce761df726f6",
+      "tree_sha256": "2494ec1733362ba4ce2b7154ca9a10654b0c3a79dd9878a09906f1f26ecef756"
+    },
+    "shopping_product_db": {
+      "file_count": 135,
+      "files": [
+        {
+          "git_oid": "30f91b41aee59ab5c67deab310a3936a21cbcb71",
+          "path": ".gitattributes",
+          "size": 7608
+        },
+        {
+          "git_oid": "04c04cb3d2773c8245c522215d460307b54bd62c",
+          "path": "domain_data.json",
+          "size": 41160
+        },
+        {
+          "git_oid": "b2ab7479b9798e0b62ea394e065f3d506875f090",
+          "path": "items_human_ins.json",
+          "size": 5137548
+        },
+        {
+          "git_oid": "2a4c1912d114022f6101d22d7558ad75521dae83",
+          "lfs_sha256": "1d36af476bdb8f82a5da62bd8acdabe54cd8de2fa84010d37da5c4890feb447e",
+          "path": "items_ins_v2.json",
+          "size": 186295270
+        },
+        {
+          "git_oid": "8de5b9853120915568a8c5df0cceffc312e9d4a9",
+          "lfs_sha256": "2ef591d65df3af89e972ab72468eb82cbf124d876552d9f3678667edd620a6c8",
+          "path": "items_shuffle.json",
+          "size": 5479720229
+        },
+        {
+          "git_oid": "1f8ffd1cee2238fdb089d22e93d075100c4eecbb",
+          "lfs_sha256": "27a57883fa7009a44d0bd361fdbe74a94916a59fd874e3ea02195f1f2dfe3d72",
+          "path": "product_catalog/beauty_personal_care_foot_hand_nail_care.json",
+          "size": 45908213
+        },
+        {
+          "git_oid": "f54ca61f284c43d2bb2bc9c9cde33033b0d8168b",
+          "lfs_sha256": "c9a9be86fa346c3c927daa9b65188fd6b8475129f4b44db19f84f576f0d7a3c5",
+          "path": "product_catalog/beauty_personal_care_fragrance.json",
+          "size": 46606053
+        },
+        {
+          "git_oid": "60cd37bc57f12a278c603a01f07902bd8aa992d1",
+          "lfs_sha256": "54bbfe29c97ce96f814a6cd65882a0d25a1ccbefcf935e72f2f4ac9afe98d845",
+          "path": "product_catalog/beauty_personal_care_hair_care.json",
+          "size": 273442816
+        },
+        {
+          "git_oid": "84a2562b8bd79d4335c430bab75df5f8ff5c7d7f",
+          "lfs_sha256": "69ba432f43d6a6b49bce9dae61dfdba080bd42efa30f438a2a6e46ccd8563061",
+          "path": "product_catalog/beauty_personal_care_makeup.json",
+          "size": 102149094
+        },
+        {
+          "git_oid": "dd76e1270204e27c33147e7534e134b7a106f77d",
+          "lfs_sha256": "79fd80a1059f7f33f5f818a1a1ff3905a2014eb7dc4de35d61b6e01f5cc480cf",
+          "path": "product_catalog/beauty_personal_care_oral_care.json",
+          "size": 137355750
+        },
+        {
+          "git_oid": "b25ddfb63622b6c62666a6ebe0396ac50553ff1f",
+          "lfs_sha256": "f0260ff811cfe9bcd5061741c372d7e59d0c94e4729d22c6fd5fc074ef223a05",
+          "path": "product_catalog/beauty_personal_care_personal_care.json",
+          "size": 94380764
+        },
+        {
+          "git_oid": "57f2869609e736fac4529deccc572fd231510760",
+          "lfs_sha256": "421cf96af1bdfdc6410b3299d6f65881451a30a40df9750664eb601014c70b66",
+          "path": "product_catalog/beauty_personal_care_salon_spa_equipment.json",
+          "size": 34476736
+        },
+        {
+          "git_oid": "f8ceec6ac0ba69376b6402a6647fe04a41f65522",
+          "lfs_sha256": "6fa94bd0687bb18ed6f2519c35cf85795cfa7c6fece1454b24716b2eea0b2265",
+          "path": "product_catalog/beauty_personal_care_shave_hair_removal.json",
+          "size": 41300488
+        },
+        {
+          "git_oid": "1c0a6ca112ae1178f1aec04c7ae0760a3fa2a9fe",
+          "lfs_sha256": "a9ec8061bdb215f8eaf52072db07cc0c93a54da500e96446160d72401c207bfb",
+          "path": "product_catalog/beauty_personal_care_skin_care.json",
+          "size": 151355209
+        },
+        {
+          "git_oid": "4c4929124c270637f372321bb7fa5d0cc0392d73",
+          "lfs_sha256": "5f4fc9e43627abec8ef49438d8b6837083e046fff154090e2b1f0797f65f344c",
+          "path": "product_catalog/beauty_personal_care_tools_accessories.json",
+          "size": 192513166
+        },
+        {
+          "git_oid": "67d1d620e8eeeca7f38247b292e71670c4df7c92",
+          "path": "product_catalog/clothing_shoes_jewelry_baby.json",
+          "size": 358714
+        },
+        {
+          "git_oid": "5732c5091b8fb427e2faefbae32a408684a48ba1",
+          "path": "product_catalog/clothing_shoes_jewelry_boys.json",
+          "size": 1068682
+        },
+        {
+          "git_oid": "b05587ef1c609cde830f0995b4cc5320dce7c5e9",
+          "path": "product_catalog/clothing_shoes_jewelry_costumes_accessories.json",
+          "size": 887888
+        },
+        {
+          "git_oid": "5914536f0e6cdca62060c15444c3fdeb45771ffb",
+          "path": "product_catalog/clothing_shoes_jewelry_girls.json",
+          "size": 2254258
+        },
+        {
+          "git_oid": "769d1963e105f8de1cecfee2796d0d890903dbd7",
+          "path": "product_catalog/clothing_shoes_jewelry_luggage_travel_gear.json",
+          "size": 154298
+        },
+        {
+          "git_oid": "3644380c0270da12dfbe01cf35b3f80f72cac80d",
+          "lfs_sha256": "f1a560c67099b095f791bd31151deaa89fefdb0f1d1bd9adfc07ad508c67036d",
+          "path": "product_catalog/clothing_shoes_jewelry_men.json",
+          "size": 605728194
+        },
+        {
+          "git_oid": "818f44adc5c6cb686f3476e75dda71d7386f7e5c",
+          "lfs_sha256": "9d3b19b4269265df877c88934cd5d0fc67becf21332fdd771b4716fc26a914ae",
+          "path": "product_catalog/clothing_shoes_jewelry_novelty_more.json",
+          "size": 226301274
+        },
+        {
+          "git_oid": "8d5b34f5776f5065101185b62270167082948815",
+          "path": "product_catalog/clothing_shoes_jewelry_shoe_jewelry_watch_accessories.json",
+          "size": 1938706
+        },
+        {
+          "git_oid": "9bafca2ebb38cc8dd7884431ab69f2126b65f563",
+          "lfs_sha256": "3df0acff1ec3cbb2bafb25509ce55d2b3b7564c202c7649a117e1cf58089ed75",
+          "path": "product_catalog/clothing_shoes_jewelry_sport_specific_clothing.json",
+          "size": 28605375
+        },
+        {
+          "git_oid": "71adbd756db3843b9dffb910de877a46e7750398",
+          "path": "product_catalog/clothing_shoes_jewelry_uniforms_work_safety.json",
+          "size": 564270
+        },
+        {
+          "git_oid": "b9242cfa36d1215f1de4de01ee72478e68526589",
+          "lfs_sha256": "ffcf40aafad7776f6a11e6f9f4881df5430fef95b2d9939ef8957df823d12c27",
+          "path": "product_catalog/clothing_shoes_jewelry_women.json",
+          "size": 835756126
+        },
+        {
+          "git_oid": "f04f32655e17234a98f51129ec8a44391da2549c",
+          "lfs_sha256": "fec19c832dea66316ec8ad389c114eaaf9f0bb45933cd64250d78965c46be1d3",
+          "path": "product_catalog/electronics_accessories_supplies.json",
+          "size": 137828642
+        },
+        {
+          "git_oid": "e6fb2d12df86ea0057f0a7f96cb902037c22203b",
+          "lfs_sha256": "72617bd4816c45ad59f486fcc5f917512fd5889a8c7a7827e8576a1dfb5f374b",
+          "path": "product_catalog/electronics_camera_photo.json",
+          "size": 218239874
+        },
+        {
+          "git_oid": "2c8d3555db1c413f5b633e6e9907f834e3cdbc04",
+          "lfs_sha256": "175416a0acf9fc31370ccf5870e12b43a9eb5ddae71bb52e80bcd6b09d4176e2",
+          "path": "product_catalog/electronics_car_vehicle_electronics.json",
+          "size": 38714290
+        },
+        {
+          "git_oid": "c3544f9f941c1292bc7625311e453f9b741ef8f9",
+          "lfs_sha256": "d2a1ab2110e92f9d53f5520e884dbec25a6965578e01d5d9af69ed5799f09e0a",
+          "path": "product_catalog/electronics_computers_accessories.json",
+          "size": 199908181
+        },
+        {
+          "git_oid": "8d9f7c3b574fb1671e100e247bcd9ce7a9498482",
+          "path": "product_catalog/electronics_ebook_readers_accessories.json",
+          "size": 228110
+        },
+        {
+          "git_oid": "7d16c92d7279c237fe5527e1a7255fc049be0a9d",
+          "path": "product_catalog/electronics_electronics_warranties.json",
+          "size": 927816
+        },
+        {
+          "git_oid": "d3b7fd9f4fd3d82889d8814680d40e0e1e698912",
+          "path": "product_catalog/electronics_gps_finders_accessories.json",
+          "size": 5460504
+        },
+        {
+          "git_oid": "2fa218b5719e2ab4031a9462a5faa09c99464fc0",
+          "lfs_sha256": "e97749541a3ff3b3da0c50d44dd085d283a2ba2746dfea334d3d621c08fe421f",
+          "path": "product_catalog/electronics_headphones.json",
+          "size": 48581386
+        },
+        {
+          "git_oid": "c10362da5bf588e84ca482ab6b4320c7ee766997",
+          "lfs_sha256": "af42e843081209e4193b3b0d94f407bb7356cb543436008a94087865b989c3fb",
+          "path": "product_catalog/electronics_home_audio.json",
+          "size": 72559979
+        },
+        {
+          "git_oid": "d78ad9151359cf3dc19619ac71e9ca86a50f6054",
+          "path": "product_catalog/electronics_household_batteries_chargers_accessories.json",
+          "size": 1125594
+        },
+        {
+          "git_oid": "56e5a8e2aa2ebde35289801b66413ec3d4e564b0",
+          "lfs_sha256": "7da3aeefbe5308170d50ee442468ca190eff77a8ddd502060905f9c8bc940a13",
+          "path": "product_catalog/electronics_portable_audio_video.json",
+          "size": 51830599
+        },
+        {
+          "git_oid": "615eb54c1b576614a76cdff80611747cfcfe7d40",
+          "lfs_sha256": "c463986a3ecabe4dd4c6efba90a4539b412719f660ac5c894c0f980210b77516",
+          "path": "product_catalog/electronics_power_accessories.json",
+          "size": 13209096
+        },
+        {
+          "git_oid": "6fc2f784146f3591db13714dd1ebaf6baea51773",
+          "lfs_sha256": "7377a36ba21699a50411931b2e71a9374d1926bf3148bb371a5bdb5c2c55413d",
+          "path": "product_catalog/electronics_security_surveillance.json",
+          "size": 16345376
+        },
+        {
+          "git_oid": "ed0a4285fd72df8c88172d67d8da85c64e21e873",
+          "lfs_sha256": "6e2013029a964189c3ad7d86fb8d254b142350faee340e9689778c99eb777936",
+          "path": "product_catalog/electronics_television_video.json",
+          "size": 67063983
+        },
+        {
+          "git_oid": "a7c03ae3e0ba1c75edbfe1b6cb044519d878e7d1",
+          "path": "product_catalog/electronics_video_game_consoles_accessories.json",
+          "size": 6313
+        },
+        {
+          "git_oid": "d81df66dbd0b9aeb1485631f49fa05c2f7516dbe",
+          "lfs_sha256": "e1c8e231871bfd974c2a68a9eb8e11d6b00928f08f4ca008bcf719130ce8ffda",
+          "path": "product_catalog/electronics_video_projectors.json",
+          "size": 30650860
+        },
+        {
+          "git_oid": "01eb144699067dcacde9ab345baa2d6eb9993d6c",
+          "lfs_sha256": "1e6bd736eae4f91711b40fcfd747b237253f07cd57163301586a6678f5e4b882",
+          "path": "product_catalog/electronics_wearable_technology.json",
+          "size": 10779172
+        },
+        {
+          "git_oid": "ee164c6269027961df952bfb1ff2599bdbd2a798",
+          "path": "product_catalog/grocery_gourmet_food_alcoholic_beverages.json",
+          "size": 2952363
+        },
+        {
+          "git_oid": "d1eb97431c791b0bd1393acc406f5a88769271b7",
+          "lfs_sha256": "f94075dd87da1cc5abadf5feb4d476e572a61453ea6c7daf21f77c08d6b663f3",
+          "path": "product_catalog/grocery_gourmet_food_beverages.json",
+          "size": 61377449
+        },
+        {
+          "git_oid": "fd6c70c32fe20453302afb76d8136e35eaa66153",
+          "lfs_sha256": "d7882e118f595a6ff8ef50f0b5f88578db05435b631c209b1498b4c8860e0020",
+          "path": "product_catalog/grocery_gourmet_food_breads_bakery.json",
+          "size": 27685700
+        },
+        {
+          "git_oid": "9a4dac2218f3add9fca32504ae36a8bdd574bfd1",
+          "path": "product_catalog/grocery_gourmet_food_breakfast_foods.json",
+          "size": 9744974
+        },
+        {
+          "git_oid": "21118dd10aecd194821877c70cea909d7145bd7a",
+          "lfs_sha256": "bf01797ee9af8f98aed22c8a6897ea2f64c7edb216d1d52971fa9bcdb626cdd1",
+          "path": "product_catalog/grocery_gourmet_food_dairy_cheese_eggs.json",
+          "size": 14167294
+        },
+        {
+          "git_oid": "eb6317766e9123ef4d74735c9b066345206b7461",
+          "path": "product_catalog/grocery_gourmet_food_deli_prepared_foods.json",
+          "size": 2971968
+        },
+        {
+          "git_oid": "57928185a2441c6877d0a3a728a113b93ce8f0ed",
+          "lfs_sha256": "8086babc9227ed79aa57f5ea3da42b45c6da0aa755c111e662f0d2d937236212",
+          "path": "product_catalog/grocery_gourmet_food_food_beverage_gifts.json",
+          "size": 27883703
+        },
+        {
+          "git_oid": "01182391026f92fc9f77800d08641aacf20cbca3",
+          "path": "product_catalog/grocery_gourmet_food_fresh_flowers_live_indoor_plants.json",
+          "size": 1277663
+        },
+        {
+          "git_oid": "17a1a4bdd04a23e127b29a74167477042a3810c3",
+          "path": "product_catalog/grocery_gourmet_food_fresh_meal_kits.json",
+          "size": 1948281
+        },
+        {
+          "git_oid": "ff9673824cb4e6a7028296fe8e805170eca892ae",
+          "lfs_sha256": "9c8101b2c0bcab32aa9c8b86a2df3a583627ade5038f1f661bcd4e21037dbc19",
+          "path": "product_catalog/grocery_gourmet_food_frozen.json",
+          "size": 11213486
+        },
+        {
+          "git_oid": "4c34840d65384245b70353e58fede9a9cc18ce57",
+          "path": "product_catalog/grocery_gourmet_food_home_brewing_winemaking.json",
+          "size": 4367539
+        },
+        {
+          "git_oid": "a0b492452ca7edd0ed337d2d3899267319647b35",
+          "path": "product_catalog/grocery_gourmet_food_meat_seafood.json",
+          "size": 5636629
+        },
+        {
+          "git_oid": "634ef01cab96f9d1367fcdd3ba711320bdf221b2",
+          "path": "product_catalog/grocery_gourmet_food_meat_substitutes.json",
+          "size": 1918223
+        },
+        {
+          "git_oid": "15a23abc3f0e84c904455b45233c78bcdadf3c90",
+          "lfs_sha256": "a3bb542eb34f8afc057603e88be1660811662edb344c6cd112ab9691d9661d39",
+          "path": "product_catalog/grocery_gourmet_food_pantry_staples.json",
+          "size": 127178162
+        },
+        {
+          "git_oid": "479c56395706ad08753d392130712eebcd7aca6f",
+          "path": "product_catalog/grocery_gourmet_food_produce.json",
+          "size": 8843930
+        },
+        {
+          "git_oid": "2fc103492e80a96d195b1db56994e312f582c984",
+          "lfs_sha256": "e6c2af1123fc384011ff852d819ce206e7c675361dd4ef8cc6c976ce7421703a",
+          "path": "product_catalog/grocery_gourmet_food_snacks_sweets.json",
+          "size": 109366395
+        },
+        {
+          "git_oid": "0bb9c8f3e63a5cd73ac0aec341fe71a5be190b0c",
+          "lfs_sha256": "e122c2f688a28cb449d06f26cd8b4c94b4f78280cca57e0fd2a159eba08780c6",
+          "path": "product_catalog/home_kitchen_bath.json",
+          "size": 11100002
+        },
+        {
+          "git_oid": "f2cdadb433d516bfc73cef754b0b85bd8a509d71",
+          "lfs_sha256": "4e5099dc31ece2d0785117032abfc25330f7df607dc927a5dbd7e01a2102fa46",
+          "path": "product_catalog/home_kitchen_bedding.json",
+          "size": 115150294
+        },
+        {
+          "git_oid": "f68b304c00c97071d7a38c51f935fd2b21b69b82",
+          "path": "product_catalog/home_kitchen_event_party_supplies.json",
+          "size": 829527
+        },
+        {
+          "git_oid": "a2efd906117e02f55a3fb61e45b63b2170aff555",
+          "lfs_sha256": "58331ca0e4dd1faf958f20abc26b8d0cfd660504d08906af8c35a53b3cb3a4c1",
+          "path": "product_catalog/home_kitchen_furniture.json",
+          "size": 638324718
+        },
+        {
+          "git_oid": "fe59eb17e1e7361dbdf7bf9a84ec430129f66362",
+          "path": "product_catalog/home_kitchen_heating_cooling_air_quality.json",
+          "size": 5439756
+        },
+        {
+          "git_oid": "5975cf13df9c5d39b50083548ecf0b44f2eb5667",
+          "lfs_sha256": "cc5b84ec2d11e6561d068128e583644d5c034171656c342aa7d45225a85d5980",
+          "path": "product_catalog/home_kitchen_home_d_cor_products.json",
+          "size": 222215097
+        },
+        {
+          "git_oid": "1b29dd2b4dcfd7288e42a1d2560520a7a4c47ea4",
+          "path": "product_catalog/home_kitchen_irons_steamers.json",
+          "size": 207394
+        },
+        {
+          "git_oid": "9b7990a8233dcdf253a4bfc5fff15d3e9164241c",
+          "path": "product_catalog/home_kitchen_kids_home_store.json",
+          "size": 13487
+        },
+        {
+          "git_oid": "5db1b7623f44cdc53ae86cf3c43422281a7c1c9c",
+          "lfs_sha256": "90478ef41a49505c0ed2063a9892588903cc6d42c3c830b1ed6db85edd05ab42",
+          "path": "product_catalog/home_kitchen_kitchen_dining.json",
+          "size": 44534970
+        },
+        {
+          "git_oid": "f4309214d8ec21770f3678a99dace817d24f7c17",
+          "path": "product_catalog/home_kitchen_seasonal_d_cor.json",
+          "size": 1306994
+        },
+        {
+          "git_oid": "3fffeaea77130a7ad9a79d007155cfe7fccc9977",
+          "lfs_sha256": "6c1830243d1631b09fbea409b77f82f7198243229ade49459ca8f8d7150983d6",
+          "path": "product_catalog/home_kitchen_storage_organization.json",
+          "size": 48670044
+        },
+        {
+          "git_oid": "272bf1592f382a619dbdc34a9f40daaaf20531ce",
+          "path": "product_catalog/home_kitchen_vacuums_floor_care.json",
+          "size": 486061
+        },
+        {
+          "git_oid": "82eaf3235d94dcd8fbba40865496732af571c3b1",
+          "lfs_sha256": "66fe5b916e26e2d5e4beae7ea676eeba7aa0502944a78ef302fa70339ef83975",
+          "path": "product_catalog/home_kitchen_wall_art.json",
+          "size": 40612749
+        },
+        {
+          "git_oid": "3985cd81a0276bf87b637c2949a04bdf89937e4b",
+          "path": "search_engine/convert_product_file_format.py",
+          "size": 1322
+        },
+        {
+          "git_oid": "9153beb8a7f92af77035e4726f56d195839f51be",
+          "path": "search_engine/indexes-full/_0.fdm",
+          "size": 663
+        },
+        {
+          "git_oid": "8e06339ed2170528e66448f26279f99eeb4dbc10",
+          "lfs_sha256": "3a162ffaf1fe707396909093eb2bb88790e61234d07b195651e52c529099724b",
+          "path": "search_engine/indexes-full/_0.fdt",
+          "size": 675297212
+        },
+        {
+          "git_oid": "ced919cb73be93f4e23615ddb49953d46eec31e1",
+          "path": "search_engine/indexes-full/_0.fdx",
+          "size": 42252
+        },
+        {
+          "git_oid": "70659b1d80823cdb2f1db732f48033690c611e5f",
+          "path": "search_engine/indexes-full/_0.fnm",
+          "size": 334
+        },
+        {
+          "git_oid": "f10697c285823261ff7590550d17d0c5d175439e",
+          "lfs_sha256": "727ce5c269dce9ad8e1cdd917ec4e719ddc6787d015d0173c15857529b65b138",
+          "path": "search_engine/indexes-full/_0.nvd",
+          "size": 1181435
+        },
+        {
+          "git_oid": "0c823babccf39f7f06dad640b2641e03fcc441e6",
+          "path": "search_engine/indexes-full/_0.nvm",
+          "size": 103
+        },
+        {
+          "git_oid": "428391572beaf1d9ad88cf51375e8e41225294df",
+          "path": "search_engine/indexes-full/_0.si",
+          "size": 601
+        },
+        {
+          "git_oid": "078c45996375e6c10d3892caa49e873d4dfb8b18",
+          "lfs_sha256": "7e89890398a3b99707ef93fd9cd43f8cf1d5d79bc2f604e3473b4e6aac0efa87",
+          "path": "search_engine/indexes-full/_0.tvd",
+          "size": 538517418
+        },
+        {
+          "git_oid": "648651d9cc88dca18cb7e4072f0a329d3ef0e528",
+          "path": "search_engine/indexes-full/_0.tvm",
+          "size": 3272
+        },
+        {
+          "git_oid": "35b2bd45ca7059c2371f8de0e1ea2574febb8cfd",
+          "lfs_sha256": "b018cdffc261611edb3169bd0dff1853a2c65a72bea1ecceb0b94c6548a094a9",
+          "path": "search_engine/indexes-full/_0.tvx",
+          "size": 228027
+        },
+        {
+          "git_oid": "50046b06f1fbfdfb0d833b221824220ff948ea6a",
+          "lfs_sha256": "53deec569e1444144dc2f63d9efb2f2a042bf476280097a5bc536110b285a892",
+          "path": "search_engine/indexes-full/_0_Lucene80_0.dvd",
+          "size": 9771141
+        },
+        {
+          "git_oid": "deb0970aa068469840534b3d9940948d74fbdc41",
+          "path": "search_engine/indexes-full/_0_Lucene80_0.dvm",
+          "size": 272
+        },
+        {
+          "git_oid": "8337a0dd33da1b4394d8c20d809cd7c9839ea58a",
+          "lfs_sha256": "c27aa6f15407f7d89f2ae2374ea63c13a758015bc001c93f87946dc5806add7d",
+          "path": "search_engine/indexes-full/_0_Lucene84_0.doc",
+          "size": 133194280
+        },
+        {
+          "git_oid": "279aac959a63b4f28fdbe5afc245ad7192334e91",
+          "lfs_sha256": "9f4ac923e2f7e2c5f38897bcba62240f5b73f4503153a5aef143994617380247",
+          "path": "search_engine/indexes-full/_0_Lucene84_0.pos",
+          "size": 141375987
+        },
+        {
+          "git_oid": "1a9aafb302373be4d68c5b1cc493943fdb9a71c5",
+          "lfs_sha256": "fb0fb82f26d5347a9b88195f691376ff30e7d462b52e2ab973d7d149826aeae1",
+          "path": "search_engine/indexes-full/_0_Lucene84_0.tim",
+          "size": 21732234
+        },
+        {
+          "git_oid": "81e4f4c2e38eaa568dcf50198ee67300fcab1e29",
+          "lfs_sha256": "a9ac850e494e13b4319f075f91254ee41dff42ebe09b61a46442567cfa725441",
+          "path": "search_engine/indexes-full/_0_Lucene84_0.tip",
+          "size": 577296
+        },
+        {
+          "git_oid": "2fae69e2a63575414daae95e8c0dab4255c84168",
+          "path": "search_engine/indexes-full/_0_Lucene84_0.tmd",
+          "size": 318
+        },
+        {
+          "git_oid": "c4d5331477335fbd2dd5f86f29f4c3ff04c18bd6",
+          "path": "search_engine/indexes-full/segments_1",
+          "size": 154
+        },
+        {
+          "git_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "path": "search_engine/indexes-full/write.lock",
+          "size": 0
+        },
+        {
+          "git_oid": "4322fee1ae7a833e4a57042add6a0361cf2b03dc",
+          "path": "search_engine/indexes_1275/_0.fdm",
+          "size": 158
+        },
+        {
+          "git_oid": "5f807217c36f8fba30e3b262d3b128eb4d339c25",
+          "lfs_sha256": "b1c0fd1d94fdcd68cc446e3a7a238840ffeb926e361d463c51190de804a2f90d",
+          "path": "search_engine/indexes_1275/_0.fdt",
+          "size": 732777
+        },
+        {
+          "git_oid": "85b48cd93e4780fd86f0caf907bf52715339cbb4",
+          "path": "search_engine/indexes_1275/_0.fdx",
+          "size": 118
+        },
+        {
+          "git_oid": "4615f710f9ca6e277c310652d30dcbd8df4cf642",
+          "path": "search_engine/indexes_1275/_0.fnm",
+          "size": 334
+        },
+        {
+          "git_oid": "9d659e3b4ce580209d97c8574ae75b2ef9a83e83",
+          "path": "search_engine/indexes_1275/_0.nvd",
+          "size": 1334
+        },
+        {
+          "git_oid": "7244508a9d7e3fc9d240ddb84f5870d0f8a44c6b",
+          "path": "search_engine/indexes_1275/_0.nvm",
+          "size": 103
+        },
+        {
+          "git_oid": "601717643db893956266c30b9ab548c982bd42e1",
+          "path": "search_engine/indexes_1275/_0.si",
+          "size": 601
+        },
+        {
+          "git_oid": "d3a0cdd9a0d8f69b3a4e536453cc79b3615305da",
+          "lfs_sha256": "751b6eab5e5863415d12114a60ca822e994f5a6bf95b35ede657191437602124",
+          "path": "search_engine/indexes_1275/_0.tvd",
+          "size": 583542
+        },
+        {
+          "git_oid": "20b31c10f26d0788260c6ca2a36094056c4e5e43",
+          "path": "search_engine/indexes_1275/_0.tvm",
+          "size": 162
+        },
+        {
+          "git_oid": "bdb71caf241f6c2f019cabeefe24e9525c50bb80",
+          "path": "search_engine/indexes_1275/_0.tvx",
+          "size": 327
+        },
+        {
+          "git_oid": "0d7f81bfad4af83353aaffbfdc41efe249b0f6a8",
+          "path": "search_engine/indexes_1275/_0_Lucene80_0.dvd",
+          "size": 11177
+        },
+        {
+          "git_oid": "4f36333248eac21fcb084d2e18802840f8140860",
+          "path": "search_engine/indexes_1275/_0_Lucene80_0.dvm",
+          "size": 250
+        },
+        {
+          "git_oid": "58c3fa1e7e78fc046a59251f55ab53f257788a44",
+          "lfs_sha256": "caba0132a9d3d8318bfc6881ae058fa78e03312afe9e7a2745e6158046591577",
+          "path": "search_engine/indexes_1275/_0_Lucene84_0.doc",
+          "size": 124213
+        },
+        {
+          "git_oid": "aefa69a82ae02a0c79b69c7608087e6995a11521",
+          "lfs_sha256": "9d93e12e32779cf749763b30325d79310d23fba57c1449a15e9d82675069bbe6",
+          "path": "search_engine/indexes_1275/_0_Lucene84_0.pos",
+          "size": 168266
+        },
+        {
+          "git_oid": "b9509749aa0f31cc2ada134c83b97add632197b3",
+          "lfs_sha256": "c4b8a4b04dd45ee299d4bab00c82d68db1257bb8e9bf11d0022c441ba4fe5dd3",
+          "path": "search_engine/indexes_1275/_0_Lucene84_0.tim",
+          "size": 144091
+        },
+        {
+          "git_oid": "1cccb4b7ce1005c910142ff4c9160461acacc7c6",
+          "path": "search_engine/indexes_1275/_0_Lucene84_0.tip",
+          "size": 3414
+        },
+        {
+          "git_oid": "915edb6f0fb2635d82d2f3c00ec0e2a093624ec9",
+          "path": "search_engine/indexes_1275/_0_Lucene84_0.tmd",
+          "size": 276
+        },
+        {
+          "git_oid": "19d1c38c6e7d98d0f5aae6e1ecfc967a580bf961",
+          "path": "search_engine/indexes_1275/segments_1",
+          "size": 154
+        },
+        {
+          "git_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "path": "search_engine/indexes_1275/write.lock",
+          "size": 0
+        },
+        {
+          "git_oid": "8abc8d69e238619021378f820e7d83e333324b3c",
+          "path": "search_engine/indexes_1k/_3.fdm",
+          "size": 158
+        },
+        {
+          "git_oid": "930606c80d9811729d8a981a4f47fc796b668afe",
+          "lfs_sha256": "3282819d0fd35817f3cdb11179f0eda124cd5b3543babd7447cb7fea5d57d330",
+          "path": "search_engine/indexes_1k/_3.fdt",
+          "size": 554191
+        },
+        {
+          "git_oid": "7344307686720b15f457f80ee844481b89f0eb14",
+          "path": "search_engine/indexes_1k/_3.fdx",
+          "size": 106
+        },
+        {
+          "git_oid": "02920011530536aec4747ef2a5470c15656dcdf9",
+          "path": "search_engine/indexes_1k/_3.fnm",
+          "size": 334
+        },
+        {
+          "git_oid": "1fb9150ba62f06a2efb875358dd62fa9714e8bdb",
+          "path": "search_engine/indexes_1k/_3.nvd",
+          "size": 1059
+        },
+        {
+          "git_oid": "1e9fc8e8132657134c1ec2e289113b2b0d6e4433",
+          "path": "search_engine/indexes_1k/_3.nvm",
+          "size": 103
+        },
+        {
+          "git_oid": "4b13d881731bc132a9ecae08a1a960ed8de08e2d",
+          "path": "search_engine/indexes_1k/_3.si",
+          "size": 601
+        },
+        {
+          "git_oid": "c4570536dd333c498902afd43cfe1f5875f63f5c",
+          "lfs_sha256": "b29467b92b3e8809c0e349510a67ef6178ceb3e99f08a92339e52d9b92c3b7bf",
+          "path": "search_engine/indexes_1k/_3.tvd",
+          "size": 439995
+        },
+        {
+          "git_oid": "c2aa056c4a685c1268db7dc1f0f81a39b37e9507",
+          "path": "search_engine/indexes_1k/_3.tvm",
+          "size": 162
+        },
+        {
+          "git_oid": "96b8e0eb64ce166b576a7835899c993949dcb13c",
+          "path": "search_engine/indexes_1k/_3.tvx",
+          "size": 264
+        },
+        {
+          "git_oid": "450dd414ae7ee5e26cff2f47df810cde8b9963eb",
+          "path": "search_engine/indexes_1k/_3_Lucene80_0.dvd",
+          "size": 8857
+        },
+        {
+          "git_oid": "95ff195ce4d63700f81c6e8fb23d332485bb4d2a",
+          "path": "search_engine/indexes_1k/_3_Lucene80_0.dvm",
+          "size": 250
+        },
+        {
+          "git_oid": "b86c87fe84149ded9b09065664df4a6f035799ca",
+          "path": "search_engine/indexes_1k/_3_Lucene84_0.doc",
+          "size": 91917
+        },
+        {
+          "git_oid": "a02c17790726410da82be0ac6a6e691c13db4017",
+          "lfs_sha256": "a26abcd9d0d6b1cc428aa84526c4c5073508b729991cdf431acbc1a5ae9d5d6e",
+          "path": "search_engine/indexes_1k/_3_Lucene84_0.pos",
+          "size": 126225
+        },
+        {
+          "git_oid": "abd00aa08b7cfbdd1d7bd5baa9abf8e8daf91a4a",
+          "lfs_sha256": "f1f68d20d70e3b9352c100f3eee80a4cc00f4f326f778f27460f016bbe7525fc",
+          "path": "search_engine/indexes_1k/_3_Lucene84_0.tim",
+          "size": 126959
+        },
+        {
+          "git_oid": "3c4b0b1a2504ce101f549a5a6ac0350eca7b2d85",
+          "path": "search_engine/indexes_1k/_3_Lucene84_0.tip",
+          "size": 3151
+        },
+        {
+          "git_oid": "2bf120a1c80e939ce0b43d20a1dbd3699683b1b7",
+          "path": "search_engine/indexes_1k/_3_Lucene84_0.tmd",
+          "size": 276
+        },
+        {
+          "git_oid": "362814cc2aebffb1fe6866ac5472a241140119f0",
+          "path": "search_engine/indexes_1k/segments_4",
+          "size": 154
+        },
+        {
+          "git_oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "path": "search_engine/indexes_1k/write.lock",
+          "size": 0
+        },
+        {
+          "git_oid": "41c0b2da28e6a609f5fb585ba320d7e4b888a4d7",
+          "path": "search_engine/lucene_searcher.py",
+          "size": 331
+        },
+        {
+          "git_oid": "629b4601dacfd8f820c9f22f6d268e5444aee15b",
+          "lfs_sha256": "382a1881300af9ec9db334b9abf5f900d527a6b50061826dfa7141f12344a697",
+          "path": "search_engine/resources-full/documents.jsonl",
+          "size": 1034938202
+        },
+        {
+          "git_oid": "245f1f2790dcbfd5672f1ab7eb11945c13fb78b9",
+          "path": "search_engine/resources_1275/documents.jsonl",
+          "size": 1132764
+        },
+        {
+          "git_oid": "bb2b0e9ba1123f8229393b6478e5e658d8459d70",
+          "path": "search_engine/resources_1k/documents.jsonl",
+          "size": 846200
+        },
+        {
+          "git_oid": "beee1e73eaeb1fc252319bed5e3ec390f430f3bf",
+          "path": "search_engine/run_indexing.sh",
+          "size": 1133
+        }
+      ],
+      "repo_id": "ai-hyz/MemoryArena-product-db",
+      "repo_type": "dataset",
+      "revision": "46120a5c931d04a47bd791965d757207b7372b62",
+      "tree_sha256": "098dc605d31f817f164272c9fe8f82d93adfcce16acedbdb55a657e50045dbea"
+    },
+    "websearch_embeddings": {
+      "file_count": 12,
+      "files": [
+        {
+          "git_oid": "bedc70c4bb5b42485392f3d4c4e61c7d0e8bca1f",
+          "path": ".gitattributes",
+          "size": 2700
+        },
+        {
+          "git_oid": "7b95401dc46245ac339fc25059d4a56d90b4cde5",
+          "path": "README.md",
+          "size": 31
+        },
+        {
+          "git_oid": "a0db15e9178f9362380ac423b180ca6545bef11e",
+          "path": "browsecomp_all_jsons.jsonl",
+          "size": 3618510
+        },
+        {
+          "git_oid": "fd04a0beb470bc39e7030572142290042723b09b",
+          "lfs_sha256": "4de2f79c67d86af14e9ec07fb5e81472f047c073f10f9a0fd810302120229aab",
+          "path": "query.pkl",
+          "size": 1705112
+        },
+        {
+          "git_oid": "14e06d5ab4b567b5a172af565a64fe07a2988328",
+          "lfs_sha256": "57c7b94af14d6d84445da99d207f52dd044f275c6d6142353c88b19e0d938956",
+          "path": "shard0.index",
+          "size": 153901101
+        },
+        {
+          "git_oid": "78754a2233d03d496fff8996517594127e58d5a3",
+          "path": "shard0_id_map.json",
+          "size": 322889
+        },
+        {
+          "git_oid": "94d270a93d565e84c8ed9653ef576959f8512117",
+          "lfs_sha256": "d253728c07e641e0d9ec1dbf992a519db2c1cf4808cbf8167bf3bdc40df5c41f",
+          "path": "shard1.index",
+          "size": 153901101
+        },
+        {
+          "git_oid": "a06cf06c48b7ef654a43afc08ed51fcbed7f875e",
+          "path": "shard1_id_map.json",
+          "size": 322958
+        },
+        {
+          "git_oid": "7fbaf57daae675c04b4d6137f840d3f7bcda5125",
+          "lfs_sha256": "22726188a49f92bbcddf14bee9d00b3bb69d11eb01e5995b52c9c79a8d111ca9",
+          "path": "shard2.index",
+          "size": 153901101
+        },
+        {
+          "git_oid": "206b1a49a8decfa7a1b7c044450648ee81d1b3c8",
+          "path": "shard2_id_map.json",
+          "size": 322866
+        },
+        {
+          "git_oid": "1111e756fa87fdb4f9c68d7a2a0ff4ce6bab8f6d",
+          "lfs_sha256": "652eb57c1c0ab498d7b53253ebdd21591be394e5d546650ca6027774ddc4845c",
+          "path": "shard3.index",
+          "size": 153894957
+        },
+        {
+          "git_oid": "32d0759968d832a8824aa53b6e13b1c481005d27",
+          "path": "shard3_id_map.json",
+          "size": 322975
+        }
+      ],
+      "repo_id": "joanna690/websearch-embeddings",
+      "repo_type": "dataset",
+      "revision": "40b2422e641b46b903312c2e5b0c4ef9380f5352",
+      "tree_sha256": "c778d90c1d7d6e71aa33f38279d718d7d0cf1b3202e1acce21d376b1ca9c8fed"
+    }
+  },
+  "schema_version": 1
+}

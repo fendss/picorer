@@ -1,0 +1,2291 @@
+{
+  "schema_version": 1,
+  "product": "Picorer",
+  "release": "v1.0.0",
+  "release_date": "2026-09-16",
+  "repository": "https://github.com/fendss/picorer",
+  "release_kind": "initial-independent-public-release",
+  "experiment_manifest": "experiments/ARTIFACT_MANIFEST.json",
+  "files": [
+    {
+      "path": ".agents/skills/picorer-knowledge-action/SKILL.md",
+      "size_bytes": 2873,
+      "sha256": "cafbfb9f7bb77ac6b93cdb66097f5fea207f63bb04b2cb3d367879ca3e2f93f1"
+    },
+    {
+      "path": ".agents/skills/picorer-retrieval/SKILL.md",
+      "size_bytes": 2403,
+      "sha256": "15239e3ba3506ac2f062b89f270f5739165cdd38b67c98865affc4a113d12e26"
+    },
+    {
+      "path": ".agents/skills/picorer-retrieval-minimal/SKILL.md",
+      "size_bytes": 1024,
+      "sha256": "363234b099a63d1e21e292e2159ae61ff1b7d9e8fd36ca9e474b77ba741a6d62"
+    },
+    {
+      "path": ".dockerignore",
+      "size_bytes": 106,
+      "sha256": "084a43b29c562cb7d9ab487b67c8c42e0bca2512f00615529dff4bdfbe23eb90"
+    },
+    {
+      "path": ".gitignore",
+      "size_bytes": 236,
+      "sha256": "493b8fe07da96206cc548855a2107202e181b7a72ac7a3ff256086c004253a23"
+    },
+    {
+      "path": ".nvmrc",
+      "size_bytes": 8,
+      "sha256": "3151949a8b43e7df5385b69fbaeb5652bbdc7f7924e4278d550348f42b103f13"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size_bytes": 670,
+      "sha256": "52d028cdf3f35bcec54ae620216087301fad5f4fa7a99f5ee8f0e62143702125"
+    },
+    {
+      "path": "Dockerfile",
+      "size_bytes": 1080,
+      "sha256": "cac3276e471486487fb9a675502b4c4fb2b731555dd3529441142b3604a9bd3d"
+    },
+    {
+      "path": "LICENSE",
+      "size_bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 28102,
+      "sha256": "21167e4331c913a751b838d0143c5b2bd2abff617023284105a33b5e840cbf44"
+    },
+    {
+      "path": "RELEASE.md",
+      "size_bytes": 941,
+      "sha256": "ce556364571ab87e98afa1558d58c4dd28be98e9e2889dc302054774729ccca4"
+    },
+    {
+      "path": "deploy/README.md",
+      "size_bytes": 2353,
+      "sha256": "7175c84c58037cec0377a77ecb482d8e209609c81813c523fd0a0116c1150934"
+    },
+    {
+      "path": "deploy/agent-config/models.json",
+      "size_bytes": 544,
+      "sha256": "4e94828cbc24ecf94374d2b38be19cd0a5ce1a3898a41ce221b61e129b8eccc7"
+    },
+    {
+      "path": "deploy/agent-config/settings.json",
+      "size_bytes": 108,
+      "sha256": "5064ee2965771b58890e236887e6f939fe036a6955fa6b2c7012a3c3ae6fe4c1"
+    },
+    {
+      "path": "deploy/benchmark-agent-config/models.json",
+      "size_bytes": 973,
+      "sha256": "4ae73c4406dadb32f405562f9fe0079190394e646f015dfd9d5b408717906f4a"
+    },
+    {
+      "path": "deploy/benchmark-agent-config/settings.json",
+      "size_bytes": 119,
+      "sha256": "fda056db9e9d6a978c604f86b0f8b470e997a2fa19caf92a5c6e4e5510e0d04f"
+    },
+    {
+      "path": "docs/architecture/README.md",
+      "size_bytes": 3890,
+      "sha256": "4cfa433a29a1cda3930667db2c137d6938ad357e1126ca9a0795be0ceccc4bb3"
+    },
+    {
+      "path": "docs/architecture/code-catalog.md",
+      "size_bytes": 225045,
+      "sha256": "56eec96d6c8856e696cae9aa7641ba577425e119a201f8b8a9ca6fe70a819d66"
+    },
+    {
+      "path": "docs/architecture/decisions/0001-domain-oriented-modular-monolith.md",
+      "size_bytes": 985,
+      "sha256": "6d00b2dafc209eb0ffa322aefbe891b2e56f820eabc701736f0514ec8ef9504f"
+    },
+    {
+      "path": "docs/architecture/decisions/0002-preserve-behavior-during-refactoring.md",
+      "size_bytes": 761,
+      "sha256": "b8eefc7e8c02e61731734b472e19ad07952b3bcbf3aa2e7a9c9ad1be06a4e933"
+    },
+    {
+      "path": "docs/architecture/decisions/0003-executable-architecture-navigation.md",
+      "size_bytes": 1112,
+      "sha256": "90b8c55c8444ec0b4821ed7db782dafbad7096861cbebc3fc04381d1368faebd"
+    },
+    {
+      "path": "docs/architecture/dependency-rules.md",
+      "size_bytes": 1782,
+      "sha256": "b6e13d1c31423f36bc4c6224ab728d653a44acc1e4e5747b1f2ceec70df0ddea"
+    },
+    {
+      "path": "docs/architecture/file-catalog.md",
+      "size_bytes": 38443,
+      "sha256": "f2bc8d024491d9347720255a1c8866712d3f674fdc0b3ea68772eaf80f7c657c"
+    },
+    {
+      "path": "docs/architecture/glossary.md",
+      "size_bytes": 1249,
+      "sha256": "f458cf2b0cee40de482e4570677281583a429928444a08ee1825a6f32e2f428d"
+    },
+    {
+      "path": "docs/architecture/search-operator-system-design.md",
+      "size_bytes": 14291,
+      "sha256": "867503511e31b3938d3408c7a146238f79cf99d3bbb14aa9f5d3e3c4af900f74"
+    },
+    {
+      "path": "docs/architecture/source-visibility.md",
+      "size_bytes": 1469,
+      "sha256": "b326acfd20271794d7458fa56c8de507a9090c7e59fe818a9db7ff0b7fdf378a"
+    },
+    {
+      "path": "docs/architecture/working-memory-context.md",
+      "size_bytes": 10768,
+      "sha256": "d3fd70cc89b531a4240a015ac123c620a435b37442d6acf617f953d47cc18263"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/01-system-design.md",
+      "size_bytes": 7982,
+      "sha256": "0b086e4a918deaff06ad00ddd8744891be475a0c747b94e2bffb2fc919ce5dbf"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/02-storage-and-retrieval.md",
+      "size_bytes": 25025,
+      "sha256": "8142d1340e47126c285205c8a9d9ca8449d257b656a911bc6dfdb385b3b01307"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/03-agent-and-evidence.md",
+      "size_bytes": 22896,
+      "sha256": "b6c813129e9aac09ba50bf81fde2d520424a572c6c9fbc91cd718e5c6efa7312"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/04-evaluation-framework.md",
+      "size_bytes": 18970,
+      "sha256": "e934003335c55a0090db19d65ea79e01cd6accf2e7e5d54caeab6164287c1cd3"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/05-evaluation-guide.md",
+      "size_bytes": 20307,
+      "sha256": "8f1c21b279b8bfc6ad59416a54917eeb3b448472faec055557accb8ddcf8ac97"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/06-runtime-and-operations.md",
+      "size_bytes": 10748,
+      "sha256": "9d77a70af95ee05581757e8af29c04f68313135758c15b09944884c7f13aa78b"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/07-code-navigation.md",
+      "size_bytes": 8789,
+      "sha256": "b1558340b6e30835762a8fcff10a1449eef00db0a230fe0c9bebe221a306d52d"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/08-full-benchmark-results.md",
+      "size_bytes": 13735,
+      "sha256": "f18d065d0ea2c46d9768728bb9acf71b75d9d0bd8b5d9f721393510c119d8e32"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/README.md",
+      "size_bytes": 132251,
+      "sha256": "d4ec3257a6913e4401f490ebe5758ff0689e8c44555a5de2ce527da15270e0b3"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/adapter-candidate/mab_adapter/__init__.py",
+      "size_bytes": 223,
+      "sha256": "d181943b60411314722ade0666e2d8305d26b319a30f0c95b432482362814abe"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/adapter-candidate/mab_adapter/artifacts.py",
+      "size_bytes": 646,
+      "sha256": "90145622a835f3fcb0ef702585bcec97317025eb79b3fe653c22a6dac20f41b1"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/adapter-candidate/mab_adapter/chunking.py",
+      "size_bytes": 1350,
+      "sha256": "0905f47bf8110771678ff275757f8ce4a6fb003b2ca3632882361723e35ff185"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/adapter-candidate/mab_adapter/cli.py",
+      "size_bytes": 9871,
+      "sha256": "72f4e90640230025ad34131692a09b3c321e5a4b861fcfb5d033dcfd1624f1a0"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/adapter-candidate/mab_adapter/clients.py",
+      "size_bytes": 22043,
+      "sha256": "401c6ce2df0b95c263c06965a87aaf388ca3011743d176899bce0bc446d46efd"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/adapter-candidate/mab_adapter/clients.py.before-empty-fallback-20260911T134656",
+      "size_bytes": 19093,
+      "sha256": "f69a0605437f50a8456ed6e087787c587e52152265c72fc737254f2cb665785d"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/adapter-candidate/mab_adapter/config.py",
+      "size_bytes": 16112,
+      "sha256": "fea5a02e6bb666ca26f9d646eb8b72239f2aa92fbf2f68d28dae70cc8d8f7963"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/adapter-candidate/mab_adapter/context_fit.py",
+      "size_bytes": 3140,
+      "sha256": "24675fced6e8cdec38d1dbd7acbc5a32ba6dc201b7fa37ac3c01effec9aef861"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/adapter-candidate/mab_adapter/contracts.py",
+      "size_bytes": 3951,
+      "sha256": "ce25c4f264604648dba4c67ddd7f40f4ff65cc701f3bf8e81d929fa2d10fe35c"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/adapter-candidate/mab_adapter/dataset.py",
+      "size_bytes": 4900,
+      "sha256": "ed1d8f1ddf953efbcfa362e91da5250eef5f953311e549c68ef7af8be0b91c62"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/adapter-candidate/mab_adapter/load_control.py",
+      "size_bytes": 8870,
+      "sha256": "9d309e0bfa8954f21cbdc1076858ba9341277f0f723764de36ee7ca628c2cd8e"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/adapter-candidate/mab_adapter/longmemeval.py",
+      "size_bytes": 3535,
+      "sha256": "19b1f97425f27dd78816f875648a5ae9b80a5f414542b8ba7722b3842671eeab"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/adapter-candidate/mab_adapter/runner.py",
+      "size_bytes": 58853,
+      "sha256": "5ccb1ec07c263e30decd68c038ffc4e7aff45dafd8c0d953ec3df30821a90be0"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/adapter-candidate/mab_adapter/scoring.py",
+      "size_bytes": 5968,
+      "sha256": "0741789a51eee3a53f209030eca7dcff4184a88b68bf5d8cd2a260fbc5bdb344"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/adapter-candidate/pins.json",
+      "size_bytes": 1410,
+      "sha256": "323363bbc1da2c3cc25a2504b292d63d980ad18d116ee31c781e8fbcda3687f4"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/adapter-candidate/requirements.txt",
+      "size_bytes": 65,
+      "sha256": "eb306321f5b04d75b2713249f54c081cb0f51b43310c8a70060cad3d429b5b05"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/adapter-candidate/tests/test_config_contracts.py",
+      "size_bytes": 8331,
+      "sha256": "b0e933a2cbb7f2cf59c08f1c0e2fd70e9543477fca8b85db6968ea71953f8f75"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/adapter-candidate/tests/test_http_runner.py",
+      "size_bytes": 99190,
+      "sha256": "95dcca6b13df8fc42a2e08712e0b936f9b174bdd08ad68190f1c18474f4381cf"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/adapter-candidate/tests/test_isolation.py",
+      "size_bytes": 1396,
+      "sha256": "3ebbeb880106c09fda622363bbb484d8395cd5ae82efafa36a6d92de222554b7"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/adapter-candidate/tests/test_load_control.py",
+      "size_bytes": 4384,
+      "sha256": "b6878f617bea3ac8923aadd2b67a3872cc728423d1366f908377ea955dfcf34e"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/adapter-candidate/tests/test_longmemeval.py",
+      "size_bytes": 2160,
+      "sha256": "7b121226f7259109882b970c98475bf77d2936a5cba3cd279dd04277fae6a9ad"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/adapter-candidate/tests/test_scoring.py",
+      "size_bytes": 3695,
+      "sha256": "f870309826ad82b87a82ef9ab7a9c04af5bef565e310cd2d5772fb0c36b7fd8f"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/adapter-candidate/tests/test_stage_split.py",
+      "size_bytes": 2606,
+      "sha256": "75565bd114ecc55ed0dcbec28932bdc824ffd55d291fb986c55263fb87ee4383"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/adapter-candidate/tests/test_yaml_runner.py",
+      "size_bytes": 5992,
+      "sha256": "203d6a5e6f9eb57778bfccfd5eb65e5770d3a839c4ac42b19788a9d4caa8ad60"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/all-in-one-document-validation.json",
+      "size_bytes": 1145,
+      "sha256": "8850aef47aaea4872e14ca90f2b7c61ffe7972c9be10d52d7868126019bce3b4"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/document-validation.json",
+      "size_bytes": 305,
+      "sha256": "471ad92b0e43600aec592e614b31c7eae88456b822516e77ff0aa9bfa1ef9fca"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/README.md",
+      "size_bytes": 3644,
+      "sha256": "d01880cbaa8ac5d5b2400334fc1eee1baf0064807e8d14ecda38bc13a945e311"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/RUNBOOK.md",
+      "size_bytes": 7542,
+      "sha256": "69ebd9b3f000702ca96479f130615b92770d2ae32c9e1e864a1915ebdb847288"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/config/eval.yaml",
+      "size_bytes": 51264,
+      "sha256": "129621a9c0e0b9063497bac6a123a696ef6972e85aabca8cdfcbee85e0429618"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/pyproject.toml",
+      "size_bytes": 582,
+      "sha256": "516f4c146231735110e690fc56689c5884c1655c8dc97e4c6986261c8b37fdd4"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/question_pipeline/__init__.py",
+      "size_bytes": 98,
+      "sha256": "1255eb8fd01a62037fb60da81d0b72113291aef11ea44eee204a048ca66b79da"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/question_pipeline/adapters/__init__.py",
+      "size_bytes": 483,
+      "sha256": "f14378f393fdd7525077b15487bf515006951e32ddf7b46074b106de8e16493d"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/question_pipeline/adapters/memoryagentbench.py",
+      "size_bytes": 13035,
+      "sha256": "940c72c7725d9ddca04cc36fd44ba6151ea38af277b43e947ecb68ca98e7443c"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/question_pipeline/adapters/memoryagentbench.py.before-protocol-retry-20260911",
+      "size_bytes": 6584,
+      "sha256": "1861de2d88aaf553910b60f45d702aaeaf32257a490574530ebce9c94004ddd7"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/question_pipeline/adapters/omnimemeval.py",
+      "size_bytes": 14960,
+      "sha256": "d65b1456bb065a69d26ee04e435ece691003cfcda8ae5c838c0efb44a266bc49"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/question_pipeline/artifacts.py",
+      "size_bytes": 1531,
+      "sha256": "136d76e565ff8fbc6997b2b002f3e5e3a0fd13f1d5a022c38a3b07d495474d56"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/question_pipeline/cli.py",
+      "size_bytes": 2196,
+      "sha256": "ac4b586c45544d1980d7d81400e927bb903b474ee2805acb709904db9a3a38a5"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/question_pipeline/combine_manifests.py",
+      "size_bytes": 2246,
+      "sha256": "fd02f117e17bb8f4d9d55608aa30628a5e90f6d42a233234d6d1e5c8d27e375e"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/question_pipeline/contracts.py",
+      "size_bytes": 879,
+      "sha256": "3fa9b685aa97d6064e55113689fc9f0c8e4c2cffcf175c1babe20370f406a51f"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/question_pipeline/eval_config.py",
+      "size_bytes": 7557,
+      "sha256": "cdd789778b39343791b07f8d85d1714f2b681c18d51f5644299ad4ecd88df194"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/question_pipeline/infbench_judge.py",
+      "size_bytes": 3398,
+      "sha256": "f612275cb64fedd1266890105138e0817185d753647b5d3cd3ad53a8d51ce35b"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/question_pipeline/mab_export.py",
+      "size_bytes": 3895,
+      "sha256": "57242d24d1745dff8a20d2570c538b75c82d7705336f831e69439803b18249b4"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/question_pipeline/mab_manifest.py",
+      "size_bytes": 5771,
+      "sha256": "ef79a0c3b60e50066a31ccd4a4d4a9e329c8c2c08dbf597aaeb0eb8aa2c0e1c7"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/question_pipeline/mab_migrate.py",
+      "size_bytes": 5611,
+      "sha256": "0199157c95f766bab60ea83db218032bfb28b47ee0c32b36bfa1f2ef575ce4cf"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/question_pipeline/mab_prepare.py",
+      "size_bytes": 5411,
+      "sha256": "b195c288b3fe04518cec4a4a4639f08309cdbbaddc6e0390c070faba771a970d"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/question_pipeline/omni_export.py",
+      "size_bytes": 3447,
+      "sha256": "c989688cbc7d276bc8a78afb7403ebe693955049b5cf3d1daa4716455da2c510"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/question_pipeline/omni_judges.py",
+      "size_bytes": 5957,
+      "sha256": "074445ee0b674603417f0a81c846ad4f5e30d5068bcbd715c4fe2b99d9987b58"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/question_pipeline/omni_manifest.py",
+      "size_bytes": 5893,
+      "sha256": "ca1e6fff6fb7523339ecd14faedb19f744963a836800bb957bbf198b310cbc95"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/question_pipeline/openai_compat.py",
+      "size_bytes": 3429,
+      "sha256": "fa9de0f22eb52de52d1cb24f0abb5ab306cf56f3d23ea10c2b12086a618dca70"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/question_pipeline/prepare_full.py",
+      "size_bytes": 2303,
+      "sha256": "ade9755de7372a7461a5fa5cb075b65e7f7f11ee222fb06d60985286e756854c"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/question_pipeline/runtime.py",
+      "size_bytes": 7177,
+      "sha256": "3f1ca454ed335cd0e64b32c6a8d655dbb29c1fa4d65b564f8161b180cb676e88"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/question_pipeline/state.py",
+      "size_bytes": 21995,
+      "sha256": "371f3c36b485de840ec3dba43640bd9adcc55fc7fb23c4c9112bcd7892e74f77"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/question_pipeline/supervisor.py",
+      "size_bytes": 6156,
+      "sha256": "f79fa8a05e985959b6aa2778e6b8db03581f798611cda657b8da0eace9aed5e8"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/question_pipeline/transport.py",
+      "size_bytes": 1273,
+      "sha256": "3070e95b88338c083a127a0b7b561fe0772dd38563f0d8461140e1566b7d8f1b"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/release.json",
+      "size_bytes": 3424,
+      "sha256": "6cf6a7c08609865d150a763a1c504c2ad9f7b52f0a93e31e61cf348668688186"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/tests/__init__.py",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/tests/fake_adapter.py",
+      "size_bytes": 1010,
+      "sha256": "c00698267aa5e1f20930d1ab769d4bf19b9da8dd14a2df3387dcee3112829350"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/tests/test_combine.py",
+      "size_bytes": 1104,
+      "sha256": "866447032580ab2f2b850b5a7762277f378bbe873f3a7adb95301fcf8b3aed9b"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/tests/test_eval_config.py",
+      "size_bytes": 2707,
+      "sha256": "88f689dc92912dd1846917d17334d637e8eb2755afceaa5078cb6f35fa093ed4"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/tests/test_exports.py",
+      "size_bytes": 2564,
+      "sha256": "41f7a48d4936a5ebffdffbc0ba342f5166b2789c3536842763ebe5f06d454885"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/tests/test_infbench_judge.py",
+      "size_bytes": 1352,
+      "sha256": "8fb43e8df6cc5f7bb3541d74cb780ffcaa0f9ac869a764a28bf86d705be976c6"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/tests/test_memoryagentbench_adapter.py",
+      "size_bytes": 4002,
+      "sha256": "a2859c77224232d1802ab04cf98bffed1827f427688b0381c0c9543feb6d435e"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/tests/test_omni_adapter.py",
+      "size_bytes": 2265,
+      "sha256": "412958d6730b1b5f5a31e3fe39a54f4dff4f8b20c4672a9b3c3eb5cb166a82ce"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/tests/test_omni_judges.py",
+      "size_bytes": 1925,
+      "sha256": "935ee4902d035a83c88584554b3f52944617150217599fe6d444b51b01ca3e7d"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/tests/test_omni_manifest.py",
+      "size_bytes": 2882,
+      "sha256": "0ea68ec3ecadab26431027a0a4d19ea02240f2396f95479cda20cee047abe77b"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/tests/test_openai_compat.py",
+      "size_bytes": 1520,
+      "sha256": "8b1c4c7d0214619cb596417842d5dbd2b41b583cbbe4a69a1ca0b2a93f8d3ddf"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/tests/test_runtime.py",
+      "size_bytes": 3614,
+      "sha256": "3d6c3d3677f8b6181677bc610b6c47e699acf8a214a163e032114dc63435d107"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/pipeline/tests/test_state.py",
+      "size_bytes": 2790,
+      "sha256": "8746d679f99652ce669aaa758092644e1287221b996a003fe344392995538b1b"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/release-vs-running-source.json",
+      "size_bytes": 980,
+      "sha256": "50298e9b14c4534c95c8f2d66f8ac334819921ebb66e6e0ab0efa8f9da185f9c"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/_audit/working-memory-run-check.md",
+      "size_bytes": 2220,
+      "sha256": "9c64b753a35c651adcaf59d42a3d260907c97adce634f46e24c390fe66629f3c"
+    },
+    {
+      "path": "docs/picorer-v1.0.0/examples/eval.full.example.yaml",
+      "size_bytes": 1001,
+      "sha256": "874f71ab27dc50fb7efaafb69b59bb94cf424df94cd3dbdbe880ace1ec990288"
+    },
+    {
+      "path": "integrations/memoryagentbench/.gitignore",
+      "size_bytes": 47,
+      "sha256": "90dd4e12ccb4184f2e40a4a342e8192d09295b92dfda1cd9ff71d2cd1c5273db"
+    },
+    {
+      "path": "integrations/memoryagentbench/README.md",
+      "size_bytes": 15262,
+      "sha256": "59a17ce59e7587dca90a8c98b20df42305d2a6077b30a1a2ed1836884e2d4eb5"
+    },
+    {
+      "path": "integrations/memoryagentbench/THIRD_PARTY_NOTICES.md",
+      "size_bytes": 603,
+      "sha256": "ebec713ea9a639d77f2d93e7a92ef641237e3916b98b30ad04e96e088225c68d"
+    },
+    {
+      "path": "integrations/memoryagentbench/audit_longmemeval_rank_depth.mjs",
+      "size_bytes": 9596,
+      "sha256": "9a674c20720d06d814f7a1cbf883fc0f1bddfaa9625454958c337738bdbdcda1"
+    },
+    {
+      "path": "integrations/memoryagentbench/compare_longmemeval_s50_official.mjs",
+      "size_bytes": 9836,
+      "sha256": "f340b3438fba77f6d6d8b791349a7679f1f12aa6bca74ada11f5eb24d82ade44"
+    },
+    {
+      "path": "integrations/memoryagentbench/diagnose_longmemeval_handoff.mjs",
+      "size_bytes": 10281,
+      "sha256": "e8442f6598ab9740c5c1ba0f9b86582b36257351cd111d92542eaf8b444c4ddf"
+    },
+    {
+      "path": "integrations/memoryagentbench/diagnose_longmemeval_pipeline.py",
+      "size_bytes": 9585,
+      "sha256": "21adc2047c51f98c0b3c232404174f8872320c1ea302e92c97ffb6cd7a3cfcbc"
+    },
+    {
+      "path": "integrations/memoryagentbench/evaluate_longmemeval_official.d.mts",
+      "size_bytes": 965,
+      "sha256": "f4bb38c45ae4564bd1a3485c56ad887d83933ea54a0b2563499bdce36bbfd3a1"
+    },
+    {
+      "path": "integrations/memoryagentbench/evaluate_longmemeval_official.mjs",
+      "size_bytes": 14118,
+      "sha256": "2b4a94c59bea2447aec80c9860bffffe51a9623bb93ccf2599d1d10f5cdb9d68"
+    },
+    {
+      "path": "integrations/memoryagentbench/mab_adapter/__init__.py",
+      "size_bytes": 223,
+      "sha256": "d181943b60411314722ade0666e2d8305d26b319a30f0c95b432482362814abe"
+    },
+    {
+      "path": "integrations/memoryagentbench/mab_adapter/artifacts.py",
+      "size_bytes": 646,
+      "sha256": "90145622a835f3fcb0ef702585bcec97317025eb79b3fe653c22a6dac20f41b1"
+    },
+    {
+      "path": "integrations/memoryagentbench/mab_adapter/chunking.py",
+      "size_bytes": 1350,
+      "sha256": "0905f47bf8110771678ff275757f8ce4a6fb003b2ca3632882361723e35ff185"
+    },
+    {
+      "path": "integrations/memoryagentbench/mab_adapter/cli.py",
+      "size_bytes": 9590,
+      "sha256": "34638ea001b39705bc148414921a9ff04059776d68e2df732acbc44ed4b1ef93"
+    },
+    {
+      "path": "integrations/memoryagentbench/mab_adapter/clients.py",
+      "size_bytes": 19093,
+      "sha256": "f69a0605437f50a8456ed6e087787c587e52152265c72fc737254f2cb665785d"
+    },
+    {
+      "path": "integrations/memoryagentbench/mab_adapter/config.py",
+      "size_bytes": 11822,
+      "sha256": "c535913588e6bc2b5062bbf02bb3d7c719f537e64d41984ee108fd4ee1c5ac30"
+    },
+    {
+      "path": "integrations/memoryagentbench/mab_adapter/context_fit.py",
+      "size_bytes": 3140,
+      "sha256": "24675fced6e8cdec38d1dbd7acbc5a32ba6dc201b7fa37ac3c01effec9aef861"
+    },
+    {
+      "path": "integrations/memoryagentbench/mab_adapter/contracts.py",
+      "size_bytes": 3560,
+      "sha256": "8b78ce072657689f0c6908ecd6f09220db61592141a16a83aeef655449d1b4af"
+    },
+    {
+      "path": "integrations/memoryagentbench/mab_adapter/dataset.py",
+      "size_bytes": 3584,
+      "sha256": "7234e3f8e730f969f823f5cdfef8b4f9ec74dc7fc228461fe3dc5218bbfadfc3"
+    },
+    {
+      "path": "integrations/memoryagentbench/mab_adapter/load_control.py",
+      "size_bytes": 8870,
+      "sha256": "9d309e0bfa8954f21cbdc1076858ba9341277f0f723764de36ee7ca628c2cd8e"
+    },
+    {
+      "path": "integrations/memoryagentbench/mab_adapter/longmemeval.py",
+      "size_bytes": 3535,
+      "sha256": "19b1f97425f27dd78816f875648a5ae9b80a5f414542b8ba7722b3842671eeab"
+    },
+    {
+      "path": "integrations/memoryagentbench/mab_adapter/runner.py",
+      "size_bytes": 57645,
+      "sha256": "3e8eaa46a4b5674256b45c082f05ab71c8f46ae5f8ec1777a692e92fc637272f"
+    },
+    {
+      "path": "integrations/memoryagentbench/mab_adapter/scoring.py",
+      "size_bytes": 3033,
+      "sha256": "e7068e4f6bd08af31c6d964cd54e52779b7e0b37c68afa79aa65d1853743780c"
+    },
+    {
+      "path": "integrations/memoryagentbench/pins.json",
+      "size_bytes": 971,
+      "sha256": "fa3b736c308c64ebea8b47943f5934282f98dfa7e9a58300a672078f3de76b46"
+    },
+    {
+      "path": "integrations/memoryagentbench/requirements.txt",
+      "size_bytes": 45,
+      "sha256": "682bab3c2c4f4f5d3a46d9292779ce54a9335d4eca28e68e48a6e5b731533089"
+    },
+    {
+      "path": "integrations/memoryagentbench/run.py",
+      "size_bytes": 114,
+      "sha256": "4ec5c07e7dcdef93b5893335f5a4284b5da5ececc88d22fe1309ce8822ac992b"
+    },
+    {
+      "path": "integrations/memoryagentbench/run_from_yaml.d.mts",
+      "size_bytes": 2976,
+      "sha256": "7a364f6538d03ecc447a013e5adb87199f30f44311dfbd2ccecc6ba2b7e27529"
+    },
+    {
+      "path": "integrations/memoryagentbench/run_from_yaml.mjs",
+      "size_bytes": 41791,
+      "sha256": "259eaccda9b9359192c5383c6e6ecd24cfa8f2b2bff5532b2611f80fd1b54745"
+    },
+    {
+      "path": "integrations/memoryagentbench/tests/test_config_contracts.py",
+      "size_bytes": 6455,
+      "sha256": "e3503a982b21186d3cc6d07da02ba01dc4a0fba99fcfa69c74e6c54ef83c8379"
+    },
+    {
+      "path": "integrations/memoryagentbench/tests/test_http_runner.py",
+      "size_bytes": 99190,
+      "sha256": "95dcca6b13df8fc42a2e08712e0b936f9b174bdd08ad68190f1c18474f4381cf"
+    },
+    {
+      "path": "integrations/memoryagentbench/tests/test_isolation.py",
+      "size_bytes": 1396,
+      "sha256": "3ebbeb880106c09fda622363bbb484d8395cd5ae82efafa36a6d92de222554b7"
+    },
+    {
+      "path": "integrations/memoryagentbench/tests/test_load_control.py",
+      "size_bytes": 4384,
+      "sha256": "b6878f617bea3ac8923aadd2b67a3872cc728423d1366f908377ea955dfcf34e"
+    },
+    {
+      "path": "integrations/memoryagentbench/tests/test_longmemeval.py",
+      "size_bytes": 2160,
+      "sha256": "7b121226f7259109882b970c98475bf77d2936a5cba3cd279dd04277fae6a9ad"
+    },
+    {
+      "path": "integrations/memoryagentbench/tests/test_scoring.py",
+      "size_bytes": 2456,
+      "sha256": "244138096644086036df912bf08a2936f37e857aa9c0c315ab0b1d8c228bc7db"
+    },
+    {
+      "path": "integrations/memoryagentbench/tests/test_yaml_runner.py",
+      "size_bytes": 5992,
+      "sha256": "203d6a5e6f9eb57778bfccfd5eb65e5770d3a839c4ac42b19788a9d4caa8ad60"
+    },
+    {
+      "path": "integrations/memoryagentbench-public/README.md",
+      "size_bytes": 2358,
+      "sha256": "385eb7d392859b71e6e9194daf32ce8aefc35ad74846a84cf0170414a9e2b85d"
+    },
+    {
+      "path": "integrations/memoryagentbench-public/hydrate.py",
+      "size_bytes": 12204,
+      "sha256": "36696f9cef51241e240e96495327275385a256f61e068f88077037a7626f3eea"
+    },
+    {
+      "path": "integrations/memoryagentbench-public/pins.json",
+      "size_bytes": 1173,
+      "sha256": "8055346e38d2a62ac0f42fa436b87434bd2da2e712686cfbe6ece656e38ebb3d"
+    },
+    {
+      "path": "integrations/memoryagentbench-public/requirements.lock.txt",
+      "size_bytes": 46,
+      "sha256": "0ba1431834f0156adbf16873eb6d2064510ee1ea550ad97497234e0c30c36e81"
+    },
+    {
+      "path": "integrations/memoryarena-public/README.md",
+      "size_bytes": 20673,
+      "sha256": "fe2ce8434962d540639810d6bc7003778db5f562e8b0b3138a273cc9099a81e6"
+    },
+    {
+      "path": "integrations/memoryarena-public/bootstrap.py",
+      "size_bytes": 43794,
+      "sha256": "95b7bcbc0dc7d0bba96bb46368f840742b6a790a73b2fae4ba6599e8f4afa9f8"
+    },
+    {
+      "path": "integrations/memoryarena-public/config-boundary.md",
+      "size_bytes": 11255,
+      "sha256": "54b4c780a48f6d20d093fc931d4a0ade3de35af516f480afc626d526b014e413"
+    },
+    {
+      "path": "integrations/memoryarena-public/overlays/bundled-shopping.picorer.json",
+      "size_bytes": 381,
+      "sha256": "53f4c997c2e4ddf37570a528d84db01436b17a3c9e3a27aa0088d7746fca143c"
+    },
+    {
+      "path": "integrations/memoryarena-public/overlays/formal-math.picorer.json",
+      "size_bytes": 403,
+      "sha256": "5d619bb942d5ddc905bf8db2b0358b0b28dc130d9fae6f09ffb6a3f756a12fdb"
+    },
+    {
+      "path": "integrations/memoryarena-public/overlays/formal-phys.picorer.json",
+      "size_bytes": 413,
+      "sha256": "febd5ed42ab4b70c1bd3f7b28af05763de713891332550928cfa28e08bdf0f06"
+    },
+    {
+      "path": "integrations/memoryarena-public/overlays/group-travel.picorer.json",
+      "size_bytes": 525,
+      "sha256": "4f70b3b5d2079504d6c9bc1e25a028078df5b2b22242542d243011b3fbc6baac"
+    },
+    {
+      "path": "integrations/memoryarena-public/overlays/progressive-search.picorer.json",
+      "size_bytes": 390,
+      "sha256": "cda6d1f566bb639be707e23eb450424877313cbb693e4c4319ac95682a32f2f2"
+    },
+    {
+      "path": "integrations/memoryarena-public/overlays/public-task-manifest.json",
+      "size_bytes": 1497,
+      "sha256": "b17fabdf5eee1206355541a7799e503fcddfde3d639d2f948a1626fe937acaf4"
+    },
+    {
+      "path": "integrations/memoryarena-public/pins.json",
+      "size_bytes": 3341,
+      "sha256": "cfb1f5371138516e7d2300dc7b422fcd768a60a46dfb5f94cbd0425dd359fbfb"
+    },
+    {
+      "path": "integrations/memoryarena-public/runtime/__init__.py",
+      "size_bytes": 1954,
+      "sha256": "d5061d9b4d977fd503e4105656b5c890011bdcac332f0184677db12c4161eadb"
+    },
+    {
+      "path": "integrations/memoryarena-public/runtime/artifacts.py",
+      "size_bytes": 26982,
+      "sha256": "a465956324fff375960050e14c12846e91300e81b5381bb9545dc1a336ef598c"
+    },
+    {
+      "path": "integrations/memoryarena-public/runtime/integrity.py",
+      "size_bytes": 30792,
+      "sha256": "91f64ed085fab924718d0236b0fae30c5ef56ee0a25cb618a95898814e94e491"
+    },
+    {
+      "path": "integrations/memoryarena-public/runtime/models.py",
+      "size_bytes": 6078,
+      "sha256": "085934f77b32491f50af9f6de5aad1fd0df0d130eaedda429415b16f6a23d0b5"
+    },
+    {
+      "path": "integrations/memoryarena-public/runtime/reporting.py",
+      "size_bytes": 15552,
+      "sha256": "04724dc4c612ae04e4223379f678d333a6bd9a3fc67cef550c84b8ccbdef77c0"
+    },
+    {
+      "path": "integrations/memoryarena-public/runtime/retry.py",
+      "size_bytes": 14115,
+      "sha256": "a2c7b99669243ef784face6c60fabef954ea79cd112c20de588515d15ecf3da9"
+    },
+    {
+      "path": "integrations/memoryarena-public/runtime/run_memoryarena_public.py",
+      "size_bytes": 16140,
+      "sha256": "795f81ca9c3e9552fd2b4ff4339d7d23121080b293a1567f5bcb9c961c8a24e6"
+    },
+    {
+      "path": "integrations/memoryarena-public/runtime/runner.py",
+      "size_bytes": 15578,
+      "sha256": "1dc124b6d461296586f74fb455200bc276575a2dcfc1856bb8023b97ebcd266b"
+    },
+    {
+      "path": "integrations/memoryarena-public/runtime/usage.py",
+      "size_bytes": 12420,
+      "sha256": "97515911f7bebf31d3fc273b325a2558c8c803b3b627ec1d90027a780af2390a"
+    },
+    {
+      "path": "integrations/memoryarena-public/tests/test_bootstrap.py",
+      "size_bytes": 5162,
+      "sha256": "2b8c2866f5567a7f532d0a779225c05fb6ba21b1432f55c7e6347202881d5fc2"
+    },
+    {
+      "path": "integrations/memoryarena-public/tests/test_config_boundary.py",
+      "size_bytes": 16891,
+      "sha256": "8a2396ffa25385d9cb6e74feb06806021a7c2e3c48fca9e3966be13281f6f973"
+    },
+    {
+      "path": "integrations/memoryarena-public/tests/test_official_client_compat.py",
+      "size_bytes": 8660,
+      "sha256": "c2744f0c60f856224aba987320d56c1be17a3f2d043b6987ef9adf1a570243fb"
+    },
+    {
+      "path": "integrations/memoryarena-public/tests/test_pins.py",
+      "size_bytes": 4879,
+      "sha256": "4e370552798d773cd5cd9c9e52a9483673842cf1a672ff70ce2798285c8ffc7f"
+    },
+    {
+      "path": "integrations/memoryarena-public/tests/test_runtime_artifacts.py",
+      "size_bytes": 9694,
+      "sha256": "4c17cd12e9a48d4b707a1e6076c090cc1f668a0ca8f37a4c1bbbf2a71cc4791e"
+    },
+    {
+      "path": "integrations/memoryarena-public/tests/test_runtime_cli.py",
+      "size_bytes": 14696,
+      "sha256": "2b6a5ac9eb920ad99cbaaf134eefab26b67217640834e8c0ba88aca48ec1a2be"
+    },
+    {
+      "path": "integrations/memoryarena-public/tests/test_runtime_release_contract.py",
+      "size_bytes": 4641,
+      "sha256": "96c763b20343cc2ed8355d2cb98ccc2ae8e72ee558c7bcd1294f4a71f274caea"
+    },
+    {
+      "path": "integrations/memoryarena-public/tests/test_runtime_retry.py",
+      "size_bytes": 5904,
+      "sha256": "ccb72f468c632a9878d2f0e5d67eb25433474e24128a412fd474c56c80b32fa1"
+    },
+    {
+      "path": "integrations/memoryarena-public/tests/test_runtime_runner.py",
+      "size_bytes": 12651,
+      "sha256": "a1248dd9ea177f62bae0f3be3bb3ffecf5ca8923829e72104ff9cd4a9e7d53aa"
+    },
+    {
+      "path": "integrations/memoryarena-public/tests/test_runtime_usage.py",
+      "size_bytes": 9062,
+      "sha256": "81f59be9215065e586a7fa3790b9a7e5ac2e9c3db986279069934e9be0ca8013"
+    },
+    {
+      "path": "integrations/memoryarena-public/tests/test_upstream_assets.py",
+      "size_bytes": 8235,
+      "sha256": "983481c8037fbfe2188896f9386453beab22e96b842da511c0582784b3bd597c"
+    },
+    {
+      "path": "integrations/memoryarena-public/tests/test_upstream_audit_proxy.py",
+      "size_bytes": 5972,
+      "sha256": "76ebcace453be0d3e34801bbbfe902e7639d304c71ff177fe7b1aec51011c8a8"
+    },
+    {
+      "path": "integrations/memoryarena-public/tests/test_upstream_evaluator.py",
+      "size_bytes": 14336,
+      "sha256": "528bbc414d6ccd1967ba0948e3afbc5bc3e1ad4c8c089132203dd37acf9a87f3"
+    },
+    {
+      "path": "integrations/memoryarena-public/tests/test_upstream_hydrate.py",
+      "size_bytes": 3498,
+      "sha256": "135ec0c4c84b43eaee63e7a7e8f7786b0d9323627047698ba351ba171457df09"
+    },
+    {
+      "path": "integrations/memoryarena-public/tests/test_upstream_judge_proxy.py",
+      "size_bytes": 5640,
+      "sha256": "ae1e2c3c770ce4d065251015ecca0c0e1dffa4605efb9565ef176ef906064445"
+    },
+    {
+      "path": "integrations/memoryarena-public/tests/test_upstream_manifest.py",
+      "size_bytes": 5857,
+      "sha256": "36a5d61effc45b1b7a8e7be77d787a3a9c38e8ed1e62e3904a546d7d0be7368c"
+    },
+    {
+      "path": "integrations/memoryarena-public/tests/test_upstream_prepare.py",
+      "size_bytes": 4044,
+      "sha256": "6586dad8360b7798d7bd60333769c0d40b228cda3757365c3d17c1c55bd6aaa4"
+    },
+    {
+      "path": "integrations/memoryarena-public/tests/test_upstream_worker_executor.py",
+      "size_bytes": 14006,
+      "sha256": "35e8b77554d4f294326a9b1ca12fc99196cdb184724a4226e0235f06e46fe351"
+    },
+    {
+      "path": "integrations/memoryarena-public/upstream/__init__.py",
+      "size_bytes": 677,
+      "sha256": "b487e1edd8f1c25c4b1a67089af27d54974ca40f981286402df74b1914070f21"
+    },
+    {
+      "path": "integrations/memoryarena-public/upstream/assets.py",
+      "size_bytes": 40445,
+      "sha256": "e3c2a6548d1f6921dbc9eeb201de2f78829bdbf427c70fa09ed8cd2ddad43375"
+    },
+    {
+      "path": "integrations/memoryarena-public/upstream/audit_proxy.py",
+      "size_bytes": 14165,
+      "sha256": "fe2eb58536e31ded4a30935a61fc6e3a395e83da2a971ae29b72844136e68980"
+    },
+    {
+      "path": "integrations/memoryarena-public/upstream/contracts.py",
+      "size_bytes": 7965,
+      "sha256": "515658ddf1408d56e3f68f6c7107a980a8a13813f95d73d1db4ebc1ba7d97628"
+    },
+    {
+      "path": "integrations/memoryarena-public/upstream/evaluator.py",
+      "size_bytes": 60871,
+      "sha256": "a9d504b72d6d05aa30f770e52a24d7280d5f2730367837ecba3902e45e680636"
+    },
+    {
+      "path": "integrations/memoryarena-public/upstream/executor.py",
+      "size_bytes": 48054,
+      "sha256": "8684c631742fba5296c2062cb5bba9c9d11f29ff84a3857e901369cbadeb0178"
+    },
+    {
+      "path": "integrations/memoryarena-public/upstream/hf_source_manifests.json",
+      "size_bytes": 37193,
+      "sha256": "5587f92d38eca1a1ecd166e1a27e2c53773f82cfc77a1f270b48340b0785c115"
+    },
+    {
+      "path": "integrations/memoryarena-public/upstream/hydrate.py",
+      "size_bytes": 15247,
+      "sha256": "5e039841d05351b12249921eedd4c669b630a0cd80e98e939eef38362560a472"
+    },
+    {
+      "path": "integrations/memoryarena-public/upstream/judge_proxy.py",
+      "size_bytes": 20426,
+      "sha256": "2c4b0fdee13b6858ed1955060acc763c1014b5bab0779e31df74793fd4245d12"
+    },
+    {
+      "path": "integrations/memoryarena-public/upstream/manifest.py",
+      "size_bytes": 23093,
+      "sha256": "3f8ed8e935007479b748f7144ce323e9576094bde5ff3dde8287d03406373e90"
+    },
+    {
+      "path": "integrations/memoryarena-public/upstream/prepare.py",
+      "size_bytes": 7195,
+      "sha256": "723088123549b488e655fc168f19da4f800299b9526e550f5c3d9e6e33e05558"
+    },
+    {
+      "path": "integrations/memoryarena-public/upstream/search_runner_ids.json",
+      "size_bytes": 3090,
+      "sha256": "9387d7ab5d98cf3c3103ce81e67aa96e3b44de9fecc627e0c890f4ef1c16da73"
+    },
+    {
+      "path": "integrations/memoryarena-public/upstream/worker.py",
+      "size_bytes": 20093,
+      "sha256": "fc2b5e38312410abb9302e167dd68c647d554ca371caf022f2af74b76c96365e"
+    },
+    {
+      "path": "integrations/refind-longmemeval/README.md",
+      "size_bytes": 3165,
+      "sha256": "df15aabd6fe44f08eeb55389e66f3ee0e97adf9861a1a925b90d40f1dfa7e0cf"
+    },
+    {
+      "path": "integrations/refind-longmemeval/materialize_scored_predictions.py",
+      "size_bytes": 5664,
+      "sha256": "48d5a7afb100f505f4c0440ff6f8c9e26fd29c9905d42136763fce29a1231150"
+    },
+    {
+      "path": "integrations/refind-longmemeval/run_s50.example.yaml",
+      "size_bytes": 1130,
+      "sha256": "54f77840ac0fe5fa1035ac5caf879cc703f78bc89d0d4ad8dcde6a88bb360ffc"
+    },
+    {
+      "path": "integrations/refind-longmemeval/run_s50.sh",
+      "size_bytes": 7612,
+      "sha256": "df18d7d92c20ab6ce46ed2d101df396b152f35e511787d4c8de9619325db0335"
+    },
+    {
+      "path": "integrations/refind-longmemeval/run_s50_from_yaml.d.mts",
+      "size_bytes": 1039,
+      "sha256": "ccdbc84267accf16780c276c0ac246b08364dd8b016b97bb78c9666005f56475"
+    },
+    {
+      "path": "integrations/refind-longmemeval/run_s50_from_yaml.mjs",
+      "size_bytes": 10034,
+      "sha256": "66e0a4f3c0acddeef35a414449c8a9951ef8d651d2b9e1f653d2fcbbf8caeda4"
+    },
+    {
+      "path": "integrations/tau-knowledge/README.md",
+      "size_bytes": 5078,
+      "sha256": "523fc2f90a9ebb6f690d0d5eeb3ceb84ab01c8f276f03a205382bfde5b23df05"
+    },
+    {
+      "path": "integrations/tau-knowledge/picorer_tau_agent.py",
+      "size_bytes": 11269,
+      "sha256": "84f94bda3315a8837c7408b1e9733225c5a42bb3a8f24b4d8a3da4cbd9461425"
+    },
+    {
+      "path": "integrations/tau-knowledge/provider_health.py",
+      "size_bytes": 4395,
+      "sha256": "6b472ce3fdfdcc2c6aa367b3611a1e3f433699eeb44d0628e92797e5967821b8"
+    },
+    {
+      "path": "integrations/tau-knowledge/result_integrity.py",
+      "size_bytes": 8033,
+      "sha256": "5866e9605fa613175a61f344b277ee44e7719a49f586c233f3aafaaa45ad469d"
+    },
+    {
+      "path": "integrations/tau-knowledge/run_tau_knowledge.py",
+      "size_bytes": 31477,
+      "sha256": "db3ee5c3275f9460685590838446bbca3272a3936872e7e4a6ef8407fc141b9d"
+    },
+    {
+      "path": "package-lock.json",
+      "size_bytes": 91109,
+      "sha256": "050430c269698d58159604d7ca5ff6dd605ee4f7fd2af3218bb2f691d20cd4f3"
+    },
+    {
+      "path": "package.json",
+      "size_bytes": 3378,
+      "sha256": "4e11d595ec183eaf400146b2f2db1e3186947af0cf1476fb497dc08c3074360b"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "size_bytes": 14,
+      "sha256": "dddd1ff2faf4f17415ff0e155b8d3db77f4554dfe7bc6abffeda0ffcc46ba277"
+    },
+    {
+      "path": "scripts/benchmark_progress.py",
+      "size_bytes": 4292,
+      "sha256": "95050b035f5b0816934ed6ed5e3f0ebfeedb4c2ef9984861985391c8a01e78fe"
+    },
+    {
+      "path": "scripts/generate-code-catalog.mjs",
+      "size_bytes": 44493,
+      "sha256": "fd647dcd1709fbebb943aa431c0e051a4b7b9ebfb2affb2eef6712caa778c865"
+    },
+    {
+      "path": "scripts/generate-release-manifests.mjs",
+      "size_bytes": 3788,
+      "sha256": "c9a756841e0d75aaab22846ea86985c682988a7b365f2816ec6839abd0062bb2"
+    },
+    {
+      "path": "scripts/index_existing_scopes.mjs",
+      "size_bytes": 2913,
+      "sha256": "6fefa4c9a788a02ec023f22f13219d37f9087567163869a00369907d39648aeb"
+    },
+    {
+      "path": "scripts/longmemeval_frozen_eval.py",
+      "size_bytes": 29649,
+      "sha256": "e38e23969b37dbbaa183c7122a9cdd87c0fd579fb097807e971cb699c22a7a8d"
+    },
+    {
+      "path": "scripts/test_longmemeval_frozen_eval.py",
+      "size_bytes": 5203,
+      "sha256": "f3dd3ec73d900cb7177dd91da4f73277cc0881dd3299f3a772429a8a9e833ee9"
+    },
+    {
+      "path": "scripts/test_tau_knowledge_provider_health.py",
+      "size_bytes": 3167,
+      "sha256": "42198aec71bb895259a16818291a865f7c14cc9490eecb5f364a818f39832e6f"
+    },
+    {
+      "path": "scripts/test_tau_knowledge_result_integrity.py",
+      "size_bytes": 5155,
+      "sha256": "663e571662e4c2fe5fd8d21a891b8c7c0155821631a1559d6baabf68cbc7d182"
+    },
+    {
+      "path": "src/agent-runtime/index.ts",
+      "size_bytes": 598,
+      "sha256": "39656ef384dc604b68d3b8fb39da399a59d2ee3b6538c37144964f38fe63a3c2"
+    },
+    {
+      "path": "src/agent-runtime/interactive-memory-agent.ts",
+      "size_bytes": 18634,
+      "sha256": "29ee9a0e1fe829fad3fbbbe396ed7bd6f413d78a3099656ed6024fa6fa701844"
+    },
+    {
+      "path": "src/benchmark/adapters/pi/answer.ts",
+      "size_bytes": 3593,
+      "sha256": "1077e0c87a56bfec79c7e63b6ffe4e22cec82fef533e6d056559756c99ff9f5d"
+    },
+    {
+      "path": "src/benchmark/amabench/answer-contract.ts",
+      "size_bytes": 2994,
+      "sha256": "5421672bdc81ccd7d526364f371d948e21c7241a25ebd5e753eef5f6d4e56bae"
+    },
+    {
+      "path": "src/benchmark/amabench/dataset-adapter.ts",
+      "size_bytes": 12813,
+      "sha256": "62be86627b4477ef97ced3cc0979ca6e19f0b4beb01364f59d399b9a61eb88c7"
+    },
+    {
+      "path": "src/benchmark/amabench/evaluation-contract.ts",
+      "size_bytes": 4811,
+      "sha256": "d9045fa7324cafa72f3e1772f6409ec5c3a065df53a389275a550ab3aaa35499"
+    },
+    {
+      "path": "src/benchmark/amabench/index.ts",
+      "size_bytes": 1220,
+      "sha256": "ba681cabfdf95ac7dc4afe5e11146818a6ac3181474a8c71ea5956a0c0e4605a"
+    },
+    {
+      "path": "src/benchmark/amabench/judge.ts",
+      "size_bytes": 8312,
+      "sha256": "6c523b50572eaacfce5dc667aaf9663e84ccf5ac8007f3dc1bd343193a8ccd5c"
+    },
+    {
+      "path": "src/benchmark/composition/ingest-evidence-benchmark.ts",
+      "size_bytes": 1040,
+      "sha256": "db0224c5dd95c81b32df931aec0f7b4099e7d0ec77c7b803a8c5a1340e713cca"
+    },
+    {
+      "path": "src/benchmark/data-paths.ts",
+      "size_bytes": 687,
+      "sha256": "d703dd2363b629bf040955998a17e9c562ce0178944f8edabe02b460c0ef7483"
+    },
+    {
+      "path": "src/benchmark/index.ts",
+      "size_bytes": 1179,
+      "sha256": "c8de967f0cd030db8d2ad55d43499a371495cea41d3a6b601cbcb9fa6bbe1d8c"
+    },
+    {
+      "path": "src/benchmark/label-firewall.ts",
+      "size_bytes": 1610,
+      "sha256": "b729f6b0f90df62641b1afeb3d4e323e581ad68b9c1602996c25ced049c15513"
+    },
+    {
+      "path": "src/benchmark/longmemeval/data-paths.ts",
+      "size_bytes": 421,
+      "sha256": "12993b3537c36c439d9a0d286fc4c92f0df2d8506f4e55ede8330971b1f2b1a8"
+    },
+    {
+      "path": "src/benchmark/longmemeval/dataset-adapter.ts",
+      "size_bytes": 14017,
+      "sha256": "2a726372152b7c52bf89ede653ebff75dba16e90ff98e71a874eea4d6895f6fa"
+    },
+    {
+      "path": "src/benchmark/memoryagentbench/answer-contract.ts",
+      "size_bytes": 3937,
+      "sha256": "e72240f21959a7abfc0ea383b94c9f003c41fee644bd18e0df3f1e1311b05892"
+    },
+    {
+      "path": "src/benchmark/memoryagentbench/dataset.ts",
+      "size_bytes": 3803,
+      "sha256": "b8bec1180921f679cdbb21ef1316e23b76547a3c884cdae5bdb09e881b5fc5b9"
+    },
+    {
+      "path": "src/benchmark/memoryarena-public/adapters/filesystem-generation-store.ts",
+      "size_bytes": 9384,
+      "sha256": "7c0b9cffe48d83a0a1e1792679aa3df5832b7900aef95b10336add1c65725d77"
+    },
+    {
+      "path": "src/benchmark/memoryarena-public/adapters/jsonl-operation-audit-sink.ts",
+      "size_bytes": 5593,
+      "sha256": "5ad3c0706075530ed78322ee93b87ac53635cfefd51d3723612fc9da986e35bc"
+    },
+    {
+      "path": "src/benchmark/memoryarena-public/adapters/jsonl-wrap-audit-sink.ts",
+      "size_bytes": 1599,
+      "sha256": "42eee26cb61332974d2946df2913dbfabc03f7d98e774bcc468555f628e4a81b"
+    },
+    {
+      "path": "src/benchmark/memoryarena-public/adapters/measured-embedder.ts",
+      "size_bytes": 4719,
+      "sha256": "eafd4a157e9b26f68fd9adc3b4abafecc8eacc2eab55e508ea7c5cbb755fca9f"
+    },
+    {
+      "path": "src/benchmark/memoryarena-public/adapters/picorer-memory-runtime.ts",
+      "size_bytes": 13742,
+      "sha256": "c5bb2bf087c44db7e40ab28975eef564587e0192defef810910f7d537a25926d"
+    },
+    {
+      "path": "src/benchmark/memoryarena-public/composition/create-runtime.ts",
+      "size_bytes": 11140,
+      "sha256": "c970c513b67f4f44f18a93be27671a011a5743ceb97db1fcdde5890b79c1ea92"
+    },
+    {
+      "path": "src/benchmark/memoryarena-public/index.ts",
+      "size_bytes": 1810,
+      "sha256": "dabc2f95ebfa3b4c99f4fae680de5349962aaddd1057650332f42014881e66d5"
+    },
+    {
+      "path": "src/benchmark/memoryarena-public/model/failure-diagnostics.ts",
+      "size_bytes": 5872,
+      "sha256": "ae3d3ad147c71f1881a3119b68f6d0fef21881ba17e4aa6b57c580ef3bde16c6"
+    },
+    {
+      "path": "src/benchmark/memoryarena-public/model/memory-backend.ts",
+      "size_bytes": 7676,
+      "sha256": "c2f0243733cb318fa500e81e98f097a645c31d0843b3febb331cde7d510be8cf"
+    },
+    {
+      "path": "src/benchmark/memoryarena-public/ports/memory-backend.ts",
+      "size_bytes": 2478,
+      "sha256": "fbe0d7b7493b3646855be2e1fbbced841574337ff236199d108b78d1e73a8da1"
+    },
+    {
+      "path": "src/benchmark/memoryarena-public/use-cases/memory-backend.ts",
+      "size_bytes": 19760,
+      "sha256": "951d382bf10eee8a3a350a43777cba6c14b5876efe3085ee8e1a700c35110069"
+    },
+    {
+      "path": "src/benchmark/model/answer.ts",
+      "size_bytes": 2110,
+      "sha256": "f744301c21961a5959991c280f37ca983ada43629537d4a07b76878ea21667b9"
+    },
+    {
+      "path": "src/benchmark/model/benchmark-query.ts",
+      "size_bytes": 122,
+      "sha256": "75e1c737a4a3c28950c2fe1ac7f6110584238adf497b2d80c38db307bb39609e"
+    },
+    {
+      "path": "src/benchmark/model/benchmark-run.ts",
+      "size_bytes": 1109,
+      "sha256": "a99225ba7da92b3812a590ea3977e69d082a3bd740d4bc4d545400b13bf2d251"
+    },
+    {
+      "path": "src/benchmark/model/evidence-benchmark-run.ts",
+      "size_bytes": 1258,
+      "sha256": "66ae74f9a899630fb737d30f8a6e32e6db4a51122534aef393f72c297942624c"
+    },
+    {
+      "path": "src/benchmark/tau-knowledge/data-paths.ts",
+      "size_bytes": 469,
+      "sha256": "45cb65d613e9b0118c7969b2c97e53c668845ce66aa553bd6de57ce54ec3b57d"
+    },
+    {
+      "path": "src/benchmark/tau-knowledge/dataset-adapter.ts",
+      "size_bytes": 6503,
+      "sha256": "bd013b20ee244c187d7ce30431efa117cbedbe1cbb203f1cc2f2a30f8f784c89"
+    },
+    {
+      "path": "src/benchmark/tau-knowledge/index.ts",
+      "size_bytes": 357,
+      "sha256": "92013c5a53937fb8ab4b4f2f820a1d4954e91e3f60b470596c7401aacaee107a"
+    },
+    {
+      "path": "src/cli.ts",
+      "size_bytes": 36,
+      "sha256": "7b68cedbb7a241e3776943e2d032125e31207ba4bc29fbda6b9b374efc0309d1"
+    },
+    {
+      "path": "src/composition/create-read-only-navigation.ts",
+      "size_bytes": 469,
+      "sha256": "fb3a6b595ad3a2278249b6b7221a2d55f8643497266d02da3ef3511e6a6042f4"
+    },
+    {
+      "path": "src/composition/create-retrieval-context.ts",
+      "size_bytes": 1945,
+      "sha256": "c3c76f041ebbd0b5019106d40fd7e72f1884094d2d264436c75c551b06c14578"
+    },
+    {
+      "path": "src/composition/create-search-operator-registry.ts",
+      "size_bytes": 1750,
+      "sha256": "a7a3b710cb9cc978d729589cb9cf30cfd47fb0a3a3f2f93dd3c5f238313df813"
+    },
+    {
+      "path": "src/composition/ingest-memory-workspace.ts",
+      "size_bytes": 4720,
+      "sha256": "cdf47f639192692b82543e736d57844fa9bfe5707a81e7e91406c2e3990563fd"
+    },
+    {
+      "path": "src/composition/load-search-operator-plugins.ts",
+      "size_bytes": 1911,
+      "sha256": "4bbecb509c603ebfeba8d391b012710f20f31056a90ac81d6d46485f0e0aca97"
+    },
+    {
+      "path": "src/composition/qdrant-retrieval.ts",
+      "size_bytes": 6440,
+      "sha256": "50674c2f1aca623320ea6ed6c6ca4ccf24912ffccef858287424929499a7e44d"
+    },
+    {
+      "path": "src/composition/run-question.ts",
+      "size_bytes": 1479,
+      "sha256": "b12292f28246bd08191dd419aee6a09941ac7a4570b8d825eb85b7634628d4a1"
+    },
+    {
+      "path": "src/composition/scoped-qdrant-retrieval.ts",
+      "size_bytes": 3323,
+      "sha256": "811e25dd35b07f59b46bcf0e77ebf2df6b7b943d25b03b8516e89d3909afeda8"
+    },
+    {
+      "path": "src/entrypoints/cli/commands/benchmark-evidence.ts",
+      "size_bytes": 18589,
+      "sha256": "d2c8730b62dc61dcc5e29b6f11980567963b171ba2343342e28680025c6a4536"
+    },
+    {
+      "path": "src/entrypoints/cli/commands/benchmark-longmemeval.ts",
+      "size_bytes": 17857,
+      "sha256": "d95d6d04b8985c5f8bc499cd34aaf2c4927c74c300d6bcbbcd6a4183e5db74e3"
+    },
+    {
+      "path": "src/entrypoints/cli/commands/benchmark-memoryagentbench.ts",
+      "size_bytes": 12786,
+      "sha256": "87b3a57609667fbfe636fc300740d06e30b3916f93b0b12bdd1a6d8d5086d55c"
+    },
+    {
+      "path": "src/entrypoints/cli/commands/evaluate-benchmark.ts",
+      "size_bytes": 15595,
+      "sha256": "4b7cb6eb9442826f0df1c9cea9583bfd21eb13142c961a149761e17a52bc3839"
+    },
+    {
+      "path": "src/entrypoints/cli/commands/ingest-benchmark.ts",
+      "size_bytes": 7890,
+      "sha256": "2179b22cb93c74f73c720c24d068ed9fe16a37d76686262387c7b24dc4c810c3"
+    },
+    {
+      "path": "src/entrypoints/cli/commands/ingest-longmemeval.ts",
+      "size_bytes": 6400,
+      "sha256": "75b701503114c83d351539a45145104826f2a535404b057f067fa40a9d5f1e58"
+    },
+    {
+      "path": "src/entrypoints/cli/commands/ingest-tau-knowledge.ts",
+      "size_bytes": 4199,
+      "sha256": "b1f6c3c30011447d784132e4eebda92332bbe21a290ae6c78d57d5944b2a3898"
+    },
+    {
+      "path": "src/entrypoints/cli/commands/longmemeval-suite.ts",
+      "size_bytes": 29418,
+      "sha256": "1520ccaf18c2ef1b561d566bbe25a1c474fe0301efa553868f4f215e9f368915"
+    },
+    {
+      "path": "src/entrypoints/cli/commands/package-benchmark.ts",
+      "size_bytes": 3697,
+      "sha256": "56cd4332eda6ca15f0f96689208cda27d29d8b3ac8ad2f8fbe117de608f7c58e"
+    },
+    {
+      "path": "src/entrypoints/cli/commands/prepare-longmemeval-eval.ts",
+      "size_bytes": 3760,
+      "sha256": "7f1a8de5e485b75baa9436a82f7cff37217b75e3b4b921d207c910d47c68091b"
+    },
+    {
+      "path": "src/entrypoints/cli/commands/run-longmemeval.ts",
+      "size_bytes": 2617,
+      "sha256": "e56fce16a27232851aefc7045c6ba5c25631c91052ad828bc988c9667f46a582"
+    },
+    {
+      "path": "src/entrypoints/cli/commands/run-memory.ts",
+      "size_bytes": 1024,
+      "sha256": "4ae570988381228164dca8303feb1cd7fc5640b7b512a7aa8438ac4d86f0f344"
+    },
+    {
+      "path": "src/entrypoints/cli/evidence-benchmark-runtime.ts",
+      "size_bytes": 16179,
+      "sha256": "d2cfbf1c84ffeb43fc02e8842a03b98400bba0e6b3c498444806c82fe451499f"
+    },
+    {
+      "path": "src/entrypoints/cli/main.ts",
+      "size_bytes": 4910,
+      "sha256": "ecd9d1b7c6258f4c881c78d9387adfd6235e038ab121e437eaf1245e868ca5d8"
+    },
+    {
+      "path": "src/entrypoints/cli/parse-command.ts",
+      "size_bytes": 6214,
+      "sha256": "7c70cf7f9dc81007ffb25514e0a0abdb50c7bbeb97daf9299275269836ef2234"
+    },
+    {
+      "path": "src/entrypoints/cli/private-records.ts",
+      "size_bytes": 875,
+      "sha256": "4b996bc1ba94bca680c6e8e6df0272d6ef88a1a3f36cb02e46a2db914b9a5fc1"
+    },
+    {
+      "path": "src/entrypoints/cli/workflow-files.ts",
+      "size_bytes": 3422,
+      "sha256": "1f1f21fd5a5de93deaf10d5e01eff7d54bf0a2d4fe849f247e15c2b55a8b83db"
+    },
+    {
+      "path": "src/entrypoints/ldbd-api/contracts.ts",
+      "size_bytes": 4534,
+      "sha256": "7cc018c9a0bfff54b4ea83282134eee0437e30e6be61c83a76b4d040f44fcde0"
+    },
+    {
+      "path": "src/entrypoints/ldbd-api/main.ts",
+      "size_bytes": 5715,
+      "sha256": "dfa0e0a81ca902a95c198d814da8d79bfbab0d363d91f6f727807e6b57359b69"
+    },
+    {
+      "path": "src/entrypoints/ldbd-api/picorer-runtime.ts",
+      "size_bytes": 6527,
+      "sha256": "454f483ce733be4a3ced7af05557fb6765fb8ff6eba683f9093efc493a2b7472"
+    },
+    {
+      "path": "src/entrypoints/ldbd-api/service.ts",
+      "size_bytes": 1560,
+      "sha256": "10e5a31a5fbbb3f43abc0df63e666b36e90372167ad4096969270961500c4650"
+    },
+    {
+      "path": "src/entrypoints/memoryarena-public-api/application.ts",
+      "size_bytes": 10830,
+      "sha256": "93a44a649371f5163b679890cbd19a2c43b34cf37e33ed4ee28e2b6c8fda7884"
+    },
+    {
+      "path": "src/entrypoints/memoryarena-public-api/contracts.ts",
+      "size_bytes": 6494,
+      "sha256": "6bffdb1f693a738d0443c190784b7dd49d14bb43f2b6123616948b6fa50f26f0"
+    },
+    {
+      "path": "src/entrypoints/memoryarena-public-api/http-errors.ts",
+      "size_bytes": 1411,
+      "sha256": "8535bf6b49b9a27e868074e7491118cdd7f953646f564892b35146788e1a42bb"
+    },
+    {
+      "path": "src/entrypoints/memoryarena-public-api/main.ts",
+      "size_bytes": 10696,
+      "sha256": "68c41b64aab4664d7ad6e21e089895b6d8b07e31a26e8c882b0947227c8da18c"
+    },
+    {
+      "path": "src/entrypoints/memoryarena-public-api/runtime-contract.ts",
+      "size_bytes": 4528,
+      "sha256": "c07376b09ad62829639ca5319e3b5c5b029319503755bc7605ef42e56863d4db"
+    },
+    {
+      "path": "src/entrypoints/tau-knowledge-bridge/main.ts",
+      "size_bytes": 10306,
+      "sha256": "4faa6aa391f6ed923fe99a17a3d3d1ef6edbe63a17d6f35349f331310e5217d1"
+    },
+    {
+      "path": "src/evidence-agent/adapters/docker/read-only-shell.ts",
+      "size_bytes": 5317,
+      "sha256": "e475fcf09a77638349b1c374bf2084bead7300445b3b9db1e57642de88cb69a2"
+    },
+    {
+      "path": "src/evidence-agent/adapters/pi/assistant-messages.ts",
+      "size_bytes": 3388,
+      "sha256": "bef254c12ccae92a7f563f7c1e02fbf95f4bdabeb5025f0e9c66e509f94043d6"
+    },
+    {
+      "path": "src/evidence-agent/adapters/pi/ephemeral-context.ts",
+      "size_bytes": 3074,
+      "sha256": "806464460613e33956a15a75125d728fe0b814b4f929f012248007feb3718a0f"
+    },
+    {
+      "path": "src/evidence-agent/adapters/pi/memory-observation.ts",
+      "size_bytes": 20109,
+      "sha256": "0b53ff1ff42002c528312bd362b675afe89b8b4901323e989603a296b8bd3f02"
+    },
+    {
+      "path": "src/evidence-agent/adapters/pi/read-receipts.ts",
+      "size_bytes": 1377,
+      "sha256": "db1a56700e42f48a2eefd779b6ab220a69d2693b2af2f88c13e9b28c560e0083"
+    },
+    {
+      "path": "src/evidence-agent/adapters/pi/retrieval-prompt.ts",
+      "size_bytes": 4774,
+      "sha256": "aa82cf3efab85ef6da1ca10cf401451cfcafe3de0749146776103d1db35391cd"
+    },
+    {
+      "path": "src/evidence-agent/adapters/pi/rewrite-working-memory-context.ts",
+      "size_bytes": 8377,
+      "sha256": "c5cb6f0e11705e95105d667de48293264d3b34193cd2afb86dab4b2d6d99fe3e"
+    },
+    {
+      "path": "src/evidence-agent/adapters/pi/run-agent.ts",
+      "size_bytes": 22727,
+      "sha256": "a73b8b83effa16e13abe04464f155f25d9cf436fdbc9357e945510a9e7dff899"
+    },
+    {
+      "path": "src/evidence-agent/adapters/pi/tools/bash-tool.ts",
+      "size_bytes": 2934,
+      "sha256": "f8c2cee8c6a6640dfa799edb25c33011fd576f2421a6e1b8c9351301a27c5a39"
+    },
+    {
+      "path": "src/evidence-agent/adapters/pi/tools/candidate-details.ts",
+      "size_bytes": 531,
+      "sha256": "412443e9bfb2146923ef8e3ebda9e3e58eb976395fe9a42c93886c05829d5b33"
+    },
+    {
+      "path": "src/evidence-agent/adapters/pi/tools/candidate-refs.ts",
+      "size_bytes": 104,
+      "sha256": "94d62ce28e6e80715eede69dfc9f198885f5c4e6090efb92f9fee9c008a7f5a5"
+    },
+    {
+      "path": "src/evidence-agent/adapters/pi/tools/contracts.ts",
+      "size_bytes": 5598,
+      "sha256": "8b689880401a655f9c83247c20471041c41ac1d2c3b24e1d84b28bd0bf00d969"
+    },
+    {
+      "path": "src/evidence-agent/adapters/pi/tools/create-tools.ts",
+      "size_bytes": 2230,
+      "sha256": "bf1c9d6d07ab5a3e2b8379fffc32cce249cd1d3b7edd05e44daa8942093f692d"
+    },
+    {
+      "path": "src/evidence-agent/adapters/pi/tools/define-operator-tool.ts",
+      "size_bytes": 3398,
+      "sha256": "71886e277b091ca8a5cc768e4f021ee931d2935f182bc259bf28253fd14c9a22"
+    },
+    {
+      "path": "src/evidence-agent/adapters/pi/tools/finish-tool.ts",
+      "size_bytes": 3195,
+      "sha256": "091e16223c0880585f5ca52a289d29d2bf10b379e0bc46bd43358c055631f1bc"
+    },
+    {
+      "path": "src/evidence-agent/adapters/pi/tools/read-tool.ts",
+      "size_bytes": 8686,
+      "sha256": "279a56b6870d19b72b52b559165577a8ec752fa315e516cb95051af166cab8a8"
+    },
+    {
+      "path": "src/evidence-agent/adapters/pi/tools/render-tool-result.ts",
+      "size_bytes": 4860,
+      "sha256": "7c4bd0db7b1cb2b634f77de1ab84767c0a4fa32181b2a049b1a77ebb629ce49e"
+    },
+    {
+      "path": "src/evidence-agent/adapters/pi/tools/schemas.ts",
+      "size_bytes": 9888,
+      "sha256": "4e3b16f2ab104c91365d76780f5e0fd7e8a57dc47e284c5714c9bd47f0eaa3a7"
+    },
+    {
+      "path": "src/evidence-agent/adapters/pi/tools/search-tool.ts",
+      "size_bytes": 24951,
+      "sha256": "67c97fec8610784a5a60bc9cfc99802707e3e6ccfecccacdc96690f662a341eb"
+    },
+    {
+      "path": "src/evidence-agent/adapters/pi/tools/tool-protocol.ts",
+      "size_bytes": 1661,
+      "sha256": "dcf229f88f6de8874056e79182c4de1c7e506c6543f7288362dd0b433c98bb89"
+    },
+    {
+      "path": "src/evidence-agent/adapters/pi/tools.ts",
+      "size_bytes": 1118,
+      "sha256": "aefd2f0c189b772a5c9bd73b12f86252507040e6e37684a86d1f01b45d1dbc1d"
+    },
+    {
+      "path": "src/evidence-agent/adapters/pi/work-progress-contract.ts",
+      "size_bytes": 6306,
+      "sha256": "19fed0401fa5edb36d804d5aa9494b59ba6ac15330bf002497ddc5ebc2efa4ee"
+    },
+    {
+      "path": "src/evidence-agent/adapters/pi/working-memory-context.ts",
+      "size_bytes": 9807,
+      "sha256": "1408c843916f21d26a63bf04daa1f348b622e9562e7ee99a2d220c7db1f1ac21"
+    },
+    {
+      "path": "src/evidence-agent/adapters/pi/working-memory-observation.ts",
+      "size_bytes": 8606,
+      "sha256": "e1827b1a3979b804c81aeb01fdafe5e65eec122d9aee2873f79eb19476775edf"
+    },
+    {
+      "path": "src/evidence-agent/index.ts",
+      "size_bytes": 1915,
+      "sha256": "407688fa8ba14af9d3347e5d89b9b6e7b3a0753bd68d9a87d38bf36e60186507"
+    },
+    {
+      "path": "src/evidence-agent/model/evidence.ts",
+      "size_bytes": 3611,
+      "sha256": "a3eb8782cfc9f3c2c5cea96416b3d348574b6224317b26c1d4bead704f20260a"
+    },
+    {
+      "path": "src/evidence-agent/model/ledger.ts",
+      "size_bytes": 20227,
+      "sha256": "e233c2a7ae396d1bf03c9b4a2f8a5081ec89cbc8956f039afdfa212a9be2d877"
+    },
+    {
+      "path": "src/evidence-agent/model/operator-evolution.ts",
+      "size_bytes": 13319,
+      "sha256": "8e6fb45158b780148728481a3b75b679b9f550e6a8ced2edddd56128428d57d4"
+    },
+    {
+      "path": "src/evidence-agent/model/rewrite-working-memory.ts",
+      "size_bytes": 1711,
+      "sha256": "bd9b1e176104b0a3f96971e6b19f7f4a8b2d44793b9632f9feaf78a57c481c5f"
+    },
+    {
+      "path": "src/evidence-agent/model/source-evidence.ts",
+      "size_bytes": 13983,
+      "sha256": "0471037ced239d73d22e3dc6e3ccafce383ba81c78f7dfb19a8c380054ccf268"
+    },
+    {
+      "path": "src/evidence-agent/model/source-preview-spans.ts",
+      "size_bytes": 2695,
+      "sha256": "f2ddef09963d4fc16626b299484d4081e3b83a97c05a108d8a8f22541e96f4b0"
+    },
+    {
+      "path": "src/evidence-agent/model/work-progress.ts",
+      "size_bytes": 9272,
+      "sha256": "165d4f0b7c9bf424934ac4d10b0f595d39e584b1e2923205855fb4b2de824ccf"
+    },
+    {
+      "path": "src/evidence-agent/model/working-memory.ts",
+      "size_bytes": 4890,
+      "sha256": "69565e2815d3984abc970fd124e2d000fc7d8d510699fc05f92c481746684ec8"
+    },
+    {
+      "path": "src/evidence-agent/ports/read-only-navigation.ts",
+      "size_bytes": 407,
+      "sha256": "d5cc72213d077b05de8cbd2cfa3df383f11a323799253594f6738d1416650952"
+    },
+    {
+      "path": "src/memory/index.ts",
+      "size_bytes": 453,
+      "sha256": "9c0cab95aaea677e999cee429da09bfde097443528ef0579b079c4d063fa06e9"
+    },
+    {
+      "path": "src/memory/ingest-memory-sessions.ts",
+      "size_bytes": 5972,
+      "sha256": "7b17a4e7dd44f1e63a177b45f59ff2330f7f0a9dc5fdb903a313446c233dca1b"
+    },
+    {
+      "path": "src/memory/model/memory.ts",
+      "size_bytes": 1100,
+      "sha256": "76ab28a52122605a1fa7ac1a0d0c71d2b70a1cc8fe2b66c896d52f4d700ea866"
+    },
+    {
+      "path": "src/memory/ports/memory-ingest-store.ts",
+      "size_bytes": 806,
+      "sha256": "0074338c7280413735982f7208381fa72b4c22ff300a6f27605d05e7768de276"
+    },
+    {
+      "path": "src/memoryarena-public-api.ts",
+      "size_bytes": 55,
+      "sha256": "e525dbb4c183ad829d6b96eeb76578ece49b32217b3c86ad8de3d13cb0275b74"
+    },
+    {
+      "path": "src/platform/concurrency/async-pool.ts",
+      "size_bytes": 1168,
+      "sha256": "d8f1469eb4f8f37321fcdd82e5ae91b5c9a17a957bf4c71f3febaf41052bad05"
+    },
+    {
+      "path": "src/platform/concurrency/request-gate.ts",
+      "size_bytes": 1608,
+      "sha256": "370764c149ba05f9b80e79d61cf3654f1b04d5a172cff2315c146d43310c1f6c"
+    },
+    {
+      "path": "src/platform/filesystem/export-memory-scope.ts",
+      "size_bytes": 3702,
+      "sha256": "cf453548dacb127260108079a6c710fd2f7647cd6f78ac138e561948afcd11ce"
+    },
+    {
+      "path": "src/platform/filesystem/jsonl-writer.ts",
+      "size_bytes": 567,
+      "sha256": "e7f9da80ecbd067eb3582f957ea3bcca8340ae71273c18c1c97edc29acefb3cb"
+    },
+    {
+      "path": "src/platform/filesystem/private-jsonl.ts",
+      "size_bytes": 1826,
+      "sha256": "a0c911590b2529d8897d2cd8453b9aa8a76c2eca20c9b2aeef87b1739facffef"
+    },
+    {
+      "path": "src/platform/http/runtime-fetch.ts",
+      "size_bytes": 1604,
+      "sha256": "31aaaedcf4c907f51ee6ec2980be0377734591aaaf6a5d246c6728cbd860ea48"
+    },
+    {
+      "path": "src/platform/pi/load-model-runtime.ts",
+      "size_bytes": 18675,
+      "sha256": "b65eec0f0800257644f774acf4708f76389a6fb2e59a4281d1d62989b6b3a7f3"
+    },
+    {
+      "path": "src/platform/pi/model-runtime-adapter.ts",
+      "size_bytes": 5217,
+      "sha256": "a8bc8b6114ee4f03447914cb1d5d0be727f4ff8187825b8312b7bcc0eb8e007a"
+    },
+    {
+      "path": "src/platform/pi/openai-non-stream-transport.ts",
+      "size_bytes": 22068,
+      "sha256": "6949457c05d593d370ba844d9abe2486b4d83fa2585e773d3aa1f9f32260f9ba"
+    },
+    {
+      "path": "src/platform/security/protected-environment.ts",
+      "size_bytes": 2139,
+      "sha256": "6e5bf3681e84e40097b470a7e152495471332ff25fc6335d6c1f43db38b2829d"
+    },
+    {
+      "path": "src/platform/sqlite/float32-vector.ts",
+      "size_bytes": 1611,
+      "sha256": "14283513f884e980b39da6ad125c4c040294ebdf6c1ec508fcf9d8226ea95343"
+    },
+    {
+      "path": "src/platform/sqlite/memory-row.ts",
+      "size_bytes": 764,
+      "sha256": "add38d5f468b74c6b846f5d15932fab4c6878703bad81c44fb038341727c198b"
+    },
+    {
+      "path": "src/platform/sqlite/picorer-store.ts",
+      "size_bytes": 32679,
+      "sha256": "6d2e667ab29a8eac4450905e9246729ed17a976195e42950e05e7e8e10550732"
+    },
+    {
+      "path": "src/platform/sqlite/vector-index-state-store.ts",
+      "size_bytes": 20687,
+      "sha256": "2b4e139befae47ab2488028f804d76b3aab2519fa432cef551e9ba80f7ffbcad"
+    },
+    {
+      "path": "src/retrieval/adapters/fallback-dense-retriever.ts",
+      "size_bytes": 1757,
+      "sha256": "3be9500ec19bfe4cce174ca3a0482987a56d0b10744328f7046cdb958eb18d4c"
+    },
+    {
+      "path": "src/retrieval/adapters/openai/openai-compatible-embedder.ts",
+      "size_bytes": 21726,
+      "sha256": "574a967db7783892faab944aeb8a4e7f843d48d1fa964c0f98a9227a1d0105cd"
+    },
+    {
+      "path": "src/retrieval/adapters/operators/builtins.ts",
+      "size_bytes": 6308,
+      "sha256": "53f9f45516f596305ac64d8ba8189578e4951058046ec7d674e2499b28a676ea"
+    },
+    {
+      "path": "src/retrieval/adapters/qdrant/client.ts",
+      "size_bytes": 19429,
+      "sha256": "c846f4b80326ed7775e6e1026e5c0a522aa7db105f46f988e8f039f0979e0027"
+    },
+    {
+      "path": "src/retrieval/adapters/qdrant/dense-retriever.ts",
+      "size_bytes": 8186,
+      "sha256": "eb3674ffc467ee0e3680bd3c26b5163b621172686e155956dacac6d3282e7172"
+    },
+    {
+      "path": "src/retrieval/adapters/qdrant/vector-synchronizer.ts",
+      "size_bytes": 10976,
+      "sha256": "5da5154606aa2ae5d5054a2618147865eebd2c34050a888da22ef5944de8d845"
+    },
+    {
+      "path": "src/retrieval/adapters/sqlite/database-evidence-operators.ts",
+      "size_bytes": 13422,
+      "sha256": "ced7352f4a04af51f767f5355ab5076ab0257bb8452f070739ed4f39922059a5"
+    },
+    {
+      "path": "src/retrieval/adapters/sqlite/evidence-fact-index.ts",
+      "size_bytes": 7596,
+      "sha256": "9d5394d4eb1313959e0af162ac2651360d2a0e4ce1b47bc2a531e14cd0b52e21"
+    },
+    {
+      "path": "src/retrieval/adapters/sqlite/exact-dense-retriever.ts",
+      "size_bytes": 2111,
+      "sha256": "bfcae6f01bb398c82e7f911396486662ff408a7f199aaa4ff95607270dcb9e32"
+    },
+    {
+      "path": "src/retrieval/adapters/sqlite/lexical-retriever.ts",
+      "size_bytes": 7071,
+      "sha256": "60d3e93a4c418c4fc650e47bb5558e059fe9ab4932ea3e9bc09122cb560a6391"
+    },
+    {
+      "path": "src/retrieval/finalize-search-hits.ts",
+      "size_bytes": 1968,
+      "sha256": "31844bf7ff38cbce8d83f2111199ee5cf30ad03c18a20399e02cf857cc03bd52"
+    },
+    {
+      "path": "src/retrieval/index-scope-embeddings.ts",
+      "size_bytes": 1890,
+      "sha256": "46cdc036a0364c02eb7662d379759b6a9ce75a1f5bf280cc1d2c1e0ae7e8dd29"
+    },
+    {
+      "path": "src/retrieval/index.ts",
+      "size_bytes": 4358,
+      "sha256": "715d36203e6c18572bc366da6c226ac11040aef7163177f266938ffb8bc15eea"
+    },
+    {
+      "path": "src/retrieval/model/embedder.ts",
+      "size_bytes": 784,
+      "sha256": "8cac56dfc94b8f3d00dfc2ddbd94f7389fe199609955441fb31240562ded161c"
+    },
+    {
+      "path": "src/retrieval/model/embedding.ts",
+      "size_bytes": 1965,
+      "sha256": "33e95fe21a003219e0cd03241fcc0624329549082fe860d01ce637dfbb7e411e"
+    },
+    {
+      "path": "src/retrieval/model/hit-provenance.ts",
+      "size_bytes": 1937,
+      "sha256": "7e4285960fb565b912a8b96873a408eb95da3139a57cde5a4c2b5299324e3b20"
+    },
+    {
+      "path": "src/retrieval/model/operator.ts",
+      "size_bytes": 4074,
+      "sha256": "b4ed4cb82d3f87628badbc304d1a1535b976cc1f38cf0bd8263b9550cf7cb81a"
+    },
+    {
+      "path": "src/retrieval/model/passage.ts",
+      "size_bytes": 11695,
+      "sha256": "f4ea18e9e1432fd13c3ec3c54582b1d19b99074810eff2e89a766f8de2deae7e"
+    },
+    {
+      "path": "src/retrieval/model/search.ts",
+      "size_bytes": 5102,
+      "sha256": "e8c5e5c814de97b97a307b972197efd13bfd12694a16b58d3b84cbe5e45ff8ab"
+    },
+    {
+      "path": "src/retrieval/model/source-time.ts",
+      "size_bytes": 2907,
+      "sha256": "5ab6145b42fa47391ede4e9eb401f6aceb9c6594e2f8bab5a00d7a447d8fe659"
+    },
+    {
+      "path": "src/retrieval/operators/hybrid-search.ts",
+      "size_bytes": 15818,
+      "sha256": "b54ac94ba9a954d8e8f2a5c0e956b1aa79a2f0971385d0a4714e7ca07dd258c1"
+    },
+    {
+      "path": "src/retrieval/operators/numeric-operator.ts",
+      "size_bytes": 8359,
+      "sha256": "54d0e59cdf2f7eec78b28e3ee603034b0744617fc47bec3cfd2c5cbf693b795d"
+    },
+    {
+      "path": "src/retrieval/operators/temporal-operator.ts",
+      "size_bytes": 9807,
+      "sha256": "1f3e8551c1e7c126496b7d9bd59d68494d1c8ab777ddbda09feb431c26c47407"
+    },
+    {
+      "path": "src/retrieval/ports/dense-retriever.ts",
+      "size_bytes": 1387,
+      "sha256": "3730a3a0d33647cb67315f78f5cfef931115f170d44fbba812345aa089f1614e"
+    },
+    {
+      "path": "src/retrieval/ports/hybrid-search-store.ts",
+      "size_bytes": 882,
+      "sha256": "e6b9e99dcd5f682a5791289bc1d2a3817ca15031dbaaeb266e179fe3b7715137"
+    },
+    {
+      "path": "src/retrieval/ports/memory-tool-store.ts",
+      "size_bytes": 884,
+      "sha256": "48651f537808c52fa4eb5f1bd9a7bc0c7aea4ac8a7766d55462b73cdfecbc12a"
+    },
+    {
+      "path": "src/retrieval/ports/operator-catalog.ts",
+      "size_bytes": 852,
+      "sha256": "bb8e012c0240da4c880e405200e3429542f76c97dc584f8c0c688e2ecc16a47b"
+    },
+    {
+      "path": "src/retrieval/ports/search-operator-plugin.ts",
+      "size_bytes": 500,
+      "sha256": "d9c0c1454529d4b3c3d22a1832cbd3904af10120143f2f8fe263b93aaac7d6a3"
+    },
+    {
+      "path": "src/retrieval/ports/search-operator.ts",
+      "size_bytes": 562,
+      "sha256": "bfa1e98f4030963e6e948357a600cb1d5069e57499602e11ea9e12f593168a72"
+    },
+    {
+      "path": "src/retrieval/ports/vector-index-state-store.ts",
+      "size_bytes": 1620,
+      "sha256": "7c0b7d161bf5e295b7d1df2263df90a580df76522317c6927382351a646e3b4b"
+    },
+    {
+      "path": "src/retrieval/ranking.ts",
+      "size_bytes": 5552,
+      "sha256": "6b6b0d5ce4c49aad9baac501bba73baa54f9734512db16447f7b0732892746e2"
+    },
+    {
+      "path": "src/retrieval/retrieval-profile.ts",
+      "size_bytes": 592,
+      "sha256": "b768ee8eb1951805e79cf4412abf04d1b5b641d794453c4e05169c1b9e75bad8"
+    },
+    {
+      "path": "src/retrieval/search-explicit-date-routes.ts",
+      "size_bytes": 1844,
+      "sha256": "dbc92009ccc357b3f6b16f51b20a245906714a8adbdc95b7e2534b5d58398e45"
+    },
+    {
+      "path": "src/retrieval/structured-query-constraints.ts",
+      "size_bytes": 1475,
+      "sha256": "3c128154acb2f73ff95917861334e4421d192e13928c4dfa66ddb78f4491340e"
+    },
+    {
+      "path": "src/retrieval/temporal-annotation.ts",
+      "size_bytes": 1474,
+      "sha256": "03c423bef0bde90857d60bb6a01067c6aa54340e84778bef3ad289ff257be9a0"
+    },
+    {
+      "path": "src/retrieval/use-cases/candidate-set.ts",
+      "size_bytes": 5870,
+      "sha256": "5df498cf4f4558597e411dc1758688dcbf36d70d05c3b443faa858c7a74b0d0a"
+    },
+    {
+      "path": "src/retrieval/use-cases/compose-operator.ts",
+      "size_bytes": 8030,
+      "sha256": "15d0c97ee49a0a6d9eb5c4b810f7992fb72aa3b48b8c655409782b5e15af1052"
+    },
+    {
+      "path": "src/retrieval/use-cases/execute-operator.ts",
+      "size_bytes": 1639,
+      "sha256": "f6081b63af4720b81ef380bdc9eeee6077fe8050ea434c188a0220a5c86458fa"
+    },
+    {
+      "path": "src/retrieval/use-cases/operator-definition.ts",
+      "size_bytes": 9353,
+      "sha256": "99e5ca2b4bcc8bffacf07d6c5704e1d8f9300045647663f2998187ecbc411406"
+    },
+    {
+      "path": "src/retrieval/use-cases/operator-discovery.ts",
+      "size_bytes": 2280,
+      "sha256": "34d009d5ff0c04042caaccffa45eca43f016440b78e72f7e163e743cacd9c1ae"
+    },
+    {
+      "path": "src/retrieval/use-cases/operator-registry.ts",
+      "size_bytes": 6837,
+      "sha256": "ebe337aa84d5f967967dcee9e9b5d6685a8d2641a1a8d801052fef9b525c7ec9"
+    },
+    {
+      "path": "src/retrieval/use-cases/search.ts",
+      "size_bytes": 9823,
+      "sha256": "eb17e6bb1455e47a2625e554d4861e077ca5f52b3f96b40867729c1495c5f6be"
+    },
+    {
+      "path": "src/tau-knowledge-bridge.ts",
+      "size_bytes": 53,
+      "sha256": "c3241b0b1b1af2ddb4f2a34190b6c2f01cfbc8f3480d144baf8b6b846ba37661"
+    },
+    {
+      "path": "src/util.ts",
+      "size_bytes": 6883,
+      "sha256": "4263ecb555a2411118e678cf0b91cd2c6563a90980858180237d193d4b1a9e40"
+    },
+    {
+      "path": "test/amabench-adapter.test.ts",
+      "size_bytes": 13725,
+      "sha256": "14152b1d37255f0eac7c62060b13f47537e86d272c80e862ee6dc614ebc0492b"
+    },
+    {
+      "path": "test/amabench-judge.test.ts",
+      "size_bytes": 8062,
+      "sha256": "f5fc0b2d9a77cfaa24b0f66dc5678e77717ac43fb73795c2adc586fcaea242f2"
+    },
+    {
+      "path": "test/architecture/dependency-rules.test.ts",
+      "size_bytes": 6642,
+      "sha256": "ca7d398427f3947fab7692f63aaf237902bf8e58d70da35afef9e5da7afd3147"
+    },
+    {
+      "path": "test/async-pool.test.ts",
+      "size_bytes": 2622,
+      "sha256": "6ba7f8a95044e7591268d3d1544ba77aa2a70380f0aaa9e430163722e3c3b0a2"
+    },
+    {
+      "path": "test/bash-ro.test.ts",
+      "size_bytes": 1197,
+      "sha256": "a4bc4125e47675414cf75c173816ca55ecaeabf5bb3072cc34f5fbd9931c046a"
+    },
+    {
+      "path": "test/benchmark-answer.test.ts",
+      "size_bytes": 5990,
+      "sha256": "49fc14257b35b52681c6858bf896d680b9ea8241013c6aa1897e7e5ce237398f"
+    },
+    {
+      "path": "test/benchmark-identity.test.ts",
+      "size_bytes": 8883,
+      "sha256": "de51c270b4c1a61068186b606ee6f7c9c8ae98a8edac251a86c016e109a78559"
+    },
+    {
+      "path": "test/benchmark-label-firewall.test.ts",
+      "size_bytes": 1205,
+      "sha256": "ca9c71a2e0dc4b08c797b7c5246c0a0584f11c2cbed771b0bf5b141a8726c51a"
+    },
+    {
+      "path": "test/compact-agent-interface.test.ts",
+      "size_bytes": 10386,
+      "sha256": "a7331bc64b664be0075c6e6d820d3595e41aa1800e0ac6b1578ada93cd3d46cf"
+    },
+    {
+      "path": "test/context.test.ts",
+      "size_bytes": 4140,
+      "sha256": "dfd48779b45e6929bd045d905c66bb03b31f7ed7a4bdca1882f0bdbe4ff48a1e"
+    },
+    {
+      "path": "test/embedding-index.test.ts",
+      "size_bytes": 5884,
+      "sha256": "1f5ab6f897454b19d5717fa42483e321eeed6249a6549917487d7b97c8934b7f"
+    },
+    {
+      "path": "test/embedding.test.ts",
+      "size_bytes": 12787,
+      "sha256": "9360793cefb162bb00c2806be6c30a0deb84707753f6d3ebf6d8f1d243ceba64"
+    },
+    {
+      "path": "test/evaluate-benchmark-provenance.test.ts",
+      "size_bytes": 7994,
+      "sha256": "a15388268b9ab4550047698132c3145389868fa92319af23e925e8cdac4acb33"
+    },
+    {
+      "path": "test/evidence-benchmark-command-e2e.test.ts",
+      "size_bytes": 18450,
+      "sha256": "04bf06193d767e1658acc0ea49679f081db0cfe3d4651adc07e54d2e0eb4559d"
+    },
+    {
+      "path": "test/evidence-benchmark-runtime.test.ts",
+      "size_bytes": 9180,
+      "sha256": "39f7813ab7d538f36a0aa1c2434fe83b070d263a15f925962fa14495b389d6d3"
+    },
+    {
+      "path": "test/evidence-benchmark-shared.test.ts",
+      "size_bytes": 6494,
+      "sha256": "5bf934bdf452b03fe788b007e0d7b3ef7684e9bd4382dac7da177d25983cac79"
+    },
+    {
+      "path": "test/evidence-operators.test.ts",
+      "size_bytes": 4774,
+      "sha256": "3cc14964c01730cf22885d88154b54c8b127d88dd76dcef224fe204635f599b0"
+    },
+    {
+      "path": "test/evidence-transfer.test.ts",
+      "size_bytes": 7185,
+      "sha256": "0e641272ffff4ccffd59316ec7fb71264db9c880bb67084c57f9e96717a557b1"
+    },
+    {
+      "path": "test/hybrid-search.test.ts",
+      "size_bytes": 18748,
+      "sha256": "30d0cd56846a155799dc78c3c76a245c902682d4849e5b8ee66a356bcd1ee7bc"
+    },
+    {
+      "path": "test/incremental-working-memory.test.ts",
+      "size_bytes": 4230,
+      "sha256": "180c3f7500f94ca42129defac69aedf8efa8e67bc969a60a2b86a151e4102a06"
+    },
+    {
+      "path": "test/ingest-store.test.ts",
+      "size_bytes": 11465,
+      "sha256": "1a071001348db6af107af682e689830fc0025cf1870b0c629cd3d59ebf28d133"
+    },
+    {
+      "path": "test/interactive-memory-agent.test.ts",
+      "size_bytes": 11683,
+      "sha256": "99a52669dcdca5af51a836d1b92ba893351eb0a9c3cc1d06925eb9530788aa66"
+    },
+    {
+      "path": "test/jsonl-writer.test.ts",
+      "size_bytes": 1222,
+      "sha256": "29bb73b3779601036ad155f13612344f229e94618958396932aa9f2fb5ea8c7f"
+    },
+    {
+      "path": "test/ldbd-api.test.ts",
+      "size_bytes": 7501,
+      "sha256": "3bcdec29753aec4e9fc803af2ee11fab55d9c925a72cd3e2f4c5483b310af485"
+    },
+    {
+      "path": "test/ledger.test.ts",
+      "size_bytes": 12418,
+      "sha256": "cfc3393700570d6d15e08be48c788c1f4d73a666eb6f03ca97b5c3bf1182d50f"
+    },
+    {
+      "path": "test/longmemeval-adapter.test.ts",
+      "size_bytes": 9003,
+      "sha256": "99bca7bf4388f678cfa0099881e241e96800e9232678b6a6ced359cbfafa9ca8"
+    },
+    {
+      "path": "test/memory-evidence.test.ts",
+      "size_bytes": 6539,
+      "sha256": "25c883a968e602faa902a96f5eb38b5e9a4a93a60be39d89b46ff2522dedcd8c"
+    },
+    {
+      "path": "test/memory-observation.test.ts",
+      "size_bytes": 15337,
+      "sha256": "04abe1fea3d0a4864a165494072b47af97936c52e62ef4dfa6b2536605ff0cde"
+    },
+    {
+      "path": "test/memoryagentbench-adapter.test.ts",
+      "size_bytes": 4922,
+      "sha256": "62311bc37b863670ac348f0c3c10df93be439db2cf59df06d36df7e5455026ad"
+    },
+    {
+      "path": "test/memoryagentbench-judge-resume.test.ts",
+      "size_bytes": 1930,
+      "sha256": "f4a28c87f8362dffd5f5b435a5afa5f9fa7832e28bfeefd19389f32def8186da"
+    },
+    {
+      "path": "test/memoryagentbench-yaml.test.ts",
+      "size_bytes": 13964,
+      "sha256": "01f2c6015e8f7a8c69aa264b380012a724ae3c2065ff4d07f961e9b61d754017"
+    },
+    {
+      "path": "test/memoryarena-public-adapter.test.ts",
+      "size_bytes": 29135,
+      "sha256": "74b72f70d78d881044030ceb5157ef1ea4f506a3f343ac0f5ad74bdfd89aaf6a"
+    },
+    {
+      "path": "test/memoryarena-public-concurrency.test.ts",
+      "size_bytes": 7158,
+      "sha256": "ea88629badfa7f7873dbe1659f384161b2bd49f8cc0a6abee6934fb7361cb9f3"
+    },
+    {
+      "path": "test/memoryarena-public-contract.test.ts",
+      "size_bytes": 9605,
+      "sha256": "ebd76034b04e47599a517d2a203a2f481fd383efb4666cbc5996fa3a49212791"
+    },
+    {
+      "path": "test/memoryarena-public-http-e2e.test.ts",
+      "size_bytes": 8310,
+      "sha256": "9a3936ac9af50fb40b0f4da5901874305cf0fd5b3d22cdc5fb84e260ea582969"
+    },
+    {
+      "path": "test/memoryarena-public-lifecycle.test.ts",
+      "size_bytes": 18753,
+      "sha256": "709e17be3f60c8d79ec76dd28c37c72959f47972c0010225af73411b3e48080e"
+    },
+    {
+      "path": "test/memoryarena-public-operation-audit.test.ts",
+      "size_bytes": 24804,
+      "sha256": "b7f2bca2ebb2c8e7669049f37897d1c8164da6c90c4734824ce3e58cfead47a9"
+    },
+    {
+      "path": "test/memoryarena-runtime-contract.test.ts",
+      "size_bytes": 2583,
+      "sha256": "b1904e6d2e3c06c8dff33750946640d15e9b6067fafdaca1c5b9446464e84106"
+    },
+    {
+      "path": "test/model.test.ts",
+      "size_bytes": 13457,
+      "sha256": "98f6f31326b7c803136d3cbe123c28703f38d0901e253e933317c8aa48e43c48"
+    },
+    {
+      "path": "test/openai-non-stream-transport.test.ts",
+      "size_bytes": 18427,
+      "sha256": "5e155c416db3853c5a32f73fc03d2027d9484172e06b013b62800d5e98534d44"
+    },
+    {
+      "path": "test/operator-evolution.test.ts",
+      "size_bytes": 8768,
+      "sha256": "80613600f6befea3a841977e4dcadc6c966cd80770a7ee1fc2a4f3836f0bfccc"
+    },
+    {
+      "path": "test/passage-retrieval.test.ts",
+      "size_bytes": 15616,
+      "sha256": "0792df286f5c54f314352286c89b049046021548f7b4d02d386bb635ef906997"
+    },
+    {
+      "path": "test/picorer-workflow.test.ts",
+      "size_bytes": 27350,
+      "sha256": "6b9ad12d454eee431bbd3ea807c095fda9a26a238353cc8a69872b17fa1730bc"
+    },
+    {
+      "path": "test/protected-env.test.ts",
+      "size_bytes": 1476,
+      "sha256": "7b6892fe29d8d4cb0c92263ae8fe6eb672816e0e36845d6dbb429c694e62635d"
+    },
+    {
+      "path": "test/qdrant-client.test.ts",
+      "size_bytes": 8947,
+      "sha256": "c0894aeff868f45a14383cd6a1d8ac715bddd192a4f5c7e2917628be7094f81f"
+    },
+    {
+      "path": "test/qdrant-dense-retriever.test.ts",
+      "size_bytes": 7043,
+      "sha256": "3f1e4ad3aad61c3cd696d18650686c653bd74ff4c817ed568404300614869d24"
+    },
+    {
+      "path": "test/qdrant-vector-synchronizer.test.ts",
+      "size_bytes": 7780,
+      "sha256": "d5cf5408c262cc76996eec6f5abd0152e0e45497ad1dbfcee1dd07b0788e7348"
+    },
+    {
+      "path": "test/ranking.test.ts",
+      "size_bytes": 1822,
+      "sha256": "68b0e8da32fefde461e5971d4f1ec20049dc9d27d04c6d58392a62aa28acc4ca"
+    },
+    {
+      "path": "test/refind-s50-yaml.test.ts",
+      "size_bytes": 2703,
+      "sha256": "9b2d6c2939876457245e127006198bbf5da1a1c77d41fb96ff76709913dea217"
+    },
+    {
+      "path": "test/request-gate.test.ts",
+      "size_bytes": 1616,
+      "sha256": "ba053b38c1628600b197bad6ac17b86d13456605a99f6c072744f99420cd1a03"
+    },
+    {
+      "path": "test/retrieval-fact-index-migration.test.ts",
+      "size_bytes": 2205,
+      "sha256": "01af80e28b090f32f85c7a0aa4cd4279fcf430a30494fdb8733da18e9752de6b"
+    },
+    {
+      "path": "test/retrieval-operator-regressions.test.ts",
+      "size_bytes": 20214,
+      "sha256": "70c5132e1324ec3b335e67f4b7920610cc281e76413043e4f640f98b52ff2b22"
+    },
+    {
+      "path": "test/retrieval-profile.test.ts",
+      "size_bytes": 784,
+      "sha256": "5a65083c3f1688c7107ef0cb61b3453fc5bd20d773951c068e0b59f5ed214582"
+    },
+    {
+      "path": "test/rewrite-working-memory.test.ts",
+      "size_bytes": 5132,
+      "sha256": "ba519a5f0fd5ec9e1f81360ffc1f854b5e53af13122c1dde89d5d12d98bd740a"
+    },
+    {
+      "path": "test/run-agent-interface-mode.test.ts",
+      "size_bytes": 4522,
+      "sha256": "db129384f01806af7c161645bea7acea1d938846d73cd2cb0cc6715a858b6881"
+    },
+    {
+      "path": "test/runtime-fetch.test.ts",
+      "size_bytes": 3272,
+      "sha256": "9fee8492703941689e8e851b2ae63d44d6335734a1c0fed1f2bb63bd4761080c"
+    },
+    {
+      "path": "test/runtime.test.ts",
+      "size_bytes": 3025,
+      "sha256": "327143ed8507eef1a6a059399c3f7228339fde00a2add7c8a5e8880d95d2bf77"
+    },
+    {
+      "path": "test/scoped-qdrant-retrieval.test.ts",
+      "size_bytes": 1450,
+      "sha256": "7c28b2606d8e0a84b3ec04b9a2576700cec7c4f81b0fb91f6f291fe4e9a0972d"
+    },
+    {
+      "path": "test/search-coverage-progress.test.ts",
+      "size_bytes": 24302,
+      "sha256": "e29b420cb4764d99211d69d4edfae239919d41d3b63422b7421bd5c3bfea1f9f"
+    },
+    {
+      "path": "test/search-explicit-date-routes.test.ts",
+      "size_bytes": 3268,
+      "sha256": "09e78220de1cd2ee4a0a576120a20e839e0d9a98a379093dad30fe7edc218fdc"
+    },
+    {
+      "path": "test/search-operator-plugin.test.ts",
+      "size_bytes": 2432,
+      "sha256": "17b6a00bab17fec20538352c61f26c3a840f5280a4d53294a4ca48cf9a539bb6"
+    },
+    {
+      "path": "test/search-operator-registry.test.ts",
+      "size_bytes": 26598,
+      "sha256": "3acb7a98ce8a10139098fc0051af255afc465bce2048fc4e812b513310654b84"
+    },
+    {
+      "path": "test/source-preview-spans.test.ts",
+      "size_bytes": 1191,
+      "sha256": "88872bbf4b32c5d28aba926d8ea05cac69ea09c6204bf5ee024507750d9b0765"
+    },
+    {
+      "path": "test/source-visibility.test.ts",
+      "size_bytes": 6510,
+      "sha256": "c1393436182cdcef34be8bc1d051280425533e76c0b5bc52bd258987d7662e49"
+    },
+    {
+      "path": "test/tau-knowledge-adapter.test.ts",
+      "size_bytes": 2991,
+      "sha256": "2d591f382048cb435e7cf8ed2b169e32b0b7bbfde1641c9ab8062c38761a2784"
+    },
+    {
+      "path": "test/temporal.test.ts",
+      "size_bytes": 692,
+      "sha256": "ab29284011c8fdb791bd00f4fee195c9d9c705b236c662c222e5b1f615b95436"
+    },
+    {
+      "path": "test/tools.test.ts",
+      "size_bytes": 34307,
+      "sha256": "a2fa1c5fa7a5caeeebad5761c4444f947affc315c59cb9f92ecbff1efd06ba10"
+    },
+    {
+      "path": "test/util.test.ts",
+      "size_bytes": 3331,
+      "sha256": "ca96811fb2ce4dd0df71465171a770472a9bba7b954c426ffc8e0071c106d84b"
+    },
+    {
+      "path": "test/work-progress.test.ts",
+      "size_bytes": 7804,
+      "sha256": "4a0ef0e629c9c540eb58689800f32f0dcf22175df72a1ab838a2aeb398db7a28"
+    },
+    {
+      "path": "test/working-memory-context.test.ts",
+      "size_bytes": 15474,
+      "sha256": "05bd19f33144c5b58ffc4f0beb2ffa33dd491e3a3f60950f2563e30c9cf5190a"
+    },
+    {
+      "path": "tsconfig.build.json",
+      "size_bytes": 238,
+      "sha256": "e1d09603b769bb84b3ca456d6f4a88c2e5c29814961176f0755034fbc363061b"
+    },
+    {
+      "path": "tsconfig.json",
+      "size_bytes": 390,
+      "sha256": "ddd703f93d70df84b37307fe96ae792236c53594058643d8ef18468dd0fa993e"
+    }
+  ]
+}

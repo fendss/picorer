@@ -1,0 +1,34 @@
+sample,threshold,category,trajectories,total_trajectories,question_weighted_fraction,ci_low,ci_high,questions,record_type,metric,estimate,eligible_questions,eligible_trajectories
+unconflicted,0.5,S before R,133.0,192.0,0.6927083333333333,0.6041666666666666,0.78125,64.0,category,,,,
+unconflicted,0.5,S and R together,1.0,192.0,0.005208333333333333,0.0,0.015625,64.0,category,,,,
+unconflicted,0.5,R before S,0.0,192.0,0.0,0.0,0.0,64.0,category,,,,
+unconflicted,0.5,S observed; R not observed,54.0,192.0,0.28125,0.19791666666666666,0.36979166666666663,64.0,category,,,,
+unconflicted,0.5,R observed; S not observed,0.0,192.0,0.0,0.0,0.0,64.0,category,,,,
+unconflicted,0.5,Neither observed,4.0,192.0,0.020833333333333332,0.0,0.05729166666666667,64.0,category,,,,
+unconflicted,0.5,,,,,0.10582010582010581,0.25396825396825395,,event,Reversal after first sufficiency onset,0.17460317460317454,63.0,187.0
+unconflicted,0.5,,,,,0.8851971451496307,0.9658511274880323,,event,Persistence ratio after first sufficiency onset,0.929699375626694,63.0,188.0
+unconflicted,0.5,,,,,0.0,0.03597883597883598,,event,Answer accuracy at first sufficiency onset,0.013756613756613757,63.0,188.0
+unconflicted,0.5,,,,,0.8081725146198829,0.9350877192982454,,event,Answer accuracy at first full coverage,0.8783625730994152,57.0,134.0
+unconflicted,0.5,,,,,2.6753654970760237,3.3538011695906436,,event,Lead in decision steps among trajectories with both events,2.9883040935672516,57.0,134.0
+unconflicted,0.7,S before R,130.0,192.0,0.6770833333333333,0.5885416666666666,0.7656249999999999,64.0,category,,,,
+unconflicted,0.7,S and R together,2.0,192.0,0.010416666666666666,0.0,0.03125,64.0,category,,,,
+unconflicted,0.7,R before S,0.0,192.0,0.0,0.0,0.0,64.0,category,,,,
+unconflicted,0.7,S observed; R not observed,54.0,192.0,0.28125,0.19791666666666666,0.36979166666666663,64.0,category,,,,
+unconflicted,0.7,R observed; S not observed,2.0,192.0,0.010416666666666666,0.0,0.03125,64.0,category,,,,
+unconflicted,0.7,Neither observed,4.0,192.0,0.020833333333333332,0.0,0.05729166666666667,64.0,category,,,,
+unconflicted,0.7,,,,,0.17724867724867727,0.3439153439153439,,event,Reversal after first sufficiency onset,0.25661375661375657,63.0,183.0
+unconflicted,0.7,,,,,0.8497420686889149,0.9397019610313261,,event,Persistence ratio after first sufficiency onset,0.8980988093561193,63.0,186.0
+unconflicted,0.7,,,,,0.0,0.0455026455026455,,event,Answer accuracy at first sufficiency onset,0.01798941798941799,63.0,186.0
+unconflicted,0.7,,,,,0.8081725146198829,0.9350877192982454,,event,Answer accuracy at first full coverage,0.8783625730994152,57.0,134.0
+unconflicted,0.7,,,,,2.3888888888888893,3.090716374269005,,event,Lead in decision steps among trajectories with both events,2.710526315789474,57.0,132.0
+unconflicted,0.9,S before R,110.0,192.0,0.5729166666666666,0.484375,0.6614583333333333,64.0,category,,,,
+unconflicted,0.9,S and R together,21.0,192.0,0.109375,0.057291666666666664,0.16666666666666666,64.0,category,,,,
+unconflicted,0.9,R before S,0.0,192.0,0.0,0.0,0.0,64.0,category,,,,
+unconflicted,0.9,S observed; R not observed,52.0,192.0,0.2708333333333333,0.1875,0.35416666666666663,64.0,category,,,,
+unconflicted,0.9,R observed; S not observed,3.0,192.0,0.015625,0.0,0.046875,64.0,category,,,,
+unconflicted,0.9,Neither observed,6.0,192.0,0.03125,0.005208333333333333,0.07291666666666666,64.0,category,,,,
+unconflicted,0.9,,,,,0.24462365591397847,0.42204301075268813,,event,Reversal after first sufficiency onset,0.3333333333333333,62.0,156.0
+unconflicted,0.9,,,,,0.8437867344722183,0.9253129363915654,,event,Persistence ratio after first sufficiency onset,0.8883465996369223,62.0,183.0
+unconflicted,0.9,,,,,0.06344086021505375,0.17206989247311794,,event,Answer accuracy at first sufficiency onset,0.11505376344086021,62.0,183.0
+unconflicted,0.9,,,,,0.8081725146198829,0.9350877192982454,,event,Answer accuracy at first full coverage,0.8783625730994152,57.0,134.0
+unconflicted,0.9,,,,,1.6249255952380952,2.404761904761905,,event,Lead in decision steps among trajectories with both events,1.973214285714286,56.0,131.0

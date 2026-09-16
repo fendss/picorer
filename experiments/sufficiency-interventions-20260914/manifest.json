@@ -1,0 +1,43 @@
+{
+  "answers_per_condition": 5,
+  "code_sha256": "622643a3e0a5727a5dca121c93824c5ccc939fd1467463f83f482d1b19c0575c",
+  "coverage_orders": [
+    "forward",
+    "reverse"
+  ],
+  "gpu_indices": [
+    7,
+    4
+  ],
+  "input_order_preserved": true,
+  "jobs": {
+    "answer": 18390,
+    "native": 15736
+  },
+  "length_control": "approximate_word_matched; actual token counts retained",
+  "no_J": true,
+  "pilot_ordinals": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "questions": 100,
+  "replicas": [
+    "http://172.16.200.114:18081",
+    "http://172.16.200.114:18082"
+  ],
+  "schema_version": 1,
+  "total_jobs": 34126,
+  "units": {
+    "coverage": 1528,
+    "preview": 6340,
+    "state_answers": 2150
+  }
+}
