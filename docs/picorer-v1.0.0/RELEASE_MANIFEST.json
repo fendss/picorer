@@ -54,13 +54,18 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 28102,
-      "sha256": "21167e4331c913a751b838d0143c5b2bd2abff617023284105a33b5e840cbf44"
+      "size_bytes": 3250,
+      "sha256": "b4f0b20930a787c5e22025989c4c6b6c19940d8e32722018eea810e5fcdf8526"
     },
     {
       "path": "RELEASE.md",
       "size_bytes": 941,
       "sha256": "ce556364571ab87e98afa1558d58c4dd28be98e9e2889dc302054774729ccca4"
+    },
+    {
+      "path": "assets/picorer-logo.png",
+      "size_bytes": 281401,
+      "sha256": "237166e78fd94da626bd234ef2ff079359ac5a3f3d6e727ea436e64095306db5"
     },
     {
       "path": "deploy/README.md",
